@@ -17,7 +17,7 @@
 
               p.mb-4 En caso de ser necesario ampliar la información, ingrese a Sistemas de Biblioteca Sena:
               p Flamarique, S. (2017). Gestión de operaciones de almacenaje. Marge Books. 
-              a.boton.color-acento-botones.texto-blanco.mt-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=77888')" target="_blank" type="application/pdf")
                 span Ingresar
                 i.fas.fa-link
               <br><br><br><br>

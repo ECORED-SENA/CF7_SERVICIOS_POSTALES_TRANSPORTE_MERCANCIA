@@ -146,85 +146,76 @@ export default {
   },
   referencias: [
     {
-      referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+      referencia: 'Campo, A. (2013). Operaciones de almacenaje. McGraw-Hill.',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'Decreto 1078 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector de Tecnologías de la Información y las Comunicaciones. Mayo 26 de 2015.        ',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Fernández, G. (2016). Operaciones auxiliares de almacenaje. Editorial CEP.         ',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'Flamarique, S. (2017). Gestión de operaciones de almacenaje. Marge Books.        ',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Gómez, J. (2013). Gestión Logística y Comercial. McGraw-Hill.        ',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'Ministerio de Tecnologías de la Información y las Comunicaciones [MinTIC]. (2020). Plan de Modernización del sector postal 2020-2024.        ',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Monzó, J. (2005). Almacenaje de productos. McGraw-Hill Interamericana.        ',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Peña, C. y Hernández, E. (2018). Cadena de suministro 4.0: beneficios y retos de las tecnologías disruptivas. Marge Books.        ',
+    },
+    {
+      referencia:
+        'Rubio, J. (2013). Gestión y pedido de stock. Ministerio de Educación y Formación Profesional de España.      ',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Carga      ',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Conjunto de mercancías que son objeto de una operación de transporte desde un puerto, aeropuerto, terminal terrestre o lugar de entrega, con destino a otro puerto, aeropuerto, terminal o lugar de destino, amparadas en un documento de transporte.        ',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Carga consolidada      ',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Agrupamiento de mercancías pertenecientes a uno o varios destinatarios, reunidas para ser transportadas de un puerto, aeropuerto o terminal terrestre, con destino a otro puerto, aeropuerto o terminal terrestre, en unidades de carga amparadas por un único documento de transporte.        ',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Código de barras      ',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Código basado en la representación de un conjunto de líneas paralelas de distinto grosor y espaciado que, en su conjunto, contienen una determinada información.        ',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Consolidación      ',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Agrupación de mercancías procedentes de diferentes zonas de picking en envíos más pequeños. Permite un ahorro en costos de transporte.        ',
     },
     {
-      termino: 'Moda',
+      termino: 'Contenedor',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        ' Es un elemento del equipo de transporte reutilizable. Consiste en un cajón portátil, tanque movible u otro elemento análogo, total o parcialmente cerrado, destinado a contener mercancías para facilitar su transporte.        ',
     },
     {
-      termino: 'Diseña',
+      termino: 'Destinatario',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Persona natural o jurídica que recibe las mercancías o a quien se haya endosado en propiedad el documento transporte, y que, por las condiciones del contrato de transporte, puede no ser el mismo consignatario.        ',
     },
     {
-      termino: 'DIseño',
+      termino: 'Dispositivo de seguridad      ',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Es un elemento, aparato o equipo utilizado o exigido por la autoridad aduanera para garantizar el control, que se coloca en mercancías, unidades carga, medios de transporte o medios de prueba, tales como precintos, dispositivos electrónicos de seguridad, candados, cintas.        ',
     },
     {
       termino: 'Tipología',
@@ -232,54 +223,63 @@ export default {
         'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Dispositivo electrónico de seguridad      ',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Es un equipo electrónico exigido por la administración aduanera, que se coloca en mercancías, en unidades carga o en los medios de transporte, para asegurar la integridad de la carga, mediante el registro de todos los cierres y aperturas y para transmitir el posicionamiento de los mismos, permitiendo un monitoreo las veinticuatro (24) horas del día, en tiempo real y con memoria de eventos.        ',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Exportación',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Salida de mercancías del territorio aduanero nacional con destino a otro país.        ',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Granel',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Mercancía sin envase o embalaje, como semillas y minerales.        ',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Logística      ',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de actividades necesarias para prestar un servicio, desde la compra, empaquetado, transporte, envío, hasta la entrega de un producto al cliente final.  Cómo se lleva de la manera más eficiente y eficaz la mercancía a los clientes.          ',
+    },
+    {
+      termino: 'Tráfico postal      ',
+      significado:
+        'Son todos los envíos de objetos postales que llegan o salen del territorio aduanero nacional por la red del operador postal oficial, en interconexión con la red de operadores designados de los países miembros de la Unión Postal Universal y/o con operadores privados de transporte en los países que se requiera, por necesidades del servicio.        ',
+    },
+    {
+      termino: 'Unidad de carga      ',
+      significado:
+        'Conjunto de productos que se juntan en un mismo embalaje, con la finalidad de llevarlos agrupados; su agrupación dependerá de su tamaño y características. El objetivo de la agrupación es reducir el número de movimientos al mínimo que sea posible, porque el manejo de grandes cargas facilita el transporte y el almacenamiento.        ',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        '1.4 sistemas de información Decreto 1078 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector de Tecnologías de la Información y las Comunicaciones. Mayo 26 del 2015. https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=77888',
+      tipo: 'Decreto',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=77888',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        '3 Contenedores Customs-Trade Partnership Against Terrorism. (2014). Cumplimiento Con los Estándares ISO 17712 Para Sellos de Alta Seguridad. U.S. Customs and Border Protection. https://www.cbp.gov/sites/default/files/documents/C-TPAT%20Bulletin-%20Cumplimiento%20con%20ISO%2017712%20Para%20Sellos%20de%20Alta%20Seguridad%20-%20Abril%202014.pdf        ',
+      tipo: 'Boletín',
+      link:
+        'https://www.cbp.gov/sites/default/files/documents/C-TPAT%20Bulletin-%20Cumplimiento%20con%20ISO%2017712%20Para%20Sellos%20de%20Alta%20Seguridad%20-%20Abril%202014.pdf',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        '3.1 Generalidades Ministerio de Tecnologías de la Información y las Comunicaciones [MinTIC]. (2020). Plan de Modernización del sector postal 2020-2024.https://mintic.gov.co/portal/715/articles-150820_recurso_1.pdf',
+      tipo: 'Plan',
+      link: 'https://mintic.gov.co/portal/715/articles-150820_recurso_1.pdf',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      texto:
+        '3.1 Generalidades Decreto 390 de 2016. Por el cual se establece la regulación aduanera. Marzo 7 de 2016. DO. Nº. 49.808. https://www.mincit.gov.co/ministerio/normograma-sig/procesos-de-apoyo/gestion-juridica/decretos/decreto-390-de-2016.aspx',
+      tipo: 'Decreto',
+      link:
+        'https://www.mincit.gov.co/ministerio/normograma-sig/procesos-de-apoyo/gestion-juridica/decretos/decreto-390-de-2016.aspx',
     },
   ],
   creditos: {
