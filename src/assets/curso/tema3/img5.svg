@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="296" height="310" viewBox="0 0 296 310">
+  <g id="Grupo_596863" data-name="Grupo 596863" transform="translate(-284 -2862)">
+    <text id="Fig._2.20._Codificación_por_pasillo_" data-name="Fig. 2.20. Codificación por pasillo " transform="translate(301 3151)" fill="#6adee2" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="14">Fig. 2.20.</tspan><tspan y="14" fill="#12263f"> </tspan><tspan y="14" fill="#12263f" font-family="Arial-ItalicMT, Arial" font-style="italic">Codificación por pasillo </tspan></text>
+    <g id="Grupo_595673" data-name="Grupo 595673" transform="translate(50 66)">
+      <rect id="Rectángulo_213098" data-name="Rectángulo 213098" width="36" height="35" transform="translate(248 2819)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213083" data-name="Rectángulo 213083" width="36" height="35" transform="translate(325 2819)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213084" data-name="Rectángulo 213084" width="36" height="35" transform="translate(436 2819)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213085" data-name="Rectángulo 213085" width="36" height="35" transform="translate(360 2819)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213086" data-name="Rectángulo 213086" width="36" height="35" transform="translate(471 2819)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213099" data-name="Rectángulo 213099" width="36" height="35" transform="translate(248 2947)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213087" data-name="Rectángulo 213087" width="36" height="35" transform="translate(325 2947)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213074" data-name="Rectángulo 213074" width="36" height="35" transform="translate(436 2947)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213075" data-name="Rectángulo 213075" width="36" height="35" transform="translate(360 2947)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213076" data-name="Rectángulo 213076" width="36" height="35" transform="translate(471 2947)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213100" data-name="Rectángulo 213100" width="36" height="35" transform="translate(248 2850)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213088" data-name="Rectángulo 213088" width="36" height="35" transform="translate(325 2850)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213089" data-name="Rectángulo 213089" width="36" height="35" transform="translate(436 2850)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213090" data-name="Rectángulo 213090" width="36" height="35" transform="translate(360 2850)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213091" data-name="Rectángulo 213091" width="36" height="35" transform="translate(471 2850)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213101" data-name="Rectángulo 213101" width="36" height="35" transform="translate(248 2980)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213092" data-name="Rectángulo 213092" width="36" height="35" transform="translate(325 2980)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213077" data-name="Rectángulo 213077" width="36" height="35" transform="translate(436 2980)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213078" data-name="Rectángulo 213078" width="36" height="35" transform="translate(360 2980)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213079" data-name="Rectángulo 213079" width="36" height="35" transform="translate(471 2980)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213102" data-name="Rectángulo 213102" width="36" height="35" transform="translate(248 2881)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213093" data-name="Rectángulo 213093" width="36" height="35" transform="translate(325 2881)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213094" data-name="Rectángulo 213094" width="36" height="35" transform="translate(436 2881)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213095" data-name="Rectángulo 213095" width="36" height="35" transform="translate(360 2881)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213096" data-name="Rectángulo 213096" width="36" height="35" transform="translate(471 2881)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213103" data-name="Rectángulo 213103" width="36" height="35" transform="translate(248 2914)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213097" data-name="Rectángulo 213097" width="36" height="35" transform="translate(325 2914)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213080" data-name="Rectángulo 213080" width="36" height="35" transform="translate(436 2914)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213081" data-name="Rectángulo 213081" width="36" height="35" transform="translate(360 2914)" fill="#ffcbc5"/>
+      <rect id="Rectángulo_213082" data-name="Rectángulo 213082" width="36" height="35" transform="translate(471 2914)" fill="#ffcbc5"/>
+      <text id="_01" data-name="01" transform="translate(254 2985)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">01</tspan></text>
+      <text id="_1" data-name="1" transform="translate(297 3032)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">1</tspan></text>
+      <text id="_2" data-name="2" transform="translate(405 3032)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">2</tspan></text>
+      <text id="_3" data-name="3" transform="translate(497 3032)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">3</tspan></text>
+      <text id="_12" data-name="12" transform="translate(366 2985)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">12</tspan></text>
+      <text id="_01-2" data-name="01" transform="translate(478 2985)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">01</tspan></text>
+      <text id="_02" data-name="02" transform="translate(331 2985)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">02</tspan></text>
+      <text id="_11" data-name="11" transform="translate(443 2985)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">11</tspan></text>
+      <text id="_03" data-name="03" transform="translate(254 2951)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">03</tspan></text>
+      <text id="_10" data-name="10" transform="translate(366 2951)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">10</tspan></text>
+      <text id="_03-2" data-name="03" transform="translate(478 2951)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">03</tspan></text>
+      <text id="_04" data-name="04" transform="translate(331 2951)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">04</tspan></text>
+      <text id="_09" data-name="09" transform="translate(443 2951)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">09</tspan></text>
+      <text id="_05" data-name="05" transform="translate(254 2918)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">05</tspan></text>
+      <text id="_08" data-name="08" transform="translate(366 2918)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">08</tspan></text>
+      <text id="_05-2" data-name="05" transform="translate(478 2918)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">05</tspan></text>
+      <text id="_06" data-name="06" transform="translate(331 2918)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">06</tspan></text>
+      <text id="_07" data-name="07" transform="translate(443 2918)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">07</tspan></text>
+      <text id="_07-2" data-name="07" transform="translate(254 2884)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">07</tspan></text>
+      <text id="_06-2" data-name="06" transform="translate(366 2884)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">06</tspan></text>
+      <text id="_07-3" data-name="07" transform="translate(478 2884)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">07</tspan></text>
+      <text id="_08-2" data-name="08" transform="translate(331 2884)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">08</tspan></text>
+      <text id="_05-3" data-name="05" transform="translate(443 2884)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">05</tspan></text>
+      <text id="_09-2" data-name="09" transform="translate(254 2852)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">09</tspan></text>
+      <text id="_04-2" data-name="04" transform="translate(366 2852)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">04</tspan></text>
+      <text id="_09-3" data-name="09" transform="translate(478 2852)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">09</tspan></text>
+      <text id="_10-2" data-name="10" transform="translate(331 2852)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">10</tspan></text>
+      <text id="_03-3" data-name="03" transform="translate(443 2852)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">03</tspan></text>
+      <text id="_02-2" data-name="02" transform="translate(366 2820)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">02</tspan></text>
+      <text id="_11-2" data-name="11" transform="translate(478 2820)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">11</tspan></text>
+      <text id="_12-2" data-name="12" transform="translate(331 2820)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">12</tspan></text>
+      <text id="_01-3" data-name="01" transform="translate(443 2820)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">01</tspan></text>
+      <g id="Grupo_593739" data-name="Grupo 593739" transform="translate(15 300.814)">
+        <line id="Línea_1906" data-name="Línea 1906" y1="197.186" transform="translate(288 2516.5)" fill="none" stroke="#ff8578" stroke-width="1"/>
+        <path id="Polígono_1" data-name="Polígono 1" d="M4,0,8,7H0Z" transform="translate(284 2513.186)" fill="#ff4a36"/>
+      </g>
+      <g id="Grupo_593736" data-name="Grupo 593736" transform="translate(227 307)">
+        <line id="Línea_1906-2" data-name="Línea 1906" y1="208.5" transform="translate(288 2516.5)" fill="none" stroke="#ff8578" stroke-width="1"/>
+        <path id="Polígono_1-2" data-name="Polígono 1" d="M4,0,8,7H0Z" transform="translate(284 2513)" fill="#ff4a36"/>
+      </g>
+      <g id="Grupo_593737" data-name="Grupo 593737" transform="translate(698 5541) rotate(180)">
+        <line id="Línea_1906-3" data-name="Línea 1906" y1="210" transform="translate(288 2516.5)" fill="none" stroke="#ff8578" stroke-width="1"/>
+        <path id="Polígono_1-3" data-name="Polígono 1" d="M4,0,8,7H0Z" transform="translate(284 2513)" fill="#ff4a36"/>
+      </g>
+      <text id="_11-3" data-name="11" transform="translate(254 2820)" fill="#ff4a36" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">11</tspan></text>
+      <line id="Línea_1911" data-name="Línea 1911" y1="195" transform="translate(360 2820.5)" fill="none" stroke="#ff8578" stroke-width="1"/>
+      <line id="Línea_1910" data-name="Línea 1910" y1="196" transform="translate(472 2819.5)" fill="none" stroke="#ff8578" stroke-width="1"/>
+      <g id="Grupo_593740" data-name="Grupo 593740" transform="translate(196.44 515.5)">
+        <line id="Línea_1907" data-name="Línea 1907" x1="97" transform="translate(212.56 2516.5)" fill="none" stroke="#ff8578" stroke-width="1"/>
+        <path id="Polígono_2" data-name="Polígono 2" d="M4,0,8,7H0Z" transform="translate(314.56 2512.5) rotate(90)" fill="#ff4a36"/>
+      </g>
+      <g id="Rectángulo_213073" data-name="Rectángulo 213073" transform="translate(234 2796)" fill="none" stroke="#ff4a36" stroke-width="1">
+        <rect width="296" height="270" stroke="none"/>
+        <rect x="0.5" y="0.5" width="295" height="269" fill="none"/>
+      </g>
+      <g id="Grupo_595672" data-name="Grupo 595672">
+        <line id="Línea_2073" data-name="Línea 2073" x1="102" transform="translate(302.5 2809.5)" fill="none" stroke="#ff8578" stroke-width="1"/>
+        <path id="Polígono_6" data-name="Polígono 6" d="M4.5,0,9,7H0Z" transform="translate(411 2805) rotate(90)" fill="#ff4a36"/>
+      </g>
+    </g>
+  </g>
+</svg>
