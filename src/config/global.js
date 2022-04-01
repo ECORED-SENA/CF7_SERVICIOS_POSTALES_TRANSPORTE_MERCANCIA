@@ -66,7 +66,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Codificación de la mercancía',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -87,7 +87,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Contenedores',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -183,7 +183,7 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Carga      ',
+      termino: 'Carga',
       significado:
         'Conjunto de mercancías que son objeto de una operación de transporte desde un puerto, aeropuerto, terminal terrestre o lugar de entrega, con destino a otro puerto, aeropuerto, terminal o lugar de destino, amparadas en un documento de transporte.        ',
     },
@@ -205,7 +205,7 @@ export default {
     {
       termino: 'Contenedor',
       significado:
-        ' Es un elemento del equipo de transporte reutilizable. Consiste en un cajón portátil, tanque movible u otro elemento análogo, total o parcialmente cerrado, destinado a contener mercancías para facilitar su transporte.        ',
+        'es un elemento del equipo de transporte reutilizable. Consiste en un cajón portátil, tanque movible u otro elemento análogo, total o parcialmente cerrado, destinado a contener mercancías para facilitar su transporte.        ',
     },
     {
       termino: 'Destinatario',

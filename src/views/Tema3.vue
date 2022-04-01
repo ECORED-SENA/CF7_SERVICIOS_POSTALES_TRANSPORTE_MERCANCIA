@@ -96,7 +96,7 @@
             .lista-ol--cuadro__vineta
               span 3
             p.mb-0 <strong>Codificación Inteligente:</strong> se utilizan los códigos de familias y subfamilias, así:
-        img.p-4.aq(src='@/assets/curso/tema3/img6.svg', alt='Texto que describa la imagen')
+        img.p-4.aqs(src='@/assets/curso/tema3/img6.svg', alt='Texto que describa la imagen')
     <br><br>
     .row.justify-content-center
       .col-lg-10
@@ -106,7 +106,16 @@
               img(src='@/assets/curso/tema3/ico1.svg', alt='Texto que describa la imagen')
             .col-lg-7.mt-2
               h5 Ejemplo:
-              p.mt-4 Camisa adulto referencia 56789, de la colección 2020, subfamilia 34 (talla M) Código: 203456789
+              p.mt-4 Camisa adulto referencia 
+                span.etiqueta1 56789
+                |, de la colección 
+                span.etiqueta2 2020
+                |, subfamilia 
+                span.etiqueta2 34 (talla M) 
+                | Código: 
+                span.etiqueta3 20
+                span.etiqueta2 34
+                span.etiqueta1 56789
     h5 Ejemplo etiqueta inteligente para el producto
     .row.justify-content-center
       .col-lg-3.mt-4
@@ -118,6 +127,7 @@
     h5 Códigos y etiquetas
     .row.justify-content-center
       .col-lg-9.mt-4
+        <br>
         p De acuerdo con el ítem anterior, la codificación puede ser libre, de acuerdo con la naturaleza de la organización; sin embargo, en Colombia, a través del decreto 2153 del 26/diciembre/2016, se establece el Sistema armonizado de designación y codificación de mercancías, que es una nomenclatura internacional de productos multipropósito desarrollada por la Organización Mundial de Aduanas (OMA), la cual contiene alrededor de 5.000 grupos de productos, cada uno identificado por un código de seis dígitos, apoyado por reglas bien definidas para lograr una clasificación uniforme.  A continuación, se relacionan los diferentes tipos de etiquetas:
       .col-lg-2.mt-4
         img(src='@/assets/curso/tema3/img8.svg', alt='Texto que describa la imagen')
@@ -183,6 +193,7 @@
 
             td 
               img.wid(src='@/assets/curso/tema3/img14.png', alt='Texto que describa la imagen')
+    
     separdor                                                                 
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2. Clasificación de cargas y almacenamiento
@@ -216,125 +227,9 @@
     .titulo-sexto.color-acento-contenido.mt-4
       h5 Tabla 8
       span Clasificación de las cargas
-    .tabla-a.color-secundario.mb-5 
-      table
-        thead
-          tr
-            th.wid2 CRITERIO
-            th.wid2 TIPO DE CARGA
-            th DESCRIPCIÓN
-        tbody
-          tr
-            td <strong>SEGÚN SU CONTABILIZACIÓN</strong>
-            td 
-              tr 
-                td.text-center CARGA GENERAL
-              tr 
-                td.text-center CARGA A GRANEL
+    img(src='@/assets/curso/tema4/img25.svg', alt='Texto que describa la imagen')
 
-
-            td 
-              tr 
-                td Mercancía que requiere un embalaje individualizado.  Cargas que durante el proceso requieren ser unificadas en cajas o contenedores.<br>Se contabiliza por unidades.
-              tr  
-                td Carga que se contabiliza por criterio de masa y volúmen.  Mercancía que va suelta, sin embalaje.  Mercancías difíciles de empacar, como los gases.<br>El mismo medio de transporte sirve de contenedor.
-          
-          tr
-            td <strong>SEGÚN VOLÚMEN</strong>
-            td 
-              tr 
-                td.text-center CARGA PEQUEÑA
-              tr 
-                td.text-center CARGA MEDIANA
-              tr 
-                td.text-center CARGA GRANDE 
-              tr 
-                td.text-center CARGA VOLUMINOSA
-              tr 
-                td.text-center CARGA DE DIMENSIONES ESPECIALES                              
-
-            td 
-              tr 
-                td Aquellas cargas que son de fácil manipulación con una sola mano. Ejemplo, un pack de gaseosas.
-              tr  
-                td Son un poco más grandes que las anteriores, pueden alcanzar un peso de 10 kg, pero aún manipulables con las manos.  Un ejemplo claro son las mercancías disponibles en estantes de cadenas de almacenes mayoristas, como Alkosto o Makro.
-              tr  
-                td Aquellas mercancías tamaño superior. Necesitan un embalaje específico. Agrupadas sobre una estiba. La carga debe ser manipulada con medios mecánicos.  Ejemplo, los electrodomésticos como neveras y lavadoras.
-              tr  
-                td Mercancía de grandes dimensiones. En ocasiones, no se pueden apilar.  Ejemplo, productos de construcción en estanterías cantilever.
-              tr  
-                td Cargas grandes y de mucho peso, pueden exceder el tamaño de los vehículos para el transporte y requieren vehículo escolta o de acompañamiento.  Es el caso de transporte de maquinaria pesada o contenedores para obras de construcción.
-          tr
-            td <strong>SEGÚN PESO</strong>
-            td 
-              tr 
-                td.text-center CARGA LIGERA
-              tr 
-                td.text-center CARGA MEDIANA
-              tr 
-                td.text-center CARGA PESADA
-              tr 
-                td.text-center CARGA MUY PESADA
-
-            td 
-              tr 
-                td Cargas menores de 5 kg.
-              tr  
-                td Peso mínimo 5 kg y máximo 25 kg por unidad de carga.
-              tr  
-                td Peso entre 25 kg y 1.000 kg (1 tonelada).
-              tr  
-                td Superior a 1 tonelada.
-          tr
-            td <strong>SEGÚN VIDA ÚTIL DEL PRODUCTO</strong>
-            td 
-              tr 
-                td.text-center PERECEDERA
-              tr 
-                td.text-center IMPERECEDERA
-
-
-            td 
-              tr 
-                td Mercancía que tiene una vida útil limitada o determinada por una fecha de caducidad.  Ejemplo, alimentos frescos.  El almacenamiento de estos productos requiere condiciones especiales.
-              tr  
-                td La vida útil del producto no es una condición para el almacenamiento.
-          tr
-            td <strong>SEGÚN RESISTENCIA</strong>
-            td 
-              tr 
-                td.text-center RESISTENTES
-              tr 
-                td.text-center LIGERAS
-              tr 
-                td.text-center FRÁGILES
-
-            td 
-              tr 
-                td Cargas que permiten el apilamiento porque pueden soportar peso encima
-              tr  
-                td Cargas que permiten el apilamiento con restricciones.  Ejemplo, cajas con envases de leche.
-              tr  
-                td Cargas que deben tener una manipulación especial porque pueden averiarse.
-          tr
-            td <strong>SEGÚN RESISTENCIA</strong>
-            td.text-center EXPLOSIVOS, GASES, LÍQUIDOS INFLAMABLES, SÓLIDOS INFLAMABLES, SUSTANCIAS COMBURENTES, ETC.
-            td Sustancias que requieren una manipulación y transporte especial, de acuerdo con los riesgos que representan para la salud humana y el medio ambiente.  O puede presentar alguna reacción específica al entrar en contacto con otro material.
-          tr
-            td <strong>SEGÚN EL LOTE</strong>
-            td 
-              tr 
-                td.text-center CARGA UNITARIA
-              tr 
-                td.text-center CARGAS ALMACENADAS POR LOTES
-
-
-            td 
-              tr 
-                td Mercancía que está conformada por una sola unidad de carga (un lote).
-              tr  
-                td Para explicarlo con un ejemplo: una carga de productos lácteos no está compuesta por las mismas unidades de un lote de electrodomésticos.
-    p.mb-0 <strong>Nota fuente:</strong>
+    p.mt-4 <strong>Nota fuente:</strong>
     p.it https://www.ar-racking.com/co/actualidad/blog/calidad-y-seguridad-4/tipos-de-carga-y-como-almacenarlas#
     <br>
     h5.mt-4 Normas a tener en cuenta para el almacenamiento

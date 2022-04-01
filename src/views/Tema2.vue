@@ -45,7 +45,9 @@
             h5.mt-4 1. Sistemas de información
             p EDI (Electronic Data Interchange), cuyo objetivo es realizar el traspaso de documentos comerciales a un formato normalizado y que pueda ser compartida la información entre empresas.  No es un correo electrónico, pues los datos deben contar con un estándar internacional.
           .col-lg-4
+            <br>
             img(src='@/assets/curso/tema2/img4.svg', alt='Texto que describa la imagen')
+            <br><br><br><br>
 
 
       div(x="3.3%" y="64%" tooltip="2. Sistemas de información" numero="2")
@@ -56,7 +58,10 @@
             p ERP (Enterprise Resource Planning): Sistema Integral de Gestión Empresarial, su finalidad es automatizar la mayoría de los procesos de la organización (administración, logística, producción y comercialización).  
 
           .col-lg-4
+            <br>
+
             img(src='@/assets/curso/tema2/img5.svg', alt='Texto que describa la imagen')
+            <br><br><br><br>
 
       div(x="28.9%" y="64%" tooltip="3. Sistemas de información" numero="3")
         .row.justify-content-center.bg556
@@ -65,7 +70,11 @@
             h5.mt-4 3. Sistemas de información
             p ERP logra integrar los dos sistemas SGA-ERP.
           .col-lg-4
+            <br>
+
             img(src='@/assets/curso/tema2/img6.svg', alt='Texto que describa la imagen')
+            <br><br><br><br>
+
       div(x="28.9%" y="13%" tooltip="4. Sistemas de información" numero="4")
         .row.justify-content-center.bg556
           .col-lg-6
@@ -73,15 +82,23 @@
             h5.mt-4 4. Sistemas de información
             p SGA: Sistema de Gestión de Almacén, cuya función más importante es mantener controlado el stock de mercancía (número de existencias registradas, equivalente a existencias físicas).
           .col-lg-4
+            <br>
+
             img(src='@/assets/curso/tema2/img7.svg', alt='Texto que describa la imagen')
+            <br><br><br><br>
+
       div(x="53%" y="13%" tooltip="5. Sistemas de información" numero="5")
         .row.justify-content-center.bg556
           .col-lg-6
             <br><br>
             h5.mt-4 5. Sistemas de información
             p Confirmación de ejecución de la orden dada por el operario.
-          .col-lg-4
+          .col-lg-3
+            <br>
+
             img(src='@/assets/curso/tema2/img8.svg', alt='Texto que describa la imagen')
+            <br><br><br><br>
+
       div(x="53%" y="64%" tooltip="6. Sistemas de información" numero="6")
         .row.justify-content-center.bg556
           .col-lg-6
@@ -89,7 +106,11 @@
             h5.mt-4 6. Sistemas de información
             p El sistema de gestión de almacén informa al sistema integral de gestión empresarial que el pedido ha sido completado o que se presentan algunas incidencias.
           .col-lg-4
+            <br>
+
             img(src='@/assets/curso/tema2/img9.svg', alt='Texto que describa la imagen')
+            <br><br><br><br>
+
       div(x="78%" y="64%" tooltip="7. Sistemas de información" numero="7")
         .row.justify-content-center.bg556
           .col-lg-6
@@ -98,7 +119,11 @@
             p El sistema integral de gestión empresarial le informa al cliente a través de un mensaje de intercambio electrónico de datos.
 
           .col-lg-4
+            <br>
+
             img(src='@/assets/curso/tema2/img10.svg', alt='Texto que describa la imagen')
+            <br><br><br><br>
+
       div(x="78%" y="13%" tooltip="8. Sistemas de información" numero="8")
         .row.justify-content-center.bg556
           .col-lg-6
@@ -108,7 +133,11 @@
 
 
           .col-lg-4
+            <br>
+
             img(src='@/assets/curso/tema2/img11.svg', alt='Texto que describa la imagen')
+            <br><br><br><br>
+
     .row.justify-content-center
       .col-lg-10
         .tarjeta.p-4.p-md-5.mb-5.mt-4.bg557
@@ -132,7 +161,7 @@
       .col-lg-1
       .col-lg-5
         p.mt-4 El sistema de radiofrecuencia (RFID) ha facilitado la gestión, el control y eficiencia en las operaciones del almacén; este facilita el almacenamiento y recuperación de la información (datos), apoyado en los diferentes dispositivos, como lectores de códigos de barras o infrarrojos y PDA, principalmente.  A su vez, los lectores envían los datos almacenados al software específico, que alimentará la base de datos principal de la compañía, como se presenta en la imagen.
-      .col-lg-1
+        <br><br><br><br><br><br>
     <br>
     h5.mt-4 Utilidad en su aplicación:
       ol.lista-ol--cuadro.lista-ol--separador.mt-4.bgcolor.pad

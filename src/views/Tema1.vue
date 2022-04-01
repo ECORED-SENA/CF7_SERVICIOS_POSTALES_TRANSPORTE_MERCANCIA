@@ -32,10 +32,10 @@
           .col-md-5.mb-4.mb-md-0
             p <strong>Ubicación en estantes</strong>
             p Al momento de llegar la mercancía al almacén y hacer la descarga a nivel del piso, se hace la verificación sobre el correcto estado de la mercancía y se informa a los operarios el lugar donde se debe colocar en el almacén, para lo cual existen varias formas:
-            p.mb-0 - Ubicación fija
-            p.mb-0 -Ubicación caótica
-            p.mb-0 - Ubicación por cliente
-            p.mb-0 - Ubicación por proyecto
+            p.mb-1 - Ubicación fija
+            p.mb-1 - Ubicación caótica
+            p.mb-1 - Ubicación por cliente
+            p.mb-1 - Ubicación por proyecto
             p - Ubicación por temperatura
           .col-md-1
           .col-md-5
@@ -54,7 +54,7 @@
         .row.justify-content-center(titulo="")
           .col-md-5.mb-4.mb-md-0
             <br><br>
-            p <strong>Cross Docking</strong>
+            p <strong>Cross docking</strong>
             p O cruce de muelle, es una operación que busca mejorar la eficiencia en la cadena de suministro, disminuyendo o volviendo nulo el tiempo de almacenamiento.
           .col-md-1
           .col-md-5
@@ -80,7 +80,7 @@
     <br><br>
     .row.justify-content-center
       .col-lg-10
-        .tarjeta.color-primario.p-4.p-md-5.mb-5.mt-4.bg2
+        .tarjeta.p-4.p-md-5.mb-5.mt-4.bg2
           .row.justify-content-around.align-items-center
             .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
             .col-md.col-lg-7.p-4
@@ -104,8 +104,8 @@
               <br>
               p.text-center.mt-4 <strong>Compatibilidad:</strong>            
             .tarjeta-flip__contenido.p-4.p-xl-5
-              p <strong>Compatibilidad:</strong>
-              p la matriz de compatibilidad para sustancias químicas (la desarrolla el departamento de Seguridad y Salud en el Trabajo) indica qué productos pueden estar almacenados juntos o distantes.  Por ejemplo, no se pueden almacenar productos tóxicos con alimentos o fármacos.  
+              p <strong>Compatibilidad</strong>
+              p La matriz de compatibilidad para sustancias químicas (la desarrolla el departamento de Seguridad y Salud en el Trabajo) indica qué productos pueden estar almacenados juntos o distantes.  Por ejemplo, no se pueden almacenar productos tóxicos con alimentos o fármacos.  
 
       .col-sm-6.col-xl-3.mb-2.mb-xl-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
@@ -117,8 +117,8 @@
               <br><br>
               p.text-center.mt-4 <strong>Complementariedad:</strong>            
             .tarjeta-flip__contenido.p-4.p-xl-5
-              p <strong>Complementariedad: </strong>
-              p se podrán colocar cercanas las mercancías que, por lo regular, deben ir en el mismo pedido.  
+              p <strong>Complementariedad </strong>
+              p Se podrán colocar cercanas las mercancías que, por lo regular, deben ir en el mismo pedido.  
 
       .col-sm-6.col-xl-3.mb-2.mb-xl-0
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
@@ -130,8 +130,8 @@
               <br>
               p.text-center.mt-4 <strong>Tamaño y peso:</strong>            
             .tarjeta-flip__contenido.p-4.p-xl-5
-              p <strong>Tamaño y peso: </strong>
-              p en lo posible, aquellas mercancías de gran tamaño y volumen realizarán los menores desplazamientos.
+              p <strong>Tamaño y peso </strong>
+              p En lo posible, aquellas mercancías de gran tamaño y volumen realizarán los menores desplazamientos.
 
 
       .col-sm-6.col-xl-3.mb-2.mb-xl-0
@@ -144,8 +144,8 @@
               <br><br>
               p.text-center.mt-4 <strong>Rotación:</strong>            
             .tarjeta-flip__contenido.p-4.p-xl-5
-              p <strong>Rotación:</strong>
-              p cerca de la zona de expedición, se ubicarán los productos de mayor rotación o actividad en el almacén.
+              p <strong>Rotación</strong>
+              p Cerca de la zona de expedición, se ubicarán los productos de mayor rotación o actividad en el almacén.
     .row.justify-content-center
       .col-lg-4
         img(src='@/assets/curso/tema1/img8.svg', alt='Texto que describa la imagen')
@@ -161,70 +161,70 @@
         h5.mb-0.text-white SEGÚN VOLUMEN O DIMENSIONES
       table
         tr
-          th <strong>Característica</strong>
+          th.bgsa <strong>Característica</strong>
           td <strong>Descripción</strong>
         tr
           th Muy voluminosa
           td Unidades muy grandes o agrupación de varias mercancías. Requieren contenedor.
         tr
-          th Volumen excepcional
+          th.bgsa Volumen excepcional
           td Medidas excesivamente grandes, que requieren de algún medio especial de transporte, permisos y señalización.
         tr
           th Voluminosas
           td Muy parecido a paletizadas, sin embargo, las dimensiones forman parte del producto y no se pueden apilar.
         tr
-          th Dimensiones especiales
+          th.bgsa Dimensiones especiales
           td Requieren puente grúa para la manipulación.
         tr
           th Pequeñas
           td Se pueden manipular fácilmente con las manos (máximo 10 Kg).
         tr
-          th Paletizadas
+          th.bgsa Paletizadas
           td Mercancía sobre paletas, con peso recomendado máximo de 1.000 kg
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
         h5.mb-0.text-white SEGÚN EL PESO
       table
         tr
-          th <strong>Característica</strong>
+          th.bgsa <strong>Característica</strong>
           td <strong>Descripción</strong>
         tr
           th Ligera
           td Mercancía hasta 5 kg.
         tr
-          th Media
+          th.bgsa Media
           td Productos o mercancía entre 5 y 25 kg.
         tr
           th Pesada
           td Mercancía entre 25 kg y 1 tonelada
         tr
-          th Muy pesada
+          th.bgsa Muy pesada
           td Mercancía que supere 1 tonelada
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
         h5.mb-0.text-white SEGÚN UBICACIÓN
       table
         tr
-          th <strong>Característica</strong>
+          th.bgsa <strong>Característica</strong>
           td <strong>Descripción</strong>
         tr
           th Sencillas
           td Con dimensiones dentro del rango (normales), se pueden ubicar fácilmente en los estantes del almacén.  No pueden apilarse
         tr
-          th Apilables
+          th.bgsa Apilables
           td Se pueden apilar, con algunas limitaciones.
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
         h5.mb-0.text-white SEGÚN FRAGILIDAD
       table
         tr
-          th <strong>Característica</strong>
+          th.bgsa <strong>Característica</strong>
           td <strong>Descripción</strong>
         tr
           th Ligera
           td Pueden soportar peso encima con limitaciones. Por ejemplo, cajas de yogurt.
         tr
-          th Resistentes
+          th.bgsa Resistentes
           td Soportan mucho peso, por ejemplo, cajas de cerámicas para pisos.
         tr
           th Frágiles
@@ -234,26 +234,26 @@
         h5.mb-0.text-white SEGÚN PROPIEDADES
       table
         tr
-          th <strong>Característica</strong>
+          th.bgsa <strong>Característica</strong>
           td <strong>Descripción</strong>
         tr
           th Duradero
           td No es prioritario organizar por orden de salida; el tiempo de almacenamiento es indiferente.
         tr
-          th Perecedero
+          th.bgsa Perecedero
           td Por lo regular, llevan una fecha de vencimiento; al momento de despachar las mercancías, deben salir primero las más antiguas. Ocurre en el caso de alimentos y medicinas.
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
         h5.mb-0.text-white SEGÚN ESTADO FÍSICO
       table
         tr
-          th <strong>Característica</strong>
+          th.bgsa <strong>Característica</strong>
           td <strong>Descripción</strong>
         tr
           th Líquido
           td Es necesario identificar la composición y reacción química con otros productos, pues podría cambiar su estado físico y generar algún tipo de riesgo.
         tr
-          th Sólido
+          th.bgsa Sólido
           td Aquellos productos compactos o individuales, como los utilizados en el sector agrícola.
         tr
           th Gaseoso
@@ -263,13 +263,13 @@
         h5.mb-0.text-white SEGÚN ROTACIÓN
       table
         tr
-          th <strong>Característica</strong>
+          th.bgsa <strong>Característica</strong>
           td <strong>Descripción</strong>
         tr
           th Baja
           td Registran movimientos mínimos en el almacén.
         tr
-          th Media
+          th.bgsa Media
           td De mediana rotación.
         tr
           th Alta
@@ -327,38 +327,46 @@
           img(src='@/assets/curso/tema1/img11.svg', alt='Texto que describa la imagen')
 
       div(x="32%" y="35%" tooltip="Paletizado" numero="1")
-        .row.justify-content-center
-          .col-lg-5.bg6.p-4
+        .row.justify-content-center.bg6
+          .col-lg-5.p-4
             <br>
             h5 Paletizado
             p Hace referencia a la forma de organizar las mercancías sobre un pallet (estiba) para almacenamiento y transporte, con la finalidad de tener uniformidad y facilitar la manipulación.  El paletizado podrá realizarse de forma manual o mecanizado, utilizando toda la superficie de la estiba.
-          .col-lg-5.bg6
+          .col-lg-5
+            
             img(src='@/assets/curso/tema1/img12.png', alt='Texto que describa la imagen')
+            <br>
+      
       div(x="88%" y="68%" tooltip="Retractilado" numero="2")
-        .row.justify-content-center
-          .col-lg-5.bg6.p-4
+        .row.justify-content-center.bg6
+          .col-lg-5.p-4
             <br>
             h5 Retractilado
             p Es el proceso de embalaje en el que una máquina retractiladora envuelve en una película plástica (papel termo film) las mercancías, para quedar adheridas al plástico, evitando así daños o suciedad; quedan pegadas al pallet y se facilita tanto la manipulación como el transporte.
 
-          .col-lg-5.bg6
+          .col-lg-5
+            <br>
             img(src='@/assets/curso/tema1/img13.png', alt='Texto que describa la imagen')
+            <br>
       div(x="57%" y="68%" tooltip="Flejado" numero="3")
-        .row.justify-content-center
-          .col-lg-5.bg6.p-4
+        .row.justify-content-center.bg6
+          .col-lg-5.p-4
             <br>
             h5 Flejado
             p Es la forma de agrupar y asegurar las cajas, mercancías u objetos postales mediante unas tiras plásticas llamadas flejes, que aseguran el pedido que ya está retractilado para evitar la separación y asegurar mejor los productos, como se observa a continuación:
-          .col-lg-5.bg6
+          .col-lg-5
             img(src='@/assets/curso/tema1/img14.png', alt='Texto que describa la imagen')
+            <br><br>
       div(x="25%" y="85%" tooltip="Pool de paletas" numero="4")
-        .row.justify-content-center
-          .col-lg-5.bg6.p-4
+        .row.justify-content-center.bg6
+          .col-lg-5.p-4
             <br>
             h5 Pool de paletas
             p Aquellas empresas que reciben y expiden productos por grupos de paletas manejan inventario de paletas y no por productos. Paletizar quiere decir colocar cajas sobre la paleta, hasta completar la unidad de carga de forma uniforme, lo que permite reducir tiempos en los movimientos, optimizar el espacio del almacén y reducir el esfuerzo humano.
-          .col-lg-5.bg6
+          .col-lg-5
+            <br>
             img(src='@/assets/curso/tema1/img15.png', alt='Texto que describa la imagen')
+            <br><br>
     p De acuerdo con las actividades descritas anteriormente, la consolidación requiere de pallets de madera, plástico u otros materiales necesarios para el movimiento de la carga, para facilitar el levantamiento y movimiento con carretillas elevadoras o transpaletas. 
     p Conozca algunas definiciones según normatividad:
     .row.justify-content-center.mt-4
@@ -367,7 +375,7 @@
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img16.png')})`}"
           )
-          .bloque-texto-g__texto.p-4
+          .bloque-texto-g__texto.p-4.ax
             p <strong>Según norma técnica NTC 44680/2013</strong><br><br>
             p En Colombia, se encuentran estandarizadas las dimensiones de los pallets, cuyo objetivo está enmarcado en “Estiba intercambiable de madera, utilizable por una vez, en la cadena de valor”, donde se establece que las medidas para la estiba o pallet son: largo 120 cm, ancho 100 cm y altura 15,5 cm.
     .row.justify-content-center.mt-4
@@ -395,32 +403,32 @@
 
       .carousel-inner
         .carousel-item.active.bginfo
-          p.p-2 <strong>Flejadora:</strong>
-          p.p-2  herramienta manual cuya función es tensar, cortar y unir cinta o fleje en el contorno de la carga.  
+          p.p-2 <strong>Flejadora</strong>
+          p.p-2  Herramienta manual cuya función es tensar, cortar y unir cinta o fleje en el contorno de la carga.  
 
             img.mt-2(src='@/assets/curso/tema1/img18.png', alt='Texto que describa la imagen')
         .carousel-item.bginfo
-          p.p-2.mb-0 <strong>Retractiladora: </strong>
-          p.p-2.mt-0 equipo cuya función es cubrir los paquetes o pedidos con una película plástica, para proteger, facilitar el traslado y almacenamiento.  
+          p.p-2.mb-0 <strong>Retractiladora </strong>
+          p.p-2.mt-0 Equipo cuya función es cubrir los paquetes o pedidos con una película plástica, para proteger, facilitar el traslado y almacenamiento.  
 
             img.mt-2(src='@/assets/curso/tema1/img19.png', alt='Texto que describa la imagen')
         .carousel-item.bginfo
-          p.p-2 <strong>Selladoras Holt-Melt: </strong>
-          p.p-2 adhesivo empleado para sellar cartón, plástico y otros materiales.
+          p.p-2 <strong>Selladoras Holt-Melt </strong>
+          p.p-2 Adhesivo empleado para sellar cartón, plástico y otros materiales.
             img.mt-2(src='@/assets/curso/tema1/img20.png', alt='Texto que describa la imagen')
         .carousel-item.bginfo
-          p.p-2 <strong>Precintadoras:</strong>
-          p.p-2  equipo empleado para realizar sellado automático superior e inferior de cajas de cartón con papel engomado.
+          p.p-2 <strong>Precintadoras</strong>
+          p.p-2  Equipo empleado para realizar sellado automático superior e inferior de cajas de cartón con papel engomado.
 
             img.mt-2(src='@/assets/curso/tema1/img21.png', alt='Texto que describa la imagen')
         .carousel-item.bginfo
-          p.p-2 <strong>Paletizadora: </strong>
-          p.p-2  equipo automático que realiza la función de paletizar una amplia gama de pedidos, envases, cajas, latas, botellas, etc. 
+          p.p-2 <strong>Paletizadora </strong>
+          p.p-2  Equipo automático que realiza la función de paletizar una amplia gama de pedidos, envases, cajas, latas, botellas, etc. 
 
             img.mt-2(src='@/assets/curso/tema1/img22.png', alt='Texto que describa la imagen')
         .carousel-item.bginfo
-          p.p-2 <strong>Pesaje y etiquetado:</strong>
-          p.p-2  equipo automático cuyo objetivo es completar el ciclo de embalaje en instalaciones manuales y automáticas, donde expide las etiquetas para cualquier tipo de carga, con la identificación completa de la carga, incluyendo el peso.
+          p.p-2 <strong>Pesaje y etiquetado</strong>
+          p.p-2  Equipo automático cuyo objetivo es completar el ciclo de embalaje en instalaciones manuales y automáticas, donde expide las etiquetas para cualquier tipo de carga, con la identificación completa de la carga, incluyendo el peso.
 
             img.mt-2(src='@/assets/curso/tema1/img23.png', alt='Texto que describa la imagen')            
       button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
@@ -453,7 +461,8 @@
       .col-lg-10
         img.mt-4(src='@/assets/curso/tema1/img26.svg', alt='Texto que describa la imagen')
     <br><br>
-    h5.mt-4 *SGI:  Sistema de Gestión Informático (software)
+    h5.mt-4 *SGI:  Sistema de Gestión Informático 
+      span.it (software)
     .col-lg-12.mt-4.p-4
       .cajon.color-acento-contenido.p-4.mb-4
         .row.justify-content-center
@@ -476,11 +485,11 @@
       table
         thead
           tr
-            th Documento
+            th.wid5 Documento
             th Definición
             th Objetivo
             th Características
-            th Datos
+            th.wid5 Datos
         tbody
           tr
             td <strong>Conocimiento de embarque</strong>
@@ -504,11 +513,12 @@
               <br>
               p.text-white Si es de su interés ampliar la información sobre:
               p.text-white <strong>Agente de carga,</strong>  revisar el video que aparece en el siguiente enlace:  
-              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('https://www.youtube.com/watch?v=cLgS23sdvEQ')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones.texto-blanco.mt-4.aq(:href="('https://www.youtube.com/watch?v=cLgS23sdvEQ')" target="_blank" type="application/pdf")
                 span Ingresar
                 i.fas.fa-link
-              p.text-white Documentos de embarque requeridos en Latinoamérica:
-              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('https://comercioexterior.la/broker-internacional/documentos-de-embarque/')" target="_blank" type="application/pdf")
+              
+              p.text-white.mt-4 Documentos de embarque requeridos en Latinoamérica:
+              a.boton.color-acento-botones.texto-blanco.mt-4.aq(:href="('https://comercioexterior.la/broker-internacional/documentos-de-embarque/')" target="_blank" type="application/pdf")
                 span Ingresar
                 i.fas.fa-link     
     .row.justify-content-center
@@ -542,68 +552,74 @@
         img(src='@/assets/curso/tema1/img31.png', alt='Texto que describa la imagen')
       .col-lg-5
         img(src='@/assets/curso/tema1/img32.png', alt='Texto que describa la imagen')
-    p <strong>Clasificación de equipos dinámicos sin traslado:</strong>  son equipos que están fijos al piso o techo de la edificación y que pueden realizar algún tipo de transporte, como aparece en el siguiente recurso.
+    <br> 
+    p.mt-4 <strong>Clasificación de equipos dinámicos sin traslado:</strong>  son equipos que están fijos al piso o techo de la edificación y que pueden realizar algún tipo de transporte, como aparece en el siguiente recurso.
     
     .row.justify-content-center
       .col-lg-10.bg77
         SlyderA(tipo="b")
           .row
             .col-md-6.mb-4.mb-md-0.xx
-              <br><br>
-              p <strong>Transportadora de banda</strong>
-              p.mb-0 - Plataforma de goma deslizante, sobre conjunto de rodillos.
-              p.mb-0 - Aplica para embalajes de base irregular.
-              p.mb-0 - Transporte a granel.
-              p - Adecuada para trayectos largos, con curvas y diferentes niveles.    
+              <br><br><br><br>
+              p.margl <strong>Transportadora de banda</strong>
+              p.mb-0.margl - Plataforma de goma deslizante, sobre conjunto de rodillos.
+              p.mb-0.margl - Aplica para embalajes de base irregular.
+              p.mb-0.margl - Transporte a granel.
+              p.margl - Adecuada para trayectos largos, con curvas y diferentes niveles.    
             .col-md-6
+              <br><br>
               figure
                 img(src='@/assets/curso/tema1/img33.png', alt='Texto que describa la imagen')
           .row
             .col-md-6.mb-4.mb-md-0.xx
-              <br><br>
-              p <strong>Transportadora de rodillos</strong>
-              p.mb-0 - Plataforma de rodillos, sobre rodamientos.
-              p.mb-0 - Opera en función del tipo de mercancía.
-              p.mb-0 - Los productos se desplazan como consecuencia de la gravedad.
+              <br><br><br><br>
+              p.margl <strong>Transportadora de rodillos</strong>
+              p.mb-0.margl - Plataforma de rodillos, sobre rodamientos.
+              p.mb-0.margl - Opera en función del tipo de mercancía.
+              p.mb-0.margl - Los productos se desplazan como consecuencia de la gravedad.
 
             .col-md-6
+              <br><br>            
               figure
                 img(src='@/assets/curso/tema1/img34.png', alt='Texto que describa la imagen')
           .row
             .col-md-6.mb-4.mb-md-0.xx
-              <br><br>
+              <br><br><br><br>
               p <strong>Vehículo que comunica varias áreas del almacén </strong>
-              p.mb-0 - Desplazamiento a altas velocidades
-              p.mb-0 -Movimientos en línea recta
-              p.mb-0 - Opera con un sistema neumático
-              p.mb-0 - Precisión en la ubicación de carga
-              p.mb-0 - Requiere uso de telémetros (láser)
+              p.mb-0.margl - Desplazamiento a altas velocidades
+              p.mb-0.margl -Movimientos en línea recta
+              p.mb-0.margl - Opera con un sistema neumático
+              p.mb-0.margl - Precisión en la ubicación de carga
+              p.mb-0.margl - Requiere uso de telémetros (láser)
  
             .col-md-6
+              <br><br>
               figure
                 img(src='@/assets/curso/tema1/img35.png', alt='Texto que describa la imagen')
           .row
             .col-md-6.mb-4.mb-md-0.xx
-              <br><br>
+              <br><br><br><br>
               p <strong>Equipo de transporte fijo al techo </strong>
-              p.mb-0 - Permite transporte de mercancía dentro del almacén a diferentes zonas
-              p.mb-0 - Mantiene despejado el suelo
-              p.mb-0 - Requiere techos muy altos en el almacén
-              p.mb-0 - Uso principal en el sector automotriz
+              p.mb-0.margl - Permite transporte de mercancía dentro del almacén a diferentes zonas
+              p.mb-0.margl - Mantiene despejado el suelo
+              p.mb-0.margl - Requiere techos muy altos en el almacén
+              p.mb-0.margl - Uso principal en el sector automotriz
  
             .col-md-6
+              <br><br>
               figure
                 img(src='@/assets/curso/tema1/img36.png', alt='Texto que describa la imagen')
           .row
             .col-md-6.mb-4.mb-md-0.xx
-              <br><br>
+              <br><br><br><br>
               p <strong>Equipo  con desplazamiento  por pasillos estrechos a velocidad alta </strong>
-              p.mb-0 - Diseñados especialmente para almacenes automatizados
-              p.mb-0 - Operan con dos movimientos: longitudinal sobre rail y vertical para extraer o colocar pallets
-              p.mb-0 - Desarrollan tareas de picking a gran altura
+              p.mb-0.margl - Diseñados especialmente para almacenes automatizados
+              p.mb-0.margl - Operan con dos movimientos: longitudinal sobre rail y vertical para extraer o colocar pallets
+              p.mb-0.margl - Desarrollan tareas de picking a gran altura
 
  
             .col-md-6
+              <br><br>
               figure
                 img(src='@/assets/curso/tema1/img37.png', alt='Texto que describa la imagen')      
     <br>
@@ -613,50 +629,54 @@
         SlyderA(tipo="b")
           .row
             .col-md-6.mb-4.mb-md-0.xx
-              <br><br>
-              p <strong>Equipo mecánico de transporte</strong>
-              p.mb-0 - Sirven de apoyo a otros equipos
-              p.mb-0 - Transportan la carga a distancias cortas
-              p.mb-0 - Levantan distancias muy cortas del suelo
-              p - Apoyan actividades del muelle  
+              <br><br><br><br>
+              p.margl <strong>Equipo mecánico de transporte</strong>
+              p.mb-0.margl - Sirven de apoyo a otros equipos
+              p.mb-0.margl - Transportan la carga a distancias cortas
+              p.mb-0.margl - Levantan distancias muy cortas del suelo
+              p.margl - Apoyan actividades del muelle  
             .col-md-6
+              <br><br>
               figure
                 img(src='@/assets/curso/tema1/img38.png', alt='Texto que describa la imagen')
           .row
             .col-md-6.mb-4.mb-md-0.xx
-              <br><br>
-              p <strong>Apilador eléctrico con mástil telescópico</strong>
-              p.mb-0 - Elevación hasta altura específica
-              p.mb-0 - Desplazamiento de altura y horizontal
-              p.mb-0 - Permite realizar trabajo de apilado
-              p.mb-0 - Puede ser utilizado en recepción y expedición
-              p.mb-0 - No se recomienda para cargas pesadas
+              <br><br><br><br>
+              p.margl <strong>Apilador eléctrico con mástil telescópico</strong>
+              p.mb-0.margl - Elevación hasta altura específica
+              p.mb-0.margl - Desplazamiento de altura y horizontal
+              p.mb-0.margl - Permite realizar trabajo de apilado
+              p.mb-0.margl - Puede ser utilizado en recepción y expedición
+              p.mb-0.margl - No se recomienda para cargas pesadas
             .col-md-6
+              <br><br>
               figure
                 img(src='@/assets/curso/tema1/img39.png', alt='Texto que describa la imagen')
           .row
             .col-md-6.mb-4.mb-md-0.xx
-              <br><br>
-              p <strong>Carretilla retráctil, contrabalanceada, de toma lateral (bi o trilateral) </strong>
-              p.mb-0 - Movimientos vertical y horizontal
-              p.mb-0 - Levanta cargas hasta 10 m
-              p.mb-0 - Necesita pasillos para operar
-              p.mb-0 - Recorridos medios-largos
-              p.mb-0 - Uso en ubicación y apilado de mercancía
+              <br><br><br><br>
+              p.margl <strong>Carretilla retráctil, contrabalanceada, de toma lateral (bi o trilateral) </strong>
+              p.mb-0.margl - Movimientos vertical y horizontal
+              p.mb-0.margl - Levanta cargas hasta 10 m
+              p.mb-0.margl - Necesita pasillos para operar
+              p.mb-0.margl - Recorridos medios-largos
+              p.mb-0.margl - Uso en ubicación y apilado de mercancía
  
             .col-md-6
+              <br><br>
               figure
                 img(src='@/assets/curso/tema1/img40.png', alt='Texto que describa la imagen')
           .row
             .col-md-6.mb-4.mb-md-0.xx
-              <br><br>
-              p <strong>Automatic Guided Vehicles </strong>
-              p.mb-0 - No requieren conductor (inteligentes)
-              p.mb-0 - Ordenador que comunica con PC
-              p.mb-0 - Aplica diferentes técnicas de guía: hilo conductor a poca profundidad del suelo; uso banda magnética sobre el suelo
-              p.mb-0 - Sigue un trayecto orientado por demarcación
+              <br><br><br><br>
+              p.margl <strong>Automatic Guided Vehicles </strong>
+              p.mb-0.margl - No requieren conductor (inteligentes)
+              p.mb-0.margl - Ordenador que comunica con PC
+              p.mb-0.margl - Aplica diferentes técnicas de guía: hilo conductor a poca profundidad del suelo; uso banda magnética sobre el suelo
+              p.mb-0.margl - Sigue un trayecto orientado por demarcación
  
             .col-md-6
+              <br><br>
               figure
                 img(src='@/assets/curso/tema1/img41.png', alt='Texto que describa la imagen')
   
@@ -700,167 +720,191 @@
           p.it Optimizar el uso de los recursos técnicos y humanos.
     .row.justify-content-center
       .col-lg-1
+      .col-lg-1
         <br>
-        img(src='@/assets/curso/tema1/ico8.svg', alt='Texto que describa la imagen')
+        img.all(src='@/assets/curso/tema1/ico8.svg', alt='Texto que describa la imagen')
       .col-lg-9
         p Existen principalmente dos categorías de almacenes: manuales y automáticos.  Los <strong>manuales</strong> básicamente son operados solo por el talento humano, quienes aumentan en cantidad a medida que las operaciones y movimientos son mayores; se apoyan en equipos muy sencillos, como carretillas, puente-grúa, transpalés, etc.  De otro lado, los almacenes <strong>automatizados</strong> tienen mayor complejidad técnica, pues son operados por un conjunto de recursos mecánicos, dinámicos, por gravedad o eléctricos, por tanto, requieren menos personal y una mayor efectividad en los sistemas de gestión informática o de radiofrecuencia.  A continuación, se realiza la descripción de las diferentes clases de sistemas de almacenamiento:
+      .col-lg-1
+    <br><br><br>
     .row.justify-content-center
       .col-lg-10.bg99
         SlyderA(tipo="b")
           .row
             .col-md-6.mb-4.mb-md-0.xx
-              <br><br>
-              p <strong>Sistema de bloque</strong>
-              p.mb-0 - Organiza la mercancía en bloques homogéneos. 
-              p.mb-0 - Puede ser al aire libre, no requiere estantes.
-              p.mb-0 - Uso para mercancía que viene en grandes cantidades.
+              <br><br><br><br>
+              p.margl <strong>Sistema de bloque</strong>
+              p.mb-0.margl - Organiza la mercancía en bloques homogéneos. 
+              p.mb-0.margl - Puede ser al aire libre, no requiere estantes.
+              p.mb-0.margl - Uso para mercancía que viene en grandes cantidades.
             .col-md-6
               figure
                 img(src='@/assets/curso/tema1/img42.png', alt='Texto que describa la imagen')
           .row
             .col-md-6.mb-4.mb-md-0.xx
-              <br><br>
-              p <strong>Sistema convencional</strong>
-              p.mb-0 - Almacenamiento de productos combinando pallets y estantería.
-              p.mb-0 - Requiere la utilización de un soporte intermedio para separar la - mercancía.
+              <br><br><br><br>
+              p.margl <strong>Sistema convencional</strong>
+              p.mb-0.margl - Almacenamiento de productos combinando pallets y estantería.
+              p.mb-0.margl - Requiere la utilización de un soporte intermedio para separar la - mercancía.
 
               p.mb-0 - Se aprovecha el uso del espacio del almacén.
 
             .col-md-6
+              <br><br>
+
               figure
                 img(src='@/assets/curso/tema1/img43.png', alt='Texto que describa la imagen')
           .row
             .col-md-6.mb-4.mb-md-0.xx
-              <br><br>
-              p <strong>Sistema compacto </strong>
-              p.mb-0 - Almacenamiento de mercancías en estantes que permitan el paso de carretillas en los pasillos.
-              p.mb-0 Permite ocupación de la superficie y del volumen del almacén.
-              p.mb-0 Requiere poco mantenimiento, centrado en infraestructura y estanterías.
+              <br><br><br><br>
+              p.margl <strong>Sistema compacto </strong>
+              p.mb-0.margl - Almacenamiento de mercancías en estantes que permitan el paso de carretillas en los pasillos.
+              p.mb-0.margl Permite ocupación de la superficie y del volumen del almacén.
+              p.mb-0.margl Requiere poco mantenimiento, centrado en infraestructura y estanterías.
 
  
             .col-md-6
+              <br><br>
+
               figure
                 img(src='@/assets/curso/tema1/img44.png', alt='Texto que describa la imagen')
           .row
             .col-md-6.mb-4.mb-md-0.xx
-              <br><br>
-              p <strong>Sistema dinámico </strong>
-              p.mb-0 - Recomendado para mercancías que requieran una rotación exacta.
-              p.mb-0 - Se compone de estanterías metálicas, que forman caminos con   rodillos (inclinada o de forma horizontal).
-              p.mb-0 - Óptimo aprovechamiento de la superficie.
+              <br><br><br><br>
+              p.margl <strong>Sistema dinámico </strong>
+              p.mb-0.margl - Recomendado para mercancías que requieran una rotación exacta.
+              p.mb-0.margl - Se compone de estanterías metálicas, que forman caminos con   rodillos (inclinada o de forma horizontal).
+              p.mb-0.margl - Óptimo aprovechamiento de la superficie.
 
  
             .col-md-6
+              <br><br>
+
               figure
                 img(src='@/assets/curso/tema1/img45.png', alt='Texto que describa la imagen')
           .row
             .col-md-6.mb-4.mb-md-0.xx
-              <br><br>
-              p <strong>Sistema móvil </strong>
-              p.mb-0 - Requiere la instalación de estantes sobre bases móviles, separadas unas de otras.
-              p.mb-0 - El desplazamiento se realiza en función del pasillo principal y sobre el cual se requiera acceder.
-              p.mb-0 - Muy utilizado para almacenar mercancía pequeña y heterogénea, por ejemplo, documentos o libros.
+              <br><br><br><br>
+              p.margl <strong>Sistema móvil </strong>
+              p.mb-0.margl - Requiere la instalación de estantes sobre bases móviles, separadas unas de otras.
+              p.mb-0.margl - El desplazamiento se realiza en función del pasillo principal y sobre el cual se requiera acceder.
+              p.mb-0.margl - Muy utilizado para almacenar mercancía pequeña y heterogénea, por ejemplo, documentos o libros.
 
  
             .col-md-6
+              <br><br>
+
               figure
                 img(src='@/assets/curso/tema1/img46.png', alt='Texto que describa la imagen')
   
           .row
             .col-md-6.mb-4.mb-md-0.xx
-              <br><br>
-              p <strong>Sistema de Shuttle OSR </strong>
-              p.mb-0 - Preparación de pedidos semiautomática; basado en el principio de mercancía al hombre.
-              p.mb-0 - Los productos se desplazan desde las estanterías con ayuda de los shuttles (lanzaderas), hasta la zona de expedición
-              p.mb-0 - Un elevador se encarga del transporte vertical.
+              <br><br><br><br>
+              p.margl <strong>Sistema de Shuttle OSR </strong>
+              p.mb-0.margl - Preparación de pedidos semiautomática; basado en el principio de mercancía al hombre.
+              p.mb-0.margl - Los productos se desplazan desde las estanterías con ayuda de los shuttles (lanzaderas), hasta la zona de expedición
+              p.mb-0.margl - Un elevador se encarga del transporte vertical.
 
 
  
             .col-md-6
+              <br><br>
+
               figure
                 img(src='@/assets/curso/tema1/img47.png', alt='Texto que describa la imagen')
   
           .row
             .col-md-6.mb-4.mb-md-0.xx
-              <br><br>
-              p <strong>En estanterías </strong>
-              p.mb-0 - A lmacenaje de unidades lista para posterior uso.
-              p.mb-0 - Los pasillos se deben adaptar a la maquinaria utilizada.
-              p.mb-0 - Ancho estandarizado de acuerdo con medidas de pallets.
-              p.mb-0 - Estanterías compacta, dinámica, rack para picking, estantería para bidones y ruedas
+              <br><br><br><br>
+              p.margl <strong>En estanterías </strong>
+              p.mb-0.margl - A lmacenaje de unidades lista para posterior uso.
+              p.mb-0.margl - Los pasillos se deben adaptar a la maquinaria utilizada.
+              p.mb-0.margl - Ancho estandarizado de acuerdo con medidas de pallets.
+              p.mb-0.margl - Estanterías compacta, dinámica, rack para picking, estantería para bidones y ruedas
 
 
  
             .col-md-6
+              <br><br>
+
               figure
                 img(src='@/assets/curso/tema1/img48.png', alt='Texto que describa la imagen')
   
           .row
             .col-md-6.mb-4.mb-md-0.xx
-              <br><br>
-              p <strong>Estanterías Cantilever </strong>
-              p.mb-0 - Almacenaje de unidades de gran longitud.
-              p.mb-0 - Estructura vertical fijada al suelo, con ganchos o agarres para colocar los productos, como perfiles metálicos (en forma de U o T).
+              <br><br><br><br>
+              p.margl <strong>Estanterías Cantilever </strong>
+              p.mb-0.margl - Almacenaje de unidades de gran longitud.
+              p.mb-0.margl - Estructura vertical fijada al suelo, con ganchos o agarres para colocar los productos, como perfiles metálicos (en forma de U o T).
 
 
  
             .col-md-6
+              <br><br>
+
               figure
                 img(src='@/assets/curso/tema1/img49.png', alt='Texto que describa la imagen')
   
           .row
             .col-md-6.mb-4.mb-md-0.xx
-              <br><br>
-              p <strong>Armarios </strong>
-              p.mb-0 - Especie de mueble tipo closet para almacenar mercancías pequeñas.
-              p.mb-0 - Ofrecen seguridad, pues se puede almacenar bajo llave.
-              p.mb-0 - Existen estructuras con vidrios de seguridad para exhibir los productos (tipo vitrina).
+              <br><br><br><br>
+              p.margl <strong>Armarios </strong>
+              p.mb-0.margl - Especie de mueble tipo closet para almacenar mercancías pequeñas.
+              p.mb-0.margl - Ofrecen seguridad, pues se puede almacenar bajo llave.
+              p.mb-0.margl - Existen estructuras con vidrios de seguridad para exhibir los productos (tipo vitrina).
 
  
             .col-md-6
+              <br><br>
+
               figure
                 img(src='@/assets/curso/tema1/img50.png', alt='Texto que describa la imagen')
   
           .row
             .col-md-6.mb-4.mb-md-0.xx
-              <br><br>
-              p <strong>Dispensadores </strong>
-              p.mb-0 - Tolvas o depósitos verticales, opera como   dosificador y deja caer por gravedad la cantidad necesaria.
-              p.mb-0 - El producto lo recibe una banda transportadora que lleva el producto.
-              p.mb-0 - Muy utilizado en la industria farmacéutica.
+              <br><br><br><br>
+              p.margl <strong>Dispensadores </strong>
+              p.mb-0.margl - Tolvas o depósitos verticales, opera como   dosificador y deja caer por gravedad la cantidad necesaria.
+              p.mb-0.margl - El producto lo recibe una banda transportadora que lleva el producto.
+              p.mb-0.margl - Muy utilizado en la industria farmacéutica.
 
 
  
             .col-md-6
+              <br><br>
+
               figure
                 img(src='@/assets/curso/tema1/img51.png', alt='Texto que describa la imagen')
   
           .row
             .col-md-6.mb-4.mb-md-0.xx
-              <br><br>
-              p <strong>Autoportantes </strong>
-              p.mb-0 - Integración de la propia estructura del edificio al almacenamiento.
-              p.mb-0 - Soportan cargas almacenadas hasta 35 m de altura.
-              p.mb-0 - Utilización principalmente por almacenes automatizados.
-              p.mb-0 - Nivel de codificación e información debe ser elevado.
+              <br><br><br><br>
+              p.margl <strong>Autoportantes </strong>
+              p.mb-0.margl - Integración de la propia estructura del edificio al almacenamiento.
+              p.mb-0.margl - Soportan cargas almacenadas hasta 35 m de altura.
+              p.mb-0.margl - Utilización principalmente por almacenes automatizados.
+              p.mb-0.margl - Nivel de codificación e información debe ser elevado.
 
 
 
  
             .col-md-6
+              <br><br>
+
               figure
                 img(src='@/assets/curso/tema1/img52.png', alt='Texto que describa la imagen')
   
           .row
             .col-md-6.mb-4.mb-md-0.xx
-              <br><br>
-              p <strong>Carruseles </strong>
-              p.mb-0 - Almacenamiento vertical (automatizado).  Desplazamiento de la carga hacia el manipulador.
-              p.mb-0 - Estanterías en serie para almacenar piezas pequeñas; giran automáticamente de manera horizontal.
-              p.mb-0 - Producto controlado por el software de gestión y control de almacén.
+              <br><br><br><br>
+              p.margl <strong>Carruseles </strong>
+              p.mb-0.margl - Almacenamiento vertical (automatizado).  Desplazamiento de la carga hacia el manipulador.
+              p.mb-0.margl - Estanterías en serie para almacenar piezas pequeñas; giran automáticamente de manera horizontal.
+              p.mb-0.margl - Producto controlado por el software de gestión y control de almacén.
 
  
             .col-md-6
+              <br><br>
               figure
                 img(src='@/assets/curso/tema1/img53.png', alt='Texto que describa la imagen')
   
