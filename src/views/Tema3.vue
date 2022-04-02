@@ -111,11 +111,12 @@
                 |, de la colección 
                 span.etiqueta2 2020
                 |, subfamilia 
-                span.etiqueta2 34 (talla M) 
+                span.etiqueta2 34 
+                | (talla M) 
                 | Código: 
-                span.etiqueta3 20
-                span.etiqueta2 34
-                span.etiqueta1 56789
+                span.etiqueta3 <strong>20</strong>
+                span.etiqueta2 <strong>34</strong>
+                span.etiqueta1 <strong>56789</strong>
     h5 Ejemplo etiqueta inteligente para el producto
     .row.justify-content-center
       .col-lg-3.mt-4

@@ -40,6 +40,7 @@
             img(src='@/assets/curso/tema4/ico3.svg' alt='AvatarTop')
         h2.text-center IATA
         p.text-center (International Air Transport Association): Ente regulador de los contenedores utilizados en transporte aéreo; los contenedores deben adaptarse a las medidas de los aviones.
+        <br>
     separador
     #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1. Generalidades

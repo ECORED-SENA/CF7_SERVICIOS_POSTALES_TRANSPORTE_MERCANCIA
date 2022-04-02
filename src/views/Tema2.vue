@@ -262,7 +262,25 @@
     h5.mt-4 Fuentes para el suministro de información
     .row.mt-4
       .col-lg-12
-        img(src='@/assets/curso/tema2/img15.svg', alt='Texto que describa la imagen')
+        ImagenInfografica.color-primario.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema2/img18.svg', alt='Texto que describa la imagen')
+
+          .tarjeta.color-secundario.p-3(x="8.5%" y="38%" numero="")
+            p.text-white Alertas de desabastecimiento dentro de la distribución.
+          .tarjeta.color-secundario.p-3(x="37%" y="11.8%" numero="")
+            p.text-white Comportamiento de los usuarios con los registros en sitios web. 
+          .tarjeta.color-secundario.p-3(x="30.5%" y="63%" numero="")
+            p.text-white Reportes del área de transporte con el apoyo de sensores y tecnologías GPS.
+          .tarjeta.color-secundario.p-3(x="46%" y="41%" numero="")
+            p.text-white Flujos de distribución y rutas de transporte.
+          .tarjeta.color-secundario.p-3(x="70%" y="18%" numero="")
+            p.text-white Proyecciones contables.
+          .tarjeta.color-secundario.p-3(x="70%" y="80%" numero="")
+            p.text-white Programación mantenimiento preventivo de equipos y herramientas.
+          .tarjeta.color-secundario.p-3(x="89%" y="61%" numero="")
+            p.text-white Control de inventarios.
     .row.justify-content-center
       .col-lg-10
         .tarjeta.p-4.p-md-5.mb-5.mt-4.bg560

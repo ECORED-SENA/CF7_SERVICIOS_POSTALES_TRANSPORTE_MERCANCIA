@@ -188,17 +188,17 @@ export default {
         'Conjunto de mercancías que son objeto de una operación de transporte desde un puerto, aeropuerto, terminal terrestre o lugar de entrega, con destino a otro puerto, aeropuerto, terminal o lugar de destino, amparadas en un documento de transporte.        ',
     },
     {
-      termino: 'Carga consolidada      ',
+      termino: 'Carga consolidada',
       significado:
         'Agrupamiento de mercancías pertenecientes a uno o varios destinatarios, reunidas para ser transportadas de un puerto, aeropuerto o terminal terrestre, con destino a otro puerto, aeropuerto o terminal terrestre, en unidades de carga amparadas por un único documento de transporte.        ',
     },
     {
-      termino: 'Código de barras      ',
+      termino: 'Código de barras',
       significado:
         'Código basado en la representación de un conjunto de líneas paralelas de distinto grosor y espaciado que, en su conjunto, contienen una determinada información.        ',
     },
     {
-      termino: 'Consolidación      ',
+      termino: 'Consolidación',
       significado:
         'Agrupación de mercancías procedentes de diferentes zonas de picking en envíos más pequeños. Permite un ahorro en costos de transporte.        ',
     },
@@ -213,7 +213,7 @@ export default {
         'Persona natural o jurídica que recibe las mercancías o a quien se haya endosado en propiedad el documento transporte, y que, por las condiciones del contrato de transporte, puede no ser el mismo consignatario.        ',
     },
     {
-      termino: 'Dispositivo de seguridad      ',
+      termino: 'Dispositivo de seguridad',
       significado:
         'Es un elemento, aparato o equipo utilizado o exigido por la autoridad aduanera para garantizar el control, que se coloca en mercancías, unidades carga, medios de transporte o medios de prueba, tales como precintos, dispositivos electrónicos de seguridad, candados, cintas.        ',
     },
@@ -223,7 +223,7 @@ export default {
         'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
     },
     {
-      termino: 'Dispositivo electrónico de seguridad      ',
+      termino: 'Dispositivo electrónico de seguridad',
       significado:
         'Es un equipo electrónico exigido por la administración aduanera, que se coloca en mercancías, en unidades carga o en los medios de transporte, para asegurar la integridad de la carga, mediante el registro de todos los cierres y aperturas y para transmitir el posicionamiento de los mismos, permitiendo un monitoreo las veinticuatro (24) horas del día, en tiempo real y con memoria de eventos.        ',
     },
@@ -238,17 +238,17 @@ export default {
         'Mercancía sin envase o embalaje, como semillas y minerales.        ',
     },
     {
-      termino: 'Logística      ',
+      termino: 'Logística',
       significado:
         'Conjunto de actividades necesarias para prestar un servicio, desde la compra, empaquetado, transporte, envío, hasta la entrega de un producto al cliente final.  Cómo se lleva de la manera más eficiente y eficaz la mercancía a los clientes.          ',
     },
     {
-      termino: 'Tráfico postal      ',
+      termino: 'Tráfico postal',
       significado:
         'Son todos los envíos de objetos postales que llegan o salen del territorio aduanero nacional por la red del operador postal oficial, en interconexión con la red de operadores designados de los países miembros de la Unión Postal Universal y/o con operadores privados de transporte en los países que se requiera, por necesidades del servicio.        ',
     },
     {
-      termino: 'Unidad de carga      ',
+      termino: 'Unidad de carga',
       significado:
         'Conjunto de productos que se juntan en un mismo embalaje, con la finalidad de llevarlos agrupados; su agrupación dependerá de su tamaño y características. El objetivo de la agrupación es reducir el número de movimientos al mínimo que sea posible, porque el manejo de grandes cargas facilita el transporte y el almacenamiento.        ',
     },

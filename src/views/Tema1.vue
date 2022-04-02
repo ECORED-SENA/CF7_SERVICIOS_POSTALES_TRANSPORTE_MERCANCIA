@@ -54,7 +54,7 @@
         .row.justify-content-center(titulo="")
           .col-md-5.mb-4.mb-md-0
             <br><br>
-            p <strong>Cross docking</strong>
+            p.it <strong>Cross docking</strong>
             p O cruce de muelle, es una operación que busca mejorar la eficiencia en la cadena de suministro, disminuyendo o volviendo nulo el tiempo de almacenamiento.
           .col-md-1
           .col-md-5
@@ -86,7 +86,7 @@
             .col-md.col-lg-7.p-4
               <br>
               p.mb-4 <strong>Si es de su interés ampliar la información sobre la secuencia de actividades diarias, se invita a descargar el siguiente archivo PDF. </strong> 
-              a.boton.color-acento-botones.texto-blanco.mt-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones.texto-blanco.mt-4(:href="obtenerLink('/downloads/8_beneficios_de_Sistema_de_seguimiento.pdf')" target="_blank" type="application/pdf")
                 span Descargar
                 i.fas.fa-link
               <br><br><br><br>
@@ -376,8 +376,12 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img16.png')})`}"
           )
           .bloque-texto-g__texto.p-4.ax
-            p <strong>Según norma técnica NTC 44680/2013</strong><br><br>
-            p En Colombia, se encuentran estandarizadas las dimensiones de los pallets, cuyo objetivo está enmarcado en “Estiba intercambiable de madera, utilizable por una vez, en la cadena de valor”, donde se establece que las medidas para la estiba o pallet son: largo 120 cm, ancho 100 cm y altura 15,5 cm.
+            p.pax <strong>Según norma técnica NTC 44680/2013</strong><br><br>
+            p.pax En Colombia, se encuentran estandarizadas las dimensiones de los 
+            p.pax pallets, cuyo objetivo está enmarcado en “Estiba intercambiable de 
+            p.pax madera, utilizable por una vez, en la cadena de valor”, donde se<br>
+            p.pax establece que las medidas para la estiba o pallet son: largo 120 cm,<br> 
+            p.pax ancho 100 cm y altura 15,5 cm.
     .row.justify-content-center.mt-4
       .col-lg-10.mt-4
         .tarjeta.color-secundario.p-4.p-md-5.mb-5.mt-4.bg22
@@ -506,7 +510,7 @@
     
     .row.justify-content-center
       .col-lg-10
-        .tarjeta.color-secundario.p-4.p-md-5.mb-5.mt-4.bg44
+        .tarjeta.p-4.p-md-5.mb-5.mt-4.bg44
           .row.justify-content-around.align-items-center
             .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
             .col-md.col-lg-7.p-2
@@ -566,7 +570,7 @@
               p.mb-0.margl - Aplica para embalajes de base irregular.
               p.mb-0.margl - Transporte a granel.
               p.margl - Adecuada para trayectos largos, con curvas y diferentes niveles.    
-            .col-md-6
+            .col-md-5
               <br><br>
               figure
                 img(src='@/assets/curso/tema1/img33.png', alt='Texto que describa la imagen')
@@ -578,47 +582,47 @@
               p.mb-0.margl - Opera en función del tipo de mercancía.
               p.mb-0.margl - Los productos se desplazan como consecuencia de la gravedad.
 
-            .col-md-6
+            .col-md-5
               <br><br>            
               figure
                 img(src='@/assets/curso/tema1/img34.png', alt='Texto que describa la imagen')
           .row
             .col-md-6.mb-4.mb-md-0.xx
               <br><br><br><br>
-              p <strong>Vehículo que comunica varias áreas del almacén </strong>
+              p.margl <strong>Vehículo que comunica varias áreas del almacén </strong>
               p.mb-0.margl - Desplazamiento a altas velocidades
               p.mb-0.margl -Movimientos en línea recta
               p.mb-0.margl - Opera con un sistema neumático
               p.mb-0.margl - Precisión en la ubicación de carga
               p.mb-0.margl - Requiere uso de telémetros (láser)
  
-            .col-md-6
+            .col-md-5
               <br><br>
               figure
                 img(src='@/assets/curso/tema1/img35.png', alt='Texto que describa la imagen')
           .row
             .col-md-6.mb-4.mb-md-0.xx
               <br><br><br><br>
-              p <strong>Equipo de transporte fijo al techo </strong>
+              p.margl <strong>Equipo de transporte fijo al techo </strong>
               p.mb-0.margl - Permite transporte de mercancía dentro del almacén a diferentes zonas
               p.mb-0.margl - Mantiene despejado el suelo
               p.mb-0.margl - Requiere techos muy altos en el almacén
               p.mb-0.margl - Uso principal en el sector automotriz
  
-            .col-md-6
+            .col-md-5
               <br><br>
               figure
                 img(src='@/assets/curso/tema1/img36.png', alt='Texto que describa la imagen')
           .row
             .col-md-6.mb-4.mb-md-0.xx
               <br><br><br><br>
-              p <strong>Equipo  con desplazamiento  por pasillos estrechos a velocidad alta </strong>
+              p.margl <strong>Equipo  con desplazamiento  por pasillos estrechos a velocidad alta </strong>
               p.mb-0.margl - Diseñados especialmente para almacenes automatizados
               p.mb-0.margl - Operan con dos movimientos: longitudinal sobre rail y vertical para extraer o colocar pallets
               p.mb-0.margl - Desarrollan tareas de picking a gran altura
 
  
-            .col-md-6
+            .col-md-5
               <br><br>
               figure
                 img(src='@/assets/curso/tema1/img37.png', alt='Texto que describa la imagen')      
@@ -635,7 +639,7 @@
               p.mb-0.margl - Transportan la carga a distancias cortas
               p.mb-0.margl - Levantan distancias muy cortas del suelo
               p.margl - Apoyan actividades del muelle  
-            .col-md-6
+            .col-md-5
               <br><br>
               figure
                 img(src='@/assets/curso/tema1/img38.png', alt='Texto que describa la imagen')
@@ -648,7 +652,7 @@
               p.mb-0.margl - Permite realizar trabajo de apilado
               p.mb-0.margl - Puede ser utilizado en recepción y expedición
               p.mb-0.margl - No se recomienda para cargas pesadas
-            .col-md-6
+            .col-md-5
               <br><br>
               figure
                 img(src='@/assets/curso/tema1/img39.png', alt='Texto que describa la imagen')
@@ -662,7 +666,7 @@
               p.mb-0.margl - Recorridos medios-largos
               p.mb-0.margl - Uso en ubicación y apilado de mercancía
  
-            .col-md-6
+            .col-md-5
               <br><br>
               figure
                 img(src='@/assets/curso/tema1/img40.png', alt='Texto que describa la imagen')
@@ -675,7 +679,7 @@
               p.mb-0.margl - Aplica diferentes técnicas de guía: hilo conductor a poca profundidad del suelo; uso banda magnética sobre el suelo
               p.mb-0.margl - Sigue un trayecto orientado por demarcación
  
-            .col-md-6
+            .col-md-5
               <br><br>
               figure
                 img(src='@/assets/curso/tema1/img41.png', alt='Texto que describa la imagen')
@@ -684,7 +688,7 @@
     p <strong>Estáticos:</strong>  Se utilizan para almacenar mercancía a granel, tienen un orificio de entrada y uno de salida.  Son muy utilizados para manejar semillas y minerales, pueden ser cilíndricos o poligonales. Los más comunes son los silos de almacenamiento.            
     .row.justify-content-center
       .col-lg-10
-        .tarjeta.color-primario.p-4.p-md-5.mb-5.mt-4.bg2
+        .tarjeta.p-4.p-md-5.mb-5.mt-4.bg2
           .row.justify-content-around.align-items-center
             .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
             .col-md.col-lg-7.p-4
@@ -737,7 +741,7 @@
               p.mb-0.margl - Organiza la mercancía en bloques homogéneos. 
               p.mb-0.margl - Puede ser al aire libre, no requiere estantes.
               p.mb-0.margl - Uso para mercancía que viene en grandes cantidades.
-            .col-md-6
+            .col-md-5
               figure
                 img(src='@/assets/curso/tema1/img42.png', alt='Texto que describa la imagen')
           .row
@@ -747,9 +751,9 @@
               p.mb-0.margl - Almacenamiento de productos combinando pallets y estantería.
               p.mb-0.margl - Requiere la utilización de un soporte intermedio para separar la - mercancía.
 
-              p.mb-0 - Se aprovecha el uso del espacio del almacén.
+              p.mb-0.margl - Se aprovecha el uso del espacio del almacén.
 
-            .col-md-6
+            .col-md-5
               <br><br>
 
               figure
@@ -763,7 +767,7 @@
               p.mb-0.margl Requiere poco mantenimiento, centrado en infraestructura y estanterías.
 
  
-            .col-md-6
+            .col-md-5
               <br><br>
 
               figure
@@ -777,7 +781,7 @@
               p.mb-0.margl - Óptimo aprovechamiento de la superficie.
 
  
-            .col-md-6
+            .col-md-5
               <br><br>
 
               figure
@@ -791,7 +795,7 @@
               p.mb-0.margl - Muy utilizado para almacenar mercancía pequeña y heterogénea, por ejemplo, documentos o libros.
 
  
-            .col-md-6
+            .col-md-5
               <br><br>
 
               figure
@@ -807,7 +811,7 @@
 
 
  
-            .col-md-6
+            .col-md-5
               <br><br>
 
               figure
@@ -824,7 +828,7 @@
 
 
  
-            .col-md-6
+            .col-md-5
               <br><br>
 
               figure
@@ -839,7 +843,7 @@
 
 
  
-            .col-md-6
+            .col-md-5
               <br><br>
 
               figure
@@ -854,7 +858,7 @@
               p.mb-0.margl - Existen estructuras con vidrios de seguridad para exhibir los productos (tipo vitrina).
 
  
-            .col-md-6
+            .col-md-5
               <br><br>
 
               figure
@@ -870,7 +874,7 @@
 
 
  
-            .col-md-6
+            .col-md-5
               <br><br>
 
               figure
@@ -888,7 +892,7 @@
 
 
  
-            .col-md-6
+            .col-md-5
               <br><br>
 
               figure
@@ -903,7 +907,7 @@
               p.mb-0.margl - Producto controlado por el software de gestión y control de almacén.
 
  
-            .col-md-6
+            .col-md-5
               <br><br>
               figure
                 img(src='@/assets/curso/tema1/img53.png', alt='Texto que describa la imagen')
