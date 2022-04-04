@@ -26,21 +26,26 @@
               p Dentro de las ventajas de transportar mercancía en contenedores están: facilitar el transporte de la carga, proteger la mercancía de daños y cambios climáticos, preservación de la mercancía almacenada, menos tráfico en los puertos, disminuir los costos aduaneros y el riesgo de saqueo.     
     p Para facilitar la organización de las embarcaciones a nivel mundial, aprovechar completamente los espacios en la embarcación y estandarizar las dimensiones, existen dos organismos encargados de la normalización:
     .row.mb-5.justify-content-center
-
-      .col-lg-3.fon33.p-4.hovver
-        .row.justify-content-center.mb-3
-          .col-6
-            img(src='@/assets/curso/tema4/ico2.svg' alt='AvatarTop')
-        h3.text-center ISO
-        p.text-center (International Organization for Standardization): Lidera la regulación a nivel internacional de los contenedores utilizados en transporte terrestre y fluvial.
-      .col-lg-1.zzz
-      .col-lg-3.fon33.p-4.hovver
-        .row.justify-content-center.mb-3
-          .col-6
-            img(src='@/assets/curso/tema4/ico3.svg' alt='AvatarTop')
-        h2.text-center IATA
-        p.text-center (International Air Transport Association): Ente regulador de los contenedores utilizados en transporte aéreo; los contenedores deben adaptarse a las medidas de los aviones.
-        <br>
+      .col-lg-6
+        .row
+          .col-lg-5
+          .col-lg-6.fon33.p-4.hovver
+            .row.justify-content-center.mb-4
+              
+              .col-7
+                img(src='@/assets/curso/tema4/ico2.svg' alt='AvatarTop')
+            h3.text-center ISO
+            p.text-center (International Organization for Standardization): Lidera la regulación a nivel internacional de los contenedores utilizados en transporte terrestre y fluvial.
+            <br>
+      .col-lg-6
+        .row
+          .col-lg-6.fon33.p-4.hovver
+            .row.justify-content-center.mb-3
+              .col-7
+                img(src='@/assets/curso/tema4/ico3.svg' alt='AvatarTop')
+            h2.text-center IATA
+            p.text-center (International Air Transport Association): Ente regulador de los contenedores utilizados en transporte aéreo; los contenedores deben adaptarse a las medidas de los aviones.
+          .col-lg-5
     separador
     #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1. Generalidades

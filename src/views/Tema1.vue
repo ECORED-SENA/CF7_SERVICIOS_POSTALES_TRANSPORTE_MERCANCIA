@@ -570,6 +570,7 @@
               p.mb-0.margl - Aplica para embalajes de base irregular.
               p.mb-0.margl - Transporte a granel.
               p.margl - Adecuada para trayectos largos, con curvas y diferentes niveles.    
+            .col-md-1.wax
             .col-md-5
               <br><br>
               figure
@@ -581,6 +582,7 @@
               p.mb-0.margl - Plataforma de rodillos, sobre rodamientos.
               p.mb-0.margl - Opera en función del tipo de mercancía.
               p.mb-0.margl - Los productos se desplazan como consecuencia de la gravedad.
+            .col-md-1.wax
 
             .col-md-5
               <br><br>            
@@ -595,7 +597,8 @@
               p.mb-0.margl - Opera con un sistema neumático
               p.mb-0.margl - Precisión en la ubicación de carga
               p.mb-0.margl - Requiere uso de telémetros (láser)
- 
+            .col-md-1.wax
+
             .col-md-5
               <br><br>
               figure
@@ -608,7 +611,8 @@
               p.mb-0.margl - Mantiene despejado el suelo
               p.mb-0.margl - Requiere techos muy altos en el almacén
               p.mb-0.margl - Uso principal en el sector automotriz
- 
+            .col-md-1.wax
+
             .col-md-5
               <br><br>
               figure
@@ -621,7 +625,8 @@
               p.mb-0.margl - Operan con dos movimientos: longitudinal sobre rail y vertical para extraer o colocar pallets
               p.mb-0.margl - Desarrollan tareas de picking a gran altura
 
- 
+            .col-md-1.wax
+
             .col-md-5
               <br><br>
               figure
@@ -639,6 +644,8 @@
               p.mb-0.margl - Transportan la carga a distancias cortas
               p.mb-0.margl - Levantan distancias muy cortas del suelo
               p.margl - Apoyan actividades del muelle  
+            .col-md-1.wax
+            
             .col-md-5
               <br><br>
               figure
@@ -652,6 +659,8 @@
               p.mb-0.margl - Permite realizar trabajo de apilado
               p.mb-0.margl - Puede ser utilizado en recepción y expedición
               p.mb-0.margl - No se recomienda para cargas pesadas
+            .col-md-1.wax
+            
             .col-md-5
               <br><br>
               figure
@@ -665,6 +674,7 @@
               p.mb-0.margl - Necesita pasillos para operar
               p.mb-0.margl - Recorridos medios-largos
               p.mb-0.margl - Uso en ubicación y apilado de mercancía
+            .col-md-1.wax
  
             .col-md-5
               <br><br>
@@ -678,6 +688,7 @@
               p.mb-0.margl - Ordenador que comunica con PC
               p.mb-0.margl - Aplica diferentes técnicas de guía: hilo conductor a poca profundidad del suelo; uso banda magnética sobre el suelo
               p.mb-0.margl - Sigue un trayecto orientado por demarcación
+            .col-md-1.wax
  
             .col-md-5
               <br><br>
@@ -741,6 +752,8 @@
               p.mb-0.margl - Organiza la mercancía en bloques homogéneos. 
               p.mb-0.margl - Puede ser al aire libre, no requiere estantes.
               p.mb-0.margl - Uso para mercancía que viene en grandes cantidades.
+            .col-md-1.wax
+            
             .col-md-5
               figure
                 img(src='@/assets/curso/tema1/img42.png', alt='Texto que describa la imagen')
@@ -752,6 +765,7 @@
               p.mb-0.margl - Requiere la utilización de un soporte intermedio para separar la - mercancía.
 
               p.mb-0.margl - Se aprovecha el uso del espacio del almacén.
+            .col-md-1.wax
 
             .col-md-5
               <br><br>
@@ -766,6 +780,7 @@
               p.mb-0.margl Permite ocupación de la superficie y del volumen del almacén.
               p.mb-0.margl Requiere poco mantenimiento, centrado en infraestructura y estanterías.
 
+            .col-md-1.wax
  
             .col-md-5
               <br><br>
@@ -780,6 +795,7 @@
               p.mb-0.margl - Se compone de estanterías metálicas, que forman caminos con   rodillos (inclinada o de forma horizontal).
               p.mb-0.margl - Óptimo aprovechamiento de la superficie.
 
+            .col-md-1.wax
  
             .col-md-5
               <br><br>
@@ -794,6 +810,7 @@
               p.mb-0.margl - El desplazamiento se realiza en función del pasillo principal y sobre el cual se requiera acceder.
               p.mb-0.margl - Muy utilizado para almacenar mercancía pequeña y heterogénea, por ejemplo, documentos o libros.
 
+            .col-md-1.wax
  
             .col-md-5
               <br><br>
@@ -810,6 +827,7 @@
               p.mb-0.margl - Un elevador se encarga del transporte vertical.
 
 
+            .col-md-1.wax
  
             .col-md-5
               <br><br>
@@ -827,6 +845,7 @@
               p.mb-0.margl - Estanterías compacta, dinámica, rack para picking, estantería para bidones y ruedas
 
 
+            .col-md-1.wax
  
             .col-md-5
               <br><br>
@@ -842,6 +861,7 @@
               p.mb-0.margl - Estructura vertical fijada al suelo, con ganchos o agarres para colocar los productos, como perfiles metálicos (en forma de U o T).
 
 
+            .col-md-1.wax
  
             .col-md-5
               <br><br>
@@ -857,6 +877,7 @@
               p.mb-0.margl - Ofrecen seguridad, pues se puede almacenar bajo llave.
               p.mb-0.margl - Existen estructuras con vidrios de seguridad para exhibir los productos (tipo vitrina).
 
+            .col-md-1.wax
  
             .col-md-5
               <br><br>
@@ -873,6 +894,7 @@
               p.mb-0.margl - Muy utilizado en la industria farmacéutica.
 
 
+            .col-md-1.wax
  
             .col-md-5
               <br><br>
@@ -891,6 +913,7 @@
 
 
 
+            .col-md-1.wax
  
             .col-md-5
               <br><br>
@@ -906,6 +929,7 @@
               p.mb-0.margl - Estanterías en serie para almacenar piezas pequeñas; giran automáticamente de manera horizontal.
               p.mb-0.margl - Producto controlado por el software de gestión y control de almacén.
 
+            .col-md-1.wax
  
             .col-md-5
               <br><br>
