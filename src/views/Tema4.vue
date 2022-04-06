@@ -77,9 +77,9 @@
         img(src='@/assets/curso/tema4/img3.svg', alt='Texto que describa la imagen')
     <br>
     p A continuación, la descripción de algunos de ellos:
-    .titulo-sexto.color-acento-contenido.mt-4
+    .titulo-sexto.color-acento-contenido.mt-4.mb-0
       h5 Tabla 9
-      span Tipo de contenedor y sus características
+    P.it.maxx Tipo de contenedor y sus características
 
     .tabla-a.color-primario.mb-5 
       table
@@ -224,9 +224,9 @@
             p.mb-1 - Después de ser instalado, se debe consignar el registro por la persona responsable (control de riesgos).
     <br><br>
     p Existen principalmente sellos plásticos o metálicos para contenedores, se describen a continuación:
-    .titulo-sexto.color-acento-contenido.mt-4
+    .titulo-sexto.color-acento-contenido.mt-4.mb-0
       h5 Tabla 10
-      span Tipos de sellos de seguridad en contenedores
+    p.maxx.it Tipos de sellos de seguridad en contenedores
 
     .tabla-a.color-primario.mb-5 
       table
@@ -272,6 +272,8 @@
               <br><br>                
             .col-8.col-sm-6.col-md-4.mb-4.mb-md-0     
     separador 
+    #t_3_3.titulo-segundo.color-acento-contenido
+      h2 3.3. Tecnologías de rastreo 
     p.mb-0 <strong>Figura 18</strong>
     p.it Contenedores de dos puertas con barras de bloqueo  
     .row.justify-content-center

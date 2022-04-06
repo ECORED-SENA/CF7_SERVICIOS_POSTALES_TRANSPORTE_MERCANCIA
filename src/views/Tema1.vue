@@ -153,12 +153,12 @@
       .col-lg-8.bg3
         <br><br><br><br>
         p.mt-4 Los centros de despacho deben asegurar una correcta manipulación y ubicación de la mercancía, para lo cual se requiere conocer características como: dimensiones, forma, volumen, peso, ubicación, fragilidad, propiedades, estado físico y nivel de rotación.  Estas características permiten clasificarla e identificar los equipos necesarios para las actividades de recepción, manipulación, ubicación y almacenamiento, las cuales se describen a continuación:
-    .titulo-sexto.color-secundario.mt-4
+    .titulo-sexto.color-secundario.mt-4.mb-0
       h5 Tabla 1
-      span Clasificación de las mercancías según características
+    P.it.maxx Clasificación de las mercancías según características
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
-        h5.mb-0.text-white SEGÚN VOLUMEN O DIMENSIONES
+        h5.mb-0.text-white.text-center SEGÚN VOLUMEN O DIMENSIONES
       table
         tr
           th.bgsa <strong>Característica</strong>
@@ -183,7 +183,7 @@
           td Mercancía sobre paletas, con peso recomendado máximo de 1.000 kg
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
-        h5.mb-0.text-white SEGÚN EL PESO
+        h5.mb-0.text-white.text-center  SEGÚN EL PESO
       table
         tr
           th.bgsa <strong>Característica</strong>
@@ -202,7 +202,7 @@
           td Mercancía que supere 1 tonelada
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
-        h5.mb-0.text-white SEGÚN UBICACIÓN
+        h5.mb-0.text-white.text-center  SEGÚN UBICACIÓN
       table
         tr
           th.bgsa <strong>Característica</strong>
@@ -215,7 +215,7 @@
           td Se pueden apilar, con algunas limitaciones.
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
-        h5.mb-0.text-white SEGÚN FRAGILIDAD
+        h5.mb-0.text-white.text-center  SEGÚN FRAGILIDAD
       table
         tr
           th.bgsa <strong>Característica</strong>
@@ -231,7 +231,7 @@
           td No pueden soportar peso encima, se deben organizar individualmente.      
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
-        h5.mb-0.text-white SEGÚN PROPIEDADES
+        h5.mb-0.text-white.text-center  SEGÚN PROPIEDADES
       table
         tr
           th.bgsa <strong>Característica</strong>
@@ -244,7 +244,7 @@
           td Por lo regular, llevan una fecha de vencimiento; al momento de despachar las mercancías, deben salir primero las más antiguas. Ocurre en el caso de alimentos y medicinas.
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
-        h5.mb-0.text-white SEGÚN ESTADO FÍSICO
+        h5.mb-0.text-white.text-center  SEGÚN ESTADO FÍSICO
       table
         tr
           th.bgsa <strong>Característica</strong>
@@ -260,7 +260,7 @@
           td Al igual que el estado líquido, se requiere identificar la composición química y reactividad con otros productos.                
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
-        h5.mb-0.text-white SEGÚN ROTACIÓN
+        h5.mb-0.text-white.text-center  SEGÚN ROTACIÓN
       table
         tr
           th.bgsa <strong>Característica</strong>
@@ -482,9 +482,9 @@
         p.mt-4 La función principal del agente de carga es ayudar a resolver inconvenientes logísticos y de transporte que se lleguen a presentar, tanto para el importador como para el exportador, bien sea en la consolidación o desconsolidación de la carga; presta asistencia técnica en temas fiscales y aduaneros, aseguramiento y recolección de productos, e incluso hace seguimiento al tema documental.  En caso de que el contenedor llegue por vía marítima, el agente de carga debe emitir el <strong>“Conocimiento de embarque”</strong> y, en caso aéreo, la <strong>“Guía aérea”</Strong>.
       .col-lg-5
         img(src='@/assets/curso/tema1/img27.png', alt='Texto que describa la imagen')
-    .titulo-sexto.color-secundario.mt-4
+    .titulo-sexto.color-secundario.mt-4.mb-0
       h5 Tabla 3
-      span Características de documentos requeridos en la desconsolidación
+    p.it.maxx Características de documentos requeridos en la desconsolidación
     .tabla-a.color-primario.mb-5 
       table
         thead
@@ -533,7 +533,7 @@
               <br>
               p Si es de su interés ampliar la información sobre:
               p.mb-4 La regulación aduanera en Colombia, puede ir al material de apoyo y descargar el pdf <strong>3_ Decreto 390 de 2016 Regulación aduanera.pdf</strong> 
-              a.boton.color-acento-botones.texto-blanco.mt-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('https://www.mincit.gov.co/ministerio/normograma-sig/procesos-de-apoyo/gestion-juridica/decretos/decreto-390-de-2016.aspx')" target="_blank" type="application/pdf")
                 span Descargar
                 i.fas.fa-download
               <br><br><br><br>                  

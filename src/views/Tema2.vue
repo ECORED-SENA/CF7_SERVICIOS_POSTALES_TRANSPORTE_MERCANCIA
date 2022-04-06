@@ -147,7 +147,7 @@
               <br><br><br>
               h5 Material de apoyo: 
               p.mb-4 Para ampliar la información, puede ingresar a Biblioteca virtual Sena:  Rubio, J. (2013). Gestión y pedido de stock. Ministerio de Educación y Formación Profesional de España. 
-              a.boton.color-acento-botones.texto-blanco.mt-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('https://books.google.com.pe/books?id=1C8bAgAAQBAJ&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false')" target="_blank" type="application/pdf")
                 span Ingresar
                 i.fas.fa-link
 
@@ -203,7 +203,7 @@
               p <strong>Material de apoyo:</strong> 
               p.mb-4 Para ampliar la información, puede ingresar a Biblioteca virtual Sena:Flamarique (2017)
  
-              a.boton.color-acento-botones.texto-blanco.mt-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_elibroELB43773&context=L&vid=SENA&lang=es_ES&search_scope=sena_completo&adaptor=Local%20Search%20Engine&tab=sena_completo&query=any,contains,flamarique&mode=Basic')" target="_blank" type="application/pdf")
                 span Descargar
                 i.fas.fa-download
               <br><br>                
@@ -294,7 +294,7 @@
                   p.mb-0 Peña, C. y Hernández, E. (2018). Cadena de suministro 4.0: beneficios y retos de las tecnologías disruptivas. Marge Books.  
                 .col-lg-2  
                   <br><br>
-                  a.boton.color-acento-botones.texto-blanco.mt-2(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                  a.boton.color-acento-botones.texto-blanco.mt-2(:href="('https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=TN_cdi_gale_infotracacademiconefile_A535678890&context=PC&vid=SENA&lang=es_ES&search_scope=sena_completo&adaptor=primo_central_multiple_fe&tab=sena_completo&query=any,contains,Pe%C3%B1a,%20C.%20y%20Hern%C3%A1ndez,%20E.%20(2018)&mode=Basic')" target="_blank" type="application/pdf")
                     span ingresar
                     i.fas.fa-link   
               .row

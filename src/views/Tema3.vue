@@ -225,9 +225,9 @@
               img(src='@/assets/curso/tema3/img17.svg', alt='Texto que describa la imagen')
     p.mt-4 Las cargas se pueden clasificar de acuerdo con los siguientes criterios:
     <br>
-    .titulo-sexto.color-acento-contenido.mt-4
+    .titulo-sexto.color-acento-contenido.mt-4.mb-0
       h5 Tabla 8
-      span Clasificación de las cargas
+    p.it.maxx Clasificación de las cargas
     img(src='@/assets/curso/tema4/img25.svg', alt='Texto que describa la imagen')
 
     p.mt-4 <strong>Nota fuente:</strong>
@@ -277,7 +277,7 @@
               h5 Material de apoyo
 
               p.mb-4 Si es de su interés ampliar la información sobre ubicación de la mercancía y el almacenamiento dentro del almacén, visite la url: 
-              a.boton.color-acento-botones.texto-blanco.mt-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('http://virtualnet2.umb.edu.co/virtualnet/archivos/open.php/698/mod1/pdf/ModuloUno_AlmaMerca.pdf')" target="_blank" type="application/pdf")
                 span Ingresar
                 i.fas.fa-link
               <br><br><br><br>
