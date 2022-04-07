@@ -303,7 +303,7 @@
                   p Cómo crear una base de datos en Excel.   
                 .col-lg-2
                   <br>
-                  a.boton.color-acento-botones.texto-blanco.mt-2(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                  a.boton.color-acento-botones.texto-blanco.mt-2(:href="('https://www.youtube.com/embed/E5T072rTNVA')" target="_blank" type="application/pdf")
                     span ingresar
                     i.fas.fa-link
     h5 Registros generados en el proceso de expedición de pedidos
