@@ -23,7 +23,8 @@
           .col-md-3.mb-4.mb-md-0
             p.mb-0 Al momento de llegar la mercancía al almacén, se realiza una verificación sobre el tipo de ingreso, según las siguientes características: 
             p ingreso de mercancía al almacén, salida de mercancía del almacén, traspasos de mercancía y recontrol.
-            p Durante el ingreso de la mercancía, se desarrollan otros procesos más pequeños, como: a) Planear la entrada, para lo cual se debe tener claro y por escrito la programación del día, la semana o el periodo, y así poder organizar los recursos necesarios (personal, equipos y muelle, donde aplique). b) Verificación inicial, el registro de entrada debe coincidir con la información que refleja el software.
+            p Durante el ingreso de la mercancía, se desarrollan otros procesos más pequeños, como: a) Planear la entrada, para lo cual se debe tener claro y por escrito la programación del día, la semana o el periodo, y así poder organizar los recursos necesarios (personal, equipos y muelle, donde aplique). b) Verificación inicial, el registro de entrada debe coincidir con la información que refleja el 
+              span.it software.
           .col-md-7
               img(src='@/assets/curso/tema1/img2.svg', alt='Texto que describa la imagen')
 
@@ -86,7 +87,7 @@
             .col-md.col-lg-7.p-4
               <br>
               p.mb-4 <strong>Si es de su interés ampliar la información sobre la secuencia de actividades diarias, se invita a descargar el siguiente archivo PDF. </strong> 
-              a.boton.color-acento-botones.texto-blanco.mt-4(:href="obtenerLink('/downloads/8_beneficios_de_Sistema_de_seguimiento.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones.texto-blanco.mt-4(:href="obtenerLink('/downloads/9_Secuencia de actividades diarias.pdf')" target="_blank" type="application/pdf")
                 span Descargar
                 i.fas.fa-link
               <br><br><br><br>
@@ -102,7 +103,7 @@
             .tarjeta-flip__img.p-4.p-xl-5
               img.ps.mt-4(src='@/assets/curso/tema1/ico1.svg', alt='Texto que describa la imagen', width='75px')
               <br>
-              p.text-center.mt-4 <strong>Compatibilidad:</strong>            
+              p.text-center.mt-4 <strong>Compatibilidad</strong>            
             .tarjeta-flip__contenido.p-4.p-xl-5
               p <strong>Compatibilidad</strong>
               p La matriz de compatibilidad para sustancias químicas (la desarrolla el departamento de Seguridad y Salud en el Trabajo) indica qué productos pueden estar almacenados juntos o distantes.  Por ejemplo, no se pueden almacenar productos tóxicos con alimentos o fármacos.  
@@ -115,7 +116,7 @@
               <br>  
               img.ps.mt-3(src='@/assets/curso/tema1/ico2.svg', alt='Texto que describa la imagen', width='75px')
               <br><br>
-              p.text-center.mt-4 <strong>Complementariedad:</strong>            
+              p.text-center.mt-4 <strong>Complementariedad</strong>            
             .tarjeta-flip__contenido.p-4.p-xl-5
               p <strong>Complementariedad </strong>
               p Se podrán colocar cercanas las mercancías que, por lo regular, deben ir en el mismo pedido.  
@@ -128,7 +129,7 @@
               <br><br>
               img.ps.mt-2(src='@/assets/curso/tema1/ico3.svg', alt='Texto que describa la imagen', width='75px')
               <br>
-              p.text-center.mt-4 <strong>Tamaño y peso:</strong>            
+              p.text-center.mt-4 <strong>Tamaño y peso</strong>            
             .tarjeta-flip__contenido.p-4.p-xl-5
               p <strong>Tamaño y peso </strong>
               p En lo posible, aquellas mercancías de gran tamaño y volumen realizarán los menores desplazamientos.
@@ -142,7 +143,7 @@
               <br>  
               img.ps.mt-3(src='@/assets/curso/tema1/ico4.svg', alt='Texto que describa la imagen', width='75px')
               <br><br>
-              p.text-center.mt-4 <strong>Rotación:</strong>            
+              p.text-center.mt-4 <strong>Rotación</strong>            
             .tarjeta-flip__contenido.p-4.p-xl-5
               p <strong>Rotación</strong>
               p Cerca de la zona de expedición, se ubicarán los productos de mayor rotación o actividad en el almacén.
@@ -154,11 +155,12 @@
         <br><br><br><br>
         p.mt-4 Los centros de despacho deben asegurar una correcta manipulación y ubicación de la mercancía, para lo cual se requiere conocer características como: dimensiones, forma, volumen, peso, ubicación, fragilidad, propiedades, estado físico y nivel de rotación.  Estas características permiten clasificarla e identificar los equipos necesarios para las actividades de recepción, manipulación, ubicación y almacenamiento, las cuales se describen a continuación:
     .titulo-sexto.color-secundario.mt-4.mb-0
-      h5 Tabla 1
-    P.it.maxx Clasificación de las mercancías según características
+      p <strong>Tabla 1</strong> 
+        span.maxx.it Clasificación de las mercancías según características
+    <br><br><br>
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
-        h5.mb-0.text-white.text-center SEGÚN VOLUMEN O DIMENSIONES
+        h5.mb-0.text-white.qqq SEGÚN VOLUMEN O DIMENSIONES
       table
         tr
           th.bgsa <strong>Característica</strong>
@@ -183,7 +185,7 @@
           td Mercancía sobre paletas, con peso recomendado máximo de 1.000 kg
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
-        h5.mb-0.text-white.text-center  SEGÚN EL PESO
+        h5.mb-0.text-white.qqq  SEGÚN EL PESO
       table
         tr
           th.bgsa <strong>Característica</strong>
@@ -202,26 +204,26 @@
           td Mercancía que supere 1 tonelada
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
-        h5.mb-0.text-white.text-center  SEGÚN UBICACIÓN
+        h5.mb-0.text-white.qqq  SEGÚN UBICACIÓN
       table
         tr
           th.bgsa <strong>Característica</strong>
           td <strong>Descripción</strong>
         tr
           th Sencillas
-          td Con dimensiones dentro del rango (normales), se pueden ubicar fácilmente en los estantes del almacén.  No pueden apilarse
+          td Con dimensiones dentro del rango (normales), se pueden ubicar fácilmente en los estantes del almacén.  No pueden apilarse.
         tr
           th.bgsa Apilables
           td Se pueden apilar, con algunas limitaciones.
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
-        h5.mb-0.text-white.text-center  SEGÚN FRAGILIDAD
+        h5.mb-0.text-white.qqq  SEGÚN FRAGILIDAD
       table
         tr
           th.bgsa <strong>Característica</strong>
           td <strong>Descripción</strong>
         tr
-          th Ligera
+          th Ligeras
           td Pueden soportar peso encima con limitaciones. Por ejemplo, cajas de yogurt.
         tr
           th.bgsa Resistentes
@@ -231,7 +233,7 @@
           td No pueden soportar peso encima, se deben organizar individualmente.      
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
-        h5.mb-0.text-white.text-center  SEGÚN PROPIEDADES
+        h5.mb-0.text-white.qqq  SEGÚN PROPIEDADES
       table
         tr
           th.bgsa <strong>Característica</strong>
@@ -244,7 +246,7 @@
           td Por lo regular, llevan una fecha de vencimiento; al momento de despachar las mercancías, deben salir primero las más antiguas. Ocurre en el caso de alimentos y medicinas.
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
-        h5.mb-0.text-white.text-center  SEGÚN ESTADO FÍSICO
+        h5.mb-0.text-white.qqq  SEGÚN ESTADO FÍSICO
       table
         tr
           th.bgsa <strong>Característica</strong>
@@ -260,7 +262,7 @@
           td Al igual que el estado líquido, se requiere identificar la composición química y reactividad con otros productos.                
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
-        h5.mb-0.text-white.text-center  SEGÚN ROTACIÓN
+        h5.mb-0.text-white.qqq  SEGÚN ROTACIÓN
       table
         tr
           th.bgsa <strong>Característica</strong>
@@ -305,20 +307,23 @@
         p.mt-4 <strong>SEISO</strong> – Limpieza: identificar y eliminar las fuentes de suciedad, asegurando que siempre todo se encuentre en perfecto estado de higiene.
         p.mt-4 <strong>SEIKETSU</strong> – Estandarización: el objetivo es lograr distinguir una situación normal de otra anormal, mediante información sencilla, como etiquetas, avisos informativos o señalización; y así lograr un control visual a través de la información.
         p.mt-4 <strong>SHITSUKE</strong> –Disciplina: continuar y trabajar permanentemente aplicando las 4s anteriores en todos los sitios de trabajo, de acuerdo con las normas establecidas.
-        p.mt-4 Las tres primeras “S” están enfocadas al entorno físico, y las dos últimas se orientan al comportamiento de las personas
+        p.mt-4 Las tres primeras “S” están enfocadas al entorno físico, y las dos últimas se orientan al comportamiento de las personas.
       .row
         .col-lg-10
         .col-lg-2
           img.bb(src='@/assets/curso/tema1/ico6.svg', alt='Texto que describa la imagen')
     p <strong>Consolidación de mercancías</strong>
-    p.mb-0 <strong>Figura 1</strong>
-    p.it Tipos de consolidación
+    p.mb-0 <strong>Figura 1 </strong>
+      span.it Tipos de consolidación
+    <br><br>
     .row.justify-content-center
       .col-lg-5
         img(src='@/assets/curso/tema1/img10.svg', alt='Texto que describa la imagen')
       .col-lg-7.bg5.p-4
         <br><br><br>
-        p La consolidación consiste en agrupar o combinar las mercancías sueltas provenientes de las áreas de picking, líneas de pedido o destinos y así organizar un solo paquete, con el objetivo de economizar transporte y manipulación de las mismas.  Esta actividad es desarrollada en la zona de alistamiento (expedición), preferiblemente cerca del muelle, para optimizar los recursos disponibles; dicha agrupación consiste en colocar sobre una paleta varios paquetes pequeños, para facilitar la manipulación, almacenamiento y transporte; en ocasiones, depende del cliente y el destino para organizar la mercancía, como se presenta a continuación: 
+        p La consolidación consiste en agrupar o combinar las mercancías sueltas provenientes de las áreas de 
+          span.it picking, 
+          | líneas de pedido o destinos y así organizar un solo paquete, con el objetivo de economizar transporte y manipulación de las mismas.  Esta actividad es desarrollada en la zona de alistamiento (expedición), preferiblemente cerca del muelle, para optimizar los recursos disponibles; dicha agrupación consiste en colocar sobre una paleta varios paquetes pequeños, para facilitar la manipulación, almacenamiento y transporte; en ocasiones, depende del cliente y el destino para organizar la mercancía, como se presenta a continuación.
     <br><br>
     p.mt-4 Para realizar la consolidación de mercancías y objetos postales, se deben tener en cuenta las siguientes actividades:
     <br>
@@ -331,7 +336,9 @@
           .col-lg-5.p-4
             <br>
             h5 Paletizado
-            p Hace referencia a la forma de organizar las mercancías sobre un pallet (estiba) para almacenamiento y transporte, con la finalidad de tener uniformidad y facilitar la manipulación.  El paletizado podrá realizarse de forma manual o mecanizado, utilizando toda la superficie de la estiba.
+            p Hace referencia a la forma de organizar las mercancías sobre un 
+              span.it pallet 
+              | (estiba) para almacenamiento y transporte, con la finalidad de tener uniformidad y facilitar la manipulación.  El paletizado podrá realizarse de forma manual o mecanizado, utilizando toda la superficie de la estiba.
           .col-lg-5
             
             img(src='@/assets/curso/tema1/img12.png', alt='Texto que describa la imagen')
@@ -342,7 +349,9 @@
           .col-lg-5.p-4
             <br>
             h5 Retractilado
-            p Es el proceso de embalaje en el que una máquina retractiladora envuelve en una película plástica (papel termo film) las mercancías, para quedar adheridas al plástico, evitando así daños o suciedad; quedan pegadas al pallet y se facilita tanto la manipulación como el transporte.
+            p Es el proceso de embalaje en el que una máquina retractiladora envuelve en una película plástica (papel termo film) las mercancías, para quedar adheridas al plástico, evitando así daños o suciedad; quedan pegadas al 
+              span.it pallet 
+              | y se facilita tanto la manipulación como el transporte.
 
           .col-lg-5
             <br>
@@ -353,7 +362,7 @@
           .col-lg-5.p-4
             <br>
             h5 Flejado
-            p Es la forma de agrupar y asegurar las cajas, mercancías u objetos postales mediante unas tiras plásticas llamadas flejes, que aseguran el pedido que ya está retractilado para evitar la separación y asegurar mejor los productos, como se observa a continuación:
+            p Es la forma de agrupar y asegurar las cajas, mercancías u objetos postales mediante unas tiras plásticas llamadas flejes, que aseguran el pedido que ya está retractilado para evitar la separación y asegurar mejor los productos, como se observa a continuación.
           .col-lg-5
             img(src='@/assets/curso/tema1/img14.png', alt='Texto que describa la imagen')
             <br><br>
@@ -361,7 +370,9 @@
         .row.justify-content-center.bg6
           .col-lg-5.p-4
             <br>
-            h5 Pool de paletas
+            h5 
+              span.it Pool 
+              | de paletas
             p Aquellas empresas que reciben y expiden productos por grupos de paletas manejan inventario de paletas y no por productos. Paletizar quiere decir colocar cajas sobre la paleta, hasta completar la unidad de carga de forma uniforme, lo que permite reducir tiempos en los movimientos, optimizar el espacio del almacén y reducir el esfuerzo humano.
           .col-lg-5
             <br>
@@ -378,8 +389,8 @@
           .bloque-texto-g__texto.p-4.ax
             p.pax <strong>Según norma técnica NTC 44680/2013</strong><br><br>
             p.pax En Colombia, se encuentran estandarizadas las dimensiones de los 
-            p.pax pallets, cuyo objetivo está enmarcado en “Estiba intercambiable de 
-            p.pax madera, utilizable por una vez, en la cadena de valor”, donde se<br>
+            p.pax pallets, cuyo objetivo está enmarcado en <STRONG>“Estiba intercambiable de </STRONG> 
+            p.pax <STRONG>madera, utilizable por una vez, en la cadena de valor”</STRONG>, donde se<br>
             p.pax establece que las medidas para la estiba o pallet son: largo 120 cm,<br> 
             p.pax ancho 100 cm y altura 15,5 cm.
     .row.justify-content-center.mt-4
@@ -389,12 +400,17 @@
             .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
             .col-md.col-lg-7.p-5
               <br>
-              p.mb-4.text-white Si es de su interés ampliar la información sobre <strong>Entregas paletizadas y métodos de paletización,</strong>  revise la presentación que aparece en el siguiente enlace: 
+              p.mb-4.text-white.qqq Si es de su interés ampliar la información sobre <strong>Entregas paletizadas y métodos de paletización,</strong>  revise la presentación que aparece en el siguiente enlace: 
               a.boton.color-acento-botones.texto-blanco.mt-4(:href="('https://docplayer.es/3658902-Entregas-paletizadas.html')" target="_blank" type="application/pdf")
                 span Ingresar
                 i.fas.fa-link
               <br>
-    p Los pallets de madera son los más comunes, aunque existen de plástico y material reciclado. Los vehículos de transporte están diseñados para ubicar exactamente un número específico de estibas con las unidades de carga (aproximadamente 33 pallets) y así poder calcular el volumen a transportar. Sin embargo, antes de llevar la carga a los medios de transporte, se requiere consolidar o agrupar las cargas con la ayuda de herramientas y equipos como los que aparecen descritos a continuación:
+    p Los 
+      span.it pallets
+      |  de madera son los más comunes, aunque existen de plástico y material reciclado. Los vehículos de transporte están diseñados para ubicar exactamente un número específico de estibas con las unidades de carga (aproximadamente 33 
+      span.it pallets
+      |  ) y así poder calcular el volumen a transportar. Sin embargo, antes de llevar la carga a los medios de transporte, se requiere consolidar o agrupar las cargas con la ayuda de herramientas y equipos como los que aparecen descritos a continuación:
+    <br>
     #carouselExampleIndicators.carousel.slide(data-bs-ride='carousel')
       .carousel-indicators
         button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
@@ -417,7 +433,8 @@
 
             img.mt-2(src='@/assets/curso/tema1/img19.png', alt='Texto que describa la imagen')
         .carousel-item.bginfo
-          p.p-2 <strong>Selladoras Holt-Melt </strong>
+          p.p-2 <strong>Selladoras</strong> 
+            span.it <strong>Holt-Melt</strong>
           p.p-2 Adhesivo empleado para sellar cartón, plástico y otros materiales.
             img.mt-2(src='@/assets/curso/tema1/img20.png', alt='Texto que describa la imagen')
         .carousel-item.bginfo
@@ -441,7 +458,7 @@
       button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
         span.carousel-control-next-icon(aria-hidden='true')
         span.visually-hidden Next
-    
+    <br>
     p.mt-4 <strong>Desconsolidación de la mercancía</strong>
     p La desconsolidación hace referencia a desagrupar mercancías que previamente habían sido consolidadas y relacionadas en un mismo documento de envío, lo que indica que toda la mercancía que conforma el pedido debe ser entregada a diferentes clientes, según la carta individual de transporte y nota de entrega.  En otras palabras, consiste en subdividir un pedido grande en otros más pequeños; esta tarea debe desarrollarse en los centros de distribución que posean tecnologías para desconsolidar y trasladar mercancías a los diferentes destinatarios.
     
@@ -499,14 +516,16 @@
             td <strong>Conocimiento de embarque</strong>
             td Documento relacionado con el transporte marítimo de mercancía. Obligatorio para operaciones de importación y exportación.
             td Dejar constancia de que el buque de carga se hace cargo de la mercancía y la entrega en el puerto acordado.
-            td - Contrato de transporte en buques de carga <br>- Registra quién es el destinatario(s) <br>- Recibo que registra la cantidad y estado de la mercancía <br>- Debe registrar la información procesada en la fase de consolidación
-            td - Datos completos de quien envía y quien recibe <br>- Nombre y matrícula de los buques de carga <br>- Puerto de carga y descarga <br>- Descripción detallada de la mercancía <br>- Constancia del precio de la operación
+            td - Contrato de transporte en buques de carga <br>- Registra quién es el destinatario(s). <br>- Recibo que registra la cantidad y estado de la mercancía. <br>- Debe registrar la información procesada en la fase de consolidación.
+            td - Datos completos de quien envía y quien recibe. <br>- Nombre y matrícula de los buques de carga. <br>- Puerto de carga y descarga. <br>- Descripción detallada de la mercancía. <br>- Constancia del precio de la operación.
           tr
             td <strong>Guía aérea</strong>
-            td Documento que acredita el contrato de transporte internacional vía aérea
+            td Documento que acredita el contrato de transporte internacional vía aérea.
             td Dejar constancia de que el avión o aerolínea se hace cargo de la mercancía y conoce de la existencia de la misma.
-            td - Conocida como air waybill <br>- Sirve de recibo para el remitente <br>- El transportista se compromete a llevar la mercancía al aeropuerto acordado <br>- Lo emite la aerolínea o quien haya consolidado la mercancía <br>- El documento debe ser entregado en el país de destino (importador)
-            td - Datos completos del destinatario y de quien envía <br>- Número de vuelo <br>- Aeropuerto de salida y de llegada <br>_Valor del flete <br>- Reflejar la fecha de emisión y detalles de la carga <br>- Emisión de seis (6) copias para entregar, así: línea aérea, destinatario, expedidor, destinatario (firmada al momento de entregar la mercancía), aeropuerto de destino, agente aéreo
+            td - Conocida como 
+              span.it Air Waybill <br>
+              | - Sirve de recibo para el remitente <br>- El transportista se compromete a llevar la mercancía al aeropuerto acordado. <br>- Lo emite la aerolínea o quien haya consolidado la mercancía <br>- El documento debe ser entregado en el país de destino (importador)
+            td - Datos completos del destinatario y de quien envía. <br>- Número de vuelo. <br>- Aeropuerto de salida y de llegada. <br>- Valor del flete. <br>- Reflejar la fecha de emisión y detalles de la carga. <br>- Emisión de seis (6) copias para entregar, así: línea aérea, destinatario, expedidor, destinatario (firmada al momento de entregar la mercancía), aeropuerto de destino, agente aéreo.
     
     .row.justify-content-center
       .col-lg-10
@@ -543,7 +562,7 @@
       h2 1.3 Equipos de movimentación
     .row.justify-content-center
       .col-lg-8
-        p En la gestión del almacén, se requiere revisar qué medios o equipos de manipulación son necesarios para mover y trasladar mercancías dentro del almacén; mientras que los medios o equipos de almacenamiento hacen referencia a los estantes, cajas, armarios, suelos, silos, contenedores, etc., que sirven para guardar mercancías requeridas posteriormente.
+        p En la gestión del almacén, se requiere revisar qué medios o <STRONG>equipos de manipulación</STRONG> son necesarios para mover y trasladar mercancías dentro del almacén; mientras que los <STRONG>medios o equipos de almacenamiento</STRONG> hacen referencia a los estantes, cajas, armarios, suelos, silos, contenedores, etc., que <STRONG>sirven para guardar</STRONG> mercancías requeridas posteriormente.
         p Existe un gran número de equipos de almacenamiento, pues existen diversos tipos de mercancías, lo que requiere analizar y seleccionar los más adecuados para los productos.  Incluso, se puede solicitar asesoría con el proveedor sobre nuevas tecnologías, materiales o formas de almacenar.  De igual forma, en las actividades de manipulación de mercancías se pueden utilizar sistemas manuales o automatizados, lo cual requiere recursos humanos y materiales.
       .col-lg-4
         img(src='@/assets/curso/tema1/img30.png', alt='Texto que describa la imagen')
@@ -553,7 +572,7 @@
     p.it Clasificación equipos de manipulación y movimentación   
     .row.justify-content-center
       .col-lg-7
-        img(src='@/assets/curso/tema1/img31.png', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/tema1/img31.svg', alt='Texto que describa la imagen')
       .col-lg-5
         img(src='@/assets/curso/tema1/img32.png', alt='Texto que describa la imagen')
     <br> 
@@ -592,11 +611,12 @@
             .col-md-6.mb-4.mb-md-0.xx
               <br><br><br><br>
               p.margl <strong>Vehículo que comunica varias áreas del almacén </strong>
-              p.mb-0.margl - Desplazamiento a altas velocidades
-              p.mb-0.margl -Movimientos en línea recta
-              p.mb-0.margl - Opera con un sistema neumático
-              p.mb-0.margl - Precisión en la ubicación de carga
-              p.mb-0.margl - Requiere uso de telémetros (láser)
+              p.mb-0.margl - Desplazamiento a altas velocidades.
+              p.mb-0.margl - Movimientos en línea recta.
+              p.mb-0.margl - Opera con un sistema neumático.
+              p.mb-0.margl - Precisión en la ubicación de carga.
+              p.mb-0.margl - Requiere uso de telémetros 
+                span.it (láser).
             .col-md-1.wax
 
             .col-md-5
@@ -607,10 +627,10 @@
             .col-md-6.mb-4.mb-md-0.xx
               <br><br><br><br>
               p.margl <strong>Equipo de transporte fijo al techo </strong>
-              p.mb-0.margl - Permite transporte de mercancía dentro del almacén a diferentes zonas
-              p.mb-0.margl - Mantiene despejado el suelo
-              p.mb-0.margl - Requiere techos muy altos en el almacén
-              p.mb-0.margl - Uso principal en el sector automotriz
+              p.mb-0.margl - Permite transporte de mercancía dentro del almacén a diferentes zonas.
+              p.mb-0.margl - Mantiene despejado el suelo.
+              p.mb-0.margl - Requiere techos muy altos en el almacén.
+              p.mb-0.margl - Uso principal en el sector automotriz.
             .col-md-1.wax
 
             .col-md-5
@@ -621,9 +641,12 @@
             .col-md-6.mb-4.mb-md-0.xx
               <br><br><br><br>
               p.margl <strong>Equipo  con desplazamiento  por pasillos estrechos a velocidad alta </strong>
-              p.mb-0.margl - Diseñados especialmente para almacenes automatizados
-              p.mb-0.margl - Operan con dos movimientos: longitudinal sobre rail y vertical para extraer o colocar pallets
-              p.mb-0.margl - Desarrollan tareas de picking a gran altura
+              p.mb-0.margl - Diseñados especialmente para almacenes automatizados.
+              p.mb-0.margl - Operan con dos movimientos: longitudinal sobre 
+                span.it rail 
+                | y vertical para extraer o colocar 
+                span.it pallets.
+              p.mb-0.margl - Desarrollan tareas de picking a gran altura.
 
             .col-md-1.wax
 
@@ -632,7 +655,7 @@
               figure
                 img(src='@/assets/curso/tema1/img37.png', alt='Texto que describa la imagen')      
     <br>
-    p.mt-4 Dinámicos con traslado:  Aquellos equipos que pueden trasladar mercancías dentro del almacén. Se describen a continuación:
+    p.mt-4 <strong>Dinámicos con traslado:</strong>  aquellos equipos que pueden trasladar mercancías dentro del almacén. Se describen a continuación:
     .row.justify-content-center
       .col-lg-10.bg88
         SlyderA(tipo="b")
@@ -640,10 +663,10 @@
             .col-md-6.mb-4.mb-md-0.xx
               <br><br><br><br>
               p.margl <strong>Equipo mecánico de transporte</strong>
-              p.mb-0.margl - Sirven de apoyo a otros equipos
-              p.mb-0.margl - Transportan la carga a distancias cortas
-              p.mb-0.margl - Levantan distancias muy cortas del suelo
-              p.margl - Apoyan actividades del muelle  
+              p.mb-0.margl - Sirven de apoyo a otros equipos.
+              p.mb-0.margl - Transportan la carga a distancias cortas.
+              p.mb-0.margl - Levantan distancias muy cortas del suelo.
+              p.margl - Apoyan actividades del muelle.
             .col-md-1.wax
             
             .col-md-5
@@ -654,11 +677,11 @@
             .col-md-6.mb-4.mb-md-0.xx
               <br><br><br><br>
               p.margl <strong>Apilador eléctrico con mástil telescópico</strong>
-              p.mb-0.margl - Elevación hasta altura específica
-              p.mb-0.margl - Desplazamiento de altura y horizontal
-              p.mb-0.margl - Permite realizar trabajo de apilado
-              p.mb-0.margl - Puede ser utilizado en recepción y expedición
-              p.mb-0.margl - No se recomienda para cargas pesadas
+              p.mb-0.margl - Elevación hasta altura específica.
+              p.mb-0.margl - Desplazamiento de altura y horizontal.
+              p.mb-0.margl - Permite realizar trabajo de apilado.
+              p.mb-0.margl - Puede ser utilizado en recepción y expedición.
+              p.mb-0.margl - No se recomienda para cargas pesadas.
             .col-md-1.wax
             
             .col-md-5
@@ -669,11 +692,11 @@
             .col-md-6.mb-4.mb-md-0.xx
               <br><br><br><br>
               p.margl <strong>Carretilla retráctil, contrabalanceada, de toma lateral (bi o trilateral) </strong>
-              p.mb-0.margl - Movimientos vertical y horizontal
-              p.mb-0.margl - Levanta cargas hasta 10 m
-              p.mb-0.margl - Necesita pasillos para operar
-              p.mb-0.margl - Recorridos medios-largos
-              p.mb-0.margl - Uso en ubicación y apilado de mercancía
+              p.mb-0.margl - Movimientos vertical y horizontal.
+              p.mb-0.margl - Levanta cargas hasta 10 m.
+              p.mb-0.margl - Necesita pasillos para operar.
+              p.mb-0.margl - Recorridos medios-largos.
+              p.mb-0.margl - Uso en ubicación y apilado de mercancía.
             .col-md-1.wax
  
             .col-md-5
@@ -683,11 +706,11 @@
           .row
             .col-md-6.mb-4.mb-md-0.xx
               <br><br><br><br>
-              p.margl <strong>Automatic Guided Vehicles </strong>
-              p.mb-0.margl - No requieren conductor (inteligentes)
-              p.mb-0.margl - Ordenador que comunica con PC
-              p.mb-0.margl - Aplica diferentes técnicas de guía: hilo conductor a poca profundidad del suelo; uso banda magnética sobre el suelo
-              p.mb-0.margl - Sigue un trayecto orientado por demarcación
+              p.margl.it <strong>Automatic Guided Vehicles </strong>
+              p.mb-0.margl - No requieren conductor (inteligentes).
+              p.mb-0.margl - Ordenador que comunica con PC.
+              p.mb-0.margl - Aplica diferentes técnicas de guía: hilo conductor a poca profundidad del suelo; uso banda magnética sobre el suelo.
+              p.mb-0.margl - Sigue un trayecto orientado por demarcación.
             .col-md-1.wax
  
             .col-md-5
@@ -696,7 +719,7 @@
                 img(src='@/assets/curso/tema1/img41.png', alt='Texto que describa la imagen')
   
     <br><br> 
-    p <strong>Estáticos:</strong>  Se utilizan para almacenar mercancía a granel, tienen un orificio de entrada y uno de salida.  Son muy utilizados para manejar semillas y minerales, pueden ser cilíndricos o poligonales. Los más comunes son los silos de almacenamiento.            
+    p <strong>Estáticos:</strong>  se utilizan para almacenar mercancía a granel, tienen un orificio de entrada y uno de salida.  Son muy utilizados para manejar semillas y minerales, pueden ser cilíndricos o poligonales. Los más comunes son los silos de almacenamiento.            
     .row.justify-content-center
       .col-lg-10
         .tarjeta.p-4.p-md-5.mb-5.mt-4.bg2
@@ -821,9 +844,12 @@
           .row
             .col-md-6.mb-4.mb-md-0.xx
               <br><br><br><br>
-              p.margl <strong>Sistema de Shuttle OSR </strong>
+              p.margl <strong>Sistema de </strong>
+                span.it <strong>Shuttle OSR </strong>
               p.mb-0.margl - Preparación de pedidos semiautomática; basado en el principio de mercancía al hombre.
-              p.mb-0.margl - Los productos se desplazan desde las estanterías con ayuda de los shuttles (lanzaderas), hasta la zona de expedición
+              p.mb-0.margl - Los productos se desplazan desde las estanterías con ayuda de los 
+                span.it shuttles 
+                | (lanzaderas), hasta la zona de expedición
               p.mb-0.margl - Un elevador se encarga del transporte vertical.
 
 
@@ -839,10 +865,12 @@
             .col-md-6.mb-4.mb-md-0.xx
               <br><br><br><br>
               p.margl <strong>En estanterías </strong>
-              p.mb-0.margl - A lmacenaje de unidades lista para posterior uso.
+              p.mb-0.margl - Almacenaje de unidades lista para posterior uso.
               p.mb-0.margl - Los pasillos se deben adaptar a la maquinaria utilizada.
               p.mb-0.margl - Ancho estandarizado de acuerdo con medidas de pallets.
-              p.mb-0.margl - Estanterías compacta, dinámica, rack para picking, estantería para bidones y ruedas
+              p.mb-0.margl - Estanterías compacta, dinámica, rack para 
+                span.it picking,
+                |  estantería para bidones y ruedas
 
 
             .col-md-1.wax
@@ -873,7 +901,9 @@
             .col-md-6.mb-4.mb-md-0.xx
               <br><br><br><br>
               p.margl <strong>Armarios </strong>
-              p.mb-0.margl - Especie de mueble tipo closet para almacenar mercancías pequeñas.
+              p.mb-0.margl - Especie de mueble tipo 
+                span.it closet 
+                | para almacenar mercancías pequeñas.
               p.mb-0.margl - Ofrecen seguridad, pues se puede almacenar bajo llave.
               p.mb-0.margl - Existen estructuras con vidrios de seguridad para exhibir los productos (tipo vitrina).
 
@@ -927,7 +957,9 @@
               p.margl <strong>Carruseles </strong>
               p.mb-0.margl - Almacenamiento vertical (automatizado).  Desplazamiento de la carga hacia el manipulador.
               p.mb-0.margl - Estanterías en serie para almacenar piezas pequeñas; giran automáticamente de manera horizontal.
-              p.mb-0.margl - Producto controlado por el software de gestión y control de almacén.
+              p.mb-0.margl - Producto controlado por el 
+                span.it software 
+                | de gestión y control de almacén.
 
             .col-md-1.wax
  

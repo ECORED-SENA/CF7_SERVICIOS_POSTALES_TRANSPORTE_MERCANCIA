@@ -35,7 +35,9 @@
               .col-7
                 img(src='@/assets/curso/tema4/ico2.svg' alt='AvatarTop')
             h3.text-center ISO
-            p.text-center (International Organization for Standardization): Lidera la regulación a nivel internacional de los contenedores utilizados en transporte terrestre y fluvial.
+            p.text-center 
+              span.it (International Organization for Standardization)
+              | . Lidera la regulación a nivel internacional de los contenedores utilizados en transporte terrestre y fluvial.
             <br>
       .col-lg-6
         .row
@@ -44,7 +46,9 @@
               .col-7
                 img(src='@/assets/curso/tema4/ico3.svg' alt='AvatarTop')
             h2.text-center IATA
-            p.text-center (International Air Transport Association): Ente regulador de los contenedores utilizados en transporte aéreo; los contenedores deben adaptarse a las medidas de los aviones.
+            p.text-center 
+              span.it (International Air Transport Association).
+              |  Ente regulador de los contenedores utilizados en transporte aéreo; los contenedores deben adaptarse a las medidas de los aviones.
           .col-lg-5
     separador
     #t_3_1.titulo-segundo.color-acento-contenido
@@ -54,7 +58,9 @@
         img(src='@/assets/curso/tema4/ico4.svg', alt='Texto que describa la imagen')
 
       .col-lg-9
-        p En función del tipo de mercancía o producto que se vaya a transportar, varían las dimensiones y estructura del contenedor. Por ejemplo, pueden transportarse objetos pesados, como maquinaria pesada, mercancía pequeña como electrodomésticos o mercancía consolidada.  Son fabricados básicamente en acero, aunque existen algunos de aluminio y otros de madera contrachapada y reforzados con fibra de vidrio; al interior, poseen un recubrimiento antihumedad.  En la parte exterior (esquinas) llevan unos ganchos de amarre denominados twistlocks, para facilitar el enganche con las grúas. A continuación, se presentan las partes del contenedor:
+        p En función del tipo de mercancía o producto que se vaya a transportar, varían las dimensiones y estructura del contenedor. Por ejemplo, pueden transportarse objetos pesados, como maquinaria pesada, mercancía pequeña como electrodomésticos o mercancía consolidada.  Son fabricados básicamente en acero, aunque existen algunos de aluminio y otros de madera contrachapada y reforzados con fibra de vidrio; al interior, poseen un recubrimiento antihumedad.  En la parte exterior (esquinas) llevan unos ganchos de amarre denominados 
+          span.it twistlocks
+          | , para facilitar el enganche con las grúas. A continuación, se presentan las partes del contenedor:
     
     <br><br>
     p.mb-0 <strong>Figura 14</strong>
@@ -62,7 +68,7 @@
     .row.justify-content-center.bg311
       .col-lg-1
       .col-lg-5
-        img(src='@/assets/curso/tema4/img2.jpg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/tema4/img2.svg', alt='Texto que describa la imagen')
 
       .col-lg-5.mt-2
         <br><br><br><br>
@@ -91,7 +97,7 @@
 
         tbody
           tr
-            td.text-center <strong>HIGH CUBE</strong>
+            td.text-center.it <strong>HIGH CUBE</strong>
             td Utilizados para cargas de peso ligero y de gran volúmen; aumentando un 13% la capacidad cúbica interna.
  
             td 
@@ -99,39 +105,47 @@
   
 
           tr
-            td.text-center <strong>HIGH CUBE REFRIGERADOS</strong>
+            td.text-center
+              span.it <strong>HIGH CUBE</strong> 
+              |  <strong>REFRIGERADOS</strong>
             td.mt-4 Contenedores para cargas refrigeradas, temperatura controlada y constante.
 
             td
               img(src='@/assets/curso/tema4/img5.png', alt='Texto que describa la imagen') 
           tr
-            td.mars.text-center <strong>DRY VAN O CONTENEDOR SECO</strong>
+            td.mars.text-center 
+              span.it <strong>DRY VAN</strong>
+              | <strong> O CONTENEDOR SECO</strong>
             td Categoría más utilizada en el mercado, cerrados herméticamente, sin ventilación o refrigeración.  Conveniente para cualquier tipo de carga
 
             td 
               img(src='@/assets/curso/tema4/img6.png', alt='Texto que describa la imagen')
           tr
-            td.text-center <strong>CONTENEDOR REFIGERADO O REEFER</strong>
+            td.text-center <strong>CONTENEDOR REFIGERADO O </strong>
+              span.it <strong>REEFER</strong>
             td.mb-0 Este contenedor posee un sistema de conservación para mantener un ambiente y temperatura controlada.  Deben estar conectados a una fuente de energía durante el transporte.
             td 
               img(src='@/assets/curso/tema4/img7.png', alt='Texto que describa la imagen')
           tr
-            td.text-center <strong>OPEN TOP O DE TECHO ABIERTO</strong>
+            td.text-center 
+              span.it <strong>OPEN TOP</strong>
+              | <strong> O DE TECHO ABIERTO</strong>
             td.mb-0 Contenedor de techo removible, permite que la carga sobresalga.  Soportan hasta 1 tonelada de carga.
             td 
               img(src='@/assets/curso/tema4/img8.png', alt='Texto que describa la imagen')
           tr
-            td.text-center <strong>OPEN SIDE </strong>
+            td.text-center.it <strong>OPEN SIDE </strong>
             td.mb-0 Se caracteriza por tener una única puerta lateral, facilitando el transporte de mercancías que por sus dimensiones son difíciles de manipular.
             td 
               img(src='@/assets/curso/tema4/img9.png', alt='Texto que describa la imagen')
           tr
-            td.text-center <strong>FLAT RACK</strong>
+            td.text-center.it <strong>FLAT RACK</strong>
             td.mb-0 Carecen de techo y paredes laterales, pueden ser fijados o desmontables.  Utilizados para transportar cargas atípicas y sobredimensionadas.
             td 
               img(src='@/assets/curso/tema4/img10.png', alt='Texto que describa la imagen')  
           tr
-            td.text-center <strong>CONTENEDOR CISTERNA O TANK </strong>
+            td.text-center <strong>CONTENEDOR CISTERNA O </strong>
+              span.it <strong>TANK </strong>
             td.mb-0 Las dimensiones son las mismas de un contenedor estándar, pero la estructura interna es un depósito en polietileno.  Utilizado para transportar todo tipo de líquidos a granel (aceites, cerveza o químicos).  Deben llenarse entre el 80 y el 95% de la capacidad, para dejar espacio de extensión por cambios de temperatura.
             td 
               img(src='@/assets/curso/tema4/img11.png', alt='Texto que describa la imagen')                                    
@@ -163,7 +177,7 @@
 
 
           .tarjeta.color-acento-botones.p-3(x="10%" y="12%" numero="1")
-            .h5.mb-2 Sello de Certificación 
+            .h5.mb-2 Sello de certificación 
 
           .tarjeta.color-acento-botones.p-3(x="27%" y="12%" numero="2")
             .h5.mb-2 Logotipo del propietario
@@ -172,7 +186,7 @@
             .h5.mb-2 Código del propietario
 
           .tarjeta.color-acento-botones.p-3(x="75%" y="14%" numero="4")
-            .h5.mb-2 Numero de Serie
+            .h5.mb-2 Número de serie
  
           .tarjeta.color-acento-botones.p-3(x="90%" y="10%" numero="5")
             .h5.mb-2 Dígito de control  
@@ -183,11 +197,11 @@
           .tarjeta.color-acento-botones.p-3(x="27%" y="40%" numero="8")
             .h5.mb-2 Placa CSC-CCC         
           .tarjeta.color-acento-botones.p-3(x="72%" y="40%" numero="9")
-            .h5.mb-2 Masa Bruta Maxíma     
+            .h5.mb-2 Masa bruta máxima     
           .tarjeta.color-acento-botones.p-3(x="90%" y="45%" numero="10")
             .h5.mb-2 Tara  
           .tarjeta.color-acento-botones.p-3(x="72%" y="50%" numero="11")
-            .h5.mb-2 Peso Neto         
+            .h5.mb-2 Peso neto         
           .tarjeta.color-acento-botones.p-3(x="8%" y="50%" numero="12")
             .h5.mb-2 Aviso de altura 
           .tarjeta.color-acento-botones.p-3(x="72%" y="70%" numero="13")
@@ -203,8 +217,8 @@
             .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
             .col-md.col-lg-7.p-5
               <br>
-              h4.text-white Material de apoyo: 
-              p.mb-4.text-white En caso de requerir ampliar la información sobre la codificación, se recomienda consultar las siguientes páginas:
+              h4.text-white.qqq Material de apoyo: 
+              p.mb-4.text-white.qqq En caso de requerir ampliar la información sobre la codificación, se recomienda consultar las siguientes páginas:
               a.boton.color-acento-botones.texto-blanco.mt-4(:href="('http://www.barradecomercio.org/?p=718#.Ya07_GDMLIUhttps://www.stocklogistic.com/codigos-contenedor-maritimo/')" target="_blank" type="application/pdf")
                 span Ingresar
                 i.fas.fa-link
@@ -262,7 +276,7 @@
           .row.justify-content-around.align-items-center
             .col-md.col-lg-7.p-4            
               <br><br>
-              p <strong>Material de apoyo:</strong> 
+              p <strong>Material de apoyo</strong> 
               p.mb-4 - 5_Boletín Cumplimiento con ISO 17712 Para Sellos de Alta Seguridad_2014
               p - 6_Instructivo Manejo y control de precintos o sellos de seguridad en Conalca
  
@@ -275,7 +289,7 @@
     #t_3_3.titulo-segundo.color-acento-contenido
       h2 3.3. Tecnologías de rastreo 
     p.mb-0 <strong>Figura 18</strong>
-    p.it Contenedores de dos puertas con barras de bloqueo  
+    p.it Monitoreo vehicular  
     .row.justify-content-center
           .col-lg-5
             img(src='@/assets/curso/tema4/img15.png', alt='Texto que describa la imagen')

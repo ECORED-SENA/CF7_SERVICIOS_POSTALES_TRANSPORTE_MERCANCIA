@@ -115,7 +115,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -263,27 +263,27 @@ export default {
   complementario: [
     {
       texto:
-        '1.4 sistemas de información Decreto 1078 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector de Tecnologías de la Información y las Comunicaciones. Mayo 26 del 2015. https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=77888',
+        '1.4 sistemas de información Decreto 1078 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector de Tecnologías de la Información y las Comunicaciones. Mayo 26 del 2015. ',
       tipo: 'Decreto',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=77888',
     },
     {
       texto:
-        '3 Contenedores Customs-Trade Partnership Against Terrorism. (2014). Cumplimiento Con los Estándares ISO 17712 Para Sellos de Alta Seguridad. U.S. Customs and Border Protection. https://www.cbp.gov/sites/default/files/documents/C-TPAT%20Bulletin-%20Cumplimiento%20con%20ISO%2017712%20Para%20Sellos%20de%20Alta%20Seguridad%20-%20Abril%202014.pdf        ',
+        '3 Contenedores Customs-Trade Partnership Against Terrorism. (2014). Cumplimiento Con los Estándares ISO 17712 Para Sellos de Alta Seguridad. U.S. Customs and Border Protection. ',
       tipo: 'Boletín',
       link:
         'https://www.cbp.gov/sites/default/files/documents/C-TPAT%20Bulletin-%20Cumplimiento%20con%20ISO%2017712%20Para%20Sellos%20de%20Alta%20Seguridad%20-%20Abril%202014.pdf',
     },
     {
       texto:
-        '3.1 Generalidades Ministerio de Tecnologías de la Información y las Comunicaciones [MinTIC]. (2020). Plan de Modernización del sector postal 2020-2024.https://mintic.gov.co/portal/715/articles-150820_recurso_1.pdf',
+        '3.1 Generalidades Ministerio de Tecnologías de la Información y las Comunicaciones [MinTIC]. (2020). Plan de Modernización del sector postal 2020-2024.',
       tipo: 'Plan',
       link: 'https://mintic.gov.co/portal/715/articles-150820_recurso_1.pdf',
     },
     {
       texto:
-        '3.1 Generalidades Decreto 390 de 2016. Por el cual se establece la regulación aduanera. Marzo 7 de 2016. DO. Nº. 49.808. https://www.mincit.gov.co/ministerio/normograma-sig/procesos-de-apoyo/gestion-juridica/decretos/decreto-390-de-2016.aspx',
+        '3.1 Generalidades Decreto 390 de 2016. Por el cual se establece la regulación aduanera. Marzo 7 de 2016. DO. Nº. 49.808. ',
       tipo: 'Decreto',
       link:
         'https://www.mincit.gov.co/ministerio/normograma-sig/procesos-de-apoyo/gestion-juridica/decretos/decreto-390-de-2016.aspx',

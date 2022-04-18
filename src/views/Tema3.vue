@@ -63,7 +63,7 @@
       .col-lg-10.mt-4
          img.mt-4(src='@/assets/curso/tema3/img3.svg', alt='Texto que describa la imagen')
     <br>
-    p.mt-4 A continuación, se presentan dos ejemplos de codificación de almacén: por estantería y por pasillo   
+    p.mt-4 A continuación, se presentan dos ejemplos de codificación de almacén: por estantería y por pasillo.
     p <strong>Ejemplos de codificación de almacén</strong>
     .row.justify-content-center
       .col-lg-1
@@ -123,7 +123,7 @@
         img(src='@/assets/curso/tema3/img7.png', alt='Texto que describa la imagen')
       .col-lg-8.mt-4
         <br>
-        p Se recomienda que los productos estén identificados en la etiqueta adhesiva con el código inteligente, código de barras y nombre de la referencia, como se muestra en la siguiente imagen:
+        p Se recomienda que los productos estén identificados en la etiqueta adhesiva con el código inteligente, código de barras y nombre de la referencia, como se muestra en la imagen:
     <br><br>
     h5 Códigos y etiquetas
     .row.justify-content-center
@@ -154,16 +154,16 @@
   
 
           tr
-            td.text-center <strong>GTIN 13</strong>
+            td.text-center <strong>GTIN13</strong>
             td.mt-4 Código indicado para identificar mercancía o productos que se dirigen al punto de venta. Está conformado por:
-              p.mb-0 Prefijo asignado al país (Colombia_770)
-              p.mb-0 Prefijo de la empresa (5-8 dígitos) 
-              p.mb-0 Código del producto (por marcas)
-              p.mb-0 Código de control
+              p.mb-0 Prefijo asignado al país (Colombia_770).
+              p.mb-0 Prefijo de la empresa (5-8 dígitos). 
+              p.mb-0 Código del producto (por marcas).
+              p.mb-0 Código de control.
             td
-              img(src='@/assets/curso/tema3/img10.png', alt='Texto que describa la imagen') 
+              img(src='@/assets/curso/tema3/img10.svg', alt='Texto que describa la imagen') 
           tr
-            td.mars.text-center <strong>GTIN 14</strong>
+            td.mars.text-center <strong>GTIN14</strong>
             td Denominado también EAN14, por componerse de 14 dígitos.  Utilizado para cada unidad del producto contenida en un grupo GTIN13, se elimina el código de control y se asigna uno nuevo al inicio. Ver imagen.
 
             td 
@@ -173,7 +173,7 @@
             td.mb-0 Sistema estándar internacional de identificación de mercancías en entornos logísticos.
               p.mb-0 Requisito: toda la información de la etiqueta debe ser legible.
               p.mb-0 Contenido: características del producto, código agrupación, cantidad, lote, fecha fabricación, envasado, consumo, etc.
-              p Importante tener en cuenta que esta etiqueta deberá estar en el producto a lo largo de toda la cadena de suministro
+              p Importante tener en cuenta que esta etiqueta deberá estar en el producto a lo largo de toda la cadena de suministro.
 
             td 
               img.wid(src='@/assets/curso/tema3/img12.png', alt='Texto que describa la imagen')
@@ -190,7 +190,11 @@
             td.mb-0 Identificación de información a través de tecnología de radiofrecuencia.
 
 
-              p.mb-0 Etiquetas que contienen insertados pequeños circuitos y microprocesadores, memorias y receptores de radio.  Consta de: una etiqueta activa o pasiva, lector, middleware (micropieza de software) y red EPC global.
+              p.mb-0 Etiquetas que contienen insertados pequeños circuitos y microprocesadores, memorias y receptores de radio.  Consta de: una etiqueta activa o pasiva, lector, 
+                span.it middleware 
+                |  (micropieza de 
+                span.it software
+                |  ) y red EPC global.
 
             td 
               img.wid(src='@/assets/curso/tema3/img14.png', alt='Texto que describa la imagen')
@@ -203,7 +207,7 @@
     .row.justify-content-center
       .col-lg-3
         img(src='@/assets/curso/tema3/img15.png', alt='Texto que describa la imagen')
-      .col-lg-9.mt-4
+      .col-lg-9.mt-4.bg1
         <br>
         p Las características que definen el diseño, construcción, distribución e instalaciones necesarias para un almacén están determinadas principalmente por los tipos de producto que requieran almacenamiento; de igual forma, la naturaleza del producto dará las pautas a seguir en la cadena logística en las diferentes zonas del almacén; sin embargo, todos los productos tienen características diferentes que se deben tener en cuenta para la manipulación y el almacenamiento. 
     <br><br><br><br>
@@ -277,7 +281,7 @@
               h5 Material de apoyo
 
               p.mb-4 Si es de su interés ampliar la información sobre ubicación de la mercancía y el almacenamiento dentro del almacén, visite la url: 
-              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('http://virtualnet2.umb.edu.co/virtualnet/archivos/open.php/698/mod1/pdf/ModuloUno_AlmaMerca.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('https://www.youtube.com/watch?v=dhGt7A0935Q')" target="_blank" type="application/pdf")
                 span Ingresar
                 i.fas.fa-link
               <br><br><br><br>

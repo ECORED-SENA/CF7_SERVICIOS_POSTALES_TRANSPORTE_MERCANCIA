@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="765" height="629" viewBox="0 0 765 629">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.581" y1="1.165" x2="0.219" y2="0.603" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff3cd"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_596862" data-name="Grupo 596862" transform="translate(-180 -14625.738)">
+    <rect id="Rectángulo_214983" data-name="Rectángulo 214983" width="765" height="629" transform="translate(945 15254.738) rotate(180)" fill="url(#linear-gradient)"/>
+    <g id="Grupo_577936" data-name="Grupo 577936" transform="translate(-264 -816.152)">
+      <path id="Trazado_173333" data-name="Trazado 173333" d="M-2921.848-10718.5H-2951v-2h29.152Z" transform="translate(-9919 18525.957) rotate(90)" fill="#fde9bf"/>
+      <path id="Trazado_289386" data-name="Trazado 289386" d="M-2921.848-10718.5H-2951v-2h29.152Z" transform="translate(-10051.996 18553.924) rotate(90)" fill="#fde9bf"/>
+      <path id="Trazado_289387" data-name="Trazado 289387" d="M-2921.848-10718.5H-2951v-2h29.152Z" transform="translate(-9785.004 18553.924) rotate(90)" fill="#fde9bf"/>
+      <path id="Trazado_289384" data-name="Trazado 289384" d="M-2820.729-10718.5h-.018l-131.976-2.3a1,1,0,0,1-.982-1.018,1,1,0,0,1,1-.982h.018l131.976,2.3a1,1,0,0,1,.982,1.018A1,1,0,0,1-2820.729-10718.5Z" transform="matrix(-1, 0.017, -0.017, -1, -2205.881, 4934.47)" fill="#fde9bf"/>
+      <path id="Trazado_289385" data-name="Trazado 289385" d="M-2820.729-10718.5h-.018l-131.976-2.3a1,1,0,0,1-.982-1.018,1,1,0,0,1,1-.982h.018l131.976,2.3a1,1,0,0,1,.982,1.018A1,1,0,0,1-2820.729-10718.5Z" transform="matrix(-1, 0.017, -0.017, -1, -2339.877, 4934.47)" fill="#fde9bf"/>
+    </g>
+    <path id="Trazado_173333-2" data-name="Trazado 173333" d="M-2921.848-10718.5H-2951v-2h29.152Z" transform="translate(-10316 17832.789) rotate(90)" fill="#fed981"/>
+    <path id="Trazado_289389" data-name="Trazado 289389" d="M-2899.941-10718.5H-2951v-2h51.059Z" transform="translate(-10049.004 17832.789) rotate(90)" fill="#fed981"/>
+    <path id="Trazado_289386-2" data-name="Trazado 289386" d="M-2922.292-10718.5H-2951a1,1,0,0,1-1-1,1,1,0,0,1,1-1h28.708a1,1,0,0,1,1,1A1,1,0,0,1-2922.292-10718.5Z" transform="translate(-10405 17862.504) rotate(90)" fill="#fed981"/>
+    <path id="Trazado_289388" data-name="Trazado 289388" d="M-2922.292-10718.5H-2951a1,1,0,0,1-1-1,1,1,0,0,1,1-1h28.708a1,1,0,0,1,1,1A1,1,0,0,1-2922.292-10718.5Z" transform="translate(-10228 17862.504) rotate(90)" fill="#fed981"/>
+    <g id="Grupo_577932" data-name="Grupo 577932" transform="translate(-323 -816.152)">
+      <rect id="Rectángulo_38762" data-name="Rectángulo 38762" width="203" height="85" rx="15" transform="translate(758 15494)" fill="#fde9bf"/>
+      <path id="Rectángulo_38762_-_Contorno" data-name="Rectángulo 38762 - Contorno" d="M15,3A12,12,0,0,0,3,15V70A12,12,0,0,0,15,82H188a12,12,0,0,0,12-12V15A12,12,0,0,0,188,3H15m0-3H188a15,15,0,0,1,15,15V70a15,15,0,0,1-15,15H15A15,15,0,0,1,0,70V15A15,15,0,0,1,15,0Z" transform="translate(758 15494)" fill="#fff6e2"/>
+      <text id="EQUIPOS_DE_MANIPULACIÓN_y_MOVIMENTACIÓN" data-name="EQUIPOS DE MANIPULACIÓN y MOVIMENTACIÓN" transform="translate(852 15506.5)" fill="#12263f" font-size="14" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-43.565" y="13">EQUIPOS DE </tspan><tspan x="-60.279" y="35">MANIPULACIÓN y </tspan><tspan x="-59.756" y="57">MOVIMENTACIÓN</tspan></text>
+    </g>
+    <rect id="Rectángulo_39488" data-name="Rectángulo 39488" width="166" height="114" rx="15" transform="translate(231 14932.848)" fill="#acfcff"/>
+    <rect id="Rectángulo_214985" data-name="Rectángulo 214985" width="166" height="114" rx="15" transform="translate(231 15061.738)" fill="#aeb8ff"/>
+    <path id="Rectángulo_39488_-_Contorno" data-name="Rectángulo 39488 - Contorno" d="M15,3A12,12,0,0,0,3,15V99a12,12,0,0,0,12,12H151a12,12,0,0,0,12-12V15A12,12,0,0,0,151,3H15m0-3H151a15,15,0,0,1,15,15V99a15,15,0,0,1-15,15H15A15,15,0,0,1,0,99V15A15,15,0,0,1,15,0Z" transform="translate(231 14932.848)" fill="#d6f9fb"/>
+    <rect id="Rectángulo_209351" data-name="Rectángulo 209351" width="166" height="114" rx="15" transform="translate(408 14932.848)" fill="#acfcff"/>
+    <path id="Trazado_316564" data-name="Trazado 316564" d="M15,0H151a15,15,0,0,1,15,15V99a15,15,0,0,1-15,15H15A15,15,0,0,1,0,99V15A15,15,0,0,1,15,0Z" transform="translate(408 15061.738)" fill="#aeb8ff"/>
+    <path id="Rectángulo_209351_-_Contorno" data-name="Rectángulo 209351 - Contorno" d="M15,3A12,12,0,0,0,3,15V99a12,12,0,0,0,12,12H151a12,12,0,0,0,12-12V15A12,12,0,0,0,151,3H15m0-3H151a15,15,0,0,1,15,15V99a15,15,0,0,1-15,15H15A15,15,0,0,1,0,99V15A15,15,0,0,1,15,0Z" transform="translate(408 14932.848)" fill="#d6f9fb"/>
+    <rect id="Rectángulo_209352" data-name="Rectángulo 209352" width="166" height="114" rx="15" transform="translate(587 14932.848)" fill="#acfcff"/>
+    <path id="Rectángulo_209352_-_Contorno" data-name="Rectángulo 209352 - Contorno" d="M15,3A12,12,0,0,0,3,15V99a12,12,0,0,0,12,12H151a12,12,0,0,0,12-12V15A12,12,0,0,0,151,3H15m0-3H151a15,15,0,0,1,15,15V99a15,15,0,0,1-15,15H15A15,15,0,0,1,0,99V15A15,15,0,0,1,15,0Z" transform="translate(587 14932.848)" fill="#d6f9fb"/>
+    <text id="Con_movimiento_sin_traslado" data-name="Con movimiento sin  traslado" transform="translate(300 14968.848)" fill="#12263f" font-size="14" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-66.893" y="13" xml:space="preserve">Con movimiento sin  </tspan><tspan x="-27.231" y="35">traslado</tspan></text>
+    <text id="Con_movimiento_y_traslado" data-name="Con movimiento y traslado" transform="translate(477 14969.848)" fill="#12263f" font-size="14" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-60.672" y="13">Con movimiento y </tspan><tspan x="-27.231" y="35">traslado</tspan></text>
+    <text id="Sin_traslado:_Silos_" data-name="Sin traslado:
+Silos
+" transform="translate(602 14968.848)" fill="#12263f" font-size="14" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="25.604" y="13">Sin traslado:</tspan><tspan x="51.272" y="35">Silos</tspan></text>
+    <rect id="Rectángulo_38767" data-name="Rectángulo 38767" width="153.187" height="90" rx="15" transform="translate(327 14801.348)" fill="#fed981"/>
+    <path id="Rectángulo_38767_-_Contorno" data-name="Rectángulo 38767 - Contorno" d="M15,3A12,12,0,0,0,3,15V75A12,12,0,0,0,15,87H138.187a12,12,0,0,0,12-12V15a12,12,0,0,0-12-12H15m0-3H138.187a15,15,0,0,1,15,15V75a15,15,0,0,1-15,15H15A15,15,0,0,1,0,75V15A15,15,0,0,1,15,0Z" transform="translate(327 14801.348)" fill="#fde9bf"/>
+    <rect id="Rectángulo_209350" data-name="Rectángulo 209350" width="153.187" height="90" rx="15" transform="translate(593 14801.348)" fill="#fed981"/>
+    <path id="Rectángulo_209350_-_Contorno" data-name="Rectángulo 209350 - Contorno" d="M15,3A12,12,0,0,0,3,15V75A12,12,0,0,0,15,87H138.187a12,12,0,0,0,12-12V15a12,12,0,0,0-12-12H15m0-3H138.187a15,15,0,0,1,15,15V75a15,15,0,0,1-15,15H15A15,15,0,0,1,0,75V15A15,15,0,0,1,15,0Z" transform="translate(593 14801.348)" fill="#fde9bf"/>
+    <text id="Dinámicos" transform="translate(408 14835.848)" fill="#12263f" font-size="16" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-40.457" y="14">Dinámicos</tspan></text>
+    <text id="Estáticos" transform="translate(672 14835.848)" fill="#12263f" font-size="16" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-35.57" y="14">Estáticos</tspan></text>
+    <text id="_-_Bandas_transportadoras_-_Grúas_aéreas" data-name="- Bandas transportadoras
+- Grúas aéreas" transform="translate(260 15086.738)" fill="#12263f" font-size="14" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="24.938" y="13">- Bandas </tspan><tspan x="0.821" y="35">transportadoras</tspan><tspan x="5.859" y="57">- Grúas aéreas</tspan></text>
+    <text id="_-_Carretillas_-_Apiladores" data-name="- Carretillas
+- Apiladores" transform="translate(445 15097.738)" fill="#12263f" font-size="14" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="7.483" y="13">- Carretillas</tspan><tspan x="5.808" y="35">- Apiladores</tspan></text>
+    <path id="Línea_1887" data-name="Línea 1887" d="M177,1H0A1,1,0,0,1-1,0,1,1,0,0,1,0-1H177a1,1,0,0,1,1,1A1,1,0,0,1,177,1Z" transform="translate(314.5 14911.348)" fill="#fed981"/>
+  </g>
+</svg>

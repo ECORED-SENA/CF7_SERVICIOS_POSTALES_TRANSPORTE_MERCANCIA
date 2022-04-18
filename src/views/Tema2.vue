@@ -17,7 +17,7 @@
 
               p.mb-4 En caso de ser necesario ampliar la información, ingrese a Sistemas de Biblioteca Sena:
               p Flamarique, S. (2017). Gestión de operaciones de almacenaje. Marge Books. 
-              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=77888')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/43773?page=41')" target="_blank" type="application/pdf")
                 span Ingresar
                 i.fas.fa-link
               <br><br><br><br>
@@ -43,7 +43,9 @@
           .col-lg-6
             <br><br>
             h5.mt-4 1. Sistemas de información
-            p EDI (Electronic Data Interchange), cuyo objetivo es realizar el traspaso de documentos comerciales a un formato normalizado y que pueda ser compartida la información entre empresas.  No es un correo electrónico, pues los datos deben contar con un estándar internacional.
+            p EDI 
+              span.it (Electronic Data Interchange),
+              |  cuyo objetivo es realizar el traspaso de documentos comerciales a un formato normalizado y que pueda ser compartida la información entre empresas.  No es un correo electrónico, pues los datos deben contar con un estándar internacional.
           .col-lg-4
             <br>
             img(src='@/assets/curso/tema2/img4.svg', alt='Texto que describa la imagen')
@@ -55,7 +57,9 @@
           .col-lg-6
             <br><br>
             h5.mt-4 2. Sistemas de información
-            p ERP (Enterprise Resource Planning): Sistema Integral de Gestión Empresarial, su finalidad es automatizar la mayoría de los procesos de la organización (administración, logística, producción y comercialización).  
+            p ERP 
+              span.it (Enterprise Resource Planning)-
+              |  Sistema Integral de Gestión Empresarial, su finalidad es automatizar la mayoría de los procesos de la organización (administración, logística, producción y comercialización).  
 
           .col-lg-4
             <br>
@@ -80,7 +84,9 @@
           .col-lg-6
             <br><br>
             h5.mt-4 4. Sistemas de información
-            p SGA: Sistema de Gestión de Almacén, cuya función más importante es mantener controlado el stock de mercancía (número de existencias registradas, equivalente a existencias físicas).
+            p SGA- Sistema de Gestión de Almacén, cuya función más importante es mantener controlado el 
+              span.it stock
+              |  de mercancía (número de existencias registradas, equivalente a existencias físicas).
           .col-lg-4
             <br>
 
@@ -145,7 +151,7 @@
             .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
             .col-md.col-lg-6.p-4                        
               <br><br><br>
-              h5 Material de apoyo: 
+              h5 Material de apoyo
               p.mb-4 Para ampliar la información, puede ingresar a Biblioteca virtual Sena:  Rubio, J. (2013). Gestión y pedido de stock. Ministerio de Educación y Formación Profesional de España. 
               a.boton.color-acento-botones.texto-blanco.mt-4(:href="('https://books.google.com.pe/books?id=1C8bAgAAQBAJ&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false')" target="_blank" type="application/pdf")
                 span Ingresar
@@ -168,32 +174,32 @@
         li 
           .lista-ol--cuadro__vineta
             span 1
-          p.mb-0 Mayor cantidad de datos almacenados
+          p.mb-0 Mayor cantidad de datos almacenados. 
 
         li 
           .lista-ol--cuadro__vineta
             span 2
-          p.mb-0 Facilita la comunicación entre los diferentes sistemas
+          p.mb-0 Facilita la comunicación entre los diferentes sistemas.
         li 
           .lista-ol--cuadro__vineta
             span 3
-          p.mb-0 Información en tiempo real
+          p.mb-0 Información en tiempo real.
         li 
           .lista-ol--cuadro__vineta
             span 4
-          p.mb-0 Permite hacer cambios y seguimiento durante la cadena de suministro
+          p.mb-0 Permite hacer cambios y seguimiento durante la cadena de suministro.
         li 
           .lista-ol--cuadro__vineta
             span 5
-          p.mb-0 Mejor control a nivel de inventarios y reducción de tiempos
+          p.mb-0 Mejor control a nivel de inventarios y reducción de tiempos.
         li 
           .lista-ol--cuadro__vineta
             span 6
-          p.mb-0 Aporta valor en el servicio de atención al cliente (mantiene informado)
+          p.mb-0 Aporta valor en el servicio de atención al cliente (mantiene informado).
         li 
           .lista-ol--cuadro__vineta
             span 7
-          p.mb-0 Amable con el medioambiente en la reducción de papelería         
+          p.mb-0 Amable con el medioambiente en la reducción de papelería.     
     .row.justify-content-center
       .col-lg-10
         .tarjeta.p-4.p-md-5.mb-5.mt-4.bg55
@@ -201,33 +207,36 @@
             .col-md.col-lg-7.p-4            
               <br><br>
               p <strong>Material de apoyo:</strong> 
-              p.mb-4 Para ampliar la información, puede ingresar a Biblioteca virtual Sena:Flamarique (2017)
+              p.mb-4 Para ampliar la información, puede ingresar a Biblioteca virtual Sena: <br>Flamarique (2017)
  
               a.boton.color-acento-botones.texto-blanco.mt-4(:href="('https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_elibroELB43773&context=L&vid=SENA&lang=es_ES&search_scope=sena_completo&adaptor=Local%20Search%20Engine&tab=sena_completo&query=any,contains,flamarique&mode=Basic')" target="_blank" type="application/pdf")
                 span Descargar
                 i.fas.fa-download
               <br><br>                
             .col-8.col-sm-6.col-md-4.mb-4.mb-md-0       
-    p <strong>Generalidades bases de datos</strong>   
+    h4 <strong>Generalidades bases de datos</strong>   
     .row.justify-content-center
       .col-lg-1
         img(src='@/assets/curso/tema2/ico1.svg', alt='Texto que describa la imagen')
 
       .col-lg-11
-        p A lo largo de la cadena de suministro, en logística, se genera gran cantidad de información, que para este caso se denominan datos, los cuales se han multiplicado y revolucionado las tecnologías en los últimos tiempos.  En busca de una solución para el control y gestión de la información, se ha recurrido a sistemas de información que logren generar valor a los datos para la toma de decisiones. Hoy en día, se conoce como tecnología 4.0 y suministros inteligentes “Big Data”.
-    h5.mt-4 Logística 4.0
+        p A lo largo de la cadena de suministro, en logística, se genera gran cantidad de información, que para este caso se denominan datos, los cuales se han multiplicado y revolucionado las tecnologías en los últimos tiempos.  En busca de una solución para el control y gestión de la información, se ha recurrido a sistemas de información que logren generar valor a los datos para la toma de decisiones. Hoy en día, se conoce como tecnología 4.0 y suministros inteligentes 
+          span.it “Big Data”.
+    h4.mt-4 Logística 4.0
     .row.justify-content-center
       .col-lg-11
-        p También llamada Cuarta Revolución Industrial, donde el término 4.0 es hablar de innovación, de una nueva forma de hacer logística, donde el uso de herramientas novedosas optimiza el desarrollo de los procesos, cadenas de suministro inteligentes <strong>(Big Data o Machine Learning).</strong>
+        p También llamada cuarta revolución industrial, donde el término 4.0 es hablar de innovación, de una nueva forma de hacer logística, donde el uso de herramientas novedosas optimiza el desarrollo de los procesos, cadenas de suministro inteligentes 
+          span.it <strong>(Big Data o Machine Learning).</strong>
       .col-lg-1
         img(src='@/assets/curso/tema2/ico2.svg', alt='Texto que describa la imagen')
-    h5.mt-4 Características Tecnología 4.0:
+    h4.mt-4 Características Tecnología 4.0
     .row.justify-content-center
       .col-lg-10
         <br><br>
         img(src='@/assets/curso/tema2/img13.svg', alt='Texto que describa la imagen')
     <br>
-    h5.mt-4 Características Big Data:
+    h5.mt-4 Características 
+      span.it Big Data
     p.mb-0 <strong>Figura 7</strong>
     p.it El Big Data integrado a los procesos logísticos
     .row.justify-content-center.bg558
@@ -255,7 +264,7 @@
           li 
             .lista-ol--cuadro__vineta
               span 5
-            p.mb-0 Rutas más eficientes en la entrega de mercancías
+            p.mb-0 Rutas más eficientes en la entrega de mercancías.
     <br><br>
     h5.mt-4 Fuentes de información
     p.mt-4 Debido al volumen de datos que maneja la cadena de suministro, es imposible analizar y tomar decisiones con métodos tradicionales, por lo que se requiere organizar las diferentes fuentes para el suministro de información:
@@ -270,7 +279,8 @@
           .tarjeta.color-secundario.p-3(x="8.5%" y="38%" numero="")
             p.text-white Alertas de desabastecimiento dentro de la distribución.
           .tarjeta.color-secundario.p-3(x="37%" y="11.8%" numero="")
-            p.text-white Comportamiento de los usuarios con los registros en sitios web. 
+            p.text-white Comportamiento de los usuarios con los registros en sitios 
+              span.it web. 
           .tarjeta.color-secundario.p-3(x="30.5%" y="63%" numero="")
             p.text-white Reportes del área de transporte con el apoyo de sensores y tecnologías GPS.
           .tarjeta.color-secundario.p-3(x="46%" y="41%" numero="")
@@ -289,17 +299,17 @@
             .col-md.col-lg-6.p-4            
               .row
                 .col-lg-10
-                  p <strong>Material de apoyo:</strong> 
+                  p <strong>Material de apoyo</strong> 
                   p.mb-0 Para ampliar la información sobre el tema, puede ingresar a Biblioteca virtual Sena: 
                   p.mb-0 Peña, C. y Hernández, E. (2018). Cadena de suministro 4.0: beneficios y retos de las tecnologías disruptivas. Marge Books.  
                 .col-lg-2  
                   <br><br>
-                  a.boton.color-acento-botones.texto-blanco.mt-2(:href="('https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=TN_cdi_gale_infotracacademiconefile_A535678890&context=PC&vid=SENA&lang=es_ES&search_scope=sena_completo&adaptor=primo_central_multiple_fe&tab=sena_completo&query=any,contains,Pe%C3%B1a,%20C.%20y%20Hern%C3%A1ndez,%20E.%20(2018)&mode=Basic')" target="_blank" type="application/pdf")
+                  a.boton.color-acento-botones.texto-blanco.mt-2(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/45161?page=1')" target="_blank" type="application/pdf")
                     span ingresar
                     i.fas.fa-link   
               .row
                 .col-lg-10     
-                  p.mt-4 <strong> Video Tutorial: </strong>
+                  p.mt-4 <strong> Video Tutorial </strong>
                   p Cómo crear una base de datos en Excel.   
                 .col-lg-2
                   <br>
@@ -333,12 +343,16 @@
           li 
             .lista-ol--cuadro__vineta
               span 3
-            p.mb-0 <strong>Picking-list:</strong> documento donde están registrados los productos que el operario debe tomar de los estantes para organizar el envío al cliente.  Registra información como: fecha y lugar, tanto del pedido como de la entrega, número de pedido, datos del cliente, etc.
+            p.mb-0 
+              span.it <strong>Picking-list:</strong> 
+              |  documento donde están registrados los productos que el operario debe tomar de los estantes para organizar el envío al cliente.  Registra información como: fecha y lugar, tanto del pedido como de la entrega, número de pedido, datos del cliente, etc.
 
           li 
             .lista-ol--cuadro__vineta
               span 4
-            p.mb-0 <strong>Packing-list:</strong> relación de contenidos, documento necesario para la exportación de productos, el cual va junto con la factura comercial.
+            p.mb-0 
+              span.it <strong>Packing-list:</strong> 
+              |  relación de contenidos, documento necesario para la exportación de productos, el cual va junto con la factura comercial.
 
           li 
             .lista-ol--cuadro__vineta

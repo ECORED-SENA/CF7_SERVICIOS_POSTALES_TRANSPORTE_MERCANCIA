@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span.text-white S
-      h1 Sintesis 
+      h1 Síntesis 
     img(src='@/assets/curso/tema4/sintesis.png', alt='Texto que describa la imagen')
 
 </template>

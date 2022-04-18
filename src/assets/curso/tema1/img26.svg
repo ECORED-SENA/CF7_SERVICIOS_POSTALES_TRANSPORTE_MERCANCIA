@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1030" height="593.598" viewBox="0 0 1030 593.598">
-  <g id="Grupo_596871" data-name="Grupo 596871" transform="translate(-285 -10793)">
+  <g id="Grupo_596861" data-name="Grupo 596861" transform="translate(-285 -10793)">
     <g id="Grupo_577363" data-name="Grupo 577363" transform="translate(333.559 10826.288)">
       <rect id="Rectángulo_209309" data-name="Rectángulo 209309" width="26.056" height="257.007" transform="translate(0 136.202)" fill="#43a99b"/>
       <rect id="Rectángulo_209310" data-name="Rectángulo 209310" width="26.056" height="257.007" transform="translate(370.706 136.202)" fill="#43a99b"/>
@@ -7,56 +7,50 @@
       <rect id="Rectángulo_209311" data-name="Rectángulo 209311" width="26.056" height="257.007" transform="translate(499.801 26.056) rotate(-90)" fill="#43a99b"/>
       <rect id="Rectángulo_209313" data-name="Rectángulo 209313" width="26.056" height="257.007" transform="translate(146.861 444.136) rotate(-90)" fill="#43a99b"/>
     </g>
-    <g id="Grupo_596870" data-name="Grupo 596870">
-      <g id="Grupo_596869" data-name="Grupo 596869">
-        <g id="Rectángulo_209301" data-name="Rectángulo 209301" transform="translate(285.789 11004)" fill="#fff1d3" stroke="#fff6e2" stroke-width="3">
-          <rect width="285.431" height="174.101" rx="15" stroke="none"/>
-          <rect x="1.5" y="1.5" width="282.431" height="171.101" rx="13.5" fill="none"/>
-        </g>
-        <text id="_2._Registrar_detalle_de_mercancías_en_SGI_" data-name="2. Registrar detalle de mercancías en SGI*" transform="translate(315.794 11032)" fill="#12263f" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="20">2. Registrar detalle </tspan><tspan x="0" y="50">de mercancías en </tspan><tspan x="0" y="80">SGI*</tspan></text>
-        <g id="Rectángulo_38762" data-name="Rectángulo 38762" transform="translate(285 10793)" fill="#fde9bf" stroke="#fff6e2" stroke-width="3">
-          <rect width="285.431" height="174.101" rx="15" stroke="none"/>
-          <rect x="1.5" y="1.5" width="282.431" height="171.101" rx="13.5" fill="none"/>
-        </g>
-        <text id="_1._Planificar_la_operación_de_desconsolidación" data-name="1. Planificar la operación de desconsolidación" transform="translate(315.794 10825)" fill="#12263f" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="20">1. Planificar la </tspan><tspan x="0" y="50">operación de </tspan><tspan x="0" y="80">desconsolidación</tspan></text>
-        <g id="Rectángulo_209305" data-name="Rectángulo 209305" transform="translate(286.185 11212)" fill="#ffeeca" stroke="#fff6e2" stroke-width="3">
-          <rect width="285.431" height="174.101" rx="15" stroke="none"/>
-          <rect x="1.5" y="1.5" width="282.431" height="171.101" rx="13.5" fill="none"/>
-        </g>
-        <text id="_3._Descargar_la_información_asignada_al_contenedor" data-name="3. Descargar la información asignada al contenedor" transform="translate(316.979 11240)" fill="#12263f" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="20">3. Descargar la </tspan><tspan x="0" y="50">información </tspan><tspan x="0" y="80">asignada al </tspan></text>
-        <g id="Grupo_596868" data-name="Grupo 596868">
-          <g id="Rectángulo_209303" data-name="Rectángulo 209303" transform="translate(657.679 11004.005)" fill="#fde9bf" stroke="#fff6e2" stroke-width="3">
-            <rect width="285.431" height="174.101" rx="15" stroke="none"/>
-            <rect x="1.5" y="1.5" width="282.431" height="171.101" rx="13.5" fill="none"/>
-          </g>
-          <text id="_5._Asignación_de_equipos_y_operarios_necesarios" data-name="5. Asignación de equipos y operarios necesarios" transform="translate(688.868 11032)" fill="#12263f" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="20">5. Asignación de </tspan><tspan x="0" y="50">equipos y operarios </tspan><tspan x="0" y="80">necesarios</tspan></text>
-          <g id="Rectángulo_209299" data-name="Rectángulo 209299" transform="translate(657.679 10793)" fill="#fde9bf" stroke="#fff6e2" stroke-width="3">
-            <rect width="285.431" height="174.101" rx="15" stroke="none"/>
-            <rect x="1.5" y="1.5" width="282.431" height="171.101" rx="13.5" fill="none"/>
-          </g>
-          <text id="_6._Descargar_la_mercancía_y_llevar_al_almacen" data-name="6. Descargar la mercancía y llevar al almacen" transform="translate(688.868 10825)" fill="#12263f" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="20">6. Descargar la </tspan><tspan x="0" y="50">mercancía y llevar al </tspan><tspan x="0" y="80">almacen</tspan></text>
-          <g id="Rectángulo_209300" data-name="Rectángulo 209300" transform="translate(1029.568 10793)" fill="#fde9bf" stroke="#fff6e2" stroke-width="3">
-            <rect width="285.431" height="174.101" rx="15" stroke="none"/>
-            <rect x="1.5" y="1.5" width="282.431" height="171.101" rx="13.5" fill="none"/>
-          </g>
-          <text id="_7._Verificar_etiquetas_con_registro_en_SGI_" data-name="7. Verificar etiquetas con registro en SGI " transform="translate(1060.758 10825)" fill="#12263f" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="20">7. Verificar etiquetas </tspan><tspan x="0" y="50">con registro en SGI </tspan></text>
-          <g id="Rectángulo_209304" data-name="Rectángulo 209304" transform="translate(1029.568 11004.005)" fill="#fde9bf" stroke="#fff6e2" stroke-width="3">
-            <rect width="285.431" height="174.101" rx="15" stroke="none"/>
-            <rect x="1.5" y="1.5" width="282.431" height="171.101" rx="13.5" fill="none"/>
-          </g>
-          <text id="_8._Revisión_condiciones_contenedor" data-name="8. Revisión condiciones contenedor" transform="translate(1060.758 11032)" fill="#12263f" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="20">8. Revisión </tspan><tspan x="0" y="50">condiciones </tspan><tspan x="0" y="80">contenedor</tspan></text>
-          <g id="Rectángulo_209308" data-name="Rectángulo 209308" transform="translate(1029.568 11212.496)" fill="#fde9bf" stroke="#fff6e2" stroke-width="3">
-            <rect width="285.431" height="174.101" rx="15" stroke="none"/>
-            <rect x="1.5" y="1.5" width="282.431" height="171.101" rx="13.5" fill="none"/>
-          </g>
-          <text id="_9._Registrar_y_reportar_fallas_o_inconsistencias" data-name="9. Registrar y reportar fallas o inconsistencias" transform="translate(1060.758 11240)" fill="#12263f" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="20">9. Registrar y </tspan><tspan x="0" y="50">reportar fallas o </tspan><tspan x="0" y="80">inconsistencias</tspan></text>
-          <g id="Rectángulo_209307" data-name="Rectángulo 209307" transform="translate(657.679 11212)" fill="#fde9bf" stroke="#fff6e2" stroke-width="3">
-            <rect width="285.431" height="174.101" rx="15" stroke="none"/>
-            <rect x="1.5" y="1.5" width="282.431" height="171.101" rx="13.5" fill="none"/>
-          </g>
-          <text id="_4._En_terreno:_revisar_sellos_de_contenedor_y_mercancías" data-name="4. En terreno: revisar sellos de contenedor y mercancías" transform="translate(688.868 11240)" fill="#12263f" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="20">4. En terreno: revisar </tspan><tspan x="0" y="50">sellos de contenedor </tspan><tspan x="0" y="80">y mercancías</tspan></text>
-        </g>
-      </g>
+    <g id="Rectángulo_209301" data-name="Rectángulo 209301" transform="translate(285.789 11004)" fill="#fff1d3" stroke="#fff6e2" stroke-width="3">
+      <rect width="285.431" height="174.101" rx="15" stroke="none"/>
+      <rect x="1.5" y="1.5" width="282.431" height="171.101" rx="13.5" fill="none"/>
     </g>
+    <text id="_2._Registrar_detalle_de_mercancías_en_SGI_" data-name="2. Registrar detalle de mercancías en SGI*" transform="translate(315.794 11032)" fill="#12263f" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="20">2. Registrar detalle </tspan><tspan x="0" y="50">de mercancías en </tspan><tspan x="0" y="80">SGI*</tspan></text>
+    <g id="Rectángulo_38762" data-name="Rectángulo 38762" transform="translate(285 10793)" fill="#fde9bf" stroke="#fff6e2" stroke-width="3">
+      <rect width="285.431" height="174.101" rx="15" stroke="none"/>
+      <rect x="1.5" y="1.5" width="282.431" height="171.101" rx="13.5" fill="none"/>
+    </g>
+    <text id="_1._Planificar_la_operación_de_desconsolidación" data-name="1. Planificar la operación de desconsolidación" transform="translate(315.794 10825)" fill="#12263f" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="20">1. Planificar la </tspan><tspan x="0" y="50">operación de </tspan><tspan x="0" y="80">desconsolidación</tspan></text>
+    <g id="Rectángulo_209303" data-name="Rectángulo 209303" transform="translate(657.679 11004.005)" fill="#fde9bf" stroke="#fff6e2" stroke-width="3">
+      <rect width="285.431" height="174.101" rx="15" stroke="none"/>
+      <rect x="1.5" y="1.5" width="282.431" height="171.101" rx="13.5" fill="none"/>
+    </g>
+    <text id="_5._Asignación_de_equipos_y_operarios_necesarios" data-name="5. Asignación de equipos y operarios necesarios" transform="translate(688.868 11032)" fill="#12263f" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="20">5. Asignación de </tspan><tspan x="0" y="50">equipos y operarios </tspan><tspan x="0" y="80">necesarios</tspan></text>
+    <g id="Rectángulo_209299" data-name="Rectángulo 209299" transform="translate(657.679 10793)" fill="#fde9bf" stroke="#fff6e2" stroke-width="3">
+      <rect width="285.431" height="174.101" rx="15" stroke="none"/>
+      <rect x="1.5" y="1.5" width="282.431" height="171.101" rx="13.5" fill="none"/>
+    </g>
+    <text id="_6._Descargar_la_mercancía_y_llevar_al_almacén" data-name="6. Descargar la mercancía y llevar al almacén" transform="translate(688.868 10825)" fill="#12263f" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="20">6. Descargar la </tspan><tspan x="0" y="50">mercancía y llevar al </tspan><tspan x="0" y="80">almacén</tspan></text>
+    <g id="Rectángulo_209300" data-name="Rectángulo 209300" transform="translate(1029.568 10793)" fill="#fde9bf" stroke="#fff6e2" stroke-width="3">
+      <rect width="285.431" height="174.101" rx="15" stroke="none"/>
+      <rect x="1.5" y="1.5" width="282.431" height="171.101" rx="13.5" fill="none"/>
+    </g>
+    <text id="_7._Verificar_etiquetas_con_registro_en_SGI_" data-name="7. Verificar etiquetas con registro en SGI " transform="translate(1060.758 10825)" fill="#12263f" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="20">7. Verificar etiquetas </tspan><tspan x="0" y="50">con registro en SGI </tspan></text>
+    <g id="Rectángulo_209304" data-name="Rectángulo 209304" transform="translate(1029.568 11004.005)" fill="#fde9bf" stroke="#fff6e2" stroke-width="3">
+      <rect width="285.431" height="174.101" rx="15" stroke="none"/>
+      <rect x="1.5" y="1.5" width="282.431" height="171.101" rx="13.5" fill="none"/>
+    </g>
+    <text id="_8._Revisión_condiciones_contenedor" data-name="8. Revisión condiciones contenedor" transform="translate(1060.758 11032)" fill="#12263f" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="20">8. Revisión </tspan><tspan x="0" y="50">condiciones </tspan><tspan x="0" y="80">contenedor</tspan></text>
+    <g id="Rectángulo_209308" data-name="Rectángulo 209308" transform="translate(1029.568 11212.496)" fill="#fde9bf" stroke="#fff6e2" stroke-width="3">
+      <rect width="285.431" height="174.101" rx="15" stroke="none"/>
+      <rect x="1.5" y="1.5" width="282.431" height="171.101" rx="13.5" fill="none"/>
+    </g>
+    <text id="_9._Registrar_y_reportar_fallas_o_inconsistencias" data-name="9. Registrar y reportar fallas o inconsistencias" transform="translate(1060.758 11240)" fill="#12263f" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="20">9. Registrar y </tspan><tspan x="0" y="50">reportar fallas o </tspan><tspan x="0" y="80">inconsistencias</tspan></text>
+    <g id="Rectángulo_209305" data-name="Rectángulo 209305" transform="translate(286.185 11212)" fill="#ffeeca" stroke="#fff6e2" stroke-width="3">
+      <rect width="285.431" height="174.101" rx="15" stroke="none"/>
+      <rect x="1.5" y="1.5" width="282.431" height="171.101" rx="13.5" fill="none"/>
+    </g>
+    <text id="_3._Descargar_la_información_asignada_al_contenedor" data-name="3. Descargar la información asignada al contenedor" transform="translate(316.979 11240)" fill="#12263f" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="20">3. Descargar la </tspan><tspan x="0" y="50">información </tspan><tspan x="0" y="80">asignada al </tspan></text>
+    <g id="Rectángulo_209307" data-name="Rectángulo 209307" transform="translate(657.679 11212)" fill="#fde9bf" stroke="#fff6e2" stroke-width="3">
+      <rect width="285.431" height="174.101" rx="15" stroke="none"/>
+      <rect x="1.5" y="1.5" width="282.431" height="171.101" rx="13.5" fill="none"/>
+    </g>
+    <text id="_4._En_terreno:_revisar_sellos_de_contenedor_y_mercancías" data-name="4. En terreno: revisar sellos de contenedor y mercancías" transform="translate(688.868 11240)" fill="#12263f" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="20">4. En terreno: revisar </tspan><tspan x="0" y="50">sellos de contenedor </tspan><tspan x="0" y="80">y mercancías</tspan></text>
   </g>
 </svg>
