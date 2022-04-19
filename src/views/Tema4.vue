@@ -51,26 +51,26 @@
               |  Ente regulador de los contenedores utilizados en transporte aéreo; los contenedores deben adaptarse a las medidas de los aviones.
           .col-lg-5
     separador
-    #t_3_1.titulo-segundo.color-acento-contenido
-      h2 3.1. Generalidades
-    .row.justify-content-center
-      .col-lg-2
-        img(src='@/assets/curso/tema4/ico4.svg', alt='Texto que describa la imagen')
+    .row.justify-content-center.bgne5
+      #t_3_1.titulo-segundo.color-acento-contenido
+        h2 3.1. Generalidades
+      .row.justify-content-center
+        .col-lg-2
+          img(src='@/assets/curso/tema4/ico4.svg', alt='Texto que describa la imagen')
 
-      .col-lg-9.bg1
-        p En función del tipo de mercancía o producto que se vaya a transportar, varían las dimensiones y estructura del contenedor. Por ejemplo, pueden transportarse objetos pesados, como maquinaria pesada, mercancía pequeña como electrodomésticos o mercancía consolidada.  Son fabricados básicamente en acero, aunque existen algunos de aluminio y otros de madera contrachapada y reforzados con fibra de vidrio; al interior, poseen un recubrimiento antihumedad.  En la parte exterior (esquinas) llevan unos ganchos de amarre denominados 
-          span.it twistlocks
-          | , para facilitar el enganche con las grúas. A continuación, se presentan las partes del contenedor:
-    
+        .col-lg-9
+          p En función del tipo de mercancía o producto que se vaya a transportar, varían las dimensiones y estructura del contenedor. Por ejemplo, pueden transportarse objetos pesados, como maquinaria pesada, mercancía pequeña como electrodomésticos o mercancía consolidada.  Son fabricados básicamente en acero, aunque existen algunos de aluminio y otros de madera contrachapada y reforzados con fibra de vidrio; al interior, poseen un recubrimiento antihumedad.  En la parte exterior (esquinas) llevan unos ganchos de amarre denominados 
+            span.it twistlocks
+            | , para facilitar el enganche con las grúas. A continuación, se presentan las partes del contenedor:
+          <br>
     <br><br>
     p.mb-0 <strong>Figura 14</strong>
     p.it Partes del contenedor    
     .row.justify-content-center
       .col-lg-8
         img(src='@/assets/curso/tema4/img2.svg', alt='Texto que describa la imagen')
-    <br>
+    <br><br>
     p El contenedor ofrece resistencia, de manera que puede utilizarse en varias ocasiones. Al momento de seleccionarlo, es importante verificar el estado en el que se encuentra, tanto interna como externamente, para garantizar que las mercancías lleguen en óptimas condiciones.  
-    <br>
     p.mt-4 Existen varios tipos de contenedores, dependiendo de sus dimensiones, así:
     p.mb-0.mt-4 <strong>Figura 15</strong>
     p.it Tipos de contenedores  
@@ -224,7 +224,7 @@
     .row.justify-content-center
           .col-lg-4
             img(src='@/assets/curso/tema4/img21.png', alt='Texto que describa la imagen')
-          .col-lg-8
+          .col-lg-8.bgne6
             p Regularmente, los contenedores tienen dos puertas y cada una tiene dos barras de bloqueo; para colocar el sello, se debe cerrar primero la puerta izquierda y posteriormente la derecha.  En forma inversa, se debe colocar el sello; debería ir en la última puerta que fue cerrada (derecha), pues será la primera en abrirse, o se podría colocar el sello en las dos barras, como una medida complementaria de seguridad, y realizar un registro fotográfico para tener una evidencia exacta del registro y que no se presenten inconvenientes durante la operación.  Importante tener en cuenta las siguientes recomendaciones al momento de colocar el sello:
             p Material resistente que impida la rotura accidental.
             p.mb-1 - En caso de ser anulado el sello, deberá ser destruido totalmente.
@@ -289,7 +289,7 @@
     .row.justify-content-center
           .col-lg-5
             img(src='@/assets/curso/tema4/img15.png', alt='Texto que describa la imagen')
-          .col-lg-7
+          .col-lg-7.bgne7
             <br>
             p.mt-2 Definitivamente, el reto de las empresas logísticas es garantizar la entrega de las mercancías de manera segura, oportuna y puntual, de aquí la necesidad de contar con un transporte de excelente calidad.  Los diferentes transportes logísticos de mercancías permiten que la mercancía pueda llegar de un sitio a otro sin presentar ningún daño, afectando así positivamente el servicio al cliente; es por eso que el servicio de transporte debe ser de la mejor calidad en términos de seguridad, regularidad, oportunidad, tiempos y eficiencia.
             p.mt-4 Existe una diversidad de medios de transporte que son un eslabón importante en la cadena logística; sin embargo, de acuerdo con su combinación, existen varias modalidades, como: intramodal, intermodal y multimodal.  Intramodal hace referencia a los medios de transporte de la misma línea, por ejemplo, hacen escala o transbordo de avión.  Intermodal es la coordinación de máximo dos modalidades de transporte, por ejemplo, barco que llega al puerto y entrega las mercancías a vehículos terrestres.  Y en la multimodal intervienen más de dos modalidades de transporte, por ejemplo, importación de ropa siguiendo las rutas marítima-terrestre y aérea para llegar a cada ciudad de destino dentro del país.

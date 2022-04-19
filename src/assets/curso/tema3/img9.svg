@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="331" height="249.5" viewBox="0 0 331 249.5">
-  <g id="Grupo_593759" data-name="Grupo 593759" transform="translate(-1016.243 -3995)">
+<svg xmlns="http://www.w3.org/2000/svg" width="356" height="249.5" viewBox="0 0 356 249.5">
+  <g id="Grupo_593759" data-name="Grupo 593759" transform="translate(-1025 -3995)">
     <g id="Grupo_593753" data-name="Grupo 593753" transform="translate(1336.513 3765.465)">
       <g id="Grupo_593752" data-name="Grupo 593752" transform="translate(-302.27 229.535)">
         <g id="Grupo_593750" data-name="Grupo 593750" transform="translate(23.088)">
@@ -67,11 +67,11 @@
         <line id="Línea_1976-4" data-name="Línea 1976" x2="18.862" transform="translate(1025.5 4133.5)" fill="none" stroke="#f11" stroke-linecap="round" stroke-width="1"/>
       </g>
     </g>
-    <text id="Prefijo_GS1_país_" data-name="Prefijo
-GS1 país " transform="translate(1016.243 4148.5)" fill="#12263f" font-size="16" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-24.895" y="14">Prefijo</tspan><tspan x="-34.238" y="35">GS1 país </tspan></text>
-    <text id="Código_de_producto" data-name="Código de producto" transform="translate(1197.243 4148.5)" fill="#12263f" font-size="16" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-39.105" y="14">Código de </tspan><tspan x="-34.66" y="35">producto</tspan></text>
-    <text id="Dígito_control" data-name="Dígito control" transform="translate(1233.243 4226.5)" fill="#12263f" font-size="16" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-51.992" y="14">Dígito control</tspan></text>
+    <text id="Prefijo_GS1_pais_" data-name="Prefijo
+GS1 pais " transform="translate(1050 4148.5)" fill="#12263f" font-size="16" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-24.895" y="14">Prefijo</tspan><tspan x="-16.008" y="35">GS1 </tspan><tspan x="-16.008" y="56">pais </tspan></text>
+    <text id="Código_de_producto" data-name="Código de producto" transform="translate(1231 4148.5)" fill="#12263f" font-size="16" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-39.105" y="14">Código de </tspan><tspan x="-34.66" y="35">producto</tspan></text>
+    <text id="Digito_control" data-name="Digito control" transform="translate(1267 4226.5)" fill="#12263f" font-size="16" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-51.992" y="14">Digito control</tspan></text>
     <text id="Prefijo_de_empresa_" data-name="Prefijo de 
- empresa " transform="translate(1078.243 4202.5)" fill="#12263f" font-size="16" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-36.453" y="14">Prefijo de </tspan><tspan x="-35.133" y="35" xml:space="preserve"> empresa </tspan></text>
+ empresa " transform="translate(1112 4202.5)" fill="#12263f" font-size="16" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-36.453" y="14">Prefijo de </tspan><tspan x="-35.133" y="35" xml:space="preserve"> empresa </tspan></text>
   </g>
 </svg>

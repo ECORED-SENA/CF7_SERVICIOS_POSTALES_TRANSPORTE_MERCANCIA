@@ -69,14 +69,14 @@
       .col-lg-1
       .col-lg-3
          img.mt-4(src='@/assets/curso/tema3/img4.svg', alt='Texto que describa la imagen')
-      .col-lg-8.mt-4 
+      .col-lg-8.mt-4.bgne3
         p.mt-4 Para una eficiente operación y trazabilidad de las mercancías, los almacenes deben contar con un sistema de información denominado Sistema de Gestión del Almacén (SGA), como se mencionó anteriormente, con el objeto de controlar las referencias. 
         p Es así como la codificación de las mercancías es una labor de cuidado, desde el momento que llega el producto hasta que sale del almacén. Cada área puede participar en la asignación del código, de acuerdo con los criterios que requieran controlar y hacer seguimiento.  Existen varias metodologías de codificación:
     .row.justify-content-center
       .col-lg-1
       .col-lg-3
          img.mt-4(src='@/assets/curso/tema3/img5.svg', alt='Texto que describa la imagen')
-      .col-lg-8.mt-4.bg1
+      .col-lg-8.mt-0.bgne3
         ol.lista-ol--cuadro.lista-ol--separador.p-4
 
           li 
@@ -150,7 +150,7 @@
             td Denominado sistema GS1 de identificación y transmisión de datos mediante código de barras.  Utilizado en más de 105 países.  Permite identificar todas las unidades de productos en la cadena logística.
               p Se compone de dos partes: código numérico y el símbolo; las barras contienen información codificada.    
             td 
-              img(src='@/assets/curso/tema3/img9.svg', alt='Texto que describa la imagen')
+              img.wid222(src='@/assets/curso/tema3/img9.svg', alt='Texto que describa la imagen')
   
 
           tr
@@ -207,9 +207,10 @@
     .row.justify-content-center
       .col-lg-3
         img(src='@/assets/curso/tema3/img15.png', alt='Texto que describa la imagen')
-      .col-lg-9.mt-4.bg1
+      .col-lg-9.mt-4.bgne4
         <br>
         p Las características que definen el diseño, construcción, distribución e instalaciones necesarias para un almacén están determinadas principalmente por los tipos de producto que requieran almacenamiento; de igual forma, la naturaleza del producto dará las pautas a seguir en la cadena logística en las diferentes zonas del almacén; sin embargo, todos los productos tienen características diferentes que se deben tener en cuenta para la manipulación y el almacenamiento. 
+
     <br><br><br><br>
     .row.justify-content-center
       .col-lg-8.bg113

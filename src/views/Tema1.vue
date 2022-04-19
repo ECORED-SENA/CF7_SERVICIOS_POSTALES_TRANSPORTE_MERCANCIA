@@ -1134,12 +1134,13 @@
     p.mb-0 <strong>Figura 6</strong>
     p.it Integración y funcionamiento de las tecnologías en el almacén
 
-    .row.justify-content-center.bg559
+    .row.justify-content-center.bgne
       .col-lg-5
         img(src='@/assets/curso/tema2/img12.svg', alt='Texto que describa la imagen')
-      .col-lg-5
+      .col-lg-7.wxxx
+        <br>
         p.mt-4 El sistema de radiofrecuencia (RFID) ha facilitado la gestión, el control y eficiencia en las operaciones del almacén; este facilita el almacenamiento y recuperación de la información (datos), apoyado en los diferentes dispositivos, como lectores de códigos de barras o infrarrojos y PDA, principalmente.  A su vez, los lectores envían los datos almacenados al software específico, que alimentará la base de datos principal de la compañía, como se presenta en la imagen.
-      .col-lg-1  
+        
         <br><br><br><br><br><br>
     <br>
     h5.mt-4 Utilidad en su aplicación:
@@ -1188,15 +1189,16 @@
               <br><br>                
             .col-8.col-sm-6.col-md-4.mb-4.mb-md-0       
     h4 <strong>Generalidades bases de datos</strong>   
-    .row.justify-content-center
+    .row.justify-content-center.mt-4.bgne2 
       .col-lg-2
         img.waaaq(src='@/assets/curso/tema2/ico1.svg', alt='Texto que describa la imagen')
 
-      .col-lg-10.bg1
+      .col-lg-10.mt-2
         p A lo largo de la cadena de suministro, en logística, se genera gran cantidad de información, que para este caso se denominan datos, los cuales se han multiplicado y revolucionado las tecnologías en los últimos tiempos.  En busca de una solución para el control y gestión de la información, se ha recurrido a sistemas de información que logren generar valor a los datos para la toma de decisiones. Hoy en día, se conoce como tecnología 4.0 y suministros inteligentes 
           span.it “Big Data”.
+    <br>
     h4.mt-4 Logística 4.0
-    .row.justify-content-center
+    .row.justify-content-center.mt-4
       .col-lg-11
         p También llamada cuarta revolución industrial, donde el término 4.0 es hablar de innovación, de una nueva forma de hacer logística, donde el uso de herramientas novedosas optimiza el desarrollo de los procesos, cadenas de suministro inteligentes 
           span.it <strong>(Big Data o Machine Learning).</strong>
