@@ -295,6 +295,27 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Gloria Esperanza Silva Guarín',
+        cargo: 'Experta Temática',
+        centro: 'Centro de Gestión Industrial – Distrito capital',
+      },
+      {
+        nombre: 'Gloria Lida Álzate Suárez',
+        cargo: 'Diseñadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica-Regional Distrito Capital',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro: 'Centro de Diseño y Metrología-Regional Distrito Capital',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro Agropecuario La Granja-Regional Tolima ',
+      },
     ],
     desarrolloProducto: [
       {
@@ -345,7 +366,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Mayra Alejandra Álvarez Díaz',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
