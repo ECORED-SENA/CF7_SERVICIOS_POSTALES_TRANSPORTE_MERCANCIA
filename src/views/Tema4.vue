@@ -53,11 +53,11 @@
     separador
     #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1. Generalidades
-    .row.justify-content-center.bg311
+    .row.justify-content-center
       .col-lg-2
         img(src='@/assets/curso/tema4/ico4.svg', alt='Texto que describa la imagen')
 
-      .col-lg-9
+      .col-lg-9.bg1
         p En función del tipo de mercancía o producto que se vaya a transportar, varían las dimensiones y estructura del contenedor. Por ejemplo, pueden transportarse objetos pesados, como maquinaria pesada, mercancía pequeña como electrodomésticos o mercancía consolidada.  Son fabricados básicamente en acero, aunque existen algunos de aluminio y otros de madera contrachapada y reforzados con fibra de vidrio; al interior, poseen un recubrimiento antihumedad.  En la parte exterior (esquinas) llevan unos ganchos de amarre denominados 
           span.it twistlocks
           | , para facilitar el enganche con las grúas. A continuación, se presentan las partes del contenedor:
@@ -65,15 +65,11 @@
     <br><br>
     p.mb-0 <strong>Figura 14</strong>
     p.it Partes del contenedor    
-    .row.justify-content-center.bg311
-      .col-lg-1
-      .col-lg-5
+    .row.justify-content-center
+      .col-lg-8
         img(src='@/assets/curso/tema4/img2.svg', alt='Texto que describa la imagen')
-
-      .col-lg-5.mt-2
-        <br><br><br><br>
-        p El contenedor ofrece resistencia, de manera que puede utilizarse en varias ocasiones. Al momento de seleccionarlo, es importante verificar el estado en el que se encuentra, tanto interna como externamente, para garantizar que las mercancías lleguen en óptimas condiciones.  
-      .col-lg-1  
+    <br>
+    p El contenedor ofrece resistencia, de manera que puede utilizarse en varias ocasiones. Al momento de seleccionarlo, es importante verificar el estado en el que se encuentra, tanto interna como externamente, para garantizar que las mercancías lleguen en óptimas condiciones.  
     <br>
     p.mt-4 Existen varios tipos de contenedores, dependiendo de sus dimensiones, así:
     p.mb-0.mt-4 <strong>Figura 15</strong>
@@ -217,7 +213,7 @@
             .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
             .col-md.col-lg-7.p-5
               <br>
-              h4.text-white.qqq Material de apoyo: 
+              h4.text-white.qqq Material de apoyo
               p.mb-4.text-white.qqq En caso de requerir ampliar la información sobre la codificación, se recomienda consultar las siguientes páginas:
               a.boton.color-acento-botones.texto-blanco.mt-4(:href="('http://www.barradecomercio.org/?p=718#.Ya07_GDMLIUhttps://www.stocklogistic.com/codigos-contenedor-maritimo/')" target="_blank" type="application/pdf")
                 span Ingresar

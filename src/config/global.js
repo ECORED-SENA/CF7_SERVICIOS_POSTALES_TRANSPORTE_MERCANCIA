@@ -45,16 +45,6 @@ export default {
             titulo: 'Equipos de movimentación',
             hash: 't_1_3',
           },
-        ],
-      },
-      {
-        nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
-        numero: '',
-        titulo: 'Continuidad tema 1',
-        desarrolloContenidos: false,
-
-        subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
@@ -63,6 +53,7 @@ export default {
           },
         ],
       },
+
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',

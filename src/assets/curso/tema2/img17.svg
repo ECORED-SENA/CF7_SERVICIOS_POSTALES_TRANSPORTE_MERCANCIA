@@ -155,7 +155,7 @@
       <rect id="Rectángulo_215458" data-name="Rectángulo 215458" width="44.99" height="51.176" fill="#f5a310"/>
     </clipPath>
   </defs>
-  <g id="Grupo_596861" data-name="Grupo 596861" transform="translate(-235.5 -7223.506)">
+  <g id="Grupo_596897" data-name="Grupo 596897" transform="translate(-235.5 -7223.506)">
     <g id="Grupo_596678" data-name="Grupo 596678" transform="translate(251.758 7223.506)">
       <g id="Grupo_596813" data-name="Grupo 596813" clip-path="url(#clip-path)">
         <g id="Grupo_596682" data-name="Grupo 596682">
@@ -736,8 +736,8 @@
       </g>
     </g>
     <text id="Nota_de_entrega" data-name="Nota de entrega" transform="translate(550 7420)" fill="#12263f" font-size="14" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="13">Nota de entrega</tspan></text>
-    <text id="Picking_-_list" data-name="Picking - list" transform="translate(550 7536)" fill="#12263f" font-size="14" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="13">Picking - list</tspan></text>
-    <text id="Packing_-_list" data-name="Packing - list" transform="translate(550 7652)" fill="#12263f" font-size="14" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="13">Packing - list</tspan></text>
+    <text id="Picking_-_list" data-name="Picking - list" transform="translate(550 7536)" fill="#12263f" font-size="14" font-family="Arial-BoldItalicMT, Arial" font-weight="700" font-style="italic"><tspan x="0" y="13">picking - list</tspan></text>
+    <text id="Packing_-_list" data-name="Packing - list" transform="translate(550 7652)" fill="#12263f" font-size="14" font-family="Arial-BoldItalicMT, Arial" font-weight="700" font-style="italic"><tspan x="0" y="13">packing - list</tspan></text>
     <text id="Hoja_de_ruta_o_transporte" data-name="Hoja de ruta o 
 transporte" transform="translate(550 7759)" fill="#12263f" font-size="14" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="13">Hoja de ruta o </tspan><tspan x="0" y="30">transporte</tspan></text>
     <text id="Orden_de_trabajo" data-name="Orden de trabajo" transform="translate(550 7304)" fill="#12263f" font-size="14" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="13">Orden de trabajo</tspan></text>

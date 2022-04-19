@@ -7,7 +7,14 @@
         span.text-white S
       h1 Síntesis 
     img(src='@/assets/curso/tema4/sintesis.png', alt='Texto que describa la imagen')
-
+    <br><br>
+    .row.justify-content-center
+      .col-auto
+        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.svg')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Anexo. Síntesis
 </template>
 
 <script>

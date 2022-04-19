@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1030" height="593.597" viewBox="0 0 1030 593.597">
-  <g id="Grupo_596864" data-name="Grupo 596864" transform="translate(-285 -1810)">
+  <g id="Grupo_596898" data-name="Grupo 596898" transform="translate(-285 -1810)">
     <g id="Grupo_577363" data-name="Grupo 577363" transform="translate(333.559 1843.288)">
       <rect id="Rectángulo_209309" data-name="Rectángulo 209309" width="26.056" height="257.007" transform="translate(0 136.202)" fill="#43a99b"/>
       <rect id="Rectángulo_209310" data-name="Rectángulo 209310" width="26.056" height="257.007" transform="translate(370.706 136.202)" fill="#43a99b"/>
@@ -16,7 +16,7 @@
       <rect width="285.431" height="174.101" rx="15" stroke="none"/>
       <rect x="1.5" y="1.5" width="282.431" height="171.101" rx="13.5" fill="none"/>
     </g>
-    <text id="_1._Disponer_del_plano_o_layout_del_almacen" data-name="1. Disponer del plano o layout del almacen" transform="translate(315.794 1842)" fill="#12263f" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="20">1. Disponer del plano </tspan><tspan x="0" y="50">o </tspan><tspan y="50" font-family="Arial-ItalicMT, Arial" font-weight="400" font-style="italic">layout </tspan><tspan y="50">del almacen</tspan></text>
+    <text id="_1._Disponer_del_plano_o_layout_del_almacén" data-name="1. Disponer del plano o layout del almacén" transform="translate(315.794 1842)" fill="#12263f" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="20">1. Disponer del plano </tspan><tspan x="0" y="50">o </tspan><tspan y="50" font-family="Arial-BoldItalicMT, Arial" font-style="italic">layout </tspan><tspan y="50">del almacén</tspan></text>
     <g id="Rectángulo_209303" data-name="Rectángulo 209303" transform="translate(657.679 2021.005)" fill="#fde9bf" stroke="#fff6e2" stroke-width="3">
       <rect width="285.431" height="174.101" rx="15" stroke="none"/>
       <rect x="1.5" y="1.5" width="282.431" height="171.101" rx="13.5" fill="none"/>

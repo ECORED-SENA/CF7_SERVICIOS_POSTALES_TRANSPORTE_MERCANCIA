@@ -76,7 +76,7 @@
       .col-lg-1
       .col-lg-3
          img.mt-4(src='@/assets/curso/tema3/img5.svg', alt='Texto que describa la imagen')
-      .col-lg-8.mt-4 
+      .col-lg-8.mt-4.bg1
         ol.lista-ol--cuadro.lista-ol--separador.p-4
 
           li 
@@ -89,7 +89,7 @@
           li 
             .lista-ol--cuadro__vineta
               span 2
-            p.mb-0 <strong>Codificación libre al azar:</strong> se asigna un código al azar, para aquellos productos nuevos
+            p.mb-0 <strong>Codificación libre al azar:</strong> se asigna un código al azar, para aquellos productos nuevos.
 
 
           li 
@@ -123,7 +123,7 @@
         img(src='@/assets/curso/tema3/img7.png', alt='Texto que describa la imagen')
       .col-lg-8.mt-4
         <br>
-        p Se recomienda que los productos estén identificados en la etiqueta adhesiva con el código inteligente, código de barras y nombre de la referencia, como se muestra en la imagen:
+        p Se recomienda que los productos estén identificados en la etiqueta adhesiva con el código inteligente, código de barras y nombre de la referencia, como se muestra en la imagen.
     <br><br>
     h5 Códigos y etiquetas
     .row.justify-content-center
