@@ -739,7 +739,7 @@
               <br>
               p <strong>Material de apoyo</strong>
               p.mt-4 En caso de ser necesario ampliar la información, ingrese a Sistemas de Biblioteca Sena: Flamarique, S. (2017). Gestión de operaciones de almacenaje. Marge Books
-              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/43773?page=55')" target="_blank" type="application/pdf")
                 span Ingresar
                 i.fas.fa-link
               <br>      
@@ -990,7 +990,7 @@
 
               p.mb-4 En caso de ser necesario ampliar la información, ingrese a Sistemas de Biblioteca Sena:
               p Flamarique, S. (2017). Gestión de operaciones de almacenaje. Marge Books. 
-              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/43773?page=41')" target="_blank" type="application/pdf")
                 span Ingresar
                 i.fas.fa-link
               <br><br><br><br>
@@ -1279,7 +1279,7 @@
                   p.mb-0 Peña, C. y Hernández, E. (2018). Cadena de suministro 4.0: beneficios y retos de las tecnologías disruptivas. Marge Books.  
                 .col-lg-2  
                   <br><br>
-                  a.boton.color-acento-botones.texto-blanco.mt-2(:href="('')" target="_blank" type="application/pdf")
+                  a.boton.color-acento-botones.texto-blanco.mt-2(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/45161?page=1')" target="_blank" type="application/pdf")
                     span ingresar
                     i.fas.fa-link   
               .row
