@@ -208,7 +208,7 @@
         img(src='@/assets/curso/tema4/img14.svg', alt='Texto que describa la imagen')
     .row.justify-content-center.mt-4
       .col-lg-10.mt-4
-        .tarjeta.color-secundario.p-4.p-md-5.mb-5.mt-4.bg22
+        .tarjeta.p-4.p-md-5.mb-5.mt-4.bg22
           .row.justify-content-around.align-items-center
             .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
             .col-md.col-lg-7.p-5
