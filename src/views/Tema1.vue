@@ -2,35 +2,34 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span.text-white 1
       h1 Preparación de la carga
     
-    .row.mt-4.justify-content-center.bg1
-      .col-lg-1
-      .col-lg-3
-        img(src='@/assets/curso/tema1/img1.svg', alt='Texto que describa la imagen')
-      .col-lg-1
+    .row.justify-content-center.bg1.mb-5
+      .col-lg-5.mb-5.mb-lg-0
+        img(src='@/assets/curso/tema1/img1.svg', alt='Texto que describa la imagen').img300.m-auto      
       .col-lg-7
         p En todo el proceso logístico, es importante que la mercancía transportada llegue en condiciones óptimas al cliente final; por lo regular, los trayectos son largos y la mercancía puede sufrir algún daño si no ha sido preparada con responsabilidad, normas y protocolos de operación en logística. Se debe conocer el tipo de mercancía que se va a manipular, almacenar y transportar, para identificar el tratamiento que se debe aplicar.
         p El objetivo principal es preparar la mercancía para que llegue en perfectas condiciones, por lo que requiere desarrollar tareas de embalaje, identificación, consolidación, paletización y flejado de las cargas, para ser entregada al vehículo y así lograr que la carga no se mueva durante el transporte o sufra averías.  
-        p La preparación de la carga al interior del almacén está acompañada de actividades que planifican y ejecutan los operarios, las cuales están descritas en la siguiente secuencia:
-    <br>
-    .tarjeta.tarjeta--gris.p-4.mt-4
+        p La preparación de la carga al interior del almacén está acompañada de actividades que planifican y ejecutan los operarios, las cuales están descritas en la siguiente secuencia:    
+    
+    .tarjeta.tarjeta--gris.p-4.mb-5
       PasosB.color-acento-contenido
         .row.justify-content-center(titulo="")
-          .col-md-3.mb-4.mb-md-0
-            p.mb-0 Al momento de llegar la mercancía al almacén, se realiza una verificación sobre el tipo de ingreso, según las siguientes características: 
+          p.mb-4 Al momento de llegar la mercancía al almacén, se realiza una verificación sobre el tipo de ingreso, según las siguientes características:
+          .col-xl-5.mb-4.mb-xl-0            
             p ingreso de mercancía al almacén, salida de mercancía del almacén, traspasos de mercancía y recontrol.
-            p Durante el ingreso de la mercancía, se desarrollan otros procesos más pequeños, como: a) Planear la entrada, para lo cual se debe tener claro y por escrito la programación del día, la semana o el periodo, y así poder organizar los recursos necesarios (personal, equipos y muelle, donde aplique). b) Verificación inicial, el registro de entrada debe coincidir con la información que refleja el 
-              span.it software.
-          .col-md-7
-              img(src='@/assets/curso/tema1/img2.svg', alt='Texto que describa la imagen')
-
+            p Durante el ingreso de la mercancía, se desarrollan otros procesos más pequeños, como: 
+            p #[strong a)] Planear la entrada, para lo cual se debe tener claro y por escrito la programación del día, la semana o el periodo, y así poder organizar los recursos necesarios (personal, equipos y muelle, donde aplique). 
+            p #[strong b)] Verificación inicial, el registro de entrada debe coincidir con la información que refleja el #[i software].
+          .col-xl-7
+            img(src='@/assets/curso/tema1/img2.svg', alt='Texto que describa la imagen').img500.m-auto
 
         .row.justify-content-center(titulo="")
-          .col-md-5.mb-4.mb-md-0
+          .col-xl-6.mb-4.mb-xl-0
             p <strong>Ubicación en estantes</strong>
             p Al momento de llegar la mercancía al almacén y hacer la descarga a nivel del piso, se hace la verificación sobre el correcto estado de la mercancía y se informa a los operarios el lugar donde se debe colocar en el almacén, para lo cual existen varias formas:
             p.mb-1 - Ubicación fija
@@ -38,72 +37,68 @@
             p.mb-1 - Ubicación por cliente
             p.mb-1 - Ubicación por proyecto
             p - Ubicación por temperatura
-          .col-md-1
-          .col-md-5
-              img(src='@/assets/curso/tema1/img3.svg', alt='Texto que describa la imagen')
-
+          
+          .col-xl-5
+            img(src='@/assets/curso/tema1/img3.svg', alt='Texto que describa la imagen').img500.m-auto
 
         .row.justify-content-center(titulo="")
-          .col-md-5.mb-4.mb-md-0
-            <br><br>
+          .col-xl-6.mb-4.mb-xl-0            
             p <strong>Consolidación de mercancías</strong>
-            p Es un proceso que se realiza dentro de la cadena de suministro con el fin de optimizar la distribución de las mercancías y agilizar los procesos, permitiendo minimizar los costes de transporte y crear economías de escala.
-          .col-md-1
-          .col-md-5
-              img(src='@/assets/curso/tema1/img4.svg', alt='Texto que describa la imagen')
+            p Es un proceso que se realiza dentro de la cadena de suministro con el fin de optimizar la distribución de las mercancías y agilizar los procesos, permitiendo minimizar los costes de transporte y crear economías de escala.          
+          .col-xl-5
+            img(src='@/assets/curso/tema1/img4.svg', alt='Texto que describa la imagen').img500.m-auto
 
         .row.justify-content-center(titulo="")
-          .col-md-5.mb-4.mb-md-0
-            <br><br>
+          .col-xl-6.mb-4.mb-xl-0            
             p.it <strong>Cross docking</strong>
-            p O cruce de muelle, es una operación que busca mejorar la eficiencia en la cadena de suministro, disminuyendo o volviendo nulo el tiempo de almacenamiento.
-          .col-md-1
-          .col-md-5
-              img(src='@/assets/curso/tema1/img5.svg', alt='Texto que describa la imagen')
+            p O cruce de muelle, es una operación que busca mejorar la eficiencia en la cadena de suministro, disminuyendo o volviendo nulo el tiempo de almacenamiento.          
+          .col-lg-5
+            img(src='@/assets/curso/tema1/img5.svg', alt='Texto que describa la imagen').img500
 
         .row.justify-content-center(titulo="")
-          .col-md-5.mb-4.mb-md-0
-            <br><br>
+          .col-xl-6.mb-4.mb-xl-0            
             p <strong>Expedición</strong>
-            p Consiste en la salida de las mercancías. El pedido sale del almacén para ser entregado en el tiempo y condiciones establecidas por el cliente.  Por lo general, las zonas de expedición están ubicadas cerca de los muelles (puertas de entrada y salida).
-          .col-md-1
-          .col-md-5
-              img(src='@/assets/curso/tema1/img6.svg', alt='Texto que describa la imagen')
+            p Consiste en la salida de las mercancías. El pedido sale del almacén para ser entregado en el tiempo y condiciones establecidas por el cliente.  Por lo general, las zonas de expedición están ubicadas cerca de los muelles (puertas de entrada y salida).          
+          .col-xl-5
+            img(src='@/assets/curso/tema1/img6.svg', alt='Texto que describa la imagen').img500
 
         .row.justify-content-center(titulo="")
-          .col-md-5.mb-4.mb-md-0
-            <br><br>
+          .col-xl-5.mb-4.mb-xl-0            
             p <strong>Aprovisionamiento</strong>
-            p Aplica principalmente para aquellas empresas que tienen líneas de producción; el almacén debe igualmente recepcionar la mercancía y mantener el control de la misma a través de las órdenes de fabricación.
-          .col-md-1
-          .col-md-5
-              img(src='@/assets/curso/tema1/img7.svg', alt='Texto que describa la imagen')
-    <br><br>
-    .row.justify-content-center
+            p.mb-0 Aplica principalmente para aquellas empresas que tienen líneas de producción; el almacén debe igualmente recepcionar la mercancía y mantener el control de la misma a través de las órdenes de fabricación.          
+          .col-xl-5
+            img(src='@/assets/curso/tema1/img7.svg', alt='Texto que describa la imagen').img500
+
+    .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta.p-4.p-md-5.mb-5.mt-4.bg2
-          .row.justify-content-around.align-items-center
-            .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
-            .col-md.col-lg-7.p-4
-              <br>
-              p.mb-4 <strong>Si es de su interés ampliar la información sobre la secuencia de actividades diarias, se invita a descargar el siguiente archivo PDF. </strong> 
-              a.boton.color-acento-botones.texto-blanco.mt-4(:href="obtenerLink('/downloads/9_Secuencia de actividades diarias.pdf')" target="_blank" type="application/pdf")
+        .cta--yellow
+          .bubble--right
+          .dots--right
+          .row.align-items-center
+            .col-auto.mb-4.mb-lg-0
+              figure
+                img(src="@/assets/curso/llamados/cta_01.png", alt="alt").img385.m-auto
+            .col-12.col-lg.px-3.px-5.px-lg-0.pt-0.pt-lg-5.txt-mg--right
+              p.mb-4 #[strong Si es de su interés ampliar la información sobre la secuencia de actividades diarias, se invita a descargar el siguiente archivo PDF.]
+              a.boton.color-acento-contenido-botones.texto-blanco.float-end(:href="obtenerLink('/downloads/9_Secuencia de actividades diarias.pdf')" target="_blank" type="application/pdf").mb-5.mb-lg-0
                 span Descargar
-                i.fas.fa-link
-              <br><br><br><br>
+                i.fas.fa-link 
+
     separador
+
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1  Ubicación de mercancías según clasificación
+
     p Las mercancías en el almacén se deben ubicar de una forma lógica y atendiendo las normas de seguridad establecidas por el sector logístico para la manipulación de las mismas durante la ubicación.  Se debe prestar especial atención a diferentes criterios, tanto de espacio como de ubicación, para el tipo de mercancía. Para aquellas organizaciones que cuenten con un Sistema de Gestión de Almacén (SGA), es más fácil la tarea, ya que el mismo indica la ubicación precisa donde se encuentra el producto en tiempo real.  Dentro de las normas de seguridad que se deben atender, se tiene:
+
     .row.justify-content-center.mt-4.mb-5
       .col-sm-6.col-xl-3.mb-2.mb-xl-0
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.p-4.p-xl-5
-              img.ps.mt-4(src='@/assets/curso/tema1/ico1.svg', alt='Texto que describa la imagen', width='75px')
-              <br>
-              p.text-center.mt-4 <strong>Compatibilidad</strong>            
+              img(src='@/assets/curso/tema1/ico1.svg', alt='').mt-5.mb-4.img85.m-auto             
+              p.text-center <strong>Compatibilidad</strong>            
             .tarjeta-flip__contenido.p-4.p-xl-5
               p <strong>Compatibilidad</strong>
               p La matriz de compatibilidad para sustancias químicas (la desarrolla el departamento de Seguridad y Salud en el Trabajo) indica qué productos pueden estar almacenados juntos o distantes.  Por ejemplo, no se pueden almacenar productos tóxicos con alimentos o fármacos.  
@@ -112,11 +107,9 @@
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img.p-4.p-xl-5
-              <br>  
-              img.ps.mt-3(src='@/assets/curso/tema1/ico2.svg', alt='Texto que describa la imagen', width='75px')
-              <br><br>
-              p.text-center.mt-4 <strong>Complementariedad</strong>            
+            .tarjeta-flip__img.p-4.p-xl-5              
+              img(src='@/assets/curso/tema1/ico2.svg', alt='').mt-5.mb-4.img85.m-auto              
+              p.text-center <strong>Complementariedad</strong>            
             .tarjeta-flip__contenido.p-4.p-xl-5
               p <strong>Complementariedad </strong>
               p Se podrán colocar cercanas las mercancías que, por lo regular, deben ir en el mismo pedido.  
@@ -125,11 +118,9 @@
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img.p-4.p-xl-5
-              <br><br>
-              img.ps.mt-2(src='@/assets/curso/tema1/ico3.svg', alt='Texto que describa la imagen', width='75px')
-              <br>
-              p.text-center.mt-4 <strong>Tamaño y peso</strong>            
+            .tarjeta-flip__img.p-4.p-xl-5              
+              img(src='@/assets/curso/tema1/ico3.svg', alt='').mt-5.mb-4.img85.m-auto              
+              p.text-center <strong>Tamaño y peso</strong>            
             .tarjeta-flip__contenido.p-4.p-xl-5
               p <strong>Tamaño y peso </strong>
               p En lo posible, aquellas mercancías de gran tamaño y volumen realizarán los menores desplazamientos.
@@ -139,212 +130,229 @@
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img.p-4.p-xl-5
-              <br>  
-              img.ps.mt-3(src='@/assets/curso/tema1/ico4.svg', alt='Texto que describa la imagen', width='75px')
-              <br><br>
-              p.text-center.mt-4 <strong>Rotación</strong>            
+            .tarjeta-flip__img.p-4.p-xl-5              
+              img(src='@/assets/curso/tema1/ico4.svg', alt='').mt-5.mb-4.img85.m-auto             
+              p.text-center <strong>Rotación</strong>            
             .tarjeta-flip__contenido.p-4.p-xl-5
               p <strong>Rotación</strong>
               p Cerca de la zona de expedición, se ubicarán los productos de mayor rotación o actividad en el almacén.
-    .row.justify-content-center
+
+
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
         img(src='@/assets/curso/tema1/img8.svg', alt='Texto que describa la imagen')
+      .col-lg-8.bg3        
+        p.mt-5.mb-0 Los centros de despacho deben asegurar una correcta manipulación y ubicación de la mercancía, para lo cual se requiere conocer características como: dimensiones, forma, volumen, peso, ubicación, fragilidad, propiedades, estado físico y nivel de rotación.  Estas características permiten clasificarla e identificar los equipos necesarios para las actividades de recepción, manipulación, ubicación y almacenamiento, las cuales se describen a continuación:
 
-      .col-lg-8.bg3
-        <br><br><br><br>
-        p.mt-4 Los centros de despacho deben asegurar una correcta manipulación y ubicación de la mercancía, para lo cual se requiere conocer características como: dimensiones, forma, volumen, peso, ubicación, fragilidad, propiedades, estado físico y nivel de rotación.  Estas características permiten clasificarla e identificar los equipos necesarios para las actividades de recepción, manipulación, ubicación y almacenamiento, las cuales se describen a continuación:
-    .titulo-sexto.color-secundario.mt-4.mb-0
-      p <strong>Tabla 1</strong> 
-        span.maxx.it Clasificación de las mercancías según características
-    <br><br><br>
+    .titulo-sexto.color-secundario
+      h5 Tabla 1.
+      span Clasificación de las mercancías según características
+
+   
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
-        h5.mb-0.text-white.qqq SEGÚN VOLUMEN O DIMENSIONES
+        h5.mb-0.text-white.ms-5 SEGÚN VOLUMEN O DIMENSIONES
       table
-        tr
-          th.bgsa <strong>Característica</strong>
+        tr.cell--gray
+          th <strong>Característica</strong>
           td <strong>Descripción</strong>
-        tr
+        tr.cell--gray
           th Muy voluminosa
           td Unidades muy grandes o agrupación de varias mercancías. Requieren contenedor.
-        tr
-          th.bgsa Volumen excepcional
+        tr.cell--gray
+          th Volumen excepcional
           td Medidas excesivamente grandes, que requieren de algún medio especial de transporte, permisos y señalización.
-        tr
+        tr.cell--gray
           th Voluminosas
           td Muy parecido a paletizadas, sin embargo, las dimensiones forman parte del producto y no se pueden apilar.
-        tr
-          th.bgsa Dimensiones especiales
+        tr.cell--gray
+          th Dimensiones especiales
           td Requieren puente grúa para la manipulación.
-        tr
+        tr.cell--gray
           th Pequeñas
           td Se pueden manipular fácilmente con las manos (máximo 10 Kg).
-        tr
+        tr.cell--gray
           th.bgsa Paletizadas
           td Mercancía sobre paletas, con peso recomendado máximo de 1.000 kg
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
         h5.mb-0.text-white.qqq  SEGÚN EL PESO
       table
-        tr
-          th.bgsa <strong>Característica</strong>
+        tr.cell--gray
+          th <strong>Característica</strong>
           td <strong>Descripción</strong>
-        tr
+        tr.cell--gray
           th Ligeras
           td Mercancía hasta 5 kg.
-        tr
-          th.bgsa Media
+        tr.cell--gray
+          th Media
           td Productos o mercancía entre 5 y 25 kg.
-        tr
+        tr.cell--gray
           th Pesada
           td Mercancía entre 25 kg y 1 tonelada.
-        tr
-          th.bgsa Muy pesada
+        tr.cell--gray
+          th Muy pesada
           td Mercancía que supere 1 tonelada.
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
         h5.mb-0.text-white.qqq  SEGÚN UBICACIÓN
       table
-        tr
-          th.bgsa <strong>Característica</strong>
+        tr.cell--gray
+          th <strong>Característica</strong>
           td <strong>Descripción</strong>
-        tr
+        tr.cell--gray
           th Sencillas
           td Con dimensiones dentro del rango (normales), se pueden ubicar fácilmente en los estantes del almacén.  No pueden apilarse.
-        tr
-          th.bgsa Apilables
+        tr.cell--gray
+          th Apilables
           td Se pueden apilar, con algunas limitaciones.
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
         h5.mb-0.text-white.qqq  SEGÚN FRAGILIDAD
       table
-        tr
-          th.bgsa <strong>Característica</strong>
+        tr.cell--gray
+          th <strong>Característica</strong>
           td <strong>Descripción</strong>
-        tr
+        tr.cell--gray
           th Ligeras
           td Pueden soportar peso encima con limitaciones. Por ejemplo, cajas de yogurt.
-        tr
-          th.bgsa Resistentes
+        tr.cell--gray
+          th Resistentes
           td Soportan mucho peso, por ejemplo, cajas de cerámicas para pisos.
-        tr
+        tr.cell--gray
           th Frágiles
           td No pueden soportar peso encima, se deben organizar individualmente.      
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
         h5.mb-0.text-white.qqq  SEGÚN PROPIEDADES
       table
-        tr
-          th.bgsa <strong>Característica</strong>
+        tr.cell--gray
+          th <strong>Característica</strong>
           td <strong>Descripción</strong>
-        tr
+        tr.cell--gray
           th Duradero
           td No es prioritario organizar por orden de salida; el tiempo de almacenamiento es indiferente.
-        tr
-          th.bgsa Perecedero
+        tr.cell--gray
+          th Perecedero
           td Por lo regular, llevan una fecha de vencimiento; al momento de despachar las mercancías, deben salir primero las más antiguas. Ocurre en el caso de alimentos y medicinas.
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
         h5.mb-0.text-white.qqq  SEGÚN ESTADO FÍSICO
       table
-        tr
-          th.bgsa <strong>Característica</strong>
+        tr.cell--gray
+          th <strong>Característica</strong>
           td <strong>Descripción</strong>
-        tr
+        tr.cell--gray
           th Líquido
           td Es necesario identificar la composición y reacción química con otros productos, pues podría cambiar su estado físico y generar algún tipo de riesgo.
-        tr
-          th.bgsa Sólido
+        tr.cell--gray
+          th Sólido
           td Aquellos productos compactos o individuales, como los utilizados en el sector agrícola.
-        tr
+        tr.cell--gray
           th Gaseoso
           td Al igual que el estado líquido, se requiere identificar la composición química y reactividad con otros productos.                
     .tabla-b.color-secundario.mb-4
       .tabla-b__header
         h5.mb-0.text-white.qqq  SEGÚN ROTACIÓN
       table
-        tr
-          th.bgsa <strong>Característica</strong>
+        tr.cell--gray
+          th <strong>Característica</strong>
           td <strong>Descripción</strong>
-        tr
+        tr.cell--gray
           th Baja
           td Registran movimientos mínimos en el almacén.
-        tr
-          th.bgsa Media
+        tr.cell--gray
+          th Media
           td De mediana rotación.
-        tr
+        tr.cell--gray
           th Alta
           td Flujo bastante alto de movimiento, tanto de entradas como salidas del almacén.
     <br>
     .row.justify-content-center
       .col-lg-12
         p.text-center.it Nota. Fuente: https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/50249
+
     separador
+
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2 Consolidación y desconsolidación de mercancía
-    p Generalmente, en los almacenes y centros de distribución, se agrupan (consolidan) y almacenan las mercancías según el tipo de producto; por ejemplo, donde se utilizan los soportes rígidos horizontales metálicos o de madera, comúnmente conocidos como estibas (técnicamente, pallet o paletas), es necesario una estantería tipo rack o de paletización. En caso de que la mercancía sean perfiles, se requiere una estantería tipo cantiléver, para mantenerlos bien organizados.
+
+    p.mb-5 Generalmente, en los almacenes y centros de distribución, se agrupan (consolidan) y almacenan las mercancías según el tipo de producto; por ejemplo, donde se utilizan los soportes rígidos horizontales metálicos o de madera, comúnmente conocidos como estibas (técnicamente, pallet o paletas), es necesario una estantería tipo rack o de paletización. En caso de que la mercancía sean perfiles, se requiere una estantería tipo cantiléver, para mantenerlos bien organizados.
+
     .row.justify-content-center
-      .col-lg-8
-        separador
-        .bloque-texto-f.bg4.pt-4.px-5.mb-5
-          .bloque-texto-f__comillas
+      .col-lg-8       
+        .bloque-texto-d.color-secundario.p-4
+          .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            i.fas.fa-quote-right
-          p.text-regular.bloque-texto-f__texto.p-2 El éxito de la organización y agrupación de la mercancía en un almacén es la forma como se gestionan los productos; se recomienda aplicar la técnica de gestión japonesa 5S (cinco palabras que comienzan por S), cuyo fundamento es lograr lugares de trabajo mejor organizados, más limpios, más ordenados y, por consiguiente, más productivos.  
-        .row
+            p El éxito de la organización y agrupación de la mercancía en un almacén es la forma como se gestionan los productos; se recomienda aplicar la técnica de gestión japonesa 5S (cinco palabras que comienzan por S), cuyo fundamento es lograr lugares de trabajo mejor organizados, más limpios, más ordenados y, por consiguiente, más productivos. 
+            i.fas.fa-quote-right     
+        .rowm.d-none.d-lg-flex
           .col-lg-2
-            img.aa(src='@/assets/curso/tema1/ico5.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema1/ico5.svg', alt='').img85
 
       .col-lg-4
-        img(src='@/assets/curso/tema1/img9.png', alt='Texto que describa la imagen')
-    <br><br>
-    .col-lg-12.mt-4.p-4
-      .cajon.color-acento-contenido.p-4.mb-4
-        p <strong>Técnica gestión japonesa 5S</strong>
-        p.mt-4
-          span.it <strong>SEIRI</strong> 
-          |  – Clasificar:  identificar y separar todos aquellos materiales considerados innecesarios y retirarlos del entorno laboral.
-        p.mt-4 
-          span.it <strong>SEITON</strong> 
-          |  – Ordenar: establecer la forma en que deben identificarse y ubicar los materiales requeridos, de manera que sea fácil y rápido encontrarlos para la utilización.
-        p.mt-4 
-          span.it <strong>SEISO</strong> 
-          |  – Limpieza: identificar y eliminar las fuentes de suciedad, asegurando que siempre todo se encuentre en perfecto estado de higiene.
-        p.mt-4 
-          span.it <strong>SEIKETSU</strong> 
-          |  – Estandarización: el objetivo es lograr distinguir una situación normal de otra anormal, mediante información sencilla, como etiquetas, avisos informativos o señalización; y así lograr un control visual a través de la información.
-        p.mt-4 
-          span.it <strong>SHITSUKE</strong> 
-          |  – Disciplina: continuar y trabajar permanentemente aplicando las 4s anteriores en todos los sitios de trabajo, de acuerdo con las normas establecidas.
-        p.mt-4 Las tres primeras “S” están enfocadas al entorno físico, y las dos últimas se orientan al comportamiento de las personas.
-      .row
-        .col-lg-10
-        .col-lg-2
-          img.bb(src='@/assets/curso/tema1/ico6.svg', alt='Texto que describa la imagen')
-    p <strong>Consolidación de mercancías</strong>
-    p.mb-0 <strong>Figura 1 </strong>
-      span.it Tipos de consolidación
-    <br><br>
-    .row.justify-content-center
-      .col-lg-5
-        img(src='@/assets/curso/tema1/img10.svg', alt='Texto que describa la imagen')
-      .col-lg-7.bg5.p-4
-        <br><br><br>
-        p La consolidación consiste en agrupar o combinar las mercancías sueltas provenientes de las áreas de 
-          span.it picking, 
-          | líneas de pedido o destinos y así organizar un solo paquete, con el objetivo de economizar transporte y manipulación de las mismas.  Esta actividad es desarrollada en la zona de alistamiento (expedición), preferiblemente cerca del muelle, para optimizar los recursos disponibles; dicha agrupación consiste en colocar sobre una paleta varios paquetes pequeños, para facilitar la manipulación, almacenamiento y transporte; en ocasiones, depende del cliente y el destino para organizar la mercancía, como se presenta a continuación.
-    <br><br>
-    p.mt-4 Para realizar la consolidación de mercancías y objetos postales, se deben tener en cuenta las siguientes actividades:
-    <br>
+        img(src='@/assets/curso/tema1/img9.png', alt='')
+
+    .cajon.cjn-rosa.p-4.mb-4
+      p <strong>Técnica gestión japonesa 5S</strong>
+      p <strong>SEIRI</strong> - Clasificar:  identificar y separar todos aquellos materiales considerados innecesarios y retirarlos del entorno laboral.
+      p <strong>SEITON</strong> - Ordenar: establecer la forma en que deben identificarse y ubicar los materiales requeridos, de manera que sea fácil y rápido encontrarlos para la utilización.
+      p <strong>SEISO</strong> - Limpieza: identificar y eliminar las fuentes de suciedad, asegurando que siempre todo se encuentre en perfecto estado de higiene.
+      p <strong>SEIKETSU</strong> - Estandarización: el objetivo es lograr distinguir una situación normal de otra anormal, mediante información sencilla, como etiquetas, avisos informativos o señalización; y así lograr un control visual a través de la información.
+      p <strong>SHITSUKE</strong> - Disciplina: continuar y trabajar permanentemente aplicando las 4s anteriores en todos los sitios de trabajo, de acuerdo con las normas establecidas.
+      p.mb-0 Las tres primeras “S” están enfocadas al entorno físico, y las dos últimas se orientan al comportamiento de las personas.
+      .bulb--icon.d-none.d-lg-flex  
+     
+
+    h3 Consolidación de mercancías
+
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 1.
+      span Tipos de consolidación  
+
+    .row.justify-content-center.align-items-center.bg1A.mb-5
+      .col-lg-6
+        .row.justify-content-center
+          .col-10.col-md-8.col-lg-6.mb-4.mb-lg-0
+            .crd.crd--white.crd--brad
+              figure.mb-3
+                img(src="@/assets/curso/tema1/t1_ico_01.svg", alt="alt").img85.m-auto
+              ul.lista-ul
+                li 
+                  i.fas.fa-angle-right
+                  | Agrupar pedidos de un mismo cliente.
+                li 
+                  i.fas.fa-angle-right
+                  | Único envío.
+                li 
+                  i.fas.fa-angle-right
+                  | Reduce costos de transporte. 
+          .col-10.col-md-8.col-lg-6.mb-4.mb-lg-0  
+            .crd.crd--white.crd--brad
+              figure.mb-3
+                img(src="@/assets/curso/tema1/t1_ico_02.svg", alt="alt").img85.m-auto
+              ul.lista-ul
+                li 
+                  i.fas.fa-angle-right
+                  | Agrupar pedidos de un mismo cliente.
+                li 
+                  i.fas.fa-angle-right
+                  | Misma ruta.
+                li 
+                  i.fas.fa-angle-right
+                  | Reduce costos, por compartir transporte.  
+      .col-lg-6.px-4
+        p.mb-0 La consolidación consiste en agrupar o combinar las mercancías sueltas provenientes de las áreas de #[i picking], líneas de pedido o destinos y así organizar un solo paquete, con el objetivo de economizar transporte y manipulación de las mismas.  Esta actividad es desarrollada en la zona de alistamiento (expedición), preferiblemente cerca del muelle, para optimizar los recursos disponibles; dicha agrupación consiste en colocar sobre una paleta varios paquetes pequeños, para facilitar la manipulación, almacenamiento y transporte; en ocasiones, depende del cliente y el destino para organizar la mercancía, como se presenta a continuación:          
+    
+    p.mb-5 Para realizar la consolidación de mercancías y objetos postales, se deben tener en cuenta las siguientes actividades:
+    
     ImagenInfograficaB.color-acento-contenido.mb-5.mt-4
       template(v-slot:imagen)
           img(src='@/assets/curso/tema1/img11.svg', alt='Texto que describa la imagen')
 
       div(x="32%" y="35%" tooltip="Paletizado" numero="1")
-        .row.justify-content-center.bg6
-          .col-lg-5.p-4
-            <br>
+        .row.justify-content-center.bg6.mt-5
+          .col-lg-5.p-4            
             h5 Paletizado
             p Hace referencia a la forma de organizar las mercancías sobre un 
               span.it pallet 
@@ -387,11 +395,14 @@
           .col-lg-5
             <br>
             img(src='@/assets/curso/tema1/img15.png', alt='Texto que describa la imagen')
-            <br><br>
-    p De acuerdo con las actividades descritas anteriormente, la consolidación requiere de pallets de madera, plástico u otros materiales necesarios para el movimiento de la carga, para facilitar el levantamiento y movimiento con carretillas elevadoras o transpaletas. 
-    p Conozca algunas definiciones según normatividad:
-    .row.justify-content-center.mt-4
-      .col-lg-10.mt-4
+
+            
+    p De acuerdo con las actividades descritas anteriormente, la consolidación requiere de pallets de madera, plástico u otros materiales necesarios para el movimiento de la carga, para facilitar el levantamiento y movimiento con carretillas elevadoras o transpaletas.
+
+    p.mb-4 Conozca algunas definiciones según normatividad:
+
+    .row.justify-content-center.mb-4
+      .col-lg-10
         .bloque-texto-g.bginfo.p-3.p-sm-4.p-md-5.mt-4
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img16.png')})`}"
@@ -403,124 +414,149 @@
             p.pax <STRONG>madera, utilizable por una vez, en la cadena de valor”</STRONG>, donde se<br>
             p.pax establece que las medidas para la estiba o pallet son: largo 120 cm,<br> 
             p.pax ancho 100 cm y altura 15,5 cm.
-    .row.justify-content-center.mt-4
-      .col-lg-10.mt-4
-        .tarjeta.p-4.p-md-5.mb-5.mt-4.bg22
-          .row.justify-content-around.align-items-center
-            .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
-            .col-md.col-lg-7.p-5
-              <br>
-              p.mb-4.text-white.qqq Si es de su interés ampliar la información sobre <strong>Entregas paletizadas y métodos de paletización,</strong>  revise la presentación que aparece en el siguiente enlace: 
-              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('https://docplayer.es/3658902-Entregas-paletizadas.html')" target="_blank" type="application/pdf")
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .cta--purple
+          .bubble--right
+          .dots--right
+          .row.align-items-center
+            .col-auto.mb-4.mb-lg-0
+              figure
+                img(src="@/assets/curso/llamados/cta_02.png", alt="alt").img385.m-auto
+            .col-12.col-lg.px-5.pt-0.pt-lg-5.txt-mg--right
+              p.text-white.mb-4 Si es de su interés ampliar la información sobre <strong>Entregas paletizadas y métodos de paletización,</strong>revise la presentación que aparece en el siguiente enlace: 
+              a.boton.color-acento-contenido-botones.texto-blanco.float-end(href="https://docplayer.es/3658902-Entregas-paletizadas.html" target="_blank").mb-5.mb-lg-0
                 span Ingresar
-                i.fas.fa-link
-              <br>
-    p Los 
-      span.it pallets
-      |  de madera son los más comunes, aunque existen de plástico y material reciclado. Los vehículos de transporte están diseñados para ubicar exactamente un número específico de estibas con las unidades de carga (aproximadamente 33 
-      span.it pallets
-      |  ) y así poder calcular el volumen a transportar. Sin embargo, antes de llevar la carga a los medios de transporte, se requiere consolidar o agrupar las cargas con la ayuda de herramientas y equipos como los que aparecen descritos a continuación:
-    <br>
-    #carouselExampleIndicators.carousel.slide(data-bs-ride='carousel')
+                i.fas.fa-link 
+
+    p.mb-4 Los <i>pallets</i> de madera son los más comunes, aunque existen de plástico y material reciclado. Los vehículos de transporte están diseñados para ubicar exactamente un número específico de estibas con las unidades de carga (aproximadamente 33 <i>pallets</i>) y así poder calcular el volumen a transportar. Sin embargo, antes de llevar la carga a los medios de transporte, se requiere consolidar o agrupar las cargas con la ayuda de herramientas y equipos como los que aparecen descritos a continuación:
+    
+    #carouselExampleIndicators.carousel.slide(data-bs-ride='carousel').mb-5
       .carousel-indicators
         button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
         button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
         button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='2' aria-label='Slide 3')
         button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='3' aria-label='Slide 4')
-                button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='4' aria-label='Slide 5')
+        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='4' aria-label='Slide 5')
         button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='5' aria-label='Slide 6')
-
 
       .carousel-inner
         .carousel-item.active.bginfo
-          p.p-2 <strong>Flejadora</strong>
-          p.p-2  Herramienta manual cuya función es tensar, cortar y unir cinta o fleje en el contorno de la carga.  
-
+          p.px-4.pt-3 <strong>Flejadora</strong>
+          p.ps-4.pb-3 Herramienta manual cuya función es tensar, cortar y unir cinta o fleje en el contorno de la carga.
           img.mt-2(src='@/assets/curso/tema1/img18.png', alt='Texto que describa la imagen')
-        .carousel-item.bginfo
-          p.p-2.mb-0 <strong>Retractiladora </strong>
-          p.p-2.mt-0 Equipo cuya función es cubrir los paquetes o pedidos con una película plástica, para proteger, facilitar el traslado y almacenamiento.  
 
+        .carousel-item.bginfo
+          p.px-4.pt-3 <strong>Retractiladora</strong>
+          p.ps-4.pb-3 Equipo cuya función es cubrir los paquetes o pedidos con una película plástica, para proteger, facilitar el traslado y almacenamiento. 
           img.mt-2(src='@/assets/curso/tema1/img19.png', alt='Texto que describa la imagen')
+
         .carousel-item.bginfo
-          p.p-2 <strong>Selladoras</strong> 
-            span.it <strong>Holt-Melt</strong>
-          p.p-2 Adhesivo empleado para sellar cartón, plástico y otros materiales.
+          p.px-4.pt-3 <strong>Selladoras Holt-Melt</strong>
+          p.ps-4.pb-3 Adhesivo empleado para sellar cartón, plástico y otros materiales.
           img.mt-2(src='@/assets/curso/tema1/img20.png', alt='Texto que describa la imagen')
-        .carousel-item.bginfo
-          p.p-2 <strong>Precintadoras</strong>
-          p.p-2  Equipo empleado para realizar sellado automático superior e inferior de cajas de cartón con papel engomado.
 
+        .carousel-item.bginfo
+          p.px-4.pt-3 <strong>Precintadoras</strong>
+          p.ps-4.pb-3 Equipo empleado para realizar sellado automático superior e inferior de cajas de cartón con papel engomado.
           img.mt-2(src='@/assets/curso/tema1/img21.png', alt='Texto que describa la imagen')
-        .carousel-item.bginfo
-          p.p-2 <strong>Paletizadora </strong>
-          p.p-2  Equipo automático que realiza la función de paletizar una amplia gama de pedidos, envases, cajas, latas, botellas, etc. 
 
+        .carousel-item.bginfo
+          p.px-4.pt-3 <strong>Paletizadora</strong>
+          p.ps-4.pb-3 Equipo automático que realiza la función de paletizar una amplia gama de pedidos, envases, cajas, latas, botellas, etc.
           img.mt-2(src='@/assets/curso/tema1/img22.png', alt='Texto que describa la imagen')
-        .carousel-item.bginfo
-          p.p-2 <strong>Pesaje y etiquetado</strong>
-          p.p-2  Equipo automático cuyo objetivo es completar el ciclo de embalaje en instalaciones manuales y automáticas, donde expide las etiquetas para cualquier tipo de carga, con la identificación completa de la carga, incluyendo el peso.
 
-          img.mt-2(src='@/assets/curso/tema1/img23.png', alt='Texto que describa la imagen')            
+        .carousel-item.bginfo
+          p.px-4.pt-3 <strong>Pesaje y etiquetado</strong>
+          p.ps-4.pb-3 Equipo automático cuyo objetivo es completar el ciclo de embalaje en instalaciones manuales y automáticas, donde expide las etiquetas para cualquier tipo de carga, con la identificación completa de la carga, incluyendo el peso.
+          img.mt-2(src='@/assets/curso/tema1/img23.png', alt='Texto que describa la imagen')   
+
       button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
         span.carousel-control-prev-icon(aria-hidden='true')
         span.visually-hidden Previous
       button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
         span.carousel-control-next-icon(aria-hidden='true')
         span.visually-hidden Next
-    <br>
-    p.mt-4 <strong>Desconsolidación de la mercancía</strong>
-    p La desconsolidación hace referencia a desagrupar mercancías que previamente habían sido consolidadas y relacionadas en un mismo documento de envío, lo que indica que toda la mercancía que conforma el pedido debe ser entregada a diferentes clientes, según la carta individual de transporte y nota de entrega.  En otras palabras, consiste en subdividir un pedido grande en otros más pequeños; esta tarea debe desarrollarse en los centros de distribución que posean tecnologías para desconsolidar y trasladar mercancías a los diferentes destinatarios.
+
     
-    p.mb-0.mt-4 <strong>Figura 2</strong>
-    p.it Grúa tipo pórtico
-    <br>
-    p Durante esta operación, los contenedores que llegan deben ser vaciados de los pedidos entrantes consolidados, para volver a combinarse en los medios de transporte disponibles y ruta programada para los vehículos.  En los centros de distribución, se logran reducir las existencias del inventario y mejorar la cadena de distribución y suministro, dado que se realiza una minuciosa organización que permiten hacer las entregas en los tiempos acordados.  Un ejemplo claro es el recibimiento de contenedores con mercancías en el puerto, allí se desconsolida el pedido, abriendo las puertas, verificando y abriendo el sello de seguridad, para continuar con el vaciado del mismo, permitiendo así que toda la mercancía se clasifique y reorganice para llevarla a los vehículos o medios de transporte (por lo regular terrestre) encargados de la distribución.
-    .row.justify-content-center
+    h3 Desconsolidación de la mercancía
+    p La desconsolidación hace referencia a desagrupar mercancías que previamente habían sido consolidadas y relacionadas en un mismo documento de envío, lo que indica que toda la mercancía que conforma el pedido debe ser entregada a diferentes clientes, según la carta individual de transporte y nota de entrega.  En otras palabras, consiste en subdividir un pedido grande en otros más pequeños; esta tarea debe desarrollarse en los centros de distribución que posean tecnologías para desconsolidar y trasladar mercancías a los diferentes destinatarios.     
+   
+    p.mb-4 Durante esta operación, los contenedores que llegan deben ser vaciados de los pedidos entrantes consolidados, para volver a combinarse en los medios de transporte disponibles y ruta programada para los vehículos.  En los centros de distribución, se logran reducir las existencias del inventario y mejorar la cadena de distribución y suministro, dado que se realiza una minuciosa organización que permiten hacer las entregas en los tiempos acordados.  Un ejemplo claro es el recibimiento de contenedores con mercancías en el puerto, allí se desconsolida el pedido, abriendo las puertas, verificando y abriendo el sello de seguridad, para continuar con el vaciado del mismo, permitiendo así que toda la mercancía se clasifique y reorganice para llevarla a los vehículos o medios de transporte (por lo regular terrestre) encargados de la distribución.    
+
+    .row.justify-content-center.mb-4
       .col-lg-5
         img(src='@/assets/curso/tema1/img24.png', alt='Texto que describa la imagen')
-      .col-lg-7.bg33
-        <br><br>
-        p Para la operación de desconsolidación en puerto, se requiere de personal capacitado, grúas tipo horquilla y pórtico, necesarias para la operación, los documentos portuarios necesarios para la entrega del pedido, descarga del contenedor y traslado hacia el área de recepción temporal en puerto, paletizadoras, embalaje, retractilados, etiquetas, entre otros equipos. Existen, principalmente, tres tipos de desconsolidación de contenedores:
-    <br><br>
-    img.mt-4(src='@/assets/curso/tema1/img25.svg', alt='Texto que describa la imagen')
-    <br><br>
-    h5 En cualquiera de los tres casos, se deben realizar las siguientes actividades:
-    p.mb-0.mt-4 <strong>Figura 3</strong>
-    p.it Secuencia de actividades a desarrollar en la desconsolidación
-    .row.justify-content-center
+      .col-lg-7.bg33        
+        p.mt-4.mb-0 Para la operación de desconsolidación en puerto, se requiere de personal capacitado, grúas tipo horquilla y pórtico, necesarias para la operación, los documentos portuarios necesarios para la entrega del pedido, descarga del contenedor y traslado hacia el área de recepción temporal en puerto, paletizadoras, embalaje, retractilados, etiquetas, entre otros equipos. 
+
+    p.mb-4 Existen, principalmente, tres tipos de desconsolidación de contenedores:
+
+    .hr--line
+    .row
+      .col-auto
+        figure
+          img(src="@/assets/curso/tema1/img25A.svg", alt="alt").img65
+      .col
+        h4 Desagrupar o desconsolidar varios embarques 
+        p Relacionados en un mismo documento de transporte, carta de porte o equivalente, donde la mercancía está referenciada a diferentes clientes o consignatarios que necesitan una distribución posterior.   
+    .hr--line     
+    .row
+      .col-auto
+        figure
+          img(src="@/assets/curso/tema1/img25B.svg", alt="alt").img65
+      .col
+        h4 Desconsolidar embarques consolidados en un mismo packing 
+        p Lista de empaque o lista de carga: inventario de la mercancía que se va a exportar; la cual debe ser clasificada por referencias y así facilitar la ubicación en el almacén.
+    .hr--line     
+    .row
+      .col-auto
+        figure
+          img(src="@/assets/curso/tema1/img25C.svg", alt="alt").img65
+      .col
+        h4 Desconsolidación de embarques mixtos 
+        p Es la combinación de los dos anteriores y requiere que las mercancías sean distribuidas tanto para stock como para cross-docking (cruzar de un muelle a otro, sin necesidad de almacenar mercancías, como en el caso de objetos postales, pues simplemente llegan y luego se reparten para cada lugar de destino, no se almacenan).
+    .hr--line   
+
+    h5.text-center.my-5 En cualquiera de los tres casos, se deben realizar las siguientes actividades:
+
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 3.
+      span Secuencia de actividades a desarrollar en la desconsolidación
+    
+    .row.justify-content-center.mb-5
       .col-lg-10
         img.mt-4(src='@/assets/curso/tema1/img26.svg', alt='Texto que describa la imagen')
-    <br><br>
-    h5.mt-4 *SGI:  Sistema de Gestión Informático 
-      span.it (software)
-    .col-lg-12.mt-4.p-4
-      .cajon.color-acento-contenido.p-4.mb-4
-        .row.justify-content-center
-          .col-lg-1
-            img(src='@/assets/curso/tema1/ico7.svg', alt='Texto que describa la imagen')
-          .col-lg-9
-            p En el desarrollo de las anteriores actividades, el <strong>agente de carga</strong> juega un papel importante, es la persona encargada de realizar los trámites documentales al momento de recibir el contenedor para la desconsolidación.   
-    p.mb-0.mt-4 <strong>Figura 4</strong>
-    p.it Desconsolidación de mercancía
-    .row.justify-content-center
-      .col-lg-7
-        <br>
-        p.mt-4 La función principal del agente de carga es ayudar a resolver inconvenientes logísticos y de transporte que se lleguen a presentar, tanto para el importador como para el exportador, bien sea en la consolidación o desconsolidación de la carga; presta asistencia técnica en temas fiscales y aduaneros, aseguramiento y recolección de productos, e incluso hace seguimiento al tema documental.  En caso de que el contenedor llegue por vía marítima, el agente de carga debe emitir el <strong>“Conocimiento de embarque”</strong> y, en caso aéreo, la <strong>“Guía aérea”</Strong>.
+        figcaption.mt-3 *SGI:  Sistema de Gestión Informático (<i>software</i>)      
+    
+    .cajon.cjn-rosa.p-4.mb-5
+      .row.justify-content-center.align-items-center
+        .col-auto
+          img(src='@/assets/curso/tema1/ico7.svg', alt='Texto que describa la imagen').img85
+        .col
+          p.mb-0 En el desarrollo de las anteriores actividades, el <strong>agente de carga</strong> juega un papel importante, es la persona encargada de realizar los trámites documentales al momento de recibir el contenedor para la desconsolidación.     
+
+    .row.justify-content-center.align-items-center
+      .col-lg-7        
+        p La función principal del agente de carga es ayudar a resolver inconvenientes logísticos y de transporte que se lleguen a presentar, tanto para el importador como para el exportador, bien sea en la consolidación o desconsolidación de la carga; presta asistencia técnica en temas fiscales y aduaneros, aseguramiento y recolección de productos, e incluso hace seguimiento al tema documental.  En caso de que el contenedor llegue por vía marítima, el agente de carga debe emitir el <strong>“Conocimiento de embarque”</strong> y, en caso aéreo, la <strong>“Guía aérea”</Strong>.
       .col-lg-5
         img(src='@/assets/curso/tema1/img27.png', alt='Texto que describa la imagen')
-    .titulo-sexto.color-secundario.mt-4.mb-0
-      h5 Tabla 3
-    p.it.maxx Características de documentos requeridos en la desconsolidación
+
+
+    .titulo-sexto.color-secundario.mt-4.mb-4
+      h5 Tabla 3.
+      span Características de documentos requeridos en la desconsolidación
+
     .tabla-a.color-primario.mb-5 
       table
         thead
           tr
-            th.wid5 Documento
-            th Definición
-            th Objetivo
-            th Características
-            th.wid5 Datos
+            th(style="width:15%") Documento
+            th(style="width:20%") Definición
+            th(style="width:20%") Objetivo
+            th(style="width:20%") Características
+            th(style="width:25%") Datos
         tbody
           tr
             td <strong>Conocimiento de embarque</strong>
@@ -536,24 +572,26 @@
               span.it Air Waybill <br>
               | - Sirve de recibo para el remitente <br>- El transportista se compromete a llevar la mercancía al aeropuerto acordado. <br>- Lo emite la aerolínea o quien haya consolidado la mercancía <br>- El documento debe ser entregado en el país de destino (importador).
             td - Datos completos del destinatario y de quien envía. <br>- Número de vuelo. <br>- Aeropuerto de salida y de llegada. <br>- Valor del flete. <br>- Reflejar la fecha de emisión y detalles de la carga. <br>- Emisión de seis (6) copias para entregar, así: línea aérea, destinatario, expedidor, destinatario (firmada al momento de entregar la mercancía), aeropuerto de destino, agente aéreo.
-    
-    .row.justify-content-center
+
+    .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta.p-4.p-md-5.mb-5.mt-4.bg44
-          .row.justify-content-around.align-items-center
-            .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
-            .col-md.col-lg-7.p-2
-              <br>
-              p.text-white Si es de su interés ampliar la información sobre:
-              p.text-white <strong>Agente de carga,</strong>  revisar el video que aparece en el siguiente enlace:  
-              a.boton.color-acento-botones.texto-blanco.mt-4.aq(:href="('https://www.youtube.com/watch?v=cLgS23sdvEQ')" target="_blank" type="application/pdf")
-                span Ingresar
-                i.fas.fa-link
-              
-              p.text-white.mt-4 Documentos de embarque requeridos en Latinoamérica:
-              a.boton.color-acento-botones.texto-blanco.mt-4.aq(:href="('https://comercioexterior.la/broker-internacional/documentos-de-embarque/')" target="_blank" type="application/pdf")
-                span Ingresar
-                i.fas.fa-link     
+        .cta--purple
+          .bubble--right
+          .dots--right
+          .row.align-items-center
+            .col-auto.mb-4.mb-lg-0
+              figure
+                img(src="@/assets/curso/llamados/cta_03.png", alt="alt").img385.m-auto
+            .col-12.col-lg.px-5.pt-0.pt-lg-5.txt-mg--right
+              p.text-white.mb-4 Si es de su interés ampliar la información sobre el #[strong agente de carga] y los #[strong documentos de embarque] requeridos en Latinoamérica, consultar los siguientes enlaces:
+              a.boton.color-acento-contenido-botones.texto-blanco(href="https://www.youtube.com/watch?v=cLgS23sdvEQ" target="_blank").mb-4.me-3
+                span Agente de carga
+                i.fas.fa-link 
+              a.boton.color-acento-contenido-botones.texto-blanco(href="https://comercioexterior.la/broker-internacional/documentos-de-embarque/" target="_blank").mb-5.mb-lg-0
+                span Documentos de embarque
+                i.fas.fa-link 
+    
+         
     .row.justify-content-center
       .col-lg-10
         .tarjeta.p-4.p-md-5.mb-5.mt-4.bg55
@@ -1126,11 +1164,8 @@
               <br><br><br>
               h5 Material de apoyo
               p.mb-4 Para ampliar la información, puede ingresar a Biblioteca virtual Sena:  Rubio, J. (2013). Gestión y pedido de stock. Ministerio de Educación y Formación Profesional de España. 
-              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('https://books.google.com.pe/books?id=1C8bAgAAQBAJ&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false')" target="_blank" type="application/pdf")
-                span Ingresar
-                i.fas.fa-link
-
-    p <strong>Integración de las tecnologías</strong>
+                    
+    p #[strong Integración de las tecnologías]
     p.mb-0 <strong>Figura 6</strong>
     p.it Integración y funcionamiento de las tecnologías en el almacén
 
@@ -1339,15 +1374,9 @@
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
-  data: () => ({
-    // variables de vue
-  }),
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

@@ -4,300 +4,362 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span.text-white 2
-      h1 Codificación de la mercancía
-    p.mb-0 <strong>Figura 9</strong>
-    p.it Codificación de la mercancía
-    .row.justify-content-center
+        span.text-white 3
+      h1 Contenedores      
+    p.mb-0 <strong>Figura 13</strong>
+    p.it Contenedores
+    .row.justify-content-center.bg311
       .col-lg-4
-        img(src='@/assets/curso/tema3/img01.png', alt='Texto que describa la imagen')
-      .col-lg-8.mt-2.bg111
-        p Así como es importante la ubicación dentro del almacén, bien sea por número de pasillo o por código de la estantería, los productos deben ser identificados a través de un código único por artículo, para la buena organización de las existencias, y por tanto, optimizar los recursos y agregar valor a las actividades que se desarrollan en el almacén.  El proceso de codificación de mercancías consiste en identificar los productos por medio de un código, el cual se asocia a una etiqueta adherida al producto, que permitirá acceder al producto electrónicamente, a través del sistema de información.  En caso de que el producto sea nuevo y no tenga código, se deberá asignar uno y registrar todas las especificaciones propias del producto.
-        p Dicha codificación debe guardar relación con la aplicada para ubicaciones al interior de la empresa, logrando así trazabilidad de la información. La manera más razonable de cumplir con las entregas previstas es mantener un almacén organizado, por tanto, es necesario localizar el producto de forma sencilla, clara y rápida, para no cometer errores y enviar productos equivocados.  Dentro de los beneficios de la codificación, se tiene: 
-    
-    <br>
-    .row.justify-content-center.bg112.mt-4
-      .col-lg-6
-        ol.lista-ol--cuadro.lista-ol--separador.mt-4.p-4
-
-          li 
-            .lista-ol--cuadro__vineta
-              span 1
-            p.mb-0 Lograr automatizar los procesos.
-
-
-          li 
-            .lista-ol--cuadro__vineta
-              span 2
-            p.mb-0 Optimizar la cadena de suministro.
-
-          li 
-            .lista-ol--cuadro__vineta
-              span 3
-            p.mb-0 Lograr operatividad en tiempo real.
-
-          li 
-            .lista-ol--cuadro__vineta
-              span 4
-            p.mb-0 Rápida respuesta ante controles.
-
-          li 
-            .lista-ol--cuadro__vineta
-              span 5
-            p.mb-0 Histórico de movimientos.
-          li 
-            .lista-ol--cuadro__vineta
-              span 6
-            p.mb-0 Reducción de errores y costos.
-      .col-lg-2
-      .col-lg-4
-        img(src='@/assets/curso/tema3/img2.svg', alt='Texto que describa la imagen')
-    separador
-    #t_2_1.titulo-segundo.color-acento-contenido
-      h2 2.1. Generalidades
-    p Previa la codificación de los productos, se deben identificar los sitios (físicos) donde serán almacenados los bienes.  El volumen del almacén, las estanterías y muebles son los que determinan los lugares disponibles para almacenar las mercancías y los espacios libres para circulación de equipos y personal (pasillos); por lo anterior, el almacén en físico debe ser codificado o identificar cada espacio y estante, así como en cada una de nuestras ciudades las casas están ubicadas por calles, carreras, diagonales, etc.  A continuación, se describen los pasos a seguir para codificar la infraestructura del almacén:   
-    <br>
-    p.mb-0 <strong>Figura 10</strong>
-    p.it Actividades para codificar un almacén
-    .row.justify-content-center
-      .col-lg-10.mt-4
-         img.mt-4(src='@/assets/curso/tema3/img3.svg', alt='Texto que describa la imagen')
-    <br>
-    p.mt-4 A continuación, se presentan dos ejemplos de codificación de almacén: por estantería y por pasillo.
-    p <strong>Ejemplos de codificación de almacén</strong>
-    .row.justify-content-center
+        img(src='@/assets/curso/tema4/img1.png', alt='Texto que describa la imagen')
       .col-lg-1
-      .col-lg-3
-         img.mt-4(src='@/assets/curso/tema3/img4.svg', alt='Texto que describa la imagen')
-      .col-lg-8.mt-4.bgne3
-        p.mt-4 Para una eficiente operación y trazabilidad de las mercancías, los almacenes deben contar con un sistema de información denominado Sistema de Gestión del Almacén (SGA), como se mencionó anteriormente, con el objeto de controlar las referencias. 
-        p Es así como la codificación de las mercancías es una labor de cuidado, desde el momento que llega el producto hasta que sale del almacén. Cada área puede participar en la asignación del código, de acuerdo con los criterios que requieran controlar y hacer seguimiento.  Existen varias metodologías de codificación:
-    .row.justify-content-center
+      .col-lg-6.mt-2.p-4
+        <br>
+        p.mt-4 Se denomina contenedor a aquel equipo tipo cajuela que apoya el transporte de la mercancía de forma permanente, tan robusto que puede ser utilizado varias veces; el diseño facilita el transporte de la mercancía a través de diferentes medios de transporte. Por lo general, es más utilizado en medios fluviales; aportando reducción del tiempo en la operación.
       .col-lg-1
-      .col-lg-3
-         img.mt-4(src='@/assets/curso/tema3/img5.svg', alt='Texto que describa la imagen')
-      .col-lg-8.mt-0.bgne3
-        ol.lista-ol--cuadro.lista-ol--separador.p-4
-
-          li 
-            .lista-ol--cuadro__vineta
-              span 1
-            p.mb-0 <strong>Codificación libre:</strong> no existe un parámetro específico, simplemente se asigna un código que no    esté repetido o no se haya utilizado.
-
-
-
-          li 
-            .lista-ol--cuadro__vineta
-              span 2
-            p.mb-0 <strong>Codificación libre al azar:</strong> se asigna un código al azar, para aquellos productos nuevos.
-
-
-          li 
-            .lista-ol--cuadro__vineta
-              span 3
-            p.mb-0 <strong>Codificación Inteligente:</strong> se utilizan los códigos de familias y subfamilias, así:
-        img.p-4.aqs(src='@/assets/curso/tema3/img6.svg', alt='Texto que describa la imagen')
-    <br><br>
-    .row.justify-content-center
-      .col-lg-10
-        .cajon.color-acento-botones.p-4.mb-4
+    .row.justify-content-center.mt-4
+      .col-lg-12
+        .cajon.color-primario.p-4.mb-4
           .row
-            .col-lg-2
-              img(src='@/assets/curso/tema3/ico1.svg', alt='Texto que describa la imagen')
-            .col-lg-7.mt-2
-              h5 Ejemplo:
-              p.mt-4 Camisa adulto referencia 
-                span.etiqueta1 56789
-                |, de la colección 
-                span.etiqueta2 2020
-                |, subfamilia 
-                span.etiqueta2 34 
-                | (talla M) 
-                | Código: 
-                span.etiqueta3 <strong>20</strong>
-                span.etiqueta2 <strong>34</strong>
-                span.etiqueta1 <strong>56789</strong>
-    h5 Ejemplo etiqueta inteligente para el producto
-    .row.justify-content-center
-      .col-lg-3.mt-4
-        img(src='@/assets/curso/tema3/img7.png', alt='Texto que describa la imagen')
-      .col-lg-8.mt-4
-        <br>
-        p Se recomienda que los productos estén identificados en la etiqueta adhesiva con el código inteligente, código de barras y nombre de la referencia, como se muestra en la imagen.
+            .col-lg-1.mt-4
+              img(src='@/assets/curso/tema4/ico1.svg', alt='Texto que describa la imagen')
+            .col-lg-10.mt-2.p-4
+              p Dentro de las ventajas de transportar mercancía en contenedores están: facilitar el transporte de la carga, proteger la mercancía de daños y cambios climáticos, preservación de la mercancía almacenada, menos tráfico en los puertos, disminuir los costos aduaneros y el riesgo de saqueo.     
+    p Para facilitar la organización de las embarcaciones a nivel mundial, aprovechar completamente los espacios en la embarcación y estandarizar las dimensiones, existen dos organismos encargados de la normalización:
+    .row.mb-5.justify-content-center
+      .col-lg-6
+        .row
+          .col-lg-5
+          .col-lg-6.fon33.p-4.hovver
+            .row.justify-content-center.mb-4
+              
+              .col-7
+                img(src='@/assets/curso/tema4/ico2.svg' alt='AvatarTop')
+            h3.text-center ISO
+            p.text-center 
+              span.it (International Organization for Standardization)
+              | . Lidera la regulación a nivel internacional de los contenedores utilizados en transporte terrestre y fluvial.
+            <br>
+      .col-lg-6
+        .row
+          .col-lg-6.fon33.p-4.hovver
+            .row.justify-content-center.mb-3
+              .col-7
+                img(src='@/assets/curso/tema4/ico3.svg' alt='AvatarTop')
+            h2.text-center IATA
+            p.text-center 
+              span.it (International Air Transport Association).
+              |  Ente regulador de los contenedores utilizados en transporte aéreo; los contenedores deben adaptarse a las medidas de los aviones.
+          .col-lg-5
+    separador
+    .row.justify-content-center.bgne5
+      #t_3_1.titulo-segundo.color-acento-contenido
+        h2 3.1. Generalidades
+      .row.justify-content-center
+        .col-lg-2
+          img(src='@/assets/curso/tema4/ico4.svg', alt='Texto que describa la imagen')
+
+        .col-lg-9
+          p En función del tipo de mercancía o producto que se vaya a transportar, varían las dimensiones y estructura del contenedor. Por ejemplo, pueden transportarse objetos pesados, como maquinaria pesada, mercancía pequeña como electrodomésticos o mercancía consolidada.  Son fabricados básicamente en acero, aunque existen algunos de aluminio y otros de madera contrachapada y reforzados con fibra de vidrio; al interior, poseen un recubrimiento antihumedad.  En la parte exterior (esquinas) llevan unos ganchos de amarre denominados 
+            span.it twistlocks
+            | , para facilitar el enganche con las grúas. A continuación, se presentan las partes del contenedor:
+          <br>
     <br><br>
-    h5 Códigos y etiquetas
+    p.mb-0 <strong>Figura 14</strong>
+    p.it Partes del contenedor    
     .row.justify-content-center
-      .col-lg-9.mt-4
-        <br>
-        p De acuerdo con el ítem anterior, la codificación puede ser libre, de acuerdo con la naturaleza de la organización; sin embargo, en Colombia, a través del decreto 2153 del 26/diciembre/2016, se establece el Sistema armonizado de designación y codificación de mercancías, que es una nomenclatura internacional de productos multipropósito desarrollada por la Organización Mundial de Aduanas (OMA), la cual contiene alrededor de 5.000 grupos de productos, cada uno identificado por un código de seis dígitos, apoyado por reglas bien definidas para lograr una clasificación uniforme.  A continuación, se relacionan los diferentes tipos de etiquetas:
-      .col-lg-2.mt-4
-        img(src='@/assets/curso/tema3/img8.svg', alt='Texto que describa la imagen')
-      .col-lg-1
-    .titulo-sexto.color-acento-contenido.mt-4
-      h5 Tabla 7
-      span Tipos de etiquetas
+      .col-lg-8
+        img(src='@/assets/curso/tema4/img2.svg', alt='Texto que describa la imagen')
+    <br><br>
+    p El contenedor ofrece resistencia, de manera que puede utilizarse en varias ocasiones. Al momento de seleccionarlo, es importante verificar el estado en el que se encuentra, tanto interna como externamente, para garantizar que las mercancías lleguen en óptimas condiciones.  
+    p.mt-4 Existen varios tipos de contenedores, dependiendo de sus dimensiones, así:
+    p.mb-0.mt-4 <strong>Figura 15</strong>
+    p.it Tipos de contenedores  
+    .row
+      .col-lg-12
+        img(src='@/assets/curso/tema4/img3.svg', alt='Texto que describa la imagen')
+    <br>
+    p A continuación, la descripción de algunos de ellos:
+    .titulo-sexto.color-acento-contenido.mt-4.mb-0
+      h5 Tabla 9
+    P.it.maxx Tipo de contenedor y sus características
+
     .tabla-a.color-primario.mb-5 
       table
         thead
           tr
-            th.wid3 TIPO DE ETIQUETA
+            th.wid3 TIPO CONTENEDOR
+            th CARACTERÍSTICAS
+            th IMAGEN
+
+        tbody
+          tr
+            td.text-center.it <strong>HIGH CUBE</strong>
+            td Utilizados para cargas de peso ligero y de gran volúmen; aumentando un 13% la capacidad cúbica interna.
+ 
+            td 
+              img(src='@/assets/curso/tema4/img4.png', alt='Texto que describa la imagen')
+  
+
+          tr
+            td.text-center
+              span.it <strong>HIGH CUBE</strong> 
+              |  <strong>REFRIGERADOS</strong>
+            td.mt-4 Contenedores para cargas refrigeradas, temperatura controlada y constante.
+
+            td
+              img(src='@/assets/curso/tema4/img5.png', alt='Texto que describa la imagen') 
+          tr
+            td.mars.text-center 
+              span.it <strong>DRY VAN</strong>
+              | <strong> O CONTENEDOR SECO</strong>
+            td Categoría más utilizada en el mercado, cerrados herméticamente, sin ventilación o refrigeración.  Conveniente para cualquier tipo de carga
+
+            td 
+              img(src='@/assets/curso/tema4/img6.png', alt='Texto que describa la imagen')
+          tr
+            td.text-center <strong>CONTENEDOR REFIGERADO O </strong>
+              span.it <strong>REEFER</strong>
+            td.mb-0 Este contenedor posee un sistema de conservación para mantener un ambiente y temperatura controlada.  Deben estar conectados a una fuente de energía durante el transporte.
+            td 
+              img(src='@/assets/curso/tema4/img7.png', alt='Texto que describa la imagen')
+          tr
+            td.text-center 
+              span.it <strong>OPEN TOP</strong>
+              | <strong> O DE TECHO ABIERTO</strong>
+            td.mb-0 Contenedor de techo removible, permite que la carga sobresalga.  Soportan hasta 1 tonelada de carga.
+            td 
+              img(src='@/assets/curso/tema4/img8.png', alt='Texto que describa la imagen')
+          tr
+            td.text-center.it <strong>OPEN SIDE </strong>
+            td.mb-0 Se caracteriza por tener una única puerta lateral, facilitando el transporte de mercancías que por sus dimensiones son difíciles de manipular.
+            td 
+              img(src='@/assets/curso/tema4/img9.png', alt='Texto que describa la imagen')
+          tr
+            td.text-center.it <strong>FLAT RACK</strong>
+            td.mb-0 Carecen de techo y paredes laterales, pueden ser fijados o desmontables.  Utilizados para transportar cargas atípicas y sobredimensionadas.
+            td 
+              img(src='@/assets/curso/tema4/img10.png', alt='Texto que describa la imagen')  
+          tr
+            td.text-center <strong>CONTENEDOR CISTERNA O </strong>
+              span.it <strong>TANK </strong>
+            td.mb-0 Las dimensiones son las mismas de un contenedor estándar, pero la estructura interna es un depósito en polietileno.  Utilizado para transportar todo tipo de líquidos a granel (aceites, cerveza o químicos).  Deben llenarse entre el 80 y el 95% de la capacidad, para dejar espacio de extensión por cambios de temperatura.
+            td 
+              img(src='@/assets/curso/tema4/img11.png', alt='Texto que describa la imagen')                                    
+    #t_3_2.titulo-segundo.color-acento-contenido
+      h2 3.2. Métodos de verificación 
+    p Al momento de enviar un contenedor, la seguridad de la mercancía es una o la más importante de las prioridades, por lo que se requieren mecanismos de verificación a través de la identificación y los sellos (o precinto) de seguridad, obteniendo así información del contenido de los mismos. Mientras el sello asegura que el contenedor ha sido <strong>verificado</strong> antes de partir, y como solo se puede abrir una sola vez, ofrece mayor seguridad de la mercancía que transporta hasta su punto de llegada, ejerciendo un mayor control sobre la pérdida de las mercancías o el transporte de mercancía ilegal. 
+    .row.justify-content-center
+      .col-lg-10
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img.ss(
+            :style="{'background-image': `url(${require('@/assets/curso/tema4/img12.png')})`}"
+          )
+          .bloque-texto-g__texto.p-5.sss
+            h5 Según ISO 17712<br><br>
+
+            p.mt-4 Establece “Procedimientos uniformes para la clasificación, aceptación y retirada de sellos para contenedores de carga mecánica”. La norma solicita información específica de: fuerza física del sello (barreras de entrada), procesos relacionados con la seguridad del fabricante y características sobre la manipulación del sello.
+            <br>
+    <br><br>
+    p Asimismo, los contenedores ISO se identifican mediante combinaciones alfanuméricas, con la siguiente información, como se presenta en la imagen:
+    p.mb-0 <strong>Figura 16</strong>
+    p.it Identificación de los contenedores
+
+    .row.justify-content-center
+      .col-lg-7
+        ImagenInfografica.color-secundario.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema4/img13.png', alt='Texto que describa la imagen')
+
+
+          .tarjeta.color-acento-botones.p-3(x="10%" y="12%" numero="1")
+            .h5.mb-2 Sello de certificación 
+
+          .tarjeta.color-acento-botones.p-3(x="27%" y="12%" numero="2")
+            .h5.mb-2 Logotipo del propietario
+
+          .tarjeta.color-acento-botones.p-3(x="60%" y="14%" numero="3")
+            .h5.mb-2 Código del propietario
+
+          .tarjeta.color-acento-botones.p-3(x="75%" y="14%" numero="4")
+            .h5.mb-2 Número de serie
+ 
+          .tarjeta.color-acento-botones.p-3(x="90%" y="10%" numero="5")
+            .h5.mb-2 Dígito de control  
+          .tarjeta.color-acento-botones.p-3(x="72%" y="20%" numero="6")
+            .h5.mb-2 Propiedades contenedor  
+          .tarjeta.color-acento-botones.p-3(x="10%" y="40%" numero="7")
+            .h5.mb-2 Aviso de peso           
+          .tarjeta.color-acento-botones.p-3(x="27%" y="40%" numero="8")
+            .h5.mb-2 Placa CSC-CCC         
+          .tarjeta.color-acento-botones.p-3(x="72%" y="40%" numero="9")
+            .h5.mb-2 Masa bruta máxima     
+          .tarjeta.color-acento-botones.p-3(x="90%" y="45%" numero="10")
+            .h5.mb-2 Tara  
+          .tarjeta.color-acento-botones.p-3(x="72%" y="50%" numero="11")
+            .h5.mb-2 Peso neto         
+          .tarjeta.color-acento-botones.p-3(x="8%" y="50%" numero="12")
+            .h5.mb-2 Aviso de altura 
+          .tarjeta.color-acento-botones.p-3(x="72%" y="70%" numero="13")
+            .h5.mb-2 Volumen interno                                                      
+      .col-lg-1
+      .col-lg-4
+        <br><br><br><br><br><br>
+        img(src='@/assets/curso/tema4/img14.svg', alt='Texto que describa la imagen')
+    .row.justify-content-center.mt-4
+      .col-lg-10.mt-4
+        .tarjeta.p-4.p-md-5.mb-5.mt-4.bg22
+          .row.justify-content-around.align-items-center
+            .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+            .col-md.col-lg-7.p-5
+              <br>
+              h4.text-white.qqq Material de apoyo
+              p.mb-4.text-white.qqq En caso de requerir ampliar la información sobre la codificación, se recomienda consultar las siguientes páginas:
+              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('http://www.barradecomercio.org/?p=718#.Ya07_GDMLIUhttps://www.stocklogistic.com/codigos-contenedor-maritimo/')" target="_blank" type="application/pdf")
+                span Ingresar
+                i.fas.fa-link
+              <br>
+    p.mb-0 <strong>Figura 17</strong>
+    p.it Contenedores de dos puertas con barras de bloqueo       
+    .row.justify-content-center
+          .col-lg-4
+            img(src='@/assets/curso/tema4/img21.png', alt='Texto que describa la imagen')
+          .col-lg-8.bgne6
+            p Regularmente, los contenedores tienen dos puertas y cada una tiene dos barras de bloqueo; para colocar el sello, se debe cerrar primero la puerta izquierda y posteriormente la derecha.  En forma inversa, se debe colocar el sello; debería ir en la última puerta que fue cerrada (derecha), pues será la primera en abrirse, o se podría colocar el sello en las dos barras, como una medida complementaria de seguridad, y realizar un registro fotográfico para tener una evidencia exacta del registro y que no se presenten inconvenientes durante la operación.  Importante tener en cuenta las siguientes recomendaciones al momento de colocar el sello:
+            p Material resistente que impida la rotura accidental.
+            p.mb-1 - En caso de ser anulado el sello, deberá ser destruido totalmente.
+            p.mb-1 - Ser único y completo en el diseño para evitar duplicidad.
+            p.mb-1 - Identificación individual.
+            p.mb-1 - El diseño debe impedir la manipulación sin dejar rastros.
+            p.mb-1 - Después de ser instalado, se debe consignar el registro por la persona responsable (control de riesgos).
+    <br><br>
+    p Existen principalmente sellos plásticos o metálicos para contenedores, se describen a continuación:
+    .titulo-sexto.color-acento-contenido.mt-4.mb-0
+      h5 Tabla 10
+    p.maxx.it Tipos de sellos de seguridad en contenedores
+
+    .tabla-a.color-primario.mb-5 
+      table
+        thead
+          tr
+            th.wid3 TIPO DE SELLO
             th DESCRIPCIÓN
             th IMAGEN
 
         tbody
           tr
-            td.text-center <strong>CÓDIGO DE BARRAS</strong>
-            td Denominado sistema GS1 de identificación y transmisión de datos mediante código de barras.  Utilizado en más de 105 países.  Permite identificar todas las unidades de productos en la cadena logística.
-              p Se compone de dos partes: código numérico y el símbolo; las barras contienen información codificada.    
+            td.text-center <strong>INDICATIVO</strong>
+            td Su función principal es solo de identificación, generalmente fabricados en plástico.
             td 
-              img.wid222(src='@/assets/curso/tema3/img9.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4/img22.png', alt='Texto que describa la imagen')
   
 
           tr
-            td.text-center <strong>GTIN13</strong>
-            td.mt-4 Código indicado para identificar mercancía o productos que se dirigen al punto de venta. Está conformado por:
-              p.mb-0 Prefijo asignado al país (Colombia_770).
-              p.mb-0 Prefijo de la empresa (5-8 dígitos). 
-              p.mb-0 Código del producto (por marcas).
-              p.mb-0 Código de control.
+            td.text-center <strong>DE SEGURIDAD</strong>
+            td.mt-4 Fabricados en metal y plástico, son más difíciles de romper. Utilizados donde se requiera seguridad y resistencia.
+
             td
-              img(src='@/assets/curso/tema3/img10.svg', alt='Texto que describa la imagen') 
+              img(src='@/assets/curso/tema4/img23.png', alt='Texto que describa la imagen') 
           tr
-            td.mars.text-center <strong>GTIN14</strong>
-            td Denominado también EAN14, por componerse de 14 dígitos.  Utilizado para cada unidad del producto contenida en un grupo GTIN13, se elimina el código de control y se asigna uno nuevo al inicio. Ver imagen.
+            td.mars.text-center <strong>DE ALTA SEGURIDAD</strong>
+            td O tipo botella, son los más seguros y resistentes, elaborados en acero.  Resistentes a impactos.
 
             td 
-              img(src='@/assets/curso/tema3/img11.png', alt='Texto que describa la imagen')
-          tr
-            td.bac.text-center <strong>GS1-128</strong>
-            td.mb-0 Sistema estándar internacional de identificación de mercancías en entornos logísticos.
-              p.mb-0 Requisito: toda la información de la etiqueta debe ser legible.
-              p.mb-0 Contenido: características del producto, código agrupación, cantidad, lote, fecha fabricación, envasado, consumo, etc.
-              p Importante tener en cuenta que esta etiqueta deberá estar en el producto a lo largo de toda la cadena de suministro.
-
-            td 
-              img.wid(src='@/assets/curso/tema3/img12.png', alt='Texto que describa la imagen')
-          tr
-            td.text-center <strong>CÓDIGO DATA MATRIX</strong>
-            td.mb-0 Sistema de código de barras bidimensionales (2D), que permite almacenar gran cantidad de información en una matriz de puntos.
-
-              p.mb-0 Requiere un contacto visual entre el equipo lector y el código.
-
-            td 
-              img.wid(src='@/assets/curso/tema3/img13.png', alt='Texto que describa la imagen')
-          tr
-            td.text-center <strong>ETIQUETA ELECTRÓNICA</strong>
-            td.mb-0 Identificación de información a través de tecnología de radiofrecuencia.
-
-
-              p.mb-0 Etiquetas que contienen insertados pequeños circuitos y microprocesadores, memorias y receptores de radio.  Consta de: una etiqueta activa o pasiva, lector, 
-                span.it middleware 
-                |  (micropieza de 
-                span.it software
-                |  ) y red EPC global.
-
-            td 
-              img.wid(src='@/assets/curso/tema3/img14.png', alt='Texto que describa la imagen')
-    
-    separdor                                                                 
-    #t_2_2.titulo-segundo.color-acento-contenido
-      h2 2.2. Clasificación de cargas y almacenamiento
-    p.mb-0 <strong>Figura 11</strong>
-    p.it Organización de mercancía en almacén
-    .row.justify-content-center
-      .col-lg-3
-        img(src='@/assets/curso/tema3/img15.png', alt='Texto que describa la imagen')
-      .col-lg-9.mt-4.bgne4
-        <br>
-        p Las características que definen el diseño, construcción, distribución e instalaciones necesarias para un almacén están determinadas principalmente por los tipos de producto que requieran almacenamiento; de igual forma, la naturaleza del producto dará las pautas a seguir en la cadena logística en las diferentes zonas del almacén; sin embargo, todos los productos tienen características diferentes que se deben tener en cuenta para la manipulación y el almacenamiento. 
-
-    <br><br><br><br>
-    .row.justify-content-center
-      .col-lg-8.bg113
-        p.mb-0 <strong>Figura 12</strong>
-        p.it Subdivisiones de la unidad de carga 
-        <br><br>
-        p El almacenamiento es más efectivo si existe una adecuada utilización de recursos disponibles, como espacios, equipos, herramientas y talento humano, por lo que requiere la organización de los productos en <strong>unidades de carga</strong>, denominadas así por ser una agrupación homogénea de un conjunto de productos, dispuesta sobre una plataforma o embalaje (caja, contenedor, etc.) para un manejo y traslado más seguro, con el menor número de movimientos posibles y traslados cortos. Para una mejor manipulación, las unidades de carga pueden subdividirse en otras más pequeñas, así:
-      .col-lg-4
-        img(src='@/assets/curso/tema3/img16.png', alt='Texto que describa la imagen')
-    .row.justify-content-center
-      .col-lg-12
-        .cajon.color-primario.p-4.mb-4
-          .row
-            .col-lg-1.mt-4
-              img(src='@/assets/curso/tema3/ico2.svg', alt='Texto que describa la imagen')
-            .col-lg-11.mt-2.p-4
-              img(src='@/assets/curso/tema3/img17.svg', alt='Texto que describa la imagen')
-    p.mt-4 Las cargas se pueden clasificar de acuerdo con los siguientes criterios:
-    <br>
-    .titulo-sexto.color-acento-contenido.mt-4.mb-0
-      h5 Tabla 8
-    p.it.maxx Clasificación de las cargas
-    img(src='@/assets/curso/tema4/img25.svg', alt='Texto que describa la imagen')
-
-    p.mt-4 <strong>Nota fuente:</strong>
-    p.it https://www.ar-racking.com/co/actualidad/blog/calidad-y-seguridad-4/tipos-de-carga-y-como-almacenarlas#
-    <br>
-    h5.mt-4 Normas a tener en cuenta para el almacenamiento
-    .row.justify-content-center
-      
-      .col-lg-1
-      .col-lg-1
-        <br>
-        img(src='@/assets/curso/tema3/ico3.svg', alt='Texto que describa la imagen')
-      .col-lg-1
-      .col-lg-9
-        <br>
-        p El almacenamiento de mercancías son las diversas formas en que estas están organizadas dentro de la bodega, ya sea en el suelo, sobre estibas o en estantes. Para elegir la técnica más apropiada de almacenamiento es importante aclarar los siguientes términos:
-    .row.justify-content-center
-      .col-lg-8
-        img(src='@/assets/curso/tema3/img18.png', alt='Texto que describa la imagen')
-    p.mt-4 Con los conceptos anteriores, es más fácil comprender algunas reglas aplicables en el almacenamiento:
-    .col-lg-12.mt-4.p-4
-      .cajon.color-acento-contenido.p-4.mb-4
-        p.mt-4 - Almacenar en el suelo aquellos productos que estén empacados en recipientes redondos, aunque ahorra costos porque no es necesaria la estantería, obliga a recorrer largas distancias.
-        p.mt-4 - Agrupar productos similares para evitar contaminación con otros que puedan presentar algún tipo de riesgo.
-
-        p.mt-4 - Almacenar en estantes que tengan acceso directo, para facilitar la recogida y operación en general.
-
-        p.mt-4 - Almacenar productos que por su forma requieren que sea vertical en los estantes diseñados.
-
-        p.mt-4 - Los productos pesados deben estar en la parte inferior del estante o a nivel de la cintura del operario.
-
-        p.mt-4 - Monitorear visualmente la forma de almacenamiento (cámaras o drones), para evitar peligro de caídas-.
-        p.mt-4 - Almacenar los productos de acuerdo con el nivel de rotación.
-
-      .row
-        .col-lg-10
-        .col-lg-2
-          img.bbb(src='@/assets/curso/tema3/img19.png', alt='Texto que describa la imagen')        
-      p Para ampliar la información sobre ubicación de la mercancía y el almacenamiento, por favor revise el siguiente video:                                              
+              img(src='@/assets/curso/tema4/img24.png', alt='Texto que describa la imagen')
     .row.justify-content-center
       .col-lg-10
-        .tarjeta.p-4.p-md-5.mb-5.mt-4.bg555
+        .tarjeta.p-4.p-md-5.mb-5.mt-4.bg55
           .row.justify-content-around.align-items-center
-            .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
-            .col-md.col-lg-6.p-4                        
-              <br><br><br>
-              h5 Material de apoyo
+            .col-md.col-lg-7.p-4            
+              <br><br>
+              p <strong>Material de apoyo</strong> 
+              p.mb-4 - 5_Boletín Cumplimiento con ISO 17712 Para Sellos de Alta Seguridad_2014
+              p - 6_Instructivo Manejo y control de precintos o sellos de seguridad en Conalca
+ 
+              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('https://www.mincit.gov.co/ministerio/normograma-sig/procesos-de-apoyo/gestion-juridica/decretos/decreto-390-de-2016.aspx')" target="_blank" type="application/pdf")
+                span Descargar
+                i.fas.fa-download
+              <br><br>                
+            .col-8.col-sm-6.col-md-4.mb-4.mb-md-0     
+    separador 
+    #t_3_3.titulo-segundo.color-acento-contenido
+      h2 3.3. Tecnologías de rastreo 
+    p.mb-0 <strong>Figura 18</strong>
+    p.it Monitoreo vehicular  
+    .row.justify-content-center
+          .col-lg-5
+            img(src='@/assets/curso/tema4/img15.png', alt='Texto que describa la imagen')
+          .col-lg-7.bgne7
+            <br>
+            p.mt-2 Definitivamente, el reto de las empresas logísticas es garantizar la entrega de las mercancías de manera segura, oportuna y puntual, de aquí la necesidad de contar con un transporte de excelente calidad.  Los diferentes transportes logísticos de mercancías permiten que la mercancía pueda llegar de un sitio a otro sin presentar ningún daño, afectando así positivamente el servicio al cliente; es por eso que el servicio de transporte debe ser de la mejor calidad en términos de seguridad, regularidad, oportunidad, tiempos y eficiencia.
+            p.mt-4 Existe una diversidad de medios de transporte que son un eslabón importante en la cadena logística; sin embargo, de acuerdo con su combinación, existen varias modalidades, como: intramodal, intermodal y multimodal.  Intramodal hace referencia a los medios de transporte de la misma línea, por ejemplo, hacen escala o transbordo de avión.  Intermodal es la coordinación de máximo dos modalidades de transporte, por ejemplo, barco que llega al puerto y entrega las mercancías a vehículos terrestres.  Y en la multimodal intervienen más de dos modalidades de transporte, por ejemplo, importación de ropa siguiendo las rutas marítima-terrestre y aérea para llegar a cada ciudad de destino dentro del país.
+    
+    p Si bien es cierto que nadie está exento de que se presenten cambios inesperados en la ruta, seguramente se podrán producir variaciones en la operación; estos cambios no planificados pueden llegar a generar ineficiencias, incumplimientos y mala calidad en el servicio; por lo anterior, se debe considerar la forma de hacer seguimiento y control sobre el estado de la mercancía a través de un monitoreo logístico.
+    p En la actualidad, existen varias tecnologías de monitoreo vehicular, a continuación, se describen las más utilizadas:
+    .row.justify-content-center
+      .col-lg-12
+        ImagenInfograficaB.color-primario.mb-5.mt-4
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema4/img16.svg', alt='Texto que describa la imagen')
 
-              p.mb-4 Si es de su interés ampliar la información sobre ubicación de la mercancía y el almacenamiento dentro del almacén, visite la url: 
-              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('https://www.youtube.com/watch?v=dhGt7A0935Q')" target="_blank" type="application/pdf")
-                span Ingresar
-                i.fas.fa-link
-              <br><br><br><br>
+          div(x="12%" y="65%" tooltip="Monitoreo  IoT" numero="")
+            .row.justify-content-center.bg313
+              .col-lg-6
+                <br><br><br>
+                h5 Monitoreo  IoT
+                p Conjunto de dispositivos que, interconectados a través de Internet, pueden ser monitoreados por otros dispositivos, sensorizando cada elemento
+                <br><br><br><br><br><br><br><br><br>
+              .col-lg-3
+                <br><br>
+                img(src='@/assets/curso/tema4/img17.png', alt='Texto que describa la imagen')
+              .col-lg-1
+          div(x="37%" y="68%" tooltip="Monitoreo tradicional GPS" numero="")
+            .row.justify-content-center.bg313
+              .col-lg-6
+                <br><br><br>
+                h5 Monitoreo tradicional GPS
+
+                p Se realiza utilizando el GPS vehicular; sin embargo, es limitante porque genera información únicamente del vehículo en tiempo real, no entrega información sobre el desempeño de la ruta logística.
+                <br><br><br><br><br><br><br><br><br>                
+              .col-lg-3
+                <br><br>
+              
+                img(src='@/assets/curso/tema4/img18.png', alt='Texto que describa la imagen')
+              .col-lg-1
+
+          div(x="63%" y="75%" tooltip="Monitoreo inteligente con A-GPS" numero="")
+            .row.justify-content-center.bg313
+              .col-lg-6
+                <br><br><br>
+                h5 Monitoreo inteligente con A-GPS
+                p Es el sistema de georreferenciación más óptimo, pues es compatible con otros sistemas de rastreo satelital.
+                <br><br><br><br><br><br><br><br><br>                
+
+                
+              .col-lg-3
+                <br><br>
+                img(src='@/assets/curso/tema4/img19.png', alt='Texto que describa la imagen')
+              .col-lg-1
+          div(x="89%" y="75%" tooltip="Precinto o sello electrónico de seguridad" numero="")
+            .row.justify-content-center.bg313
+              .col-lg-6
+                <br><br><br>
+                h5 Precinto o sello electrónico de seguridad
+                p Dispositivo GPS desarrollado específicamente para hacer seguimiento a los contenedores de mercancías.  Se instala de forma segura en la puerta trasera del contenedor.
+                <br><br><br><br><br><br><br><br><br>                
+                
+              .col-lg-3
+                <br><br>
+
+                img(src='@/assets/curso/tema4/img20.png', alt='Texto que describa la imagen')
+              .col-lg-1
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema3',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
-  data: () => ({
-    // variables de vue
-  }),
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

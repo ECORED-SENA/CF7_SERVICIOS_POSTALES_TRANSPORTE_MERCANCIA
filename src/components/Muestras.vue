@@ -674,12 +674,10 @@ div
       .cajon.color-secundario.p-4.mb-4
         .h5 Cajón texto color
         p Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.
-    
     .col-lg-8
       .cajon.color-acento-contenido.p-4.mb-4
         .h5 Cajón texto color
         p Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.
-    
     .col-lg-4
       .cajon.color-acento-botones.p-4.mb-4
         .h5 Cajón texto color

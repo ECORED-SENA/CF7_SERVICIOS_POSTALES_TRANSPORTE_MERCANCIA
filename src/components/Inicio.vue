@@ -20,7 +20,7 @@ section.inicio
             span(v-html="item.titulo")
 
           a.boton--sm
-            span.d-none.d-md-block Ver contenido
+            span.d-none.d-md-block.text-white Ver contenido
             span.d-md-none Ver
 
   .container.tarjeta.tarjeta__template--azul-claro.creditos-inicio.px-3.py-4.px-sm-5
