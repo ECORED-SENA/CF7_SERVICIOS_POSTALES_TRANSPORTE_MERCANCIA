@@ -12,10 +12,10 @@
     
     figure.mt-4
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/tr3WyTVtD7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/fkhynnTHNc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .col-lg-12.mt-4
-      .cajon.color-secundario.p-4.mb-4
-        p.p-2 Para la elaboración de este componente, se abordaron varios autores conocidos en <strong>ubicación, consolidación y desconsolidación de la mercancía y objetos postales,</strong> de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos aquellos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de <strong>servicios postales y transporte de mercancías.</strong>
+      .cajon.color-secundario.p-4
+        p.mb-0 Para la elaboración de este componente, se abordaron varios autores conocidos en <strong>ubicación, consolidación y desconsolidación de la mercancía y objetos postales,</strong> de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos aquellos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de <strong>servicios postales y transporte de mercancías.</strong>        
 
 </template>
 

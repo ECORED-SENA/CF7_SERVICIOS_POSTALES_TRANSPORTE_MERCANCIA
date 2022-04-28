@@ -10,7 +10,7 @@
     
     .row.justify-content-center.bg1.mb-5
       .col-lg-5.mb-5.mb-lg-0
-        img(src='@/assets/curso/tema1/img1.svg', alt='Texto que describa la imagen').img300.m-auto      
+        img(src='@/assets/curso/tema1/img1.svg', alt='Texto que describa la imagen').img300.m-auto(data-aos="zoom-in")      
       .col-lg-7
         p En todo el proceso logístico, es importante que la mercancía transportada llegue en condiciones óptimas al cliente final; por lo regular, los trayectos son largos y la mercancía puede sufrir algún daño si no ha sido preparada con responsabilidad, normas y protocolos de operación en logística. Se debe conocer el tipo de mercancía que se va a manipular, almacenar y transportar, para identificar el tratamiento que se debe aplicar.
         p El objetivo principal es preparar la mercancía para que llegue en perfectas condiciones, por lo que requiere desarrollar tareas de embalaje, identificación, consolidación, paletización y flejado de las cargas, para ser entregada al vehículo y así lograr que la carga no se mueva durante el transporte o sufra averías.  
@@ -26,7 +26,7 @@
             p #[strong a)] Planear la entrada, para lo cual se debe tener claro y por escrito la programación del día, la semana o el periodo, y así poder organizar los recursos necesarios (personal, equipos y muelle, donde aplique). 
             p #[strong b)] Verificación inicial, el registro de entrada debe coincidir con la información que refleja el #[i software].
           .col-xl-7
-            img(src='@/assets/curso/tema1/img2.svg', alt='Texto que describa la imagen').img500.m-auto
+            img(src='@/assets/curso/tema1/img2.svg', alt='Texto que describa la imagen').img500.m-auto(data-aos="zoom-in")
 
         .row.justify-content-center(titulo="")
           .col-xl-6.mb-4.mb-xl-0
@@ -139,8 +139,8 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
-        img(src='@/assets/curso/tema1/img8.svg', alt='Texto que describa la imagen')
+      .col-lg-4(data-aos="zoom-in")
+        img(src='@/assets/curso/tema1/img8.svg', alt='Texto que describa la imagen').img350-m-auto
       .col-lg-8.bg3        
         p.mt-5.mb-0 Los centros de despacho deben asegurar una correcta manipulación y ubicación de la mercancía, para lo cual se requiere conocer características como: dimensiones, forma, volumen, peso, ubicación, fragilidad, propiedades, estado físico y nivel de rotación.  Estas características permiten clasificarla e identificar los equipos necesarios para las actividades de recepción, manipulación, ubicación y almacenamiento, las cuales se describen a continuación:
 
@@ -279,21 +279,21 @@
 
     p.mb-5 Generalmente, en los almacenes y centros de distribución, se agrupan (consolidan) y almacenan las mercancías según el tipo de producto; por ejemplo, donde se utilizan los soportes rígidos horizontales metálicos o de madera, comúnmente conocidos como estibas (técnicamente, pallet o paletas), es necesario una estantería tipo rack o de paletización. En caso de que la mercancía sean perfiles, se requiere una estantería tipo cantiléver, para mantenerlos bien organizados.
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-4
       .col-lg-8       
         .bloque-texto-d.color-secundario.p-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
             p El éxito de la organización y agrupación de la mercancía en un almacén es la forma como se gestionan los productos; se recomienda aplicar la técnica de gestión japonesa 5S (cinco palabras que comienzan por S), cuyo fundamento es lograr lugares de trabajo mejor organizados, más limpios, más ordenados y, por consiguiente, más productivos. 
             i.fas.fa-quote-right     
-        .rowm.d-none.d-lg-flex
+        .row.d-none.d-lg-flex
           .col-lg-2
             img(src='@/assets/curso/tema1/ico5.svg', alt='').img85
 
-      .col-lg-4
-        img(src='@/assets/curso/tema1/img9.png', alt='')
+      .col-lg-4(data-aos="zoom-in")
+        img(src='@/assets/curso/tema1/img9.png', alt='').img350.m-auto
 
-    .cajon.cjn-rosa.p-4.mb-4
+    .cajon.cjn-rosa.p-4.mb-5
       p <strong>Técnica gestión japonesa 5S</strong>
       p <strong>SEIRI</strong> - Clasificar:  identificar y separar todos aquellos materiales considerados innecesarios y retirarlos del entorno laboral.
       p <strong>SEITON</strong> - Ordenar: establecer la forma en que deben identificarse y ubicar los materiales requeridos, de manera que sea fácil y rápido encontrarlos para la utilización.
@@ -304,14 +304,15 @@
       .bulb--icon.d-none.d-lg-flex  
      
 
-    h3 Consolidación de mercancías
+    h3 Consolidación de mercancías 
 
-    .titulo-sexto.color-acento-contenido
-      h5 Figura 1.
-      span Tipos de consolidación  
+    p.mb-4 La consolidación consiste en agrupar o combinar las mercancías sueltas provenientes de las áreas de #[i picking], líneas de pedido o destinos y así organizar un solo paquete, con el objetivo de economizar transporte y manipulación de las mismas.  Esta actividad es desarrollada en la zona de alistamiento (expedición), preferiblemente cerca del muelle, para optimizar los recursos disponibles; dicha agrupación consiste en colocar sobre una paleta varios paquetes pequeños, para facilitar la manipulación, almacenamiento y transporte; en ocasiones, depende del cliente y el destino para organizar la mercancía, como se presenta a continuación:   
 
     .row.justify-content-center.align-items-center.bg1A.mb-5
-      .col-lg-6
+      .col-lg-8        
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 1.
+          span Tipos de consolidación  
         .row.justify-content-center
           .col-10.col-md-8.col-lg-6.mb-4.mb-lg-0
             .crd.crd--white.crd--brad
@@ -342,59 +343,44 @@
                   i.fas.fa-angle-right
                   | Reduce costos, por compartir transporte.  
       .col-lg-6.px-4
-        p.mb-0 La consolidación consiste en agrupar o combinar las mercancías sueltas provenientes de las áreas de #[i picking], líneas de pedido o destinos y así organizar un solo paquete, con el objetivo de economizar transporte y manipulación de las mismas.  Esta actividad es desarrollada en la zona de alistamiento (expedición), preferiblemente cerca del muelle, para optimizar los recursos disponibles; dicha agrupación consiste en colocar sobre una paleta varios paquetes pequeños, para facilitar la manipulación, almacenamiento y transporte; en ocasiones, depende del cliente y el destino para organizar la mercancía, como se presenta a continuación:          
+                 
     
     p.mb-5 Para realizar la consolidación de mercancías y objetos postales, se deben tener en cuenta las siguientes actividades:
-    
-    ImagenInfograficaB.color-acento-contenido.mb-5.mt-4
-      template(v-slot:imagen)
-          img(src='@/assets/curso/tema1/img11.svg', alt='Texto que describa la imagen')
 
-      div(x="32%" y="35%" tooltip="Paletizado" numero="1")
-        .row.justify-content-center.bg6.mt-5
-          .col-lg-5.p-4            
+    .crd.crd--slyder.p-5.mb-5
+      SlyderA(tipo="b")
+        .row.justify-content-center.align-items-center
+          .col-lg-7
             h5 Paletizado
-            p Hace referencia a la forma de organizar las mercancías sobre un 
-              span.it pallet 
-              | (estiba) para almacenamiento y transporte, con la finalidad de tener uniformidad y facilitar la manipulación.  El paletizado podrá realizarse de forma manual o mecanizado, utilizando toda la superficie de la estiba.
-          .col-lg-5
-            
-            img(src='@/assets/curso/tema1/img12.png', alt='Texto que describa la imagen')
-            <br>
-      
-      div(x="88%" y="68%" tooltip="Retractilado" numero="2")
-        .row.justify-content-center.bg6
-          .col-lg-5.p-4
-            <br>
-            h5 Retractilado
-            p Es el proceso de embalaje en el que una máquina retractiladora envuelve en una película plástica (papel termo film) las mercancías, para quedar adheridas al plástico, evitando así daños o suciedad; quedan pegadas al 
-              span.it pallet 
-              | y se facilita tanto la manipulación como el transporte.
+            p Hace referencia a la forma de organizar las mercancías sobre un <i>pallet</i>(estiba) para almacenamiento y transporte, con la finalidad de tener uniformidad y facilitar la manipulación.
+            p El paletizado podrá realizarse de forma manual o mecanizado, utilizando toda la superficie de la estiba.    
+          .col-auto
+            figure
+              img(src='@/assets/curso/tema1/img12.png', alt='').img350.m-auto
 
-          .col-lg-5
-            <br>
-            img(src='@/assets/curso/tema1/img13.png', alt='Texto que describa la imagen')
-            <br>
-      div(x="57%" y="68%" tooltip="Flejado" numero="3")
-        .row.justify-content-center.bg6
-          .col-lg-5.p-4
-            <br>
+        .row.justify-content-center.align-items-center
+          .col-lg-7
+            h5 Retractilado
+            p Es el proceso de embalaje en el que una máquina retractiladora envuelve en una película plástica (papel termo film) las mercancías, para quedar adheridas al plástico, evitando así daños o suciedad; quedan pegadas al <i>pallet</i> y se facilita tanto la manipulación como el transporte.    
+          .col-auto
+            figure
+              img(src='@/assets/curso/tema1/img13.png', alt='').img350.m-auto
+
+        .row.justify-content-center.align-items-center
+          .col-lg-7
             h5 Flejado
-            p Es la forma de agrupar y asegurar las cajas, mercancías u objetos postales mediante unas tiras plásticas llamadas flejes, que aseguran el pedido que ya está retractilado para evitar la separación y asegurar mejor los productos, como se observa a continuación.
-          .col-lg-5
-            img(src='@/assets/curso/tema1/img14.png', alt='Texto que describa la imagen')
-            <br><br>
-      div(x="25%" y="85%" tooltip="Pool de paletas" numero="4")
-        .row.justify-content-center.bg6
-          .col-lg-5.p-4
-            <br>
-            h5 
-              span.it Pool 
-              | de paletas
-            p Aquellas empresas que reciben y expiden productos por grupos de paletas manejan inventario de paletas y no por productos. Paletizar quiere decir colocar cajas sobre la paleta, hasta completar la unidad de carga de forma uniforme, lo que permite reducir tiempos en los movimientos, optimizar el espacio del almacén y reducir el esfuerzo humano.
-          .col-lg-5
-            <br>
-            img(src='@/assets/curso/tema1/img15.png', alt='Texto que describa la imagen')
+            p Es la forma de agrupar y asegurar las cajas, mercancías u objetos postales mediante unas tiras plásticas llamadas flejes, que aseguran el pedido que ya está retractilado para evitar la separación y asegurar mejor los productos, como se observa a continuación.   
+          .col-auto
+            figure
+              img(src='@/assets/curso/tema1/img14.png', alt='').img350.m-auto
+
+        .row.justify-content-center.align-items-center
+          .col-lg-7
+            h5 <i>Pool</i> de paletas
+            p Es la forma de agrupar y asegurar las cajas, mercancías u objetos postales mediante unas tiras plásticas llamadas flejes, que aseguran el pedido que ya está retractilado para evitar la separación y asegurar mejor los productos, como se observa a continuación.   
+          .col-auto
+            figure
+              img(src='@/assets/curso/tema1/img15.png', alt='').img350.m-auto      
 
             
     p De acuerdo con las actividades descritas anteriormente, la consolidación requiere de pallets de madera, plástico u otros materiales necesarios para el movimiento de la carga, para facilitar el levantamiento y movimiento con carretillas elevadoras o transpaletas.
@@ -408,12 +394,8 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img16.png')})`}"
           )
           .bloque-texto-g__texto.p-4.ax
-            p.pax <strong>Según norma técnica NTC 44680/2013</strong><br><br>
-            p.pax En Colombia, se encuentran estandarizadas las dimensiones de los 
-            p.pax pallets, cuyo objetivo está enmarcado en <STRONG>“Estiba intercambiable de </STRONG> 
-            p.pax <STRONG>madera, utilizable por una vez, en la cadena de valor”</STRONG>, donde se<br>
-            p.pax establece que las medidas para la estiba o pallet son: largo 120 cm,<br> 
-            p.pax ancho 100 cm y altura 15,5 cm.
+            p <strong>Según norma técnica NTC 44680/2013</strong><br><br>
+            p En Colombia, se encuentran estandarizadas las dimensiones de los pallets, cuyo objetivo está enmarcado en “Estiba intercambiable de madera, utilizable por una vez, en la cadena de valor”, donde se establece que las medidas para la estiba o pallet son: largo 120 cm, ancho 100 cm y altura 15,5 cm.
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -486,7 +468,7 @@
     p.mb-4 Durante esta operación, los contenedores que llegan deben ser vaciados de los pedidos entrantes consolidados, para volver a combinarse en los medios de transporte disponibles y ruta programada para los vehículos.  En los centros de distribución, se logran reducir las existencias del inventario y mejorar la cadena de distribución y suministro, dado que se realiza una minuciosa organización que permiten hacer las entregas en los tiempos acordados.  Un ejemplo claro es el recibimiento de contenedores con mercancías en el puerto, allí se desconsolida el pedido, abriendo las puertas, verificando y abriendo el sello de seguridad, para continuar con el vaciado del mismo, permitiendo así que toda la mercancía se clasifique y reorganice para llevarla a los vehículos o medios de transporte (por lo regular terrestre) encargados de la distribución.    
 
     .row.justify-content-center.mb-4
-      .col-lg-5
+      .col-lg-5.mb-4.mb-lg-0
         img(src='@/assets/curso/tema1/img24.png', alt='Texto que describa la imagen')
       .col-lg-7.bg33        
         p.mt-4.mb-0 Para la operación de desconsolidación en puerto, se requiere de personal capacitado, grúas tipo horquilla y pórtico, necesarias para la operación, los documentos portuarios necesarios para la entrega del pedido, descarga del contenedor y traslado hacia el área de recepción temporal en puerto, paletizadoras, embalaje, retractilados, etiquetas, entre otros equipos. 
@@ -496,7 +478,7 @@
     .hr--line
     .row
       .col-auto
-        figure
+        figure(data-aos="zoom-in")
           img(src="@/assets/curso/tema1/img25A.svg", alt="alt").img65
       .col
         h4 Desagrupar o desconsolidar varios embarques 
@@ -504,7 +486,7 @@
     .hr--line     
     .row
       .col-auto
-        figure
+        figure(data-aos="zoom-in")
           img(src="@/assets/curso/tema1/img25B.svg", alt="alt").img65
       .col
         h4 Desconsolidar embarques consolidados en un mismo packing 
@@ -512,7 +494,7 @@
     .hr--line     
     .row
       .col-auto
-        figure
+        figure(data-aos="zoom-in")
           img(src="@/assets/curso/tema1/img25C.svg", alt="alt").img65
       .col
         h4 Desconsolidación de embarques mixtos 
@@ -526,7 +508,7 @@
       span Secuencia de actividades a desarrollar en la desconsolidación
     
     .row.justify-content-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="zoom-in")
         img.mt-4(src='@/assets/curso/tema1/img26.svg', alt='Texto que describa la imagen')
         figcaption.mt-3 *SGI:  Sistema de Gestión Informático (<i>software</i>)      
     
@@ -540,7 +522,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-7        
         p La función principal del agente de carga es ayudar a resolver inconvenientes logísticos y de transporte que se lleguen a presentar, tanto para el importador como para el exportador, bien sea en la consolidación o desconsolidación de la carga; presta asistencia técnica en temas fiscales y aduaneros, aseguramiento y recolección de productos, e incluso hace seguimiento al tema documental.  En caso de que el contenedor llegue por vía marítima, el agente de carga debe emitir el <strong>“Conocimiento de embarque”</strong> y, en caso aéreo, la <strong>“Guía aérea”</Strong>.
-      .col-lg-5
+      .col-lg-5(data-aos="zoom-in")
         img(src='@/assets/curso/tema1/img27.png', alt='Texto que describa la imagen')
 
 
@@ -590,601 +572,471 @@
               a.boton.color-acento-contenido-botones.texto-blanco(href="https://comercioexterior.la/broker-internacional/documentos-de-embarque/" target="_blank").mb-5.mb-lg-0
                 span Documentos de embarque
                 i.fas.fa-link 
+
     
-         
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta.p-4.p-md-5.mb-5.mt-4.bg55
-          .row.justify-content-around.align-items-center
-            .col-md.col-lg-7.p-4            
-              <br>
+        .cta--yellow
+          .bubble--left
+          .dots--left
+          .row.align-items-center            
+            .col-12.col-lg.pt-0.pt-lg-5.order-2.order-lg-1.txt-mg--left
               p Si es de su interés ampliar la información sobre:
-              p.mb-4 La regulación aduanera en Colombia, puede ir al material de apoyo y descargar el pdf <strong>3_ Decreto 390 de 2016 Regulación aduanera.pdf</strong> 
-              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('https://www.mincit.gov.co/ministerio/normograma-sig/procesos-de-apoyo/gestion-juridica/decretos/decreto-390-de-2016.aspx')" target="_blank" type="application/pdf")
+              p.mb-4 La regulación aduanera en Colombia, puede ir al material de apoyo y descargar el pdf <strong>3_ Decreto 390 de 2016 Regulación aduanera.pdf</strong>  
+              a.boton.color-acento-contenido-botones.texto-blanco(:href="obtenerLink('/downloads/Decreto-390-de-2016.pdf')" target="_blank").mb-5.mb-lg-0
                 span Descargar
-                i.fas.fa-download
-              <br><br><br><br>                  
-            .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+                i.fas.fa-link
+
+            .col-auto.order-1.order-lg-2.mb-4.mb-lg-0
+              figure
+                img(src="@/assets/curso/llamados/cta_04.png", alt="alt").img385.m-auto              
+         
+    
     separador
+
     #t_1_3.titulo-segundo.color-secundario
       h2 1.3 Equipos de movimentación
+
     .row.justify-content-center
       .col-lg-8
         p En la gestión del almacén, se requiere revisar qué medios o <STRONG>equipos de manipulación</STRONG> son necesarios para mover y trasladar mercancías dentro del almacén; mientras que los <STRONG>medios o equipos de almacenamiento</STRONG> hacen referencia a los estantes, cajas, armarios, suelos, silos, contenedores, etc., que <STRONG>sirven para guardar</STRONG> mercancías requeridas posteriormente.
         p Existe un gran número de equipos de almacenamiento, pues existen diversos tipos de mercancías, lo que requiere analizar y seleccionar los más adecuados para los productos.  Incluso, se puede solicitar asesoría con el proveedor sobre nuevas tecnologías, materiales o formas de almacenar.  De igual forma, en las actividades de manipulación de mercancías se pueden utilizar sistemas manuales o automatizados, lo cual requiere recursos humanos y materiales.
-      .col-lg-4
+      .col-lg-4(data-aos="zoom-in")
         img(src='@/assets/curso/tema1/img30.png', alt='Texto que describa la imagen')
-    p En aquellos sistemas manuales y de acuerdo con estándares para manejo de cargas en salud ocupacional, un operario de género masculino está en capacidad de trasladar cargas hasta de 25 kg con un recorrido máximo de 30 m, mientras que la mujer puede realizar traslados máximos de 15 kg; un mecanismo de apoyo para superar estas limitaciones y aumentar la capacidad tanto de carga como traslados son los diferentes equipos de manipulación y movimentación de cargas. Es importante tener en cuenta aspectos como rotación de productos y espacio disponible al momento de elegir.  A continuación, se presenta la clasificación general de los equipos:
-    <br><br>
-    p.mb-0 <strong>Figura 5</strong>
-    p.it Clasificación equipos de manipulación y movimentación   
-    .row.justify-content-center
+
+    p.mb-5 En aquellos sistemas manuales y de acuerdo con estándares para manejo de cargas en salud ocupacional, un operario de género masculino está en capacidad de trasladar cargas hasta de 25 kg con un recorrido máximo de 30 m, mientras que la mujer puede realizar traslados máximos de 15 kg; un mecanismo de apoyo para superar estas limitaciones y aumentar la capacidad tanto de carga como traslados son los diferentes equipos de manipulación y movimentación de cargas. Es importante tener en cuenta aspectos como rotación de productos y espacio disponible al momento de elegir.  A continuación, se presenta la clasificación general de los equipos:
+
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 5.
+      span Clasificación equipos de manipulación y movimentación   
+   
+    .row.justify-content-center.bg1.mb-5(data-aos="zoom-in")
       .col-lg-7
         img(src='@/assets/curso/tema1/img31.svg', alt='Texto que describa la imagen')
       .col-lg-5
-        img(src='@/assets/curso/tema1/img32.png', alt='Texto que describa la imagen')
-    <br> 
-    p.mt-4 <strong>Clasificación de equipos dinámicos sin traslado:</strong>  son equipos que están fijos al piso o techo de la edificación y que pueden realizar algún tipo de transporte, como aparece en el siguiente recurso.
+        img(src='@/assets/curso/tema1/img32.png', alt='Texto que describa la imagen').d-none.d-lg-flex
     
-    .row.justify-content-center
-      .col-lg-10.bg77
-        SlyderA(tipo="b")
-          .row
-            .col-md-6.mb-4.mb-md-0.xx
-              <br><br><br><br>
-              p.margl <strong>Transportadora de banda</strong>
-              p.mb-0.margl - Plataforma de goma deslizante, sobre conjunto de rodillos.
-              p.mb-0.margl - Aplica para embalajes de base irregular.
-              p.mb-0.margl - Transporte a granel.
-              p.margl - Adecuada para trayectos largos, con curvas y diferentes niveles.    
-            .col-md-1.wax
-            .col-md-5
-              <br><br>
-              figure
-                img(src='@/assets/curso/tema1/img33.png', alt='Texto que describa la imagen')
-          .row
-            .col-md-6.mb-4.mb-md-0.xx
-              <br><br><br><br>
-              p.margl <strong>Transportadora de rodillos</strong>
-              p.mb-0.margl - Plataforma de rodillos, sobre rodamientos.
-              p.mb-0.margl - Opera en función del tipo de mercancía.
-              p.mb-0.margl - Los productos se desplazan como consecuencia de la gravedad.
-            .col-md-1.wax
-
-            .col-md-5
-              <br><br>            
-              figure
-                img(src='@/assets/curso/tema1/img34.png', alt='Texto que describa la imagen')
-          .row
-            .col-md-6.mb-4.mb-md-0.xx
-              <br><br><br><br>
-              p.margl <strong>Vehículo que comunica varias áreas del almacén </strong>
-              p.mb-0.margl - Desplazamiento a altas velocidades.
-              p.mb-0.margl - Movimientos en línea recta.
-              p.mb-0.margl - Opera con un sistema neumático.
-              p.mb-0.margl - Precisión en la ubicación de carga.
-              p.mb-0.margl - Requiere uso de telémetros 
-                span.it (láser).
-            .col-md-1.wax
-
-            .col-md-5
-              <br><br>
-              figure
-                img(src='@/assets/curso/tema1/img35.png', alt='Texto que describa la imagen')
-          .row
-            .col-md-6.mb-4.mb-md-0.xx
-              <br><br><br><br>
-              p.margl <strong>Equipo de transporte fijo al techo </strong>
-              p.mb-0.margl - Permite transporte de mercancía dentro del almacén a diferentes zonas.
-              p.mb-0.margl - Mantiene despejado el suelo.
-              p.mb-0.margl - Requiere techos muy altos en el almacén.
-              p.mb-0.margl - Uso principal en el sector automotriz.
-            .col-md-1.wax
-
-            .col-md-5
-              <br><br>
-              figure
-                img(src='@/assets/curso/tema1/img36.png', alt='Texto que describa la imagen')
-          .row
-            .col-md-6.mb-4.mb-md-0.xx
-              <br><br><br><br>
-              p.margl <strong>Equipo  con desplazamiento  por pasillos estrechos a velocidad alta </strong>
-              p.mb-0.margl - Diseñados especialmente para almacenes automatizados.
-              p.mb-0.margl - Operan con dos movimientos: longitudinal sobre 
-                span.it rail 
-                | y vertical para extraer o colocar 
-                span.it pallets.
-              p.mb-0.margl - Desarrollan tareas de picking a gran altura.
-
-            .col-md-1.wax
-
-            .col-md-5
-              <br><br>
-              figure
-                img(src='@/assets/curso/tema1/img37.png', alt='Texto que describa la imagen')      
-    <br>
-    p.mt-4 <strong>Dinámicos con traslado:</strong>  aquellos equipos que pueden trasladar mercancías dentro del almacén. Se describen a continuación:
-    .row.justify-content-center
-      .col-lg-10.bg88
-        SlyderA(tipo="b")
-          .row
-            .col-md-6.mb-4.mb-md-0.xx
-              <br><br><br><br>
-              p.margl <strong>Equipo mecánico de transporte</strong>
-              p.mb-0.margl - Sirven de apoyo a otros equipos.
-              p.mb-0.margl - Transportan la carga a distancias cortas.
-              p.mb-0.margl - Levantan distancias muy cortas del suelo.
-              p.margl - Apoyan actividades del muelle.
-            .col-md-1.wax
-            
-            .col-md-5
-              <br><br>
-              figure
-                img(src='@/assets/curso/tema1/img38.png', alt='Texto que describa la imagen')
-          .row
-            .col-md-6.mb-4.mb-md-0.xx
-              <br><br><br><br>
-              p.margl <strong>Apilador eléctrico con mástil telescópico</strong>
-              p.mb-0.margl - Elevación hasta altura específica.
-              p.mb-0.margl - Desplazamiento de altura y horizontal.
-              p.mb-0.margl - Permite realizar trabajo de apilado.
-              p.mb-0.margl - Puede ser utilizado en recepción y expedición.
-              p.mb-0.margl - No se recomienda para cargas pesadas.
-            .col-md-1.wax
-            
-            .col-md-5
-              <br><br>
-              figure
-                img(src='@/assets/curso/tema1/img39.png', alt='Texto que describa la imagen')
-          .row
-            .col-md-6.mb-4.mb-md-0.xx
-              <br><br><br><br>
-              p.margl <strong>Carretilla retráctil, contrabalanceada, de toma lateral (bi o trilateral) </strong>
-              p.mb-0.margl - Movimientos vertical y horizontal.
-              p.mb-0.margl - Levanta cargas hasta 10 m.
-              p.mb-0.margl - Necesita pasillos para operar.
-              p.mb-0.margl - Recorridos medios-largos.
-              p.mb-0.margl - Uso en ubicación y apilado de mercancía.
-            .col-md-1.wax
- 
-            .col-md-5
-              <br><br>
-              figure
-                img(src='@/assets/curso/tema1/img40.png', alt='Texto que describa la imagen')
-          .row
-            .col-md-6.mb-4.mb-md-0.xx
-              <br><br><br><br>
-              p.margl.it <strong>Automatic Guided Vehicles </strong>
-              p.mb-0.margl - No requieren conductor (inteligentes).
-              p.mb-0.margl - Ordenador que comunica con PC.
-              p.mb-0.margl - Aplica diferentes técnicas de guía: hilo conductor a poca profundidad del suelo; uso banda magnética sobre el suelo.
-              p.mb-0.margl - Sigue un trayecto orientado por demarcación.
-            .col-md-1.wax
- 
-            .col-md-5
-              <br><br>
-              figure
-                img(src='@/assets/curso/tema1/img41.png', alt='Texto que describa la imagen')
-  
-    <br><br> 
-    p <strong>Estáticos:</strong>  se utilizan para almacenar mercancía a granel, tienen un orificio de entrada y uno de salida.  Son muy utilizados para manejar semillas y minerales, pueden ser cilíndricos o poligonales. Los más comunes son los silos de almacenamiento.            
-    .row.justify-content-center
+    p.mb-5 <strong>Clasificación de equipos dinámicos sin traslado:</strong> son equipos que están fijos al piso o techo de la edificación y que pueden realizar algún tipo de transporte, como aparece en el siguiente recurso.
+    
+    .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta.p-4.p-md-5.mb-5.mt-4.bg2
-          .row.justify-content-around.align-items-center
-            .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
-            .col-md.col-lg-7.p-4
-              <br>
+        .crd.crd--slyder.p-5
+          SlyderA(tipo="b")
+            .row.justify-content-center.align-items-center
+              .col-lg-7.mb-4.mb-lg-0   
+                p <strong>Transportadora de banda</strong>
+                p - Plataforma de goma deslizante, sobre conjunto de rodillos.
+                p - Aplica para embalajes de base irregular.
+                p - Transporte a granel.
+                p - Adecuada para trayectos largos, con curvas y diferentes niveles.            
+              .col-lg-5              
+                figure
+                  img(src='@/assets/curso/tema1/img33.png', alt='Texto que describa la imagen').img350
+
+            .row.justify-content-center.align-items-center
+              .col-lg-7.mb-4.mb-lg-0        
+                p <strong>Transportadora de rodillos</strong>
+                p - Plataforma de rodillos, sobre rodamientos.
+                p - Opera en función del tipo de mercancía.
+                p - Los productos se desplazan como consecuencia de la gravedad.
+              .col-lg-5                       
+                figure
+                  img(src='@/assets/curso/tema1/img34.png', alt='Texto que describa la imagen').img350
+
+            .row.justify-content-center.align-items-center
+              .col-lg-7.mb-4.mb-lg-0            
+                p.margl <strong>Vehículo que comunica varias áreas del almacén </strong>
+                p - Desplazamiento a altas velocidades.
+                p - Movimientos en línea recta.
+                p - Opera con un sistema neumático.
+                p - Precisión en la ubicación de carga.
+                p - Requiere uso de telémetros 
+                  span.it (láser).
+              .col-lg-5              
+                figure
+                  img(src='@/assets/curso/tema1/img35.png', alt='Texto que describa la imagen').img350
+
+            .row.justify-content-center.align-items-center
+              .col-lg-7.mb-4.mb-lg-0            
+                p <strong>Equipo de transporte fijo al techo </strong>
+                p - Permite transporte de mercancía dentro del almacén a diferentes zonas.
+                p - Mantiene despejado el suelo.
+                p - Requiere techos muy altos en el almacén.
+                p - Uso principal en el sector automotriz.
+              .col-lg-5              
+                figure
+                  img(src='@/assets/curso/tema1/img36.png', alt='Texto que describa la imagen').img350
+
+            .row.justify-content-center.align-items-center
+              .col-lg-7.mb-4.mb-lg-0              
+                p <strong>Equipo  con desplazamiento  por pasillos estrechos a velocidad alta </strong>
+                p - Diseñados especialmente para almacenes automatizados.
+                p - Operan con dos movimientos: longitudinal sobre 
+                  span.it rail 
+                  | y vertical para extraer o colocar 
+                  span.it pallets.
+                p - Desarrollan tareas de picking a gran altura.
+              .col-lg-5              
+                figure
+                  img(src='@/assets/curso/tema1/img37.png', alt='Texto que describa la imagen').img350   
+    
+    p.mb-5 <strong>Dinámicos con traslado: </strong>aquellos equipos que pueden trasladar mercancías dentro del almacén. Se describen a continuación:
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .crd.crd--slyder2.p-5
+          SlyderA(tipo="b")
+            .row.justify-content-center.align-items-center
+              .col-lg-7.mb-4.mb-lg-0              
+                p <strong>Equipo mecánico de transporte</strong>
+                p - Sirven de apoyo a otros equipos.
+                p - Transportan la carga a distancias cortas.
+                p - Levantan distancias muy cortas del suelo.
+                p - Apoyan actividades del muelle.   
+              .col-lg-5              
+                figure
+                  img(src='@/assets/curso/tema1/img38.png', alt='Texto que describa la imagen').img350.m-auto
+
+            .row.justify-content-center.align-items-center
+              .col-lg-7.mb-4.mb-lg-0             
+                p <strong>Apilador eléctrico con mástil telescópico</strong>
+                p - Elevación hasta altura específica.
+                p - Desplazamiento de altura y horizontal.
+                p - Permite realizar trabajo de apilado.
+                p - Puede ser utilizado en recepción y expedición.
+                p - No se recomienda para cargas pesadas.            
+              .col-lg-5              
+                figure
+                  img(src='@/assets/curso/tema1/img39.png', alt='Texto que describa la imagen').img350.m-auto
+
+            .row.justify-content-center.align-items-center
+              .col-lg-7.mb-4.mb-lg-0           
+                p <strong>Carretilla retráctil, contrabalanceada, de toma lateral (bi o trilateral) </strong>
+                p - Movimientos vertical y horizontal.
+                p - Levanta cargas hasta 10 m.
+                p - Necesita pasillos para operar.
+                p - Recorridos medios-largos.
+                p - Uso en ubicación y apilado de mercancía. 
+              .col-lg-5
+                <br><br>
+                figure
+                  img(src='@/assets/curso/tema1/img40.png', alt='Texto que describa la imagen').img350.m-auto
+
+            .row.justify-content-center.align-items-center
+              .col-lg-7.mb-4.mb-lg-0 
+                p <strong>Automatic Guided Vehicles </strong>
+                p - No requieren conductor (inteligentes).
+                p - Ordenador que comunica con PC.
+                p - Aplica diferentes técnicas de guía: hilo conductor a poca profundidad del suelo; uso banda magnética sobre el suelo.
+                p - Sigue un trayecto orientado por demarcación.
+              .col-lg-5              
+                figure
+                  img(src='@/assets/curso/tema1/img41.png', alt='Texto que describa la imagen').img350.m-auto 
+    
+    p.mb-5 <strong>Estáticos:</strong>  se utilizan para almacenar mercancía a granel, tienen un orificio de entrada y uno de salida.  Son muy utilizados para manejar semillas y minerales, pueden ser cilíndricos o poligonales. Los más comunes son los silos de almacenamiento. 
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .cta--yellow
+          .bubble--right
+          .dots--right
+          .row.align-items-center
+            .col-auto.mb-4.mb-lg-0
+              figure
+                img(src="@/assets/curso/llamados/cta_01.png", alt="alt").img385.m-auto
+            .col-12.col-lg.px-3.px-5.px-lg-0.pt-0.pt-lg-5.txt-mg--right
               p <strong>Material de apoyo</strong>
-              p.mt-4 En caso de ser necesario ampliar la información, ingrese a Sistemas de Biblioteca Sena: Flamarique, S. (2017). Gestión de operaciones de almacenaje. Marge Books
-              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/43773?page=55')" target="_blank" type="application/pdf")
+              p.mt-4 En caso de ser necesario ampliar la información, ingrese a Sistemas de Biblioteca Sena: Flamarique, S. (2017). Gestión de operaciones de almacenaje. Marge Books.
+              a.boton.color-acento-contenido-botones.texto-blanco.float-end(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/43773?page=55')" target="_blank" type="application/pdf").mb-5.mb-lg-0
                 span Ingresar
-                i.fas.fa-link
-              <br>      
+                i.fas.fa-link 
+      
     p <strong>Sistemas de almacenamiento</strong>
-    p Así como los equipos de manipulación son importantes para trasladar las cargas y servir de complemento a los operarios, el volumen del almacén aumenta de acuerdo con las dimensiones de la infraestructura, la forma de organizarlo y el flujo de la mercancía.  Para cada sector, existen soluciones de almacenamiento diferentes, las cuales ayudan a reducir costos, aumentar la eficiencia en la operación y cumplir objetivos como:             
-    <br>  
-      ol.lista-ol--cuadro.lista-ol--separador.mt-4
-        li 
-          .lista-ol--cuadro__vineta
-            span 1
-          p.it Aprovechar al máximo la capacidad del almacén.
+    p.mb-4 Así como los equipos de manipulación son importantes para trasladar las cargas y servir de complemento a los operarios, el volumen del almacén aumenta de acuerdo con las dimensiones de la infraestructura, la forma de organizarlo y el flujo de la mercancía.  Para cada sector, existen soluciones de almacenamiento diferentes, las cuales ayudan a reducir costos, aumentar la eficiencia en la operación y cumplir objetivos como:             
+    
+    ol.lista-ol--cuadro.lista-ol--separador
+      li 
+        .lista-ol--cuadro__vineta
+          span 1
+        p.it Aprovechar al máximo la capacidad del almacén.
 
-        li 
-          .lista-ol--cuadro__vineta
-            span 2
-          p.it Facilitar las tareas de manipulación y acceso a los objetos.
+      li 
+        .lista-ol--cuadro__vineta
+          span 2
+        p.it Facilitar las tareas de manipulación y acceso a los objetos.
 
-        li 
-          .lista-ol--cuadro__vineta
-            span 3
-          p.it Mejorar el control de inventario.
+      li 
+        .lista-ol--cuadro__vineta
+          span 3
+        p.it Mejorar el control de inventario.
 
-        li 
-          .lista-ol--cuadro__vineta
-            span 4
-          p.it Optimizar el uso de los recursos técnicos y humanos.
-    .row.justify-content-center
-      .col-lg-1
-      .col-lg-1
-        <br>
-        img.all(src='@/assets/curso/tema1/ico8.svg', alt='Texto que describa la imagen')
+      li 
+        .lista-ol--cuadro__vineta
+          span 4
+        p.it Optimizar el uso de los recursos técnicos y humanos.
+
+    .row.justify-content-center.mb-5      
+      .col-auto        
+        img.all(src='@/assets/curso/tema1/ico8.svg', alt='Texto que describa la imagen').img100.m-auto
       .col-lg-9
         p Existen principalmente dos categorías de almacenes: manuales y automáticos.  Los <strong>manuales</strong> básicamente son operados solo por el talento humano, quienes aumentan en cantidad a medida que las operaciones y movimientos son mayores; se apoyan en equipos muy sencillos, como carretillas, puente-grúa, transpalés, etc.  De otro lado, los almacenes <strong>automatizados</strong> tienen mayor complejidad técnica, pues son operados por un conjunto de recursos mecánicos, dinámicos, por gravedad o eléctricos, por tanto, requieren menos personal y una mayor efectividad en los sistemas de gestión informática o de radiofrecuencia.  A continuación, se realiza la descripción de las diferentes clases de sistemas de almacenamiento:
-      .col-lg-1
-    <br><br><br>
-    .row.justify-content-center
-      .col-lg-10.bg99
-        SlyderA(tipo="b")
-          .row
-            .col-md-6.mb-4.mb-md-0.xx
-              <br><br><br><br>
-              p.margl <strong>Sistema de bloque</strong>
-              p.mb-0.margl - Organiza la mercancía en bloques homogéneos. 
-              p.mb-0.margl - Puede ser al aire libre, no requiere estantes.
-              p.mb-0.margl - Uso para mercancía que viene en grandes cantidades.
-            .col-md-1.wax
-            
-            .col-md-5
-              figure
-                img(src='@/assets/curso/tema1/img42.png', alt='Texto que describa la imagen')
-          .row
-            .col-md-6.mb-4.mb-md-0.xx
-              <br><br><br><br>
-              p.margl <strong>Sistema convencional</strong>
-              p.mb-0.margl - Almacenamiento de productos combinando pallets y estantería.
-              p.mb-0.margl - Requiere la utilización de un soporte intermedio para separar la - mercancía.
-
-              p.mb-0.margl - Se aprovecha el uso del espacio del almacén.
-            .col-md-1.wax
-
-            .col-md-5
-              <br><br>
-
-              figure
-                img(src='@/assets/curso/tema1/img43.png', alt='Texto que describa la imagen')
-          .row
-            .col-md-6.mb-4.mb-md-0.xx
-              <br><br><br><br>
-              p.margl <strong>Sistema compacto </strong>
-              p.mb-0.margl - Almacenamiento de mercancías en estantes que permitan el paso de carretillas en los pasillos.
-              p.mb-0.margl Permite ocupación de la superficie y del volumen del almacén.
-              p.mb-0.margl Requiere poco mantenimiento, centrado en infraestructura y estanterías.
-
-            .col-md-1.wax
- 
-            .col-md-5
-              <br><br>
-
-              figure
-                img(src='@/assets/curso/tema1/img44.png', alt='Texto que describa la imagen')
-          .row
-            .col-md-6.mb-4.mb-md-0.xx
-              <br><br><br><br>
-              p.margl <strong>Sistema dinámico </strong>
-              p.mb-0.margl - Recomendado para mercancías que requieran una rotación exacta.
-              p.mb-0.margl - Se compone de estanterías metálicas, que forman caminos con   rodillos (inclinada o de forma horizontal).
-              p.mb-0.margl - Óptimo aprovechamiento de la superficie.
-
-            .col-md-1.wax
- 
-            .col-md-5
-              <br><br>
-
-              figure
-                img(src='@/assets/curso/tema1/img45.png', alt='Texto que describa la imagen')
-          .row
-            .col-md-6.mb-4.mb-md-0.xx
-              <br><br><br><br>
-              p.margl <strong>Sistema móvil </strong>
-              p.mb-0.margl - Requiere la instalación de estantes sobre bases móviles, separadas unas de otras.
-              p.mb-0.margl - El desplazamiento se realiza en función del pasillo principal y sobre el cual se requiera acceder.
-              p.mb-0.margl - Muy utilizado para almacenar mercancía pequeña y heterogénea, por ejemplo, documentos o libros.
-
-            .col-md-1.wax
- 
-            .col-md-5
-              <br><br>
-
-              figure
-                img(src='@/assets/curso/tema1/img46.png', alt='Texto que describa la imagen')
-  
-          .row
-            .col-md-6.mb-4.mb-md-0.xx
-              <br><br><br><br>
-              p.margl <strong>Sistema de </strong>
-                span.it <strong>Shuttle OSR </strong>
-              p.mb-0.margl - Preparación de pedidos semiautomática; basado en el principio de mercancía al hombre.
-              p.mb-0.margl - Los productos se desplazan desde las estanterías con ayuda de los 
-                span.it shuttles 
-                | (lanzaderas), hasta la zona de expedición
-              p.mb-0.margl - Un elevador se encarga del transporte vertical.
-
-
-            .col-md-1.wax
- 
-            .col-md-5
-              <br><br>
-
-              figure
-                img(src='@/assets/curso/tema1/img47.png', alt='Texto que describa la imagen')
-  
-          .row
-            .col-md-6.mb-4.mb-md-0.xx
-              <br><br><br><br>
-              p.margl <strong>En estanterías </strong>
-              p.mb-0.margl - Almacenaje de unidades lista para posterior uso.
-              p.mb-0.margl - Los pasillos se deben adaptar a la maquinaria utilizada.
-              p.mb-0.margl - Ancho estandarizado de acuerdo con medidas de pallets.
-              p.mb-0.margl - Estanterías compacta, dinámica, 
-                span.it rack 
-                |  para 
-                span.it picking,
-                |  estantería para bidones y ruedas
-
-
-            .col-md-1.wax
- 
-            .col-md-5
-              <br><br>
-
-              figure
-                img(src='@/assets/curso/tema1/img48.png', alt='Texto que describa la imagen')
-  
-          .row
-            .col-md-6.mb-4.mb-md-0.xx
-              <br><br><br><br>
-              p.margl <strong>Estanterías Cantilever </strong>
-              p.mb-0.margl - Almacenaje de unidades de gran longitud.
-              p.mb-0.margl - Estructura vertical fijada al suelo, con ganchos o agarres para colocar los productos, como perfiles metálicos (en forma de U o T).
-
-
-            .col-md-1.wax
- 
-            .col-md-5
-              <br><br>
-
-              figure
-                img(src='@/assets/curso/tema1/img49.png', alt='Texto que describa la imagen')
-  
-          .row
-            .col-md-6.mb-4.mb-md-0.xx
-              <br><br><br><br>
-              p.margl <strong>Armarios </strong>
-              p.mb-0.margl - Especie de mueble tipo 
-                span.it closet 
-                | para almacenar mercancías pequeñas.
-              p.mb-0.margl - Ofrecen seguridad, pues se puede almacenar bajo llave.
-              p.mb-0.margl - Existen estructuras con vidrios de seguridad para exhibir los productos (tipo vitrina).
-
-            .col-md-1.wax
- 
-            .col-md-5
-              <br><br>
-
-              figure
-                img(src='@/assets/curso/tema1/img50.png', alt='Texto que describa la imagen')
-  
-          .row
-            .col-md-6.mb-4.mb-md-0.xx
-              <br><br><br><br>
-              p.margl <strong>Dispensadores </strong>
-              p.mb-0.margl - Tolvas o depósitos verticales, opera como   dosificador y deja caer por gravedad la cantidad necesaria.
-              p.mb-0.margl - El producto lo recibe una banda transportadora que lleva el producto.
-              p.mb-0.margl - Muy utilizado en la industria farmacéutica.
-
-
-            .col-md-1.wax
- 
-            .col-md-5
-              <br><br>
-
-              figure
-                img(src='@/assets/curso/tema1/img51.png', alt='Texto que describa la imagen')
-  
-          .row
-            .col-md-6.mb-4.mb-md-0.xx
-              <br><br><br><br>
-              p.margl <strong>Autoportantes </strong>
-              p.mb-0.margl - Integración de la propia estructura del edificio al almacenamiento.
-              p.mb-0.margl - Soportan cargas almacenadas hasta 35 m de altura.
-              p.mb-0.margl - Utilización principalmente por almacenes automatizados.
-              p.mb-0.margl - Nivel de codificación e información debe ser elevado.
-
-
-
-            .col-md-1.wax
- 
-            .col-md-5
-              <br><br>
-
-              figure
-                img(src='@/assets/curso/tema1/img52.png', alt='Texto que describa la imagen')
-  
-          .row
-            .col-md-6.mb-4.mb-md-0.xx
-              <br><br><br><br>
-              p.margl <strong>Carruseles </strong>
-              p.mb-0.margl - Almacenamiento vertical (automatizado).  Desplazamiento de la carga hacia el manipulador.
-              p.mb-0.margl - Estanterías en serie para almacenar piezas pequeñas; giran automáticamente de manera horizontal.
-              p.mb-0.margl - Producto controlado por el 
-                span.it software 
-                | de gestión y control de almacén.
-
-            .col-md-1.wax
- 
-            .col-md-5
-              <br><br>
-              figure
-                img(src='@/assets/curso/tema1/img53.png', alt='Texto que describa la imagen')
-    .row.justify-content-center
+    
+    .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta.p-4.p-md-5.mb-5.mt-4.bg555
-          .row.justify-content-around.align-items-center
-            .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
-            .col-md.col-lg-6.p-4                        
-              <br><br><br>
-              h5 Material de apoyo
+        .crd.crd--slyder3.p-5
+          SlyderA(tipo="b")
+            .row
+              .col-lg-7                
+                p <strong>Sistema de bloque</strong>
+                p - Organiza la mercancía en bloques homogéneos. 
+                p - Puede ser al aire libre, no requiere estantes.
+                p - Uso para mercancía que viene en grandes cantidades.               
+              .col-lg-5
+                figure
+                  img(src='@/assets/curso/tema1/img42.png', alt='Texto que describa la imagen').img385.m-auto
+            .row
+              .col-lg-7
+                p <strong>Sistema convencional</strong>
+                p - Almacenamiento de productos combinando pallets y estantería.
+                p - Requiere la utilización de un soporte intermedio para separar la - mercancía.
+                p - Se aprovecha el uso del espacio del almacén.
+              .col-lg-5
+                figure
+                  img(src='@/assets/curso/tema1/img43.png', alt='Texto que describa la imagen').img385.m-auto
+            .row
+              .col-lg-7
+                p <strong>Sistema compacto </strong>
+                p - Almacenamiento de mercancías en estantes que permitan el paso de carretillas en los pasillos.
+                p Permite ocupación de la superficie y del volumen del almacén.
+                p Requiere poco mantenimiento, centrado en infraestructura y estanterías.  
+              .col-lg-5                
+                figure
+                  img(src='@/assets/curso/tema1/img44.png', alt='Texto que describa la imagen').img385.m-auto
+            .row
+              .col-lg-7
+                p <strong>Sistema dinámico </strong>
+                p - Recomendado para mercancías que requieran una rotación exacta.
+                p - Se compone de estanterías metálicas, que forman caminos con rodillos (inclinada o de forma horizontal).
+                p - Óptimo aprovechamiento de la superficie.
+              .col-lg-5
+                figure
+                  img(src='@/assets/curso/tema1/img45.png', alt='Texto que describa la imagen').img385.m-auto
+            .row
+              .col-lg-7
+                p <strong>Sistema móvil </strong>
+                p - Requiere la instalación de estantes sobre bases móviles, separadas unas de otras.
+                p - El desplazamiento se realiza en función del pasillo principal y sobre el cual se requiera acceder.
+                p - Muy utilizado para almacenar mercancía pequeña y heterogénea, por ejemplo, documentos o libros.
+              .col-lg-5
+                figure
+                  img(src='@/assets/curso/tema1/img46.png', alt='Texto que describa la imagen').img385.m-auto
 
-              p.mb-4 En caso de ser necesario ampliar la información, ingrese a Sistemas de Biblioteca Sena:
+            .row
+              .col-lg-7
+                p <strong>Sistema de </strong>
+                  span.it <strong>Shuttle OSR </strong>
+                p - Preparación de pedidos semiautomática; basado en el principio de mercancía al hombre.
+                p - Los productos se desplazan desde las estanterías con ayuda de los <i>shuttles</i> (lanzaderas), hasta la zona de expedición.
+                p - Un elevador se encarga del transporte vertical.
+              .col-lg-5
+                figure
+                  img(src='@/assets/curso/tema1/img47.png', alt='Texto que describa la imagen').img385.m-auto
+    
+            .row
+              .col-lg-7
+                p <strong>En estanterías </strong>
+                p - Almacenaje de unidades lista para posterior uso.
+                p - Los pasillos se deben adaptar a la maquinaria utilizada.
+                p - Ancho estandarizado de acuerdo con medidas de pallets.
+                p - Estanterías compacta, dinámica, <i>rack</i> para <i>picking</i>, estantería para bidones y ruedas. 
+              .col-lg-5
+                figure
+                  img(src='@/assets/curso/tema1/img48.png', alt='Texto que describa la imagen').img385.m-auto
+
+            .row
+              .col-lg-7
+                p <strong>Estanterías Cantilever </strong>
+                p - Almacenaje de unidades de gran longitud.
+                p - Estructura vertical fijada al suelo, con ganchos o agarres para colocar los productos, como perfiles metálicos (en forma de U o T).
+              .col-lg-5
+                figure
+                  img(src='@/assets/curso/tema1/img49.png', alt='Texto que describa la imagen').img385.m-auto
+    
+            .row
+              .col-lg-7
+                p <strong>Armarios </strong>
+                p - Especie de mueble tipo <i>closet</i> para almacenar mercancías pequeñas.
+                p - Ofrecen seguridad, pues se puede almacenar bajo llave.
+                p - Existen estructuras con vidrios de seguridad para exhibir los productos (tipo vitrina).
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/tema1/img50.png', alt='Texto que describa la imagen').img385.m-auto
+    
+            .row
+              .col-lg-7
+                p <strong>Dispensadores </strong>
+                p - Tolvas o depósitos verticales, opera como dosificador y deja caer por gravedad la cantidad necesaria.
+                p - El producto lo recibe una banda transportadora que lleva el producto.
+                p - Muy utilizado en la industria farmacéutica.
+              .col-lg-5
+                figure
+                  img(src='@/assets/curso/tema1/img51.png', alt='Texto que describa la imagen').img385.m-auto
+    
+            .row
+              .col-lg-7
+                p <strong>Autoportantes </strong>
+                p - Integración de la propia estructura del edificio al almacenamiento.
+                p - Soportan cargas almacenadas hasta 35 m de altura.
+                p - Utilización principalmente por almacenes automatizados.
+                p - Nivel de codificación e información debe ser elevado.
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/tema1/img52.png', alt='Texto que describa la imagen').img385.m-auto
+    
+            .row
+              .col-lg-7
+                p <strong>Carruseles </strong>
+                p - Almacenamiento vertical (automatizado).  Desplazamiento de la carga hacia el manipulador.
+                p - Estanterías en serie para almacenar piezas pequeñas; giran automáticamente de manera horizontal.
+                p - Producto controlado por el <i>software</i> de gestión y control de almacén.
+              .col-md-5                
+                figure
+                  img(src='@/assets/curso/tema1/img53.png', alt='Texto que describa la imagen').img385.m-auto
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .cta--yellow
+          .bubble--right
+          .dots--right
+          .row.align-items-center
+            .col-auto.mb-4.mb-lg-0
+              figure
+                img(src="@/assets/curso/llamados/cta_05.png", alt="alt").img385.m-auto
+            .col-12.col-lg.px-3.px-5.px-lg-0.pt-0.pt-lg-5.txt-mg--right
+              h5 Material de apoyo
+              p.mb-0 En caso de ser necesario ampliar la información, ingrese a Sistemas de Biblioteca Sena:
               p Flamarique, S. (2017). Gestión de operaciones de almacenaje. Marge Books. 
-              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/43773?page=41')" target="_blank" type="application/pdf")
+              a.boton.color-acento-contenido-botones.texto-blanco.float-end(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/43773?page=41')" target="_blank" type="application/pdf").mb-5.mb-lg-0
                 span Ingresar
-                i.fas.fa-link
-              <br><br><br><br>
+                i.fas.fa-link 
+                  
+    
+
     #t_1_4.titulo-segundo.color-acento-contenido
-      h2 1.4 Sistemas de información   
-    .row.justify-content-center.mt-4
-      .col-lg-10.mt-4
+      h2 1.4 Sistemas de información 
+
+    .row.justify-content-center.mb-4
+      .col-lg-10
         .bloque-texto-g.bginfo.p-3.p-sm-4.p-md-5.mt-4
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img2.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p Los sistemas de información gestionan aquellas actividades desarrolladas dentro del almacén cuya finalidad es apoyar la gestión física de la mercancía desde que ingresa al almacén hasta que sale en los centros de almacenamiento o distribución, e incluso hacer seguimiento a las devoluciones e inconsistencias; algunos de ellos son:
+            
     Separador
 
-    ImagenInfograficaB.color-primario.mb-5
+    ImagenInfograficaB.color-primario.my-5(data-aos="zoom-in")
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/tema2/img3.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema2/img3.svg', alt='Texto que describa la imagen')
 
-      div(x="3.3%" y="12.5%" tooltip="1. Sistemas de información" numero="1")
+      div(x="19%" y="30%" tooltip="1. Sistemas de información" numero="+")
         .row.justify-content-center.bg556
-          .col-lg-6
-            <br><br>
-            h5.mt-4 1. Sistemas de información
-            p EDI 
-              span.it (Electronic Data Interchange),
-              |  cuyo objetivo es realizar el traspaso de documentos comerciales a un formato normalizado y que pueda ser compartida la información entre empresas.  No es un correo electrónico, pues los datos deben contar con un estándar internacional.
+          .col-lg-6            
+            h5 1.Sistemas de información
+            p EDI (<i>Electronic Data Interchange</i>), cuyo objetivo es realizar el traspaso de documentos comerciales a un formato normalizado y que pueda ser compartida la información entre empresas.  No es un correo electrónico, pues los datos deben contar con un estándar internacional.
+          .col-lg-4            
+            img(src='@/assets/curso/tema2/img4.svg', alt='Texto que describa la imagen').img430.m-auto
+
+      div(x="19%" y="82%" tooltip="2. Sistemas de información" numero="+")
+        .row.justify-content-center.bg556
+          .col-lg-6           
+            h5.mt-4 2.Sistemas de información
+            p ERP (<i>Enterprise Resource Planning</i>)- Sistema Integral de Gestión Empresarial, su finalidad es automatizar la mayoría de los procesos de la organización (administración, logística, producción y comercialización).  
           .col-lg-4
-            <br>
-            img(src='@/assets/curso/tema2/img4.svg', alt='Texto que describa la imagen')
-            <br><br><br><br>
+            img(src='@/assets/curso/tema2/img5.svg', alt='Texto que describa la imagen').img430.m-auto
 
-
-      div(x="3.3%" y="64%" tooltip="2. Sistemas de información" numero="2")
+      div(x="44%" y="82%" tooltip="3. Sistemas de información" numero="+")
         .row.justify-content-center.bg556
           .col-lg-6
-            <br><br>
-            h5.mt-4 2. Sistemas de información
-            p ERP 
-              span.it (Enterprise Resource Planning)-
-              |  Sistema Integral de Gestión Empresarial, su finalidad es automatizar la mayoría de los procesos de la organización (administración, logística, producción y comercialización).  
-
-          .col-lg-4
-            <br>
-
-            img(src='@/assets/curso/tema2/img5.svg', alt='Texto que describa la imagen')
-            <br><br><br><br>
-
-      div(x="28.9%" y="64%" tooltip="3. Sistemas de información" numero="3")
-        .row.justify-content-center.bg556
-          .col-lg-6
-            <br><br>
             h5.mt-4 3. Sistemas de información
             p ERP logra integrar los dos sistemas SGA-ERP.
           .col-lg-4
-            <br>
+            img(src='@/assets/curso/tema2/img6.svg', alt='Texto que describa la imagen').img430.m-auto
 
-            img(src='@/assets/curso/tema2/img6.svg', alt='Texto que describa la imagen')
-            <br><br><br><br>
-
-      div(x="28.9%" y="13%" tooltip="4. Sistemas de información" numero="4")
+      div(x="44%" y="30%" tooltip="4. Sistemas de información" numero="+")
         .row.justify-content-center.bg556
           .col-lg-6
-            <br><br>
             h5.mt-4 4. Sistemas de información
-            p SGA-Sistema de Gestión de Almacén, cuya función más importante es mantener controlado el 
-              span.it stock
-              |  de mercancía (número de existencias registradas, equivalente a existencias físicas).
+            p SGA-Sistema de Gestión de Almacén, cuya función más importante es mantener controlado el <i>stock</i> de mercancía (número de existencias registradas, equivalente a existencias físicas).
           .col-lg-4
-            <br>
+            img(src='@/assets/curso/tema2/img7.svg', alt='Texto que describa la imagen').img430.m-auto
 
-            img(src='@/assets/curso/tema2/img7.svg', alt='Texto que describa la imagen')
-            <br><br><br><br>
-
-      div(x="53%" y="13%" tooltip="5. Sistemas de información" numero="5")
+      div(x="70%" y="30%" tooltip="5. Sistemas de información" numero="+")
         .row.justify-content-center.bg556
           .col-lg-6
-            <br><br>
-            h5.mt-4 5. Sistemas de información
+            h5.mt-4 5.Sistemas de información
             p Confirmación de ejecución de la orden dada por el operario.
           .col-lg-3
-            <br>
+            img(src='@/assets/curso/tema2/img8.svg', alt='Texto que describa la imagen').img430.m-auto
 
-            img(src='@/assets/curso/tema2/img8.svg', alt='Texto que describa la imagen')
-            <br><br><br><br>
-
-      div(x="53%" y="64%" tooltip="6. Sistemas de información" numero="6")
+      div(x="70%" y="82%" tooltip="6. Sistemas de información" numero="+")
         .row.justify-content-center.bg556
           .col-lg-6
-            <br><br>
-            h5.mt-4 6. Sistemas de información
+            h5.mt-4 6.Sistemas de información
             p El sistema de gestión de almacén informa al sistema integral de gestión empresarial que el pedido ha sido completado o que se presentan algunas incidencias.
           .col-lg-4
-            <br>
+            img(src='@/assets/curso/tema2/img9.svg', alt='Texto que describa la imagen').img430.m-auto
 
-            img(src='@/assets/curso/tema2/img9.svg', alt='Texto que describa la imagen')
-            <br><br><br><br>
-
-      div(x="78%" y="64%" tooltip="7. Sistemas de información" numero="7")
+      div(x="95%" y="82%" tooltip="7. Sistemas de información" numero="7")
         .row.justify-content-center.bg556
           .col-lg-6
-            <br><br>
-            h5.mt-4 7. Sistemas de información
+            h5.mt-4 7.Sistemas de información
             p El sistema integral de gestión empresarial le informa al cliente a través de un mensaje de intercambio electrónico de datos.
-
           .col-lg-4
-            <br>
+            img(src='@/assets/curso/tema2/img10.svg', alt='Texto que describa la imagen').img430.m-auto
 
-            img(src='@/assets/curso/tema2/img10.svg', alt='Texto que describa la imagen')
-            <br><br><br><br>
-
-      div(x="78%" y="13%" tooltip="8. Sistemas de información" numero="8")
+      div(x="95%" y="30%" tooltip="8. Sistemas de información" numero="8") 
         .row.justify-content-center.bg556
           .col-lg-6
-            <br><br>
-            h5.mt-4 8. Sistemas de información
+            h5.mt-4 8.Sistemas de información
             p El sistema integral de gestión empresarial informa a todas las áreas de la organización que intervienen.
-
-
           .col-lg-4
-            <br>
+            img(src='@/assets/curso/tema2/img11.svg', alt='Texto que describa la imagen').img430.m-auto
 
-            img(src='@/assets/curso/tema2/img11.svg', alt='Texto que describa la imagen')
-            <br><br><br><br>
-
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta.p-4.p-md-5.mb-5.mt-4.bg557
-          .row.justify-content-around.align-items-center
-            .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
-            .col-md.col-lg-6.p-4                        
-              <br><br><br>
+        .cta--yellow
+          .bubble--right
+          .dots--right
+          .row.align-items-center
+            .col-auto.mb-4.mb-lg-0
+              figure
+                img(src="@/assets/curso/llamados/cta_02.png", alt="alt").img385.m-auto
+            .col-12.col-lg.px-3.px-5.px-lg-0.pt-0.pt-lg-5.txt-mg--right
               h5 Material de apoyo
-              p.mb-4 Para ampliar la información, puede ingresar a Biblioteca virtual Sena:  Rubio, J. (2013). Gestión y pedido de stock. Ministerio de Educación y Formación Profesional de España. 
-                    
-    p #[strong Integración de las tecnologías]
-    p.mb-0 <strong>Figura 6</strong>
-    p.it Integración y funcionamiento de las tecnologías en el almacén
+              p.mb-0 Para ampliar la información, puede ingresar a Biblioteca virtual Sena:  Rubio, J. (2013). Gestión y pedido de stock. Ministerio de Educación y Formación Profesional de España. 
+              a.boton.color-acento-contenido-botones.texto-blanco.float-end(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/49351?page=159')" target="_blank" type="application/pdf").mb-5.mb-lg-0
+                span Ingresar
+                i.fas.fa-link                 
+     
 
-    .row.justify-content-center.bgne
-      .col-lg-5
-        img(src='@/assets/curso/tema2/img12.svg', alt='Texto que describa la imagen')
-      .col-lg-7.wxxx
-        <br>
-        p.mt-4 El sistema de radiofrecuencia (RFID) ha facilitado la gestión, el control y eficiencia en las operaciones del almacén; este facilita el almacenamiento y recuperación de la información (datos), apoyado en los diferentes dispositivos, como lectores de códigos de barras o infrarrojos y PDA, principalmente.  A su vez, los lectores envían los datos almacenados al software específico, que alimentará la base de datos principal de la compañía, como se presenta en la imagen.
-        
-        <br><br><br><br><br><br>
-    <br>
-    h5.mt-4 Utilidad en su aplicación:
+    .row.justify-content-center.align-items-center.bg1A.mb-5
+      .col-lg-6.mb-4.mb-lg-0
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 6.
+          span Integración y funcionamiento de las tecnologías en el almacén    
+        img(src='@/assets/curso/tema2/img12.svg', alt='Texto que describa la imagen')(data-aos="zoom-in")
+      .col-lg-6        
+        p El sistema de radiofrecuencia (RFID) ha facilitado la gestión, el control y eficiencia en las operaciones del almacén; este facilita el almacenamiento y recuperación de la información (datos), apoyado en los diferentes dispositivos, como lectores de códigos de barras o infrarrojos y PDA, principalmente.  A su vez, los lectores envían los datos almacenados al software específico, que alimentará la base de datos principal de la compañía, como se presenta en la imagen.
+       
+    h5 Utilidad en su aplicación:
       ol.lista-ol--cuadro.lista-ol--separador.mt-4.bgcolor.pad
         li 
           .lista-ol--cuadro__vineta
             span 1
-          p.mb-0 Mayor cantidad de datos almacenados. 
-
+          p.mb-0 Mayor cantidad de datos almacenados.
         li 
           .lista-ol--cuadro__vineta
             span 2
@@ -1208,49 +1060,97 @@
         li 
           .lista-ol--cuadro__vineta
             span 7
-          p.mb-0 Amable con el medioambiente en la reducción de papelería.     
-    .row.justify-content-center
-      .col-lg-10
-        .tarjeta.p-4.p-md-5.mb-5.mt-4.bg55
-          .row.justify-content-around.align-items-center
-            .col-md.col-lg-7.p-4            
-              <br><br>
-              p <strong>Material de apoyo:</strong> 
-              p.mb-4 Para ampliar la información, puede ingresar a Biblioteca virtual Sena <br>Flamarique (2017)
- 
-              a.boton.color-acento-botones.texto-blanco.mt-4(:href="('https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_elibroELB43773&context=L&vid=SENA&lang=es_ES&search_scope=sena_completo&adaptor=Local%20Search%20Engine&tab=sena_completo&query=any,contains,flamarique&mode=Basic')" target="_blank" type="application/pdf")
-                span Descargar
-                i.fas.fa-download
-              <br><br>                
-            .col-8.col-sm-6.col-md-4.mb-4.mb-md-0       
-    h4 <strong>Generalidades bases de datos</strong>   
-    .row.justify-content-center.mt-4.bgne2 
-      .col-lg-2
-        img.waaaq(src='@/assets/curso/tema2/ico1.svg', alt='Texto que describa la imagen')
+          p.mb-0 Amable con el medioambiente en la reducción de papelería.   
 
-      .col-lg-10.mt-2
-        p A lo largo de la cadena de suministro, en logística, se genera gran cantidad de información, que para este caso se denominan datos, los cuales se han multiplicado y revolucionado las tecnologías en los últimos tiempos.  En busca de una solución para el control y gestión de la información, se ha recurrido a sistemas de información que logren generar valor a los datos para la toma de decisiones. Hoy en día, se conoce como tecnología 4.0 y suministros inteligentes 
-          span.it “Big Data”.
-    <br>
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .cta--yellow
+          .bubble--left
+          .dots--left
+          .row.align-items-center            
+            .col-12.col-lg.pt-0.pt-lg-5.order-2.order-lg-1.txt-mg--left
+              h4 Material de apoyo:
+              p Para ampliar la información, puede ingresar a Biblioteca virtual Sena Flamarique (2017)              
+              a.boton.color-acento-contenido-botones.texto-blanco.me-4(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/43773?page=69')" target="_blank" type="application/pdf").mb-5.mb-lg-0
+                span Ingresar  
+                  i.fas.fa-link
+            .col-auto.order-1.order-lg-2.mb-4.mb-lg-0
+              figure
+                img(src="@/assets/curso/llamados/cta_04.png", alt="alt").img385.m-auto
+
+       
+    h4 <strong>Generalidades bases de datos</strong> 
+
+    .row.justify-content-center.bg1A.mb-5
+      .col-auto
+        img.waaaq(src='@/assets/curso/tema2/ico1.svg', alt='Texto que describa la imagen').img100
+      .col-lg
+        p A lo largo de la cadena de suministro, en logística, se genera gran cantidad de información, que para este caso se denominan datos, los cuales se han multiplicado y revolucionado las tecnologías en los últimos tiempos.  En busca de una solución para el control y gestión de la información, se ha recurrido a sistemas de información que logren generar valor a los datos para la toma de decisiones. Hoy en día, se conoce como tecnología 4.0 y suministros inteligentes “<i>Big Data</i>”.
+    
     h4.mt-4 Logística 4.0
-    .row.justify-content-center.mt-4
-      .col-lg-11
+    .row.justify-content-center.mb-5
+      .col-lg
         p También llamada cuarta revolución industrial, donde el término 4.0 es hablar de innovación, de una nueva forma de hacer logística, donde el uso de herramientas novedosas optimiza el desarrollo de los procesos, cadenas de suministro inteligentes 
           span.it <strong>(Big Data o Machine Learning).</strong>
-      .col-lg-1
-        img(src='@/assets/curso/tema2/ico2.svg', alt='Texto que describa la imagen')
-    h4.mt-4 Características Tecnología 4.0
-    .row.justify-content-center
+      .col-auto(data-aos="zoom-in")
+        img(src='@/assets/curso/tema2/ico2.svg', alt='Texto que describa la imagen').img100
+
+    h4.mb-4 Características Tecnología 4.0
+
+    .row.justify-content-center.mb-5
       .col-lg-10
-        <br><br>
-        img(src='@/assets/curso/tema2/img13.svg', alt='Texto que describa la imagen')
-    <br>
-    h5.mt-4 Características 
-      span.it Big Data
-    p.mb-0 <strong>Figura 7</strong>
-    p.it El Big Data integrado a los procesos logísticos
-    .row.justify-content-center.bg558
-      .col-lg-6
+        .row.justify-content-center.mb-4
+          .col-lg-6.mb-4.mb-lg-0
+            .row.align-items-center
+              .col-auto
+                figure
+                  img(src="@/assets/curso/tema2/ico_01.svg", alt="alt").img65.m-auto
+              .col
+                p.mb-0 Integración entre sistemas y herramientas para una gestión más eficiente en la cadena de suministro, como: códigos de barras, RFID (radiofrecuencia en el control de inventarios) y GPS (optimización de rutas).
+          .col-lg-6
+            .row.align-items-center
+              .col-auto
+                figure
+                  img(src="@/assets/curso/tema2/ico_02.svg", alt="alt").img65.m-auto
+              .col
+                p.mb-0 Implementación de sensores en medios de transporte para informar la geolocalización y condiciones ambientales.
+
+        .row.justify-content-center.mb-4
+          .col-lg-6.mb-4.mb-lg-0
+            .row.align-items-center
+              .col-auto
+                figure
+                  img(src="@/assets/curso/tema2/ico_03.svg", alt="alt").img65.m-auto
+              .col
+                p.mb-0 Sirve como herramienta para identificar nuevos clientes, tendencias, estrategias o ubicación del producto y centros de distribución.
+          .col-lg-6
+            .row.align-items-center
+              .col-auto
+                figure
+                  img(src="@/assets/curso/tema2/ico_04.svg", alt="alt").img65.m-auto
+              .col
+                p.mb-0 Es uno de los principales eslabones de las compras online.
+
+        .row.justify-content-center.mb-4
+          .col-lg-6.mb-4.mb-lg-0
+            .row.align-items-center
+              .col-auto
+                figure
+                  img(src="@/assets/curso/tema2/ico_05.svg", alt="alt").img65.m-auto
+              .col
+                p.mb-0 Permite la integración y uso de dispositivos masivos.
+          .col-lg-6
+            .row.align-items-center
+              .col-auto
+                figure
+                  img(src="@/assets/curso/tema2/ico_06.svg", alt="alt").img65.m-auto
+              .col
+                p.mb-0 Reducción de tiempos y costos para una mejor rentabilidad.
+    
+    h4.mt-4 Características <i>Big Data</i>
+    
+    .row.justify-content-center.bg1.mb-5
+      .col-lg-5.me-lg-3.mb-4.ml-g-0(data-aos="zoom-in")
         img(src='@/assets/curso/tema2/img14.svg', alt='Texto que describa la imagen')
       .col-lg-6
         ol.lista-ol--cuadro.lista-ol--separador.mt-4
@@ -1275,99 +1175,109 @@
             .lista-ol--cuadro__vineta
               span 5
             p.mb-0 Rutas más eficientes en la entrega de mercancías.
-    <br><br>
-    h5.mt-4 Fuentes de información
-    p.mt-4 Debido al volumen de datos que maneja la cadena de suministro, es imposible analizar y tomar decisiones con métodos tradicionales, por lo que se requiere organizar las diferentes fuentes para el suministro de información:
-    h5.mt-4 Fuentes para el suministro de información
-    .row.mt-4
-      .col-lg-12
-        ImagenInfografica.color-primario.mb-5
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/tema2/img18.svg', alt='Texto que describa la imagen')
 
-          .tarjeta.color-secundario.p-3(x="8.5%" y="38%" numero="")
-            p.text-white Alertas de desabastecimiento dentro de la distribución.
-          .tarjeta.color-secundario.p-3(x="37%" y="11.8%" numero="")
-            p.text-white Comportamiento de los usuarios con los registros en sitios 
-              span.it web. 
-          .tarjeta.color-secundario.p-3(x="30.5%" y="63%" numero="")
-            p.text-white Reportes del área de transporte con el apoyo de sensores y tecnologías GPS.
-          .tarjeta.color-secundario.p-3(x="46%" y="41%" numero="")
-            p.text-white Flujos de distribución y rutas de transporte.
-          .tarjeta.color-secundario.p-3(x="70%" y="18%" numero="")
-            p.text-white Proyecciones contables.
-          .tarjeta.color-secundario.p-3(x="70%" y="80%" numero="")
-            p.text-white Programación mantenimiento preventivo de equipos y herramientas.
-          .tarjeta.color-secundario.p-3(x="89%" y="61%" numero="")
-            p.text-white Control de inventarios.
-    .row.justify-content-center
+    
+    h4 Fuentes de información
+
+    p.mb-5 Debido al volumen de datos que maneja la cadena de suministro, es imposible analizar y tomar decisiones con métodos tradicionales, por lo que se requiere organizar las diferentes fuentes para el suministro de información:    
+
+    .row.justify-content-center.align-items-center.bg1.mb-5
+      .col-lg-5.me-lg-3.mb-4.ml-g-0
+        img(src='@/assets/curso/tema1/info.svg', alt='Texto que describa la imagen')(data-aos="zoom-in")
+      .col-lg-6
+        h5 Fuentes para el suministro de información
+        ol.lista-ol--cuadro.lista-ol--separador.mt-4
+          li 
+            .lista-ol--cuadro__vineta
+              span 1
+            p.mb-0 Alertas de desabastecimiento dentro de la distribución.
+          li 
+            .lista-ol--cuadro__vineta
+              span 2
+            p.mb-0 Comportamiento de los usuarios con los registros en sitios 
+          li 
+            .lista-ol--cuadro__vineta
+              span 3
+            p.mb-0 Reportes del área de transporte con el apoyo de sensores y tecnologías GPS.
+          li 
+            .lista-ol--cuadro__vineta
+              span 4
+            p.mb-0 Flujos de distribución y rutas de transporte.
+          li 
+            .lista-ol--cuadro__vineta
+              span 5
+            p.mb-0 Proyecciones contables.
+          li 
+            .lista-ol--cuadro__vineta
+              span 6
+            p.mb-0 Programación mantenimiento preventivo de equipos y herramientas.
+          li 
+            .lista-ol--cuadro__vineta
+              span 7
+            p.mb-0 Control de inventarios.
+
+    .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta.p-4.p-md-5.mb-5.mt-4.bg560
-          .row.justify-content-around.align-items-center
-            .col-md.col-lg-2.p-4            
-            .col-md.col-lg-6.p-4            
-              .row
-                .col-lg-10
-                  p <strong>Material de apoyo</strong> 
-                  p.mb-0 Para ampliar la información sobre el tema, puede ingresar a Biblioteca virtual Sena: 
-                  p.mb-0 Peña, C. y Hernández, E. (2018). Cadena de suministro 4.0: beneficios y retos de las tecnologías disruptivas. Marge Books.  
-                .col-lg-2  
-                  <br><br>
-                  a.boton.color-acento-botones.texto-blanco.mt-2(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/45161?page=1')" target="_blank" type="application/pdf")
-                    span ingresar
-                    i.fas.fa-link   
-              .row
-                .col-lg-10     
-                  p.mt-4 <strong> Video Tutorial </strong>
-                  p Cómo crear una base de datos en Excel.   
-                .col-lg-2
-                  <br>
-                  a.boton.color-acento-botones.texto-blanco.mt-2(:href="('https://www.youtube.com/embed/E5T072rTNVA')" target="_blank" type="application/pdf")
-                    span ingresar
-                    i.fas.fa-link
-    h5 Registros generados en el proceso de expedición de pedidos
-    .row.justify-content-center.mt-4
-      .col-lg-1
-        img(src='@/assets/curso/tema2/ico3.svg', alt='Texto que describa la imagen')
-      .col-lg-11
-        p Todos los procesos que se desarrollan en el interior del almacén deben quedar soportados en los documentos que genera cada una de las tareas; así, por ejemplo, cuando se realiza una compra virtual, debe quedar el registro del pedido de venta y la factura emitida, la cual acompañará la mercancía al momento de llegar al cliente final.  Las empresas operan de forma independiente, sin embargo, existen documentos que son transversales o comunes al interior de su actividad, dentro de los que se encuentran los siguientes:              
-    p.mb-0 <strong>Figura 8</strong>
-    p.it Registros generados en la expedición de pedidos
-    .row.justify-content-center
+        .cta--yellow
+          .bubble--right
+          .dots--right
+          .row.align-items-center
+            .col-auto.mb-4.mb-lg-0
+              figure
+                img(src="@/assets/curso/llamados/cta_06.png", alt="alt").img385.m-auto
+            .col-12.col-lg.px-3.px-5.px-lg-0.pt-0.pt-lg-5.txt-mg--right
+              h4 Material de apoyo
+              p Para ampliar la información sobre el tema, puede consultar los recursos <strong>cadena de suministro 4.0: beneficios y retos de las tecnologías disruptivasingresar (biblioteca virtual)</strong> y <strong>cómo crear una base de datos en Excel (video tutorial)</strong> en los siguientes enlaces:                  
+              a.boton.color-acento-contenido-botones.texto-blanco(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/43773?page=69')" target="_blank" type="application/pdf").mb-5.mb-lg-0.me-3
+                span Biblioteca virtual
+                i.fas.fa-link 
+              a.boton.color-acento-contenido-botones.texto-blanco(:href="('https://www.youtube.com/embed/E5T072rTNVA')" target="_blank" type="application/pdf").mb-5.mb-lg-0
+                span Video Tutorial
+                i.fas.fa-link     
+    
+
+    h5.mb-4 Registros generados en el proceso de expedición de pedidos
+
+    .row.justify-content-center.mb-5
+      .col-auto(data-aos="zoom-in")
+        img(src='@/assets/curso/tema2/ico3.svg', alt='Texto que describa la imagen').img85
+      .col
+        p Todos los procesos que se desarrollan en el interior del almacén deben quedar soportados en los documentos que genera cada una de las tareas; así, por ejemplo, cuando se realiza una compra virtual, debe quedar el registro del pedido de venta y la factura emitida, la cual acompañará la mercancía al momento de llegar al cliente final.  Las empresas operan de forma independiente, sin embargo, existen documentos que son transversales o comunes al interior de su actividad, dentro de los que se encuentran los siguientes:   
+    
+    .row.justify-content-center.align-items-center.bg--gris
       .col-lg-5
-        img(src='@/assets/curso/tema2/img17.svg', alt='Texto que describa la imagen')
-      .col-lg-5
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 8.
+          span Registros generados en la expedición de pedidos
+        img(src='@/assets/curso/tema2/img17.png', alt='Texto que describa la imagen')(data-aos="zoom-in")
+      .col-lg-7
         ol.lista-ol--cuadro.lista-ol--separador.mt-4
           li 
             .lista-ol--cuadro__vineta
               span 1
             p.mb-0 <strong>La orden de trabajo:</strong>  documento amplio donde se establece básicamente la actividad que se debe realizar, por ejemplo: recepción de pedido, grupaje, orden de traslado.
-
-
           li 
             .lista-ol--cuadro__vineta
               span 2
             p.mb-0 <strong>Nota de entrega o albarán:</strong> documento mercantil que garantiza la entrega o recepción de un producto; a través de este, se deja constancia de la operación, mas no del pago de la mercancía.  
-
           li 
             .lista-ol--cuadro__vineta
               span 3
             p.mb-0 
               span.it <strong>Picking-list:</strong> 
               |  documento donde están registrados los productos que el operario debe tomar de los estantes para organizar el envío al cliente.  Registra información como: fecha y lugar, tanto del pedido como de la entrega, número de pedido, datos del cliente, etc.
-
           li 
             .lista-ol--cuadro__vineta
               span 4
             p.mb-0 
               span.it <strong>Packing-list:</strong> 
               |  relación de contenidos, documento necesario para la exportación de productos, el cual va junto con la factura comercial.
-
           li 
             .lista-ol--cuadro__vineta
               span 5
             p.mb-0 <strong>Hoja de ruta:</strong> es la organización de rutas para hacer entrega de los pedidos, donde se relacionan los destinos junto con la orden de entrega.
+
+
   
   
 

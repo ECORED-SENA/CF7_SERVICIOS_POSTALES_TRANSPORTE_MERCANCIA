@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'Preparación de la carga para distribución',
+    componenteFormativo:
+      'Ubicación, consolidación y desconsolidación de la mercancía y objetos postales',
     descripcionCurso:
-      'Preparar la carga consiste en reconocer el tipo de producto, identificar la mercancía, ordenar de forma específica de acuerdo a sus características que faciliten la colocación en <i>pallets</i>, establecer el volumen para seleccionar el medio de transporte que logre realizar el traslado con rapidez y facilidad; según el plan de rutas establecido.',
+      'La consolidación de mercancías hace referencia a agrupar aquellos productos que tengan en común un cliente o destino.  Sin embargo, al unirlos, deben ser manipulados, organizados, ubicados y transportados con equipos de manipulación, necesarios para mover y trasladar mercancías dentro del almacén, y medios de almacenamiento, que sirven para guardar mercancías. Y la desconsolidación es la operación inversa..',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -29,32 +30,26 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Técnicas de manipulación',
+            titulo: 'Ubicación de mercancías según clasificación',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Zonas de cargue y descargue',
+            titulo: 'Consolidación y desconsolidación de mercancía',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Planeación rutas',
+            titulo: 'Equipos de movimentación',
             hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Cadena logística',
+            titulo: 'Sistemas de información',
             hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Información documentada',
-            hash: 't_1_5',
           },
         ],
       },
@@ -62,39 +57,47 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Código de barras',
+        titulo: 'Codificación de la mercancía',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Generalidades',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Clasificación de cargas y almacenamientos',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Condiciones de seguridad de las mercancías',
+        titulo: 'Contenedores',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Características de la mercancía',
+            titulo: 'Generalidades',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Criterios de verificación de la mercancía',
+            titulo: 'Métodos de verificación',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Técnicas de inspección de mercancías',
+            titulo: 'Tecnologías de rastreo',
             hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Registro de novedades',
-            hash: 't_3_4',
           },
         ],
       },
@@ -140,39 +143,37 @@ export default {
   },
   referencias: [
     {
-      referencia:
-        'Campo Varela, A. (2013). Operaciones de almacenaje. España: McGraw-Hill.',
+      referencia: 'Campo, A. (2013). Operaciones de almacenaje. McGraw-Hill',
       link: '',
     },
     {
       referencia:
-        'Flamarique, S. (2017). Gestión de operaciones de almacenaje. Barcelona: Marge Books.',
+        'Decreto 1078 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector de Tecnologías de la Información y las Comunicaciones. Mayo 26 de 2015.',
       link: '',
     },
     {
       referencia:
-        'García, EC (2016). Optimización de la cadena logística . Mundo del Libro Editores.',
-      link: 'https://bookshelf.vitalsource.com/books/978-84-9839-570-9',
-    },
-    {
-      referencia:
-        'Gómez Aparicio, J.M. (2013). Gestión Logística y Comercial. Madrid: McGraw-Hill.',
+        'Fernández, G. (2016). Operaciones auxiliares de almacenaje. Editorial CEP. ',
       link: '',
     },
     {
       referencia:
-        'Fernández Valero, G. (2016).  Manual: operaciones auxiliares de almacenaje. Madrid: Editorial CEP, S.L. ',
+        'Flamarique, S. (2017). Gestión de operaciones de almacenaje. Marge Books.',
       link: '',
     },
     {
       referencia:
-        'Ladrón de Guevara, M. Á. Operaciones auxiliares de almacenaje. MF1325. Logroño (La Rioja): Editorial Tutor Formación, 2020. p. ',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/129696',
+        'Gómez, J. (2013). Gestión Logística y Comercial. McGraw-Hill.',
+      link: '',
     },
     {
       referencia:
-        'Ministerio de Tecnologías de la Información y las Comunicaciones. (2020). Plan de Modernización Sector Postal 2020_2024. Bogotá: MinTIC.',
+        'Ministerio de Tecnologías de la Información y las Comunicaciones [MinTIC]. (2020). Plan de Modernización del sector postal 2020-2024.',
+      link: '',
+    },
+    {
+      referencia:
+        'Monzó, J. (2005). Almacenaje de productos. McGraw-Hill Interamericana.',
       link: '',
     },
     {
@@ -182,47 +183,45 @@ export default {
     },
     {
       referencia:
-        'Sánchez RamosJ. (2007). Tecnologías de apoyo a la automatización de la cadena logística [Escuela de Ingeniería de Transporte, Facultad de Ingeniería, Pontificia Universidad Católica de Valparaíso].',
-      link:
-        'https://www-virtualpro-co.bdigital.sena.edu.co/biblioteca/tecnologias-de-apoyo-a-la-automatizacion-de-la-cadena-logistica',
+        'Peña, C. y Hernández, E. (2018). Cadena de suministro 4.0: beneficios y retos de las tecnologías disruptivas. Marge Books.',
+      link: '',
     },
     {
       referencia:
-        'Sorlózano González, M. J. Optimización de la cadena logística: MF1005_3. Antequera, Málaga: IC Editorial, 2018. p. ',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/59202',
+        'Rubio, J. (2013). Gestión y pedido de stock. Ministerio de Educación y Formación Profesional de España.',
+      link: '',
     },
   ],
   glosario: [
-    {
-      termino: 'Albarán',
-      significado:
-        'También llamado nota de entrega; es el documento que acompaña la mercancía enviada por el proveedor al cliente y refleja los artículos que se entregan en cantidades y lotes.',
-    },
-    {
-      termino: 'Almacén',
-      significado:
-        'Nave donde se guardan los productos y mercancías necesarias para la fabricación o envío a clientes, incluyendo otros almacenes.',
-    },
-    {
-      termino: 'Cadena de suministro',
-      significado:
-        'Aquellas actividades de planificación, compra, almacenaje, fabricación, logística, distribución y atención al cliente; así como el movimiento físico de las mercancías.',
-    },
-    {
-      termino: 'Cadena logística',
-      significado:
-        'Sistema integrado por empresas que participan en aquellos medios y métodos necesarios para organizar las mercancías, llevarlas en los términos y condiciones pactadas con el cliente final.',
-    },
     {
       termino: 'Carga',
       significado:
         'Conjunto de mercancías que son objeto de una operación de transporte desde un puerto, aeropuerto, terminal terrestre o lugar de entrega, con destino a otro puerto, aeropuerto, terminal o lugar de destino, amparadas en un documento de transporte.',
     },
     {
-      termino: 'Carga y descarga',
+      termino: 'Carga consolidada',
       significado:
-        'Acción de subir y bajar bultos o paletas al vehículo de transporte, que trae productos del proveedor u otro almacén.',
+        'Agrupamiento de mercancías pertenecientes a uno o varios destinatarios, reunidas para ser transportadas de un puerto, aeropuerto o terminal terrestre, con destino a otro puerto, aeropuerto o terminal terrestre, en unidades de carga amparadas por un único documento de transporte.',
+    },
+    {
+      termino: 'Código de barras',
+      significado:
+        'Código basado en la representación de un conjunto de líneas paralelas de distinto grosor y espaciado que, en su conjunto, contienen una determinada información.',
+    },
+    {
+      termino: 'Consolidación',
+      significado:
+        'Agrupación de mercancías procedentes de diferentes zonas de picking en envíos más pequeños. Permite un ahorro en costos de transporte.',
+    },
+    {
+      termino: 'Contenedor',
+      significado:
+        'Es un elemento del equipo de transporte reutilizable. Consiste en un cajón portátil, tanque movible u otro elemento análogo, total o parcialmente cerrado, destinado a contener mercancías para facilitar su transporte.',
+    },
+    {
+      termino: 'Destinatario',
+      significado:
+        'Persona natural o jurídica que recibe las mercancías o a quien se haya endosado en propiedad el documento transporte, y que, por las condiciones del contrato de transporte, puede no ser el mismo consignatario.',
     },
     {
       termino: 'Código de barras',
@@ -230,77 +229,70 @@ export default {
         'Código basado en la representación de un conjunto de líneas paralelas de distinto grosor y espaciado que en su conjunto contienen una determinada información.',
     },
     {
-      termino: 'Equipo de almacenamiento',
+      termino: 'Dispositivo de seguridad',
       significado:
         'Medios disponibles para guardar o almacenar productos y mercancías; como estanterías, armarios o cestas.',
     },
     {
       termino: 'Equipo de manipulación',
       significado:
-        'Vehículos y equipos capaces de transportar artículos, bultos, paletas y cajas dentro del almacén; son necesarios para trasladar cargas y que el operario no realice sobreesfuerzo físico.',
+        'Es un elemento, aparato o equipo utilizado o exigido por la autoridad aduanera para garantizar el control, que se coloca en mercancías, unidades carga, medios de transporte o medios de prueba, tales como precintos, dispositivos electrónicos de seguridad, candados, cintas.',
+    },
+    {
+      termino: 'Dispositivo electrónico de seguridad',
+      significado:
+        'Es un equipo electrónico exigido por la administración aduanera, que se coloca en mercancías, en unidades carga o en los medios de transporte, para asegurar la integridad de la carga, mediante el registro de todos los cierres y aperturas y para transmitir el posicionamiento de los mismos, permitiendo un monitoreo las veinticuatro (24) horas del día, en tiempo real y con memoria de eventos.',
+    },
+    {
+      termino: 'Exportación',
+      significado:
+        'Salida de mercancías del territorio aduanero nacional con destino a otro país.Salida de mercancías del territorio aduanero nacional con destino a otro país.',
+    },
+    {
+      termino: 'Granel',
+      significado:
+        'Mercancía sin envase o embalaje, como semillas y minerales.',
+    },
+    {
+      termino: 'Tráfico postal',
+      significado:
+        'Son todos los envíos de objetos postales que llegan o salen del territorio aduanero nacional por la red del operador postal oficial, en interconexión con la red de operadores designados de los países miembros de la Unión Postal Universal y/o con operadores privados de transporte en los países que se requiera, por necesidades del servicio.',
     },
     {
       termino: 'Logística',
       significado:
-        'Conjunto de actividades necesarias para prestar un servicio, desde la compra, empaquetado, transporte, envío y entrega de un producto al cliente final.  Cómo llevar de la manera más eficiente y eficaz la mercancía a los clientes.  ',
+        'Conjunto de actividades necesarias para prestar un servicio, desde la compra, empaquetado, transporte, envío, hasta la entrega de un producto al cliente final.  Cómo se lleva de la manera más eficiente y eficaz la mercancía a los clientes.',
     },
     {
-      termino: 'Logística inversa',
+      termino: 'Unidad de carga',
       significado:
-        'La logística inversa es una etapa de la cadena de suministro que tiene lugar después de la entrega de mercancía al cliente final, y su objetivo es devolver el producto desde el cliente hasta el distribuidor o el proveedor. Es decir, se trata del mismo proceso que en la logística convencional (que lleva la mercancía de A hasta B), pero con sentido inverso (llevando la mercancía de B hasta A).  Aplica en el caso de las devoluciones.',
-    },
-    {
-      termino: 'Manipulación de cargas',
-      significado:
-        'Todas aquellas operaciones de transporte o sujeción de la carga por parte de uno o varios trabajadores; como levantamiento, colocación, empuje y desplazamiento.',
-    },
-    {
-      termino: 'Riesgo laboral',
-      significado:
-        'Posibilidad que un trabajador sufra algún daño derivado del trabajo.',
-    },
-    {
-      termino: 'Última milla',
-      significado:
-        'El último paso del proceso de entrega es cuando un paquete se mueve desde un centro de transporte hasta su destino final, que, por lo general, es una residencia personal o una tienda minorista.',
+        'Conjunto de productos que se juntan en un mismo embalaje, con la finalidad de llevarlos agrupados; su agrupación dependerá de su tamaño y características. El objetivo de la agrupación es reducir el número de movimientos al mínimo que sea posible, porque el manejo de grandes cargas facilita el transporte y el almacenamiento.',
     },
   ],
   complementario: [
     {
       texto:
-        'Soluciones Logísticas y Aduaneras E & S. (2020). <i>Distribución del almacén.</i>',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=sC_SAxJcexY',
-    },
-    {
-      texto: 'Curso Laboral. (2021). <i>Carga y descarga de mercancías.</i>',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=ZYthsutIhDk',
-    },
-    {
-      texto:
-        'Instituto Nacional de Higiene y Seguridad en el Trabajo. (2016). <i>NTP 1076 Nota Técnica de Prevención: Seguridad en Muelles de carga y descarga.</i>',
-      tipo: 'Norma técnica',
-      descarga: '/downloads/ntp-1076.pdf',
-    },
-    {
-      texto:
-        'Gobierno Nacional. Ministerio de las Tecnologías de la información y las comunicaciones. (septiembre de 2020). <i>Plan de Modernización, sector postal 2020-2024.</i>',
+        'Decreto 1078 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector de Tecnologías de la Información y las Comunicaciones. Mayo 26 del 2015.',
       tipo: 'PDF',
-      descarga: '/downloads/articles-150820_recurso_1.pdf',
+      descarga: '/downloads/1_Decreto_078_2015.pdf',
     },
     {
       texto:
-        'ICONTEC. (2009). <i>Norma Técnica Colombiana- NTC 5689 Especificación para el diseño, ensayo y uso de estanterías industriales.</i>',
+        'Customs-Trade Partnership Against Terrorism. (2014). <i>Cumplimiento Con los Estándares ISO 17712 Para Sellos de Alta Seguridad. U.S. Customs and Border Protection.</i>',
       tipo: 'PDF',
-      descarga: '/downloads/Norma-tecnica-colombiana-NTC5689.pdf',
+      descarga: '/downloads/5_ISO 17712_Para_Sellos_Alta_Seguridad_2014.pdf',
     },
     {
       texto:
-        'ICONTEC. (1997). <i>Norma Técnica Colombiana- NTC 4114. Seguridad Industrial: Realización de Inspecciones planeadas.</i>',
+        'Ministerio de Tecnologías de la Información y las Comunicaciones [MinTIC]. (2020). <i>Plan de Modernización del sector postal 2020-2024.</i>',
       tipo: 'PDF',
-      descarga:
-        '/downloads/NTC_4114_Realizacion_de_Inspecciones_Planeadas_ICONTEC.pdf',
+      descarga: '/downloads/2_Plan_Modernización_Sector_Postal_2020_2024.pdf',
+    },
+    {
+      texto:
+        'Decreto 390 de 2016. Por el cual se establece la regulación aduanera. Marzo 7 de 2016. DO. Nº. 49.808.',
+      tipo: 'PDF',
+      descarga: '/downloads/3_Decreto_390_2016_Regulación_aduanera.pdf',
     },
   ],
   creditos: {
@@ -324,20 +316,25 @@ export default {
         centro: 'Centro de Gestión Industrial - Distrito capital',
       },
       {
+        nombre: 'Gloria Esperanza Silva Guarín',
+        cargo: 'Experta temática',
+        centro: 'Centro de Gestión Industrial - Distrito capital',
+      },
+      {
         nombre: 'Gloria Lida Álzate Suárez',
         cargo: 'Diseñadora instruccional',
         centro:
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
       },
       {
-        nombre: 'Ana Catalina Córdoba Sus',
-        cargo: 'Metodóloga para la formación virtual',
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Revisora Metodológica y pedagógica',
         centro: 'Centro de Diseño y Metrología - Regional Distrito Capital ',
       },
       {
-        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        nombre: 'Darío González',
         cargo: 'Corrección de estilo',
-        centro: 'Centro de Diseño y Metrología - Distrito capital ',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima',
       },
     ],
     desarrolloProducto: [
@@ -359,7 +356,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Magdi Khalifah',
+        nombre: 'Daniel Ricardo Mutis Gómez',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -371,7 +368,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Carmen Alicia Martínez Torres',
+        nombre: 'Carlos Eduardo Garavito Parada',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -381,30 +378,6 @@ export default {
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Jaime Enrique Díaz Reyes',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Laura Gisselle Murcia Pardo ',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Laura Ximena Hurtado Villalba ',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Lady Adriana Ariza Luque ',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Wilson Andrés Arenales Cáceres ',
@@ -418,7 +391,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Maria Eugenia Mejía López',
+        nombre: 'Mayra Alejandra Álvarez Díaz',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

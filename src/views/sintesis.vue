@@ -2,10 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
-        span.text-white S
-      h1 Síntesis 
+    
     img(src='@/assets/curso/tema4/sintesis.png', alt='Texto que describa la imagen')
     <br><br>
     .row.justify-content-center

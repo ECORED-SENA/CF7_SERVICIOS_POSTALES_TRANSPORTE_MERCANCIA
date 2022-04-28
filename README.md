@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-sena.github.io/CF7_SERVICIOS_POSTALES_TRANSPORTE_MERCANCIA/](https://ecored-sena.github.io/CF7_SERVICIOS_POSTALES_TRANSPORTE_MERCANCIA/)
 
 #
 
