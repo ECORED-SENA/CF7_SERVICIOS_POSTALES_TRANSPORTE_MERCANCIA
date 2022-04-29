@@ -2235,7 +2235,6 @@ div
       .tarjeta.color-acento-botones.text-center.p-3(data-aos="flip-right")
         h3.mb-0 flip-right
 
-
   h3.titulo-tercero Slide
   .row.mb-5
     .col-sm-6.col-md-4.col-lg-3.col-xxl-2.mb-3

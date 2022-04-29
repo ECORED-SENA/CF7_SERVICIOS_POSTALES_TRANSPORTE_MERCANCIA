@@ -21,7 +21,7 @@
         .row.justify-content-center(titulo="")
           p.mb-4 Al momento de llegar la mercancía al almacén, se realiza una verificación sobre el tipo de ingreso, según las siguientes características:
           .col-xl-5.mb-4.mb-xl-0            
-            p ingreso de mercancía al almacén, salida de mercancía del almacén, traspasos de mercancía y recontrol.
+            p Ingreso de mercancía al almacén, salida de mercancía del almacén, traspasos de mercancía y recontrol.
             p Durante el ingreso de la mercancía, se desarrollan otros procesos más pequeños, como: 
             p #[strong a)] Planear la entrada, para lo cual se debe tener claro y por escrito la programación del día, la semana o el periodo, y así poder organizar los recursos necesarios (personal, equipos y muelle, donde aplique). 
             p #[strong b)] Verificación inicial, el registro de entrada debe coincidir con la información que refleja el #[i software].
@@ -80,7 +80,7 @@
                 img(src="@/assets/curso/llamados/cta_01.png", alt="alt").img385.m-auto
             .col-12.col-lg.px-3.px-5.px-lg-0.pt-0.pt-lg-5.txt-mg--right
               p.mb-4 #[strong Si es de su interés ampliar la información sobre la secuencia de actividades diarias, se invita a descargar el siguiente archivo PDF.]
-              a.boton.color-acento-contenido-botones.texto-blanco.float-end(:href="obtenerLink('/downloads/9_Secuencia de actividades diarias.pdf')" target="_blank" type="application/pdf").mb-5.mb-lg-0
+              a.boton.color-acento-contenido-botones.texto-blanco.float-end(:href="obtenerLink('/downloads/9_Secuencia_actividades_diarias.pdf')" target="_blank" type="application/pdf").mb-5.mb-lg-0
                 span Descargar
                 i.fas.fa-link 
 
@@ -582,7 +582,7 @@
           .row.align-items-center            
             .col-12.col-lg.pt-0.pt-lg-5.order-2.order-lg-1.txt-mg--left
               p Si es de su interés ampliar la información sobre:
-              p.mb-4 La regulación aduanera en Colombia, puede ir al material de apoyo y descargar el pdf <strong>3_ Decreto 390 de 2016 Regulación aduanera.pdf</strong>  
+              p.mb-4 La regulación aduanera en Colombia, puede ir al material de apoyo y descargar el pdf <strong> Decreto 390 de 2016 Regulación aduanera.</strong>  
               a.boton.color-acento-contenido-botones.texto-blanco(:href="obtenerLink('/downloads/Decreto-390-de-2016.pdf')" target="_blank").mb-5.mb-lg-0
                 span Descargar
                 i.fas.fa-link
@@ -798,7 +798,7 @@
               .col-lg-7
                 p <strong>Sistema convencional</strong>
                 p - Almacenamiento de productos combinando pallets y estantería.
-                p - Requiere la utilización de un soporte intermedio para separar la - mercancía.
+                p - Requiere la utilización de un soporte intermedio para separar la mercancía.
                 p - Se aprovecha el uso del espacio del almacén.
               .col-lg-5
                 figure
@@ -936,13 +936,13 @@
             
     Separador
 
-    ImagenInfograficaB.color-primario.my-5(data-aos="zoom-in")
+    ImagenInfograficaB.color-primario.my-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema2/img3.svg', alt='Texto que describa la imagen')
 
       div(x="19%" y="30%" tooltip="1. Sistemas de información" numero="+")
-        .row.justify-content-center.bg556
+        .row.justify-content-center.crd.crd--infoB
           .col-lg-6            
             h5 1.Sistemas de información
             p EDI (<i>Electronic Data Interchange</i>), cuyo objetivo es realizar el traspaso de documentos comerciales a un formato normalizado y que pueda ser compartida la información entre empresas.  No es un correo electrónico, pues los datos deben contar con un estándar internacional.
@@ -950,7 +950,7 @@
             img(src='@/assets/curso/tema2/img4.svg', alt='Texto que describa la imagen').img430.m-auto
 
       div(x="19%" y="82%" tooltip="2. Sistemas de información" numero="+")
-        .row.justify-content-center.bg556
+        .row.justify-content-center.crd.crd--infoB
           .col-lg-6           
             h5.mt-4 2.Sistemas de información
             p ERP (<i>Enterprise Resource Planning</i>)- Sistema Integral de Gestión Empresarial, su finalidad es automatizar la mayoría de los procesos de la organización (administración, logística, producción y comercialización).  
@@ -958,7 +958,7 @@
             img(src='@/assets/curso/tema2/img5.svg', alt='Texto que describa la imagen').img430.m-auto
 
       div(x="44%" y="82%" tooltip="3. Sistemas de información" numero="+")
-        .row.justify-content-center.bg556
+        .row.justify-content-center.crd.crd--infoB
           .col-lg-6
             h5.mt-4 3. Sistemas de información
             p ERP logra integrar los dos sistemas SGA-ERP.
@@ -966,7 +966,7 @@
             img(src='@/assets/curso/tema2/img6.svg', alt='Texto que describa la imagen').img430.m-auto
 
       div(x="44%" y="30%" tooltip="4. Sistemas de información" numero="+")
-        .row.justify-content-center.bg556
+        .row.justify-content-center.crd.crd--infoB
           .col-lg-6
             h5.mt-4 4. Sistemas de información
             p SGA-Sistema de Gestión de Almacén, cuya función más importante es mantener controlado el <i>stock</i> de mercancía (número de existencias registradas, equivalente a existencias físicas).
@@ -974,7 +974,7 @@
             img(src='@/assets/curso/tema2/img7.svg', alt='Texto que describa la imagen').img430.m-auto
 
       div(x="70%" y="30%" tooltip="5. Sistemas de información" numero="+")
-        .row.justify-content-center.bg556
+        .row.justify-content-center.crd.crd--infoB
           .col-lg-6
             h5.mt-4 5.Sistemas de información
             p Confirmación de ejecución de la orden dada por el operario.
@@ -982,23 +982,23 @@
             img(src='@/assets/curso/tema2/img8.svg', alt='Texto que describa la imagen').img430.m-auto
 
       div(x="70%" y="82%" tooltip="6. Sistemas de información" numero="+")
-        .row.justify-content-center.bg556
+        .row.justify-content-center.crd.crd--infoB
           .col-lg-6
             h5.mt-4 6.Sistemas de información
             p El sistema de gestión de almacén informa al sistema integral de gestión empresarial que el pedido ha sido completado o que se presentan algunas incidencias.
           .col-lg-4
-            img(src='@/assets/curso/tema2/img9.svg', alt='Texto que describa la imagen').img430.m-auto
+            img(src='@/assets/curso/tema2/img9.svg', alt='Texto que describa la imagen').img350.m-auto
 
-      div(x="95%" y="82%" tooltip="7. Sistemas de información" numero="7")
-        .row.justify-content-center.bg556
+      div(x="95%" y="82%" tooltip="7. Sistemas de información" numero="+")
+        .row.justify-content-center.crd.crd--infoB
           .col-lg-6
             h5.mt-4 7.Sistemas de información
             p El sistema integral de gestión empresarial le informa al cliente a través de un mensaje de intercambio electrónico de datos.
           .col-lg-4
             img(src='@/assets/curso/tema2/img10.svg', alt='Texto que describa la imagen').img430.m-auto
 
-      div(x="95%" y="30%" tooltip="8. Sistemas de información" numero="8") 
-        .row.justify-content-center.bg556
+      div(x="95%" y="30%" tooltip="8. Sistemas de información" numero="+") 
+        .row.justify-content-center.crd.crd--infoB
           .col-lg-6
             h5.mt-4 8.Sistemas de información
             p El sistema integral de gestión empresarial informa a todas las áreas de la organización que intervienen.
@@ -1070,7 +1070,7 @@
           .row.align-items-center            
             .col-12.col-lg.pt-0.pt-lg-5.order-2.order-lg-1.txt-mg--left
               h4 Material de apoyo:
-              p Para ampliar la información, puede ingresar a Biblioteca virtual Sena Flamarique (2017)              
+              p Para ampliar la información, puede ingresar a Biblioteca Virtual Sena en el siguiente enlace:            
               a.boton.color-acento-contenido-botones.texto-blanco.me-4(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/43773?page=69')" target="_blank" type="application/pdf").mb-5.mb-lg-0
                 span Ingresar  
                   i.fas.fa-link
@@ -1227,8 +1227,8 @@
                 img(src="@/assets/curso/llamados/cta_06.png", alt="alt").img385.m-auto
             .col-12.col-lg.px-3.px-5.px-lg-0.pt-0.pt-lg-5.txt-mg--right
               h4 Material de apoyo
-              p Para ampliar la información sobre el tema, puede consultar los recursos <strong>cadena de suministro 4.0: beneficios y retos de las tecnologías disruptivasingresar (biblioteca virtual)</strong> y <strong>cómo crear una base de datos en Excel (video tutorial)</strong> en los siguientes enlaces:                  
-              a.boton.color-acento-contenido-botones.texto-blanco(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/43773?page=69')" target="_blank" type="application/pdf").mb-5.mb-lg-0.me-3
+              p Para ampliar la información sobre el tema, puede consultar los recursos <strong>cadena de suministro 4.0: beneficios y retos de las tecnologías disruptivas (biblioteca virtual)</strong> y <strong>cómo crear una base de datos en Excel (video tutorial)</strong> en los siguientes enlaces:                  
+              a.boton.color-acento-contenido-botones.texto-blanco(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/45161?page=1')" target="_blank" type="application/pdf").mb-5.mb-lg-0.me-3
                 span Biblioteca virtual
                 i.fas.fa-link 
               a.boton.color-acento-contenido-botones.texto-blanco(:href="('https://www.youtube.com/embed/E5T072rTNVA')" target="_blank" type="application/pdf").mb-5.mb-lg-0

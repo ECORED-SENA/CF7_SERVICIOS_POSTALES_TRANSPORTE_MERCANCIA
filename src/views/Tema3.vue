@@ -271,7 +271,7 @@
             .col-12.col-lg.pt-0.pt-lg-5.order-2.order-lg-1.txt-mg--left
               h4 Material de apoyo
               p Para ampliar la información, lo invitamos a consultar los siguientes documentos:              
-              a.boton.color-acento-contenido-botones.texto-blanco.me-4(:href="obtenerLink('/downloads/5_ISO 17712_Para_Sellos_Alta_Seguridad_2014.pdf')" target="_blank" type="application/pdf").mb-2
+              a.boton.color-acento-contenido-botones.texto-blanco.me-4(:href="obtenerLink('/downloads/5_ISO_17712_Para_Sellos_Alta_Seguridad_2014.pdf')" target="_blank" type="application/pdf").mb-2
                 span ISO 17712
                 i.fas.fa-download
               a.boton.color-acento-contenido-botones.texto-blanco(:href="obtenerLink('/downloads/6_Manual_Practico_gestion_logistica.pdf')" target="_blank" type="application/pdf").mb-5.mb-lg-0

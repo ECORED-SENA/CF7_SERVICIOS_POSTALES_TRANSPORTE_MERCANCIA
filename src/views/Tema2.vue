@@ -181,7 +181,7 @@
             td 
               img(src='@/assets/curso/tema3/img11.png', alt='Texto que describa la imagen')
           tr
-            td.bac.text-center <strong>GS1-128</strong>
+            td.text-center <strong>GS1-128</strong>
             td.mb-0 Sistema estándar internacional de identificación de mercancías en entornos logísticos.
               p.mb-0 Requisito: toda la información de la etiqueta debe ser legible.
               p.mb-0 Contenido: características del producto, código agrupación, cantidad, lote, fecha fabricación, envasado, consumo, etc.

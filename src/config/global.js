@@ -24,7 +24,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Manipulación de producto',
+        titulo: 'Preparación de la carga',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -286,13 +286,13 @@ export default {
       texto:
         'Ministerio de Tecnologías de la Información y las Comunicaciones [MinTIC]. (2020). <i>Plan de Modernización del sector postal 2020-2024.</i>',
       tipo: 'PDF',
-      descarga: '/downloads/2_Plan_Modernización_Sector_Postal_2020_2024.pdf',
+      descarga: '/downloads/2_Plan_Modernizacion_Sector_Postal_2020_2024.pdf',
     },
     {
       texto:
         'Decreto 390 de 2016. Por el cual se establece la regulación aduanera. Marzo 7 de 2016. DO. Nº. 49.808.',
       tipo: 'PDF',
-      descarga: '/downloads/3_Decreto_390_2016_Regulación_aduanera.pdf',
+      descarga: '/downloads/3_Decreto_390_2016_Regulacion_aduanera.pdf',
     },
   ],
   creditos: {
