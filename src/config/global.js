@@ -280,7 +280,7 @@ export default {
       texto:
         'Customs-Trade Partnership Against Terrorism. (2014). <i>Cumplimiento Con los Estándares ISO 17712 Para Sellos de Alta Seguridad. U.S. Customs and Border Protection.</i>',
       tipo: 'PDF',
-      descarga: '/downloads/5_ISO 17712_Para_Sellos_Alta_Seguridad_2014.pdf',
+      descarga: '/downloads/5_ISO_17712_Para_Sellos_Alta_Seguridad_2014.pdf',
     },
     {
       texto:
